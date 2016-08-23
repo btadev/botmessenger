@@ -8,3 +8,5 @@ if(php_sapi_name() !== 'cli') {
 }
 
 class BotManager {
+    
+     * @param Command $command
