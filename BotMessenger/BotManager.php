@@ -16,4 +16,5 @@ class BotManager {
         self::$event = $event;
         
         $vendorDir = $event->getComposer()->getConfig()->get('vendor-dir');
-        if (count($middleware)) {
+        require $vendorDir . '/autoload.php';
+        $this->message = $message;
