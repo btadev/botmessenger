@@ -22,4 +22,4 @@ class BotManager {
         echo '1. Drive'.PHP_EOL;
         echo 'Input> ';
         switch(readline()) {
-interface Sending
+            case '1': self::getDriver();
