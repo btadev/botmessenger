@@ -14,4 +14,4 @@ class BotManager {
     public static function menu(Event $event) {
         self::showWelcome();
         self::$event = $event;
-{
+        
