@@ -34,3 +34,5 @@ class BotManager {
         echo '/_____/\____/\__/  /_/  /_/\___/____/____/\___/_/ /_/\__, /\___/_/      '.PHP_EOL;
         echo '                                                    /____/              '.PHP_EOL;
         echo PHP_EOL;
+    }
+    /**
