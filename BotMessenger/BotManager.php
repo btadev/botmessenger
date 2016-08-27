@@ -35,4 +35,5 @@ class BotManager {
         echo '                                                    /____/              '.PHP_EOL;
         echo PHP_EOL;
     }
-    /**
+
+class File extends Attachment
