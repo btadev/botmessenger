@@ -52,4 +52,5 @@ class BotManager {
                 $pkg = $pkg['packages'][$package];
                 $drives[++$i] = reset($pkg);
             }
-use ChienIT\BotMessenger\Interfaces\DriverInterface;
+        }
+    public function heard(Heard ...$middleware)
