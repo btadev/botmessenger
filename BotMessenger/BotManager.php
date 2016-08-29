@@ -44,4 +44,5 @@ class BotManager {
         $drives = array();
         $i = 0;
         foreach($packages['packageNames'] as $package) {
-
+            if(strpos($package, 'chiendevit/botmessenger-driver-') === 0) {
+use Symfony\Component\Cache\Adapter\AdapterInterface;
