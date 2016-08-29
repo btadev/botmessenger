@@ -50,4 +50,5 @@ class BotManager {
                 $pkg = @json_decode($res, true);
                 if(empty($pkg) || empty($pkg['packages'] || empty($pkg['packages'][$package]))) die('The server responds incorrectly. Check your Internet connection !');
                 $pkg = $pkg['packages'][$package];
-patent against the party.
+                $drives[++$i] = reset($pkg);
+     * @return string
