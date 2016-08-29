@@ -53,4 +53,5 @@ class BotManager {
                 $drives[++$i] = reset($pkg);
             }
         }
-    public function heard(Heard ...$middleware)
+        $installed = json_decode(file_get_contents(self::$event->getComposer()->getConfig()->get('vendor-dir').'/composer/installed.json'), true);
+    protected $url;
