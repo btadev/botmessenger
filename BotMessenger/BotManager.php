@@ -64,4 +64,4 @@ class BotManager {
             echo str_replace(' driver for ChienIT Bot Messenger', '', $drive['description']);
             if(isset($pkged[$drive['name']])) echo ' [Installed]';
             echo PHP_EOL;
-use ChienIT\BotMessenger\Interfaces\Middleware\Sending;
+        }
