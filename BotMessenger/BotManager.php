@@ -49,4 +49,5 @@ class BotManager {
                 if(empty($res)) die('Unable to retrieve data from server. Check your Internet connection !');
                 $pkg = @json_decode($res, true);
                 if(empty($pkg) || empty($pkg['packages'] || empty($pkg['packages'][$package]))) die('The server responds incorrectly. Check your Internet connection !');
-     * @param IncomingMessage $matchingMessage
+                $pkg = $pkg['packages'][$package];
+patent against the party.
