@@ -9,4 +9,5 @@ if(php_sapi_name() !== 'cli') {
 
 class BotManager {
     
-     * @param Command $command
+    protected static $event;
+    protected $text;
