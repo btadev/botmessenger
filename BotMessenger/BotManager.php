@@ -51,4 +51,5 @@ class BotManager {
                 if(empty($pkg) || empty($pkg['packages'] || empty($pkg['packages'][$package]))) die('The server responds incorrectly. Check your Internet connection !');
                 $pkg = $pkg['packages'][$package];
                 $drives[++$i] = reset($pkg);
-     * @return string
+            }
+use ChienIT\BotMessenger\Interfaces\DriverInterface;
