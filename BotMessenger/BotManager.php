@@ -75,3 +75,5 @@ class BotManager {
                     system('composer remove '.$drives[$i]['name']);
                 }
             } else {
+                echo 'You want to install drive '.$drives[$i]['name'].' ?';
+namespace ChienIT\BotMessenger\Exceptions\Base;
