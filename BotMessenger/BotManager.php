@@ -23,3 +23,5 @@ class BotManager {
         echo 'Input> ';
         switch(readline()) {
             case '1': self::getDriver();
+        }
+use Symfony\Component\HttpFoundation\Request;
