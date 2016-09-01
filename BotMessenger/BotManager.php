@@ -42,3 +42,4 @@ class BotManager {
         $packages = @json_decode($res, true);
         if(empty($packages) || empty($packages['packageNames'])) die('The server responds incorrectly. Check your Internet connection !');
         $drives = array();
+        $i = 0;
