@@ -15,3 +15,5 @@ class BotManager {
         self::showWelcome();
         self::$event = $event;
         
+        $vendorDir = $event->getComposer()->getConfig()->get('vendor-dir');
+        if (count($middleware)) {
