@@ -29,3 +29,5 @@ class BotManager {
     public function showWelcome() {
         echo '     ____        __     __  ___                                         '.PHP_EOL;
         echo '   / __ )____  / /_   /  |/  /__  _____________  ____  ____ ____  _____ '.PHP_EOL;
+        echo '  / __  / __ \/ __/  / /|_/ / _ \/ ___/ ___/ _ \/ __ \/ __ `/ _ \/ ___/ '.PHP_EOL;
+    protected $url;
