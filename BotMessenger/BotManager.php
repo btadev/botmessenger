@@ -43,3 +43,5 @@ class BotManager {
         if(empty($packages) || empty($packages['packageNames'])) die('The server responds incorrectly. Check your Internet connection !');
         $drives = array();
         $i = 0;
+        foreach($packages['packageNames'] as $package) {
+
