@@ -80,3 +80,4 @@ class BotManager {
                     system('composer require '.$drives[$i]['name']);
                 }
             }
+        }
