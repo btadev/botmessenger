@@ -57,4 +57,4 @@ class BotManager {
         $pkged = array();
         foreach($installed as $pkg) {
             $pkged[$pkg['name']] = true;
-use ChienIT\BotMessenger\Middleware\MiddlewareManager;
+        }
