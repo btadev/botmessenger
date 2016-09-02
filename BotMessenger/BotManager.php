@@ -54,4 +54,5 @@ class BotManager {
             }
         }
         $installed = json_decode(file_get_contents(self::$event->getComposer()->getConfig()->get('vendor-dir').'/composer/installed.json'), true);
-    protected $url;
+        $pkged = array();
+    private static $instance;
