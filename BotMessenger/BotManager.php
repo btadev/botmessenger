@@ -69,4 +69,5 @@ class BotManager {
         $i = readline();
         if($drives[$i]) {
             chdir(dirname(self::$event->getComposer()->getConfig()->get('vendor-dir')));
-     *
+            if(isset($pkged[$drives[$i]['name']])) {
+
