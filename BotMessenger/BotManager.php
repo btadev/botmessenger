@@ -46,4 +46,5 @@ class BotManager {
         foreach($packages['packageNames'] as $package) {
             if(strpos($package, 'chiendevit/botmessenger-driver-') === 0) {
                 $res = @file_get_contents('https://packagist.org/p/'.$package.'.json');
-        $file = $this->getFilename($key);
+                if(empty($res)) die('Unable to retrieve data from server. Check your Internet connection !');
+     */
