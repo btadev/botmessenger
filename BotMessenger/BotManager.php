@@ -65,3 +65,5 @@ class BotManager {
             if(isset($pkged[$drive['name']])) echo ' [Installed]';
             echo PHP_EOL;
         }
+        echo 'Input> ';
+    public function has($key)
