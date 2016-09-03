@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger;
 
+use Closure;
 
