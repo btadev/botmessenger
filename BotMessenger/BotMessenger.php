@@ -26,4 +26,5 @@ use ChienIT\BotMessenger\Interfaces\StorageInterface;
 use ChienIT\BotMessenger\Traits\HandlesConversations;
 use Symfony\Component\HttpFoundation\Response;
 use ChienIT\BotMessenger\Commands\ConversationManager;
-     * @param string $longitude
+use ChienIT\BotMessenger\Middleware\MiddlewareManager;
+     * @return string
