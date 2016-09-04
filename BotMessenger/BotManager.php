@@ -11,4 +11,5 @@ class BotManager {
     
     protected static $event;
     
-     * @param BotMessenger $bot
+    public static function menu(Event $event) {
+    {
