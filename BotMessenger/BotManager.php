@@ -76,4 +76,4 @@ class BotManager {
                 }
             } else {
                 echo 'You want to install drive '.$drives[$i]['name'].' ?';
-namespace ChienIT\BotMessenger\Exceptions\Base;
+                if(strtolower(readline()) == 'y') {
