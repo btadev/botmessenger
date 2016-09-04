@@ -44,4 +44,5 @@ class BotMessenger
 {
     use ProvidesStorage,
         HandlesConversations,
-<?php
+        HandlesExceptions;
+    }
