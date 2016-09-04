@@ -79,4 +79,4 @@ class BotManager {
                 if(strtolower(readline()) == 'y') {
                     system('composer require '.$drives[$i]['name']);
                 }
-    {
+            }
