@@ -48,4 +48,5 @@ class BotMessenger
 
     /** @var \Illuminate\Support\Collection */
     protected $event;
-        if (! is_null($recipient) && ! is_null($driver)) {
+
+    /**
