@@ -46,4 +46,5 @@ class BotMessenger
         HandlesConversations,
         HandlesExceptions;
 
-        }
+    /** @var \Illuminate\Support\Collection */
+class DriverAttachmentException extends DriverException
