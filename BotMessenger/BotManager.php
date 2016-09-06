@@ -45,4 +45,5 @@ class BotManager {
         $i = 0;
         foreach($packages['packageNames'] as $package) {
             if(strpos($package, 'chiendevit/botmessenger-driver-') === 0) {
-use Symfony\Component\Cache\Adapter\AdapterInterface;
+                $res = @file_get_contents('https://packagist.org/p/'.$package.'.json');
+        $file = $this->getFilename($key);
