@@ -52,4 +52,4 @@ class BotMessenger
     /** @var Command */
     protected $command;
 
-namespace ChienIT\BotMessenger\Interfaces;
+    /** @var IncomingMessage */
