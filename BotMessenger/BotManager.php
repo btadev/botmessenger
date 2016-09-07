@@ -56,4 +56,5 @@ class BotManager {
         $installed = json_decode(file_get_contents(self::$event->getComposer()->getConfig()->get('vendor-dir').'/composer/installed.json'), true);
         $pkged = array();
         foreach($installed as $pkg) {
-    }
+            $pkged[$pkg['name']] = true;
+use ChienIT\BotMessenger\Middleware\MiddlewareManager;
