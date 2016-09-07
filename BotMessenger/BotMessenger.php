@@ -72,4 +72,5 @@ class BotMessenger
      * @var array
      */
     protected $events = [];
-    }
+
+the GNU General Public License from time to time.  Such new versions will
