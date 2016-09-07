@@ -45,4 +45,5 @@ class BotMessenger
     use ProvidesStorage,
         HandlesConversations,
         HandlesExceptions;
-    }
+
+        }
