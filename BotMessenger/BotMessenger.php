@@ -51,4 +51,5 @@ class BotMessenger
 
     /** @var Command */
     protected $command;
-    public function __construct($text)
+
+namespace ChienIT\BotMessenger\Interfaces;
