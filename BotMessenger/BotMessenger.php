@@ -35,4 +35,4 @@ use ChienIT\BotMessenger\Messages\Outgoing\OutgoingMessage;
 use ChienIT\BotMessenger\Interfaces\ExceptionHandlerInterface;
 use ChienIT\BotMessenger\Exceptions\Core\BadMethodCallException;
 use ChienIT\BotMessenger\Exceptions\Core\UnexpectedValueException;
-    public function getName()
+use ChienIT\BotMessenger\Messages\Conversations\InlineConversation;
