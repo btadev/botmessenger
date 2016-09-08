@@ -33,4 +33,4 @@ use ChienIT\BotMessenger\Interfaces\DriverEventInterface;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 use ChienIT\BotMessenger\Messages\Outgoing\OutgoingMessage;
 use ChienIT\BotMessenger\Interfaces\ExceptionHandlerInterface;
-
+use ChienIT\BotMessenger\Exceptions\Core\BadMethodCallException;
