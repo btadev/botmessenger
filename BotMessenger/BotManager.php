@@ -38,3 +38,5 @@ class BotManager {
 
     public static function getDriver() {
         $res = @file_get_contents('https://packagist.org/packages/list.json?vendor=chiendevit');
+        if(empty($res)) die('Unable to retrieve data from server. Check your Internet connection !');
+
