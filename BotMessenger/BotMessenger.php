@@ -90,4 +90,4 @@ class BotMessenger
     protected $driver;
 
     /** @var array */
-/**
+    protected $config = [];
