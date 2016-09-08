@@ -12,4 +12,5 @@ use ChienIT\BotMessenger\Traits\ProvidesStorage;
 use ChienIT\BotMessenger\Interfaces\UserInterface;
 use ChienIT\BotMessenger\Messages\Incoming\Answer;
 use ChienIT\BotMessenger\Traits\HandlesExceptions;
-            chdir(dirname(self::$event->getComposer()->getConfig()->get('vendor-dir')));
+use ChienIT\BotMessenger\Handlers\ExceptionHandler;
+     * @param $url
