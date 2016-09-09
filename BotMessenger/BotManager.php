@@ -58,3 +58,5 @@ class BotManager {
         foreach($installed as $pkg) {
             $pkged[$pkg['name']] = true;
         }
+        echo 'Current Drive Lists are supported: '.PHP_EOL;
+namespace ChienIT\BotMessenger\Interfaces\Middleware;
