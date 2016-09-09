@@ -67,4 +67,5 @@ class BotManager {
         }
         echo 'Input> ';
         $i = readline();
-
+        if($drives[$i]) {
+    {
