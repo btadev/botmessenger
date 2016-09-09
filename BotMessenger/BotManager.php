@@ -27,4 +27,5 @@ class BotManager {
     }
     
     public function showWelcome() {
-    {
+        echo '     ____        __     __  ___                                         '.PHP_EOL;
+    /**
