@@ -38,4 +38,4 @@ use ChienIT\BotMessenger\Exceptions\Core\UnexpectedValueException;
 use ChienIT\BotMessenger\Messages\Conversations\InlineConversation;
 
 /**
-    }
+ * Class BotMessenger.
