@@ -103,3 +103,5 @@ class BotMessenger
 
     /** @var ContainerInterface */
     protected $container;
+
+}
