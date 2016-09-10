@@ -12,4 +12,5 @@ class BotManager {
     protected static $event;
     
     public static function menu(Event $event) {
-    {
+        self::showWelcome();
+use ChienIT\BotMessenger\BotMessenger;
