@@ -80,4 +80,5 @@ class BotMessenger
      */
     protected $fallbackMessage;
 
-     * Video constructor.
+    /** @var array */
+     */
