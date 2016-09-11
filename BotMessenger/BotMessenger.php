@@ -15,4 +15,4 @@ use ChienIT\BotMessenger\Traits\HandlesExceptions;
 use ChienIT\BotMessenger\Handlers\ExceptionHandler;
 use ChienIT\BotMessenger\Interfaces\CacheInterface;
 use ChienIT\BotMessenger\Messages\Attachments\File;
-<?php
+use ChienIT\BotMessenger\Interfaces\DriverInterface;
