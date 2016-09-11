@@ -83,3 +83,5 @@ class BotMessenger
     /** @var array */
     protected $groupAttributes = [];
 
+    /** @var array */
+    "description": "ChienIt Bot Messenger",
