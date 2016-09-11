@@ -79,3 +79,5 @@ class BotMessenger
      * @var callable|null
      */
     protected $fallbackMessage;
+
+     * Video constructor.
