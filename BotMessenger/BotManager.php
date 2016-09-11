@@ -26,4 +26,5 @@ class BotManager {
         }
     }
     
-     * @return string
+    public function showWelcome() {
+    {
