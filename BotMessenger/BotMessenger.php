@@ -31,4 +31,5 @@ use ChienIT\BotMessenger\Messages\Attachments\Location;
 use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
 use ChienIT\BotMessenger\Interfaces\DriverEventInterface;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
-
+use ChienIT\BotMessenger\Messages\Outgoing\OutgoingMessage;
+     * @return void
