@@ -118,4 +118,5 @@ class BotMessenger
 
     /** @var bool */
     protected $runsOnSocket = false;
-     * Retrieve an item from the cache and delete it.
+
+the terms of this License in conveying all material for which you do
