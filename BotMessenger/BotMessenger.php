@@ -99,4 +99,5 @@ class BotMessenger
     protected $conversationManager;
 
     /** @var CacheInterface */
-    public function getMessages()
+    private $cache;
+     * @return string
