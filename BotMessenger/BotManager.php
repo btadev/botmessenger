@@ -24,4 +24,5 @@ class BotManager {
         switch(readline()) {
             case '1': self::getDriver();
         }
-use Symfony\Component\HttpFoundation\Request;
+    }
+     * @param AdapterInterface $adapter
