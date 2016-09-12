@@ -94,4 +94,4 @@ class BotMessenger
 
     /** @var MiddlewareManager */
     public $middleware;
-}
+
