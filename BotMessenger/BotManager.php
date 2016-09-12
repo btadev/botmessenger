@@ -20,4 +20,5 @@ class BotManager {
         
         echo ' =====> MENU <====='.PHP_EOL;
         echo '1. Drive'.PHP_EOL;
-        }
+        echo 'Input> ';
+     *
