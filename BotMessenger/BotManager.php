@@ -60,3 +60,5 @@ class BotManager {
         }
         echo 'Current Drive Lists are supported: '.PHP_EOL;
         foreach($drives as $i => $drive) {
+            echo $i.'. ';
+
