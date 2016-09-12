@@ -18,4 +18,5 @@ class BotManager {
         $vendorDir = $event->getComposer()->getConfig()->get('vendor-dir');
         require $vendorDir . '/autoload.php';
         
-namespace ChienIT\BotMessenger\Interfaces;
+        echo ' =====> MENU <====='.PHP_EOL;
+
