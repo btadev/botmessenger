@@ -17,4 +17,5 @@ use ChienIT\BotMessenger\Interfaces\CacheInterface;
 use ChienIT\BotMessenger\Messages\Attachments\File;
 use ChienIT\BotMessenger\Interfaces\DriverInterface;
 use ChienIT\BotMessenger\Messages\Attachments\Audio;
-        if (is_null($key)) {
+use ChienIT\BotMessenger\Messages\Attachments\Image;
+    {
