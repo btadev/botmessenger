@@ -62,3 +62,5 @@ class BotManager {
         foreach($drives as $i => $drive) {
             echo $i.'. ';
             echo str_replace(' driver for ChienIT Bot Messenger', '', $drive['description']);
+            if(isset($pkged[$drive['name']])) echo ' [Installed]';
+    public function isBot()
