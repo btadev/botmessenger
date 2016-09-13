@@ -25,4 +25,5 @@ class BotManager {
             case '1': self::getDriver();
         }
     }
-     * @param AdapterInterface $adapter
+    
+     * @return string
