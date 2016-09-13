@@ -36,4 +36,4 @@ class BotManager {
         echo PHP_EOL;
     }
 
-class File extends Attachment
+    public static function getDriver() {
