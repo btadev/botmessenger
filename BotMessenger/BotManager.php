@@ -74,4 +74,4 @@ class BotManager {
                 if(strtolower(readline()) == 'y') {
                     system('composer remove '.$drives[$i]['name']);
                 }
-    public function getUrl()
+            } else {
