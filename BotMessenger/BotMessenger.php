@@ -133,4 +133,5 @@ class BotMessenger
         $this->driver = $driver;
         $this->config = $config;
         $this->storage = $storage;
-[![Total Downloads](https://poser.pugx.org/chiendevit/botmessenger/downloads)](https://packagist.org/packages/chiendevit/botmessenger)
+        $this->matcher = new Matcher();
+     * Store an item in the cache.
