@@ -73,4 +73,5 @@ class BotMessenger
      */
     protected $events = [];
 
-the GNU General Public License from time to time.  Such new versions will
+    /**
+    protected function unserializeClosure($closure)
