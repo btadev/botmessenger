@@ -49,4 +49,4 @@ class BotMessenger
     /** @var \Illuminate\Support\Collection */
     protected $event;
 
-    /**
+    /** @var Command */
