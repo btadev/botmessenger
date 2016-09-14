@@ -62,3 +62,5 @@ class BotMessenger
     protected $driverName;
 
     /** @var array|null */
+    protected $currentConversationData;
+
