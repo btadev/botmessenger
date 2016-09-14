@@ -68,4 +68,5 @@ class BotMessenger
     protected $exceptionHandler;
 
     /**
-            "ChienIT\\BotMessenger\\": "BotMessenger/"
+     * IncomingMessage service events.
+
