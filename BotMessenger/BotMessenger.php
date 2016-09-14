@@ -81,4 +81,4 @@ class BotMessenger
     protected $fallbackMessage;
 
     /** @var array */
-     */
+    protected $groupAttributes = [];
