@@ -122,4 +122,5 @@ class BotMessenger
     /**
      * BotMessenger constructor.
      * @param CacheInterface $cache
-    }
+     * @param DriverInterface $driver
+
