@@ -149,4 +149,4 @@ class BotMessenger
         $this->fallbackMessage = $callback;
     }
 
-    {
+    /**
