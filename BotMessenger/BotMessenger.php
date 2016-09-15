@@ -28,4 +28,5 @@ use Symfony\Component\HttpFoundation\Response;
 use ChienIT\BotMessenger\Commands\ConversationManager;
 use ChienIT\BotMessenger\Middleware\MiddlewareManager;
 use ChienIT\BotMessenger\Messages\Attachments\Location;
-    public function save(array $data, $key)
+use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
+}
