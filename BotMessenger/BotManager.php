@@ -71,4 +71,5 @@ class BotManager {
             chdir(dirname(self::$event->getComposer()->getConfig()->get('vendor-dir')));
             if(isset($pkged[$drives[$i]['name']])) {
                 echo 'You want to uninstall drive '.$drives[$i]['name'].' ?';
-### Using
+                if(strtolower(readline()) == 'y') {
+        parent::__construct($payload);
