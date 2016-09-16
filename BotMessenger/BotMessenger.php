@@ -13,4 +13,4 @@ use ChienIT\BotMessenger\Interfaces\UserInterface;
 use ChienIT\BotMessenger\Messages\Incoming\Answer;
 use ChienIT\BotMessenger\Traits\HandlesExceptions;
 use ChienIT\BotMessenger\Handlers\ExceptionHandler;
-     * @param $url
+use ChienIT\BotMessenger\Interfaces\CacheInterface;
