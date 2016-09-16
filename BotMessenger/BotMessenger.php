@@ -58,3 +58,4 @@ class BotMessenger
     /** @var OutgoingMessage|Question */
     protected $outgoingMessage;
 
+    /** @var string */
