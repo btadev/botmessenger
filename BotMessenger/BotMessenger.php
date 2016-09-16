@@ -155,4 +155,4 @@ class BotMessenger
     public function loadDriver($name)
     {
         $this->driver = DriverManager::loadFromName($name, $this->config);
-
+    }
