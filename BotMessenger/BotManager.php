@@ -66,4 +66,5 @@ class BotManager {
             echo PHP_EOL;
         }
         echo 'Input> ';
-    public function has($key)
+        $i = readline();
+
