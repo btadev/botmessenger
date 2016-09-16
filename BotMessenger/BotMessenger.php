@@ -144,3 +144,5 @@ class BotMessenger
      *
      * @param callable $callback
      */
+    public function fallback($callback)
+    {
