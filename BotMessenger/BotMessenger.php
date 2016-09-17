@@ -124,4 +124,5 @@ class BotMessenger
      * @param CacheInterface $cache
      * @param DriverInterface $driver
      * @param array $config
-namespace ChienIT\BotMessenger\Interfaces;
+     * @param StorageInterface $storage
+    public function __construct($payload)
