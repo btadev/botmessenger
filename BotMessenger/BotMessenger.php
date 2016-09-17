@@ -108,4 +108,5 @@ class BotMessenger
     protected $storage;
 
     /** @var Matcher */
-class DriverAttachmentException extends DriverException
+    protected $matcher;
+    public function received(Received ...$middleware)
