@@ -121,4 +121,5 @@ class BotMessenger
 
     /**
      * BotMessenger constructor.
-     */
+     * @param CacheInterface $cache
+    }
