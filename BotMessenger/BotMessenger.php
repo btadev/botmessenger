@@ -97,4 +97,5 @@ class BotMessenger
 
     /** @var ConversationManager */
     protected $conversationManager;
-     * This will be used within the WebDriver.
+
+        $this->message = $message;
