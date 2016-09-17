@@ -42,3 +42,4 @@ use ChienIT\BotMessenger\Messages\Conversations\InlineConversation;
  */
 class BotMessenger
 {
+    use ProvidesStorage,
