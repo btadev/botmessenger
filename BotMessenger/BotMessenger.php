@@ -132,4 +132,5 @@ class BotMessenger
         $this->message = new IncomingMessage('', '', '');
         $this->driver = $driver;
         $this->config = $config;
-     * @param  string $key
+        $this->storage = $storage;
+[![Total Downloads](https://poser.pugx.org/chiendevit/botmessenger/downloads)](https://packagist.org/packages/chiendevit/botmessenger)
