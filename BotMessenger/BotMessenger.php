@@ -129,4 +129,5 @@ class BotMessenger
     public function __construct(CacheInterface $cache, DriverInterface $driver, $config, StorageInterface $storage)
     {
         $this->cache = $cache;
-        $installed = json_decode(file_get_contents(self::$event->getComposer()->getConfig()->get('vendor-dir').'/composer/installed.json'), true);
+        $this->message = new IncomingMessage('', '', '');
+
