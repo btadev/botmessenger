@@ -87,4 +87,5 @@ class BotMessenger
     protected $matches = [];
 
     /** @var DriverInterface */
-{
+    protected $driver;
+    /**
