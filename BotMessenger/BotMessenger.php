@@ -165,4 +165,5 @@ class BotMessenger
         $this->driver = $driver;
     }
 
-{
+    /**
+<?php
