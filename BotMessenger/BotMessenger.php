@@ -114,3 +114,5 @@ class BotMessenger
     protected $loadedConversation = false;
 
     /** @var bool */
+    protected $firedDriverEvents = false;
+     * @return Response
