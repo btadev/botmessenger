@@ -54,3 +54,5 @@ class BotMessenger
 
     /** @var IncomingMessage */
     protected $message;
+
+<?php
