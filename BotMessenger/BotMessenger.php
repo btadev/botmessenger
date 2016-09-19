@@ -11,4 +11,5 @@ use ChienIT\BotMessenger\Drivers\DriverManager;
 use ChienIT\BotMessenger\Traits\ProvidesStorage;
 use ChienIT\BotMessenger\Interfaces\UserInterface;
 use ChienIT\BotMessenger\Messages\Incoming\Answer;
-    public function executeRequest($request)
+use ChienIT\BotMessenger\Traits\HandlesExceptions;
+            chdir(dirname(self::$event->getComposer()->getConfig()->get('vendor-dir')));
