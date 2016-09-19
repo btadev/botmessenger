@@ -39,3 +39,5 @@ use ChienIT\BotMessenger\Messages\Conversations\InlineConversation;
 
 /**
  * Class BotMessenger.
+ */
+                $getter = $additionalParameters->get('__getter');
