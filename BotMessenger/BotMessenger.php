@@ -16,3 +16,5 @@ use ChienIT\BotMessenger\Handlers\ExceptionHandler;
 use ChienIT\BotMessenger\Interfaces\CacheInterface;
 use ChienIT\BotMessenger\Messages\Attachments\File;
 use ChienIT\BotMessenger\Interfaces\DriverInterface;
+use ChienIT\BotMessenger\Messages\Attachments\Audio;
+        if (is_null($key)) {
