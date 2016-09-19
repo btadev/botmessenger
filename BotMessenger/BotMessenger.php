@@ -100,4 +100,5 @@ class BotMessenger
 
     /** @var CacheInterface */
     private $cache;
-     * @return string
+
+     *
