@@ -82,3 +82,4 @@ class BotMessenger
 
     /** @var array */
     protected $groupAttributes = [];
+
