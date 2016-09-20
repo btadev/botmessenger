@@ -210,4 +210,5 @@ class BotMessenger
     {
         return $this->getDriver()->getConversationAnswer($this->message);
     }
-        return $this->url;
+
+<?php
