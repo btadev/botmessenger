@@ -72,4 +72,5 @@ class BotManager {
             if(isset($pkged[$drives[$i]['name']])) {
                 echo 'You want to uninstall drive '.$drives[$i]['name'].' ?';
                 if(strtolower(readline()) == 'y') {
-        parent::__construct($payload);
+                    system('composer remove '.$drives[$i]['name']);
+    {
