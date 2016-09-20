@@ -78,4 +78,5 @@ class BotManager {
                 echo 'You want to install drive '.$drives[$i]['name'].' ?';
                 if(strtolower(readline()) == 'y') {
                     system('composer require '.$drives[$i]['name']);
-     *
+                }
+    {
