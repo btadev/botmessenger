@@ -188,4 +188,5 @@ class BotMessenger
      */
     public function getMessages()
     {
-
+        return $this->getDriver()->getMessages();
+     * @param mixed $payload
