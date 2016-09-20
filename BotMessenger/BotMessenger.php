@@ -186,4 +186,5 @@ class BotMessenger
      *
      * @return array
      */
-namespace ChienIT\BotMessenger\Exceptions\Base;
+    public function getMessages()
+     * @param BotMessenger $bot
