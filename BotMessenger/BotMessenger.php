@@ -24,4 +24,4 @@ use Psr\Container\NotFoundExceptionInterface;
 use ChienIT\BotMessenger\Interfaces\Middleware\Heard;
 use ChienIT\BotMessenger\Interfaces\StorageInterface;
 use ChienIT\BotMessenger\Traits\HandlesConversations;
-
+use Symfony\Component\HttpFoundation\Response;
