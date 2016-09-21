@@ -139,4 +139,4 @@ class BotMessenger
         $this->exceptionHandler = new ExceptionHandler();
     }
 
-
+    /**
