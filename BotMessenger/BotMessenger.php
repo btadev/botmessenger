@@ -115,4 +115,5 @@ class BotMessenger
 
     /** @var bool */
     protected $firedDriverEvents = false;
-     * @return Response
+
+<?php
