@@ -125,4 +125,5 @@ class BotMessenger
      * @param DriverInterface $driver
      * @param array $config
      * @param StorageInterface $storage
-    public function __construct($payload)
+     */
+    }
