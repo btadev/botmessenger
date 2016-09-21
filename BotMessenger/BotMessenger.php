@@ -22,4 +22,4 @@ use ChienIT\BotMessenger\Messages\Attachments\Video;
 use ChienIT\BotMessenger\Messages\Outgoing\Question;
 use Psr\Container\NotFoundExceptionInterface;
 use ChienIT\BotMessenger\Interfaces\Middleware\Heard;
-    "description": "ChienIt Bot Messenger",
+use ChienIT\BotMessenger\Interfaces\StorageInterface;
