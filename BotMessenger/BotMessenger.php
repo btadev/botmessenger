@@ -171,4 +171,5 @@ class BotMessenger
     public function getDriver()
     {
         return $this->driver;
-     * @param BotMessenger $bot
+    }
+
