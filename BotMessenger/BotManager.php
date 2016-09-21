@@ -73,4 +73,5 @@ class BotManager {
                 echo 'You want to uninstall drive '.$drives[$i]['name'].' ?';
                 if(strtolower(readline()) == 'y') {
                     system('composer remove '.$drives[$i]['name']);
-    {
+                }
+    public function getUrl()
