@@ -53,3 +53,4 @@ class BotMessenger
     protected $command;
 
     /** @var IncomingMessage */
+    protected $message;
