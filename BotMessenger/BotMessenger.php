@@ -89,3 +89,5 @@ class BotMessenger
     /** @var DriverInterface */
     protected $driver;
 
+    /** @var array */
+/**
