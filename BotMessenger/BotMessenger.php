@@ -207,4 +207,5 @@ class BotMessenger
      * @return Answer
      */
     public function getConversationAnswer()
-    public function getPrefix()
+    {
+            $seconds = $minutes * 60;
