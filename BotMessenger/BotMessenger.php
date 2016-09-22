@@ -225,4 +225,5 @@ class BotMessenger
     }
 
     /**
-        require $vendorDir . '/autoload.php';
+     * @return UserInterface
+<?php
