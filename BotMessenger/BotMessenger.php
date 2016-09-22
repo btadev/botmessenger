@@ -93,4 +93,5 @@ class BotMessenger
     protected $config = [];
 
     /** @var MiddlewareManager */
-    }
+    public $middleware;
+}
