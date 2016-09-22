@@ -107,4 +107,5 @@ class BotMessenger
     /** @var StorageInterface */
     protected $storage;
 
-     * Handle an outgoing message payload before/after it
+    /** @var Matcher */
+class DriverAttachmentException extends DriverException
