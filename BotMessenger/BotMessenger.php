@@ -204,4 +204,5 @@ class BotMessenger
     }
 
     /**
-     * Get raw driver's user info.
+     * @return Answer
+{
