@@ -154,4 +154,5 @@ class BotMessenger
      */
     public function loadDriver($name)
     {
-$ composer require chienit/botmessenger
+        $this->driver = DriverManager::loadFromName($name, $this->config);
+
