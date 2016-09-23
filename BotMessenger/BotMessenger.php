@@ -181,4 +181,5 @@ class BotMessenger
         $this->container = $container;
     }
 
-    }
+    /**
+namespace ChienIT\BotMessenger\Exceptions\Base;
