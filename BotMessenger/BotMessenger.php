@@ -95,3 +95,5 @@ class BotMessenger
     /** @var MiddlewareManager */
     public $middleware;
 
+    /** @var ConversationManager */
+     * @param  mixed $value
