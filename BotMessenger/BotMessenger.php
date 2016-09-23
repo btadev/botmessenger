@@ -130,4 +130,5 @@ class BotMessenger
     {
         $this->cache = $cache;
         $this->message = new IncomingMessage('', '', '');
-
+        $this->driver = $driver;
+     * Get the instance as a web accessible array.
