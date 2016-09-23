@@ -173,3 +173,5 @@ class BotMessenger
         return $this->driver;
     }
 
+    /**
+    }
