@@ -164,4 +164,5 @@ class BotMessenger
     {
         $this->driver = $driver;
     }
-     * @return array
+
+{
