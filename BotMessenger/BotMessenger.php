@@ -119,4 +119,5 @@ class BotMessenger
     /** @var bool */
     protected $runsOnSocket = false;
 
-the terms of this License in conveying all material for which you do
+    /**
+
