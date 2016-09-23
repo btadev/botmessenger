@@ -219,4 +219,4 @@ class BotMessenger
     {
         if (is_bool($running)) {
             $this->runsOnSocket = $running;
-}
+        }
