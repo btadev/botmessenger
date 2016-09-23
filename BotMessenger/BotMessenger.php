@@ -50,3 +50,5 @@ class BotMessenger
     protected $event;
 
     /** @var Command */
+    protected $command;
+    public function __construct($text)
