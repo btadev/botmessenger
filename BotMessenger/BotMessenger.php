@@ -109,4 +109,5 @@ class BotMessenger
 
     /** @var Matcher */
     protected $matcher;
-    public function received(Received ...$middleware)
+
+    }
