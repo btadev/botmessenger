@@ -27,4 +27,5 @@ use ChienIT\BotMessenger\Traits\HandlesConversations;
 use Symfony\Component\HttpFoundation\Response;
 use ChienIT\BotMessenger\Commands\ConversationManager;
 use ChienIT\BotMessenger\Middleware\MiddlewareManager;
-     * @return string
+use ChienIT\BotMessenger\Messages\Attachments\Location;
+    public function save(array $data, $key)
