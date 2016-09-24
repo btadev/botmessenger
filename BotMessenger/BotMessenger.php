@@ -8,4 +8,4 @@ use ChienIT\BotMessenger\Commands\Command;
 use ChienIT\BotMessenger\Messages\Matcher;
 use Psr\Container\ContainerInterface;
 use ChienIT\BotMessenger\Drivers\DriverManager;
-<?php
+use ChienIT\BotMessenger\Traits\ProvidesStorage;
