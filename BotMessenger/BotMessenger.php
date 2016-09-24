@@ -160,3 +160,4 @@ class BotMessenger
     /**
      * @param DriverInterface $driver
      */
+     * @return mixed
