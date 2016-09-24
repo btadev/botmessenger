@@ -211,4 +211,5 @@ class BotMessenger
         return $this->getDriver()->getConversationAnswer($this->message);
     }
 
-<?php
+    /**
+
