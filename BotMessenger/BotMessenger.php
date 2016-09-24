@@ -96,4 +96,5 @@ class BotMessenger
     public $middleware;
 
     /** @var ConversationManager */
-     * @param  mixed $value
+    protected $conversationManager;
+     * This will be used within the WebDriver.
