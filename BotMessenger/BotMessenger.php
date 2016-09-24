@@ -193,4 +193,4 @@ class BotMessenger
 
     /**
      * Retrieve the chat message that are sent from bots.
-     */
+     *
