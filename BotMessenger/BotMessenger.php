@@ -143,4 +143,4 @@ class BotMessenger
      * Set a fallback message to use if no listener matches.
      *
      * @param callable $callback
-
+     */
