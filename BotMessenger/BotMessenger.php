@@ -69,4 +69,5 @@ class BotMessenger
 
     /**
      * IncomingMessage service events.
+     * @var array
 
