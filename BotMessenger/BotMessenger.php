@@ -112,4 +112,5 @@ class BotMessenger
 
     /** @var bool */
     protected $loadedConversation = false;
-    public function getFirstName();
+
+     * @return \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage
