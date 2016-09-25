@@ -235,4 +235,4 @@ class BotMessenger
 
         $user = $this->getDriver()->getUser($this->getMessage());
         $this->cache->put('user_'.$this->driver->getName().'_'.$user->getId(), $user, $this->config['user_cache_time'] ?? 30);
-    protected $driver = '';
+
