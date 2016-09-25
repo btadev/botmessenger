@@ -85,3 +85,5 @@ class BotMessenger
 
     /** @var array */
     protected $matches = [];
+
+        return $this->url;
