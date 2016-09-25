@@ -61,4 +61,4 @@ class BotMessenger
     /** @var string */
     protected $driverName;
 
-     */
+    /** @var array|null */
