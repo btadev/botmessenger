@@ -152,3 +152,5 @@ class BotMessenger
     /**
      * @param string $name The Driver name or class
      */
+    public function loadDriver($name)
+     * @param null $default
