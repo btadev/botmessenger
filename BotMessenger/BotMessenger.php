@@ -197,3 +197,5 @@ class BotMessenger
      * @return array
      */
     public function getBotMessages()
+    {
+
