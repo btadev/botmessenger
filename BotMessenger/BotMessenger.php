@@ -126,4 +126,4 @@ class BotMessenger
      * @param array $config
      * @param StorageInterface $storage
      */
-    }
+    public function __construct(CacheInterface $cache, DriverInterface $driver, $config, StorageInterface $storage)
