@@ -102,4 +102,4 @@ class BotMessenger
     private $cache;
 
     /** @var ContainerInterface */
-namespace ChienIT\BotMessenger\Interfaces;
+    protected $container;
