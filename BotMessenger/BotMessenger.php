@@ -244,4 +244,4 @@ class BotMessenger
      *
      * @param $value
      * @return array
-        if (! is_null($recipient) && ! is_null($driver)) {
+     */
