@@ -30,4 +30,5 @@ use ChienIT\BotMessenger\Middleware\MiddlewareManager;
 use ChienIT\BotMessenger\Messages\Attachments\Location;
 use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
 use ChienIT\BotMessenger\Interfaces\DriverEventInterface;
-    /**
+use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+
