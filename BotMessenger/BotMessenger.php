@@ -258,4 +258,4 @@ class BotMessenger
      * @param string $pattern the pattern to listen for
      * @param Closure|string $callback the callback to execute. Either a closure or a Class@method notation
      * @param string $in the channel type to listen to (either direct message or public channel)
-    public function startConversation(Conversation $instance, $recipient = null, $driver = null)
+     * @return Command
