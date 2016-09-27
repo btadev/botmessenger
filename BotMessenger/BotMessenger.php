@@ -243,4 +243,5 @@ class BotMessenger
      * Get the parameter names for the route.
      *
      * @param $value
-     * @return string
+     * @return array
+        if (! is_null($recipient) && ! is_null($driver)) {
