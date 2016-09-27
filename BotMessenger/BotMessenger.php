@@ -255,4 +255,5 @@ class BotMessenger
     }
 
     /**
- */
+     * @param string $pattern the pattern to listen for
+        parent::__construct($payload);
