@@ -138,3 +138,5 @@ class BotMessenger
         $this->conversationManager = new ConversationManager();
         $this->exceptionHandler = new ExceptionHandler();
     }
+
+
