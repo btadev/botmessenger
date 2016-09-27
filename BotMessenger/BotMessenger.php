@@ -65,4 +65,5 @@ class BotMessenger
     protected $currentConversationData;
 
     /** @var ExceptionHandlerInterface */
-     */
+    protected $exceptionHandler;
+{
