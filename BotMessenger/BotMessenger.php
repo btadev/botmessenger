@@ -78,3 +78,4 @@ class BotMessenger
      * could be heard.
      * @var callable|null
      */
+    protected $fallbackMessage;
