@@ -47,4 +47,5 @@ class BotMessenger
         HandlesExceptions;
 
     /** @var \Illuminate\Support\Collection */
-class DriverAttachmentException extends DriverException
+    protected $event;
+        if (! is_null($recipient) && ! is_null($driver)) {
