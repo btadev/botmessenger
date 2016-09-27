@@ -41,3 +41,4 @@ use ChienIT\BotMessenger\Messages\Conversations\InlineConversation;
  * Class BotMessenger.
  */
 class BotMessenger
+{
