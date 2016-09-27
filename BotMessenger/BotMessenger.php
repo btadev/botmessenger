@@ -161,3 +161,5 @@ class BotMessenger
      * @param DriverInterface $driver
      */
     public function setDriver(DriverInterface $driver)
+    {
+
