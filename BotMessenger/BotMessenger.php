@@ -277,3 +277,5 @@ class BotMessenger
      * @param Closure|string $callback
      */
     public function on($name, $callback)
+    {
+    /**
