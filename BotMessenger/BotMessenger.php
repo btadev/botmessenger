@@ -98,4 +98,5 @@ class BotMessenger
     /** @var ConversationManager */
     protected $conversationManager;
 
-        $this->message = $message;
+    /** @var CacheInterface */
+    public function getMessages()
