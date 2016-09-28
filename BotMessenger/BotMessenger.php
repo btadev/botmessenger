@@ -60,4 +60,5 @@ class BotMessenger
 
     /** @var string */
     protected $driverName;
-     * @return OutgoingMessage
+
+     */
