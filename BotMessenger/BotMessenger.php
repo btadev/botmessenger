@@ -281,4 +281,5 @@ class BotMessenger
         $this->events[] = [
             'name' => $name,
             'callback' => $this->getCallable($callback),
-namespace ChienIT\BotMessenger\Drivers\Tests;
+        ];
+{
