@@ -91,3 +91,5 @@ class BotMessenger
 
     /** @var array */
     protected $config = [];
+
+{
