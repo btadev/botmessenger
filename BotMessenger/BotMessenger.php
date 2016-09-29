@@ -110,4 +110,4 @@ class BotMessenger
     /** @var Matcher */
     protected $matcher;
 
-    }
+    /** @var bool */
