@@ -288,4 +288,4 @@ class BotMessenger
      * Listening for image files.
      *
      * @param $callback
-            'type' => 'video',
+     * @return Command
