@@ -261,3 +261,4 @@ class BotMessenger
      * @return Command
      */
     public function hears($pattern, $callback, $in = null)
+    {
