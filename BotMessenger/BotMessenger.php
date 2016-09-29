@@ -184,3 +184,4 @@ class BotMessenger
     /**
      * Retrieve the chat message.
      *
+     * @return array
