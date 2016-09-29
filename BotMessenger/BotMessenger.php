@@ -67,3 +67,5 @@ class BotMessenger
     /** @var ExceptionHandlerInterface */
     protected $exceptionHandler;
 
+    /**
+            "ChienIT\\BotMessenger\\": "BotMessenger/"
