@@ -215,4 +215,5 @@ class BotMessenger
      * @param bool $running
      * @return bool
      */
-    public function has($key)
+    public function runsOnSocket($running = null)
+        return new self($url);
