@@ -274,4 +274,5 @@ class BotMessenger
      * Listen for messaging service events.
      *
      * @param string $name
-     * @return string
+     * @param Closure|string $callback
+        $this->path = $path;
