@@ -120,4 +120,5 @@ class BotMessenger
     protected $runsOnSocket = false;
 
     /**
-
+     * BotMessenger constructor.
+     */
