@@ -113,4 +113,4 @@ class BotMessenger
     /** @var bool */
     protected $loadedConversation = false;
 
-     * @return \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage
+    /** @var bool */
