@@ -117,4 +117,5 @@ class BotMessenger
     protected $firedDriverEvents = false;
 
     /** @var bool */
-    }
+    protected $runsOnSocket = false;
+     * Retrieve an item from the cache and delete it.
