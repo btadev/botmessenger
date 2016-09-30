@@ -292,4 +292,5 @@ class BotMessenger
      */
     public function receivesImages($callback)
     {
-class FileStorage implements StorageInterface
+        return $this->hears(Image::PATTERN, $callback);
+     * This will be used within the WebDriver.
