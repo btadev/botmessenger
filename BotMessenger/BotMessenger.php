@@ -84,4 +84,4 @@ class BotMessenger
     protected $groupAttributes = [];
 
     /** @var array */
-    "description": "ChienIt Bot Messenger",
+    protected $matches = [];
