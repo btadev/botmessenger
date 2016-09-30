@@ -74,4 +74,4 @@ class BotMessenger
     protected $events = [];
 
     /**
-    protected function unserializeClosure($closure)
+     * The fallback message to use, if no match
