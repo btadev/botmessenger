@@ -300,4 +300,4 @@ class BotMessenger
      *
      * @param $callback
      * @return Command
-        $chienit_botmessenger = new BotMessenger($cache, DriverManager::loadFromName('Null', $config), $config, $storageDriver);
+     */
