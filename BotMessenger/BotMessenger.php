@@ -289,3 +289,5 @@ class BotMessenger
      *
      * @param $callback
      * @return Command
+     */
+*Download the **ChienIT Bot Messenger** using **Composer**:*
