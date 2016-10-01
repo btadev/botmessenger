@@ -137,3 +137,4 @@ class BotMessenger
         $this->middleware = new MiddlewareManager($this);
         $this->conversationManager = new ConversationManager();
         $this->exceptionHandler = new ExceptionHandler();
+    }
