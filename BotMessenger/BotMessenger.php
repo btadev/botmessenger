@@ -253,3 +253,5 @@ class BotMessenger
             return trim($m, '?');
         }, $matches[1]);
     }
+
+    }
