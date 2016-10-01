@@ -299,4 +299,5 @@ class BotMessenger
      * Listening for image files.
      *
      * @param $callback
-            "ChienIT\\BotMessenger\\": "BotMessenger/"
+     * @return Command
+        $chienit_botmessenger = new BotMessenger($cache, DriverManager::loadFromName('Null', $config), $config, $storageDriver);
