@@ -285,4 +285,5 @@ class BotMessenger
     }
 
     /**
-}
+     * Listening for image files.
+    protected $matches;
