@@ -273,4 +273,5 @@ class BotMessenger
     /**
      * Listen for messaging service events.
      *
-    /**
+     * @param string $name
+     * @return string
