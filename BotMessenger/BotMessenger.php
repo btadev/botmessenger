@@ -187,4 +187,5 @@ class BotMessenger
      * @return array
      */
     public function getMessages()
-     * @param BotMessenger $bot
+    {
+
