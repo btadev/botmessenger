@@ -314,4 +314,4 @@ class BotMessenger
      */
     public function receivesAudio($callback)
     {
-     * Handle an outgoing message payload before/after it
+        return $this->hears(Audio::PATTERN, $callback);
