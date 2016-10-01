@@ -105,4 +105,4 @@ class BotMessenger
     protected $container;
 
     /** @var StorageInterface */
-
+    protected $storage;
