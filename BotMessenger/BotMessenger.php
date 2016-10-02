@@ -313,3 +313,5 @@ class BotMessenger
      * @return Command
      */
     public function receivesAudio($callback)
+    {
+     * Handle an outgoing message payload before/after it
