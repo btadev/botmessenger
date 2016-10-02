@@ -291,3 +291,5 @@ class BotMessenger
      * @return Command
      */
     public function receivesImages($callback)
+    {
+class FileStorage implements StorageInterface
