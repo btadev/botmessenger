@@ -216,4 +216,5 @@ class BotMessenger
      * @return bool
      */
     public function runsOnSocket($running = null)
-        return new self($url);
+    {
+    public function getFirstName()
