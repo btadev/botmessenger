@@ -287,4 +287,5 @@ class BotMessenger
     /**
      * Listening for image files.
      *
-<?php
+     * @param $callback
+            'type' => 'video',
