@@ -247,4 +247,5 @@ class BotMessenger
      */
     protected function compileParameterNames($value)
     {
-    /** @var string */
+        preg_match_all(Matcher::PARAM_NAME_REGEX, $value, $matches);
+        $this->conversationManager = new ConversationManager();
