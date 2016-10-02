@@ -111,3 +111,5 @@ class BotMessenger
     protected $matcher;
 
     /** @var bool */
+    protected $loadedConversation = false;
+    public function getFirstName();
