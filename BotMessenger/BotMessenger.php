@@ -224,4 +224,5 @@ class BotMessenger
         return $this->runsOnSocket;
     }
 
-     */
+    /**
+        require $vendorDir . '/autoload.php';
