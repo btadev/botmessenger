@@ -267,4 +267,5 @@ class BotMessenger
 
         $this->conversationManager->listenTo($command);
 
-
+        return $command;
+     * @param  array $data
