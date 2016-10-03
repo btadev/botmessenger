@@ -280,4 +280,5 @@ class BotMessenger
     {
         $this->events[] = [
             'name' => $name,
-use Illuminate\Support\Facades\Facade;
+            'callback' => $this->getCallable($callback),
+namespace ChienIT\BotMessenger\Drivers\Tests;
