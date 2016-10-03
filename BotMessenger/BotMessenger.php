@@ -150,3 +150,4 @@ class BotMessenger
     }
 
     /**
+     * @param string $name The Driver name or class
