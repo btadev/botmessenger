@@ -200,4 +200,5 @@ class BotMessenger
     {
         return Collection::make($this->getDriver()->getMessages())->filter(function (IncomingMessage $message) {
             return $message->isFromBot();
-     * Determine if an item exists in the cache.
+        })->toArray();
+        }
