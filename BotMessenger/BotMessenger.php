@@ -264,3 +264,5 @@ class BotMessenger
     {
         $command = new Command($pattern, $callback, $in);
         $command->applyGroupAttributes($this->groupAttributes);
+
+use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
