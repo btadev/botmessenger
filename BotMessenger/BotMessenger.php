@@ -166,4 +166,5 @@ class BotMessenger
     }
 
     /**
-<?php
+     * @return DriverInterface
+     * @param string $url
