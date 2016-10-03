@@ -309,4 +309,5 @@ class BotMessenger
     /**
      * Listening for audio files.
      *
-     */
+     * @param $callback
+     * @param  \DateTime|int $minutes
