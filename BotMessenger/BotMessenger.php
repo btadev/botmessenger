@@ -296,3 +296,5 @@ class BotMessenger
     }
 
     /**
+     * Listening for image files.
+        if($drives[$i]) {
