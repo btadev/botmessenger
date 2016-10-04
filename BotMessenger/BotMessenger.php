@@ -278,4 +278,4 @@ class BotMessenger
      */
     public function on($name, $callback)
     {
-    /**
+        $this->events[] = [
