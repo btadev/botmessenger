@@ -282,4 +282,5 @@ class BotMessenger
             'name' => $name,
             'callback' => $this->getCallable($callback),
         ];
-{
+    }
+            self::$instance = new NullDriver(new Request, [], new Curl);
