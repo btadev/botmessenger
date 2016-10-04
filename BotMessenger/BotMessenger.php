@@ -134,4 +134,4 @@ class BotMessenger
         $this->config = $config;
         $this->storage = $storage;
         $this->matcher = new Matcher();
-     * Store an item in the cache.
+        $this->middleware = new MiddlewareManager($this);
