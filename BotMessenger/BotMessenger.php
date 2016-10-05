@@ -169,4 +169,5 @@ class BotMessenger
      * @return DriverInterface
      */
     public function getDriver()
-     *
+    {
+<?php
