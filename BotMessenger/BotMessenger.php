@@ -185,3 +185,5 @@ class BotMessenger
      * Retrieve the chat message.
      *
      * @return array
+     */
+namespace ChienIT\BotMessenger\Exceptions\Base;
