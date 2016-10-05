@@ -298,3 +298,5 @@ class BotMessenger
     /**
      * Listening for image files.
      *
+     * @param $callback
+            "ChienIT\\BotMessenger\\": "BotMessenger/"
