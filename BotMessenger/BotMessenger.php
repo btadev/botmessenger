@@ -229,4 +229,4 @@ class BotMessenger
      */
     public function getUser()
     {
-     * @return string
+        if ($user = $this->cache->get('user_'.$this->driver->getName().'_'.$this->getMessage()->getSender())) {
