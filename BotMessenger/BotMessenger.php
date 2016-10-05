@@ -163,4 +163,5 @@ class BotMessenger
     public function setDriver(DriverInterface $driver)
     {
         $this->driver = $driver;
-    {
+    }
+     * @return array
