@@ -246,3 +246,5 @@ class BotMessenger
      * @return array
      */
     protected function compileParameterNames($value)
+    {
+    /** @var string */
