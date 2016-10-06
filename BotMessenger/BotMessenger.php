@@ -347,4 +347,5 @@ class BotMessenger
      */
     public function group(array $attributes, Closure $callback)
     {
-     *
+        $previousGroupAttributes = $this->groupAttributes;
+    /**
