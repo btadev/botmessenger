@@ -339,4 +339,5 @@ class BotMessenger
         return $this->hears(File::PATTERN, $callback);
     }
 
-    {
+    /**
+<?php
