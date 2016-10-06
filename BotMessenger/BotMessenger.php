@@ -237,4 +237,5 @@ class BotMessenger
         $this->cache->put('user_'.$this->driver->getName().'_'.$user->getId(), $user, $this->config['user_cache_time'] ?? 30);
 
         return $user;
-     */
+    }
+    /**
