@@ -208,4 +208,5 @@ class BotMessenger
      */
     public function getConversationAnswer()
     {
-            $seconds = $minutes * 60;
+        return $this->getDriver()->getConversationAnswer($this->message);
+use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
