@@ -135,3 +135,4 @@ class BotMessenger
         $this->storage = $storage;
         $this->matcher = new Matcher();
         $this->middleware = new MiddlewareManager($this);
+        $this->conversationManager = new ConversationManager();
