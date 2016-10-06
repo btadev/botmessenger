@@ -174,4 +174,5 @@ class BotMessenger
     }
 
     /**
-    }
+     * @param ContainerInterface $container
+    /**
