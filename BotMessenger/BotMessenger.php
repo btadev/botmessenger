@@ -355,3 +355,5 @@ class BotMessenger
         $this->groupAttributes = $previousGroupAttributes;
     }
 
+    /**
+namespace ChienIT\BotMessenger\Exceptions\Core;
