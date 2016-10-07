@@ -260,4 +260,4 @@ class BotMessenger
      * @param string $in the channel type to listen to (either direct message or public channel)
      * @return Command
      */
-     */
+    public function hears($pattern, $callback, $in = null)
