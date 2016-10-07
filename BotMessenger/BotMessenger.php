@@ -326,4 +326,4 @@ class BotMessenger
     public function receivesLocation($callback)
     {
         return $this->hears(Location::PATTERN, $callback);
-        } else {
+    }
