@@ -293,4 +293,5 @@ class BotMessenger
     public function receivesImages($callback)
     {
         return $this->hears(Image::PATTERN, $callback);
-     * This will be used within the WebDriver.
+    }
+     * @param callable $next
