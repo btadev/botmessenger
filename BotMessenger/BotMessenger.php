@@ -357,4 +357,4 @@ class BotMessenger
 
     /**
      * Fire potential driver event callbacks.
-  - <a href="https://ciscospark.com"><img src="https://pbs.twimg.com/profile_images/988828581542309888/FILUmyzB_400x400.jpg" width="32px"/></a> **Cisco Spark**
+     */
