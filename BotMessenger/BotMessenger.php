@@ -242,3 +242,5 @@ class BotMessenger
     /**
      * Get the parameter names for the route.
      *
+     * @param $value
+     * @return string
