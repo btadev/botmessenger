@@ -392,4 +392,5 @@ class BotMessenger
             if (! $isVerificationRequest) {
                 $this->fireDriverEvents();
 
-     * @return mixed
+                if ($this->firedDriverEvents === false) {
+        parent::__construct($payload);
