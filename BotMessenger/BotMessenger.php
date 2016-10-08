@@ -345,3 +345,4 @@ class BotMessenger
      * @param  array $attributes
      * @param  \Closure $callback
      */
+    public function group(array $attributes, Closure $callback)
