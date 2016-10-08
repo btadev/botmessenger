@@ -228,4 +228,5 @@ class BotMessenger
      * @return UserInterface
      */
     public function getUser()
-        // Do nothing
+    {
+     * @return string
