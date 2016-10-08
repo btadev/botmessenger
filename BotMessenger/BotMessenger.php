@@ -275,4 +275,4 @@ class BotMessenger
      *
      * @param string $name
      * @param Closure|string $callback
-        $this->path = $path;
+     */
