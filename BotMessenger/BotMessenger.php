@@ -344,4 +344,4 @@ class BotMessenger
      *
      * @param  array $attributes
      * @param  \Closure $callback
-
+     */
