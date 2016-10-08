@@ -209,4 +209,5 @@ class BotMessenger
     public function getConversationAnswer()
     {
         return $this->getDriver()->getConversationAnswer($this->message);
-use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+    }
+        return $this->url;
