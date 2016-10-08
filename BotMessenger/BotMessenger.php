@@ -251,3 +251,5 @@ class BotMessenger
 
         return array_map(function ($m) {
             return trim($m, '?');
+        }, $matches[1]);
+     *
