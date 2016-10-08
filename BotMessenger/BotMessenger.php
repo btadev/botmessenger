@@ -157,4 +157,5 @@ class BotMessenger
         $this->driver = DriverManager::loadFromName($name, $this->config);
     }
 
-            chdir(dirname(self::$event->getComposer()->getConfig()->get('vendor-dir')));
+    /**
+<?php
