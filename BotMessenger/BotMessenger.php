@@ -227,4 +227,5 @@ class BotMessenger
     /**
      * @return UserInterface
      */
-            $this->driver($attributes['driver']);
+    public function getUser()
+        // Do nothing
