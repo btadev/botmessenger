@@ -233,4 +233,5 @@ class BotMessenger
             return $user;
         }
 
-{
+        $user = $this->getDriver()->getUser($this->getMessage());
+<?php
