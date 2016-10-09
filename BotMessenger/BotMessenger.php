@@ -203,3 +203,5 @@ class BotMessenger
         })->toArray();
     }
 
+    /**
+     * Get raw driver's user info.
