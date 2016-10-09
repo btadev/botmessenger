@@ -390,4 +390,5 @@ class BotMessenger
             $isVerificationRequest = $this->verifyServices();
 
             if (! $isVerificationRequest) {
-class InlineConversation extends Conversation
+                $this->fireDriverEvents();
+        if (empty($middleware)) {
