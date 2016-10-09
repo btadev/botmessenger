@@ -374,4 +374,5 @@ class BotMessenger
                 if (isset($messages[0])) {
                     $this->message = $messages[0];
                 }
-{
+
+        $this->exceptions = Collection::make();
