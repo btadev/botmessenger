@@ -307,4 +307,4 @@ class BotMessenger
     }
 
     /**
-     * @param  string $key
+     * Listening for audio files.
