@@ -279,3 +279,5 @@ class BotMessenger
     public function on($name, $callback)
     {
         $this->events[] = [
+            'name' => $name,
+use Illuminate\Support\Facades\Facade;
