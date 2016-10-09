@@ -196,4 +196,4 @@ class BotMessenger
      *
      * @return array
      */
-use ChienIT\BotMessenger\BotMessenger;
+    public function getBotMessages()
