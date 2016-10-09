@@ -305,4 +305,5 @@ class BotMessenger
     {
         return $this->hears(Video::PATTERN, $callback);
     }
+
         }
