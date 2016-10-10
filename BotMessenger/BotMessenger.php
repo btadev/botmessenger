@@ -391,4 +391,5 @@ class BotMessenger
 
             if (! $isVerificationRequest) {
                 $this->fireDriverEvents();
-        if (empty($middleware)) {
+
+     * @return mixed
