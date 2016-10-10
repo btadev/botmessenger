@@ -254,4 +254,5 @@ class BotMessenger
         }, $matches[1]);
     }
 
-    }
+    /**
+ */
