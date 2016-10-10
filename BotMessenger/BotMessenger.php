@@ -408,3 +408,5 @@ class BotMessenger
                         $this->getDriver()->messagesHandled();
                     }
                 }
+
+            return $cached;
