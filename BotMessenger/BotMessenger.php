@@ -179,4 +179,5 @@ class BotMessenger
     public function setContainer(ContainerInterface $container)
     {
         $this->container = $container;
-    public function text($message)
+    }
+
