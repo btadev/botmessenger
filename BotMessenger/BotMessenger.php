@@ -368,4 +368,5 @@ class BotMessenger
                 return $driverEvent->getName() === $event['name'];
             })->each(function ($event) use ($driverEvent) {
                 /**
-
+                 * Load the message, so driver events can reply.
+    "authors": [{
