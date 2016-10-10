@@ -263,4 +263,4 @@ class BotMessenger
     public function hears($pattern, $callback, $in = null)
     {
         $command = new Command($pattern, $callback, $in);
-        return [
+        $command->applyGroupAttributes($this->groupAttributes);
