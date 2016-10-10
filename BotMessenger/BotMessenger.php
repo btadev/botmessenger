@@ -218,4 +218,5 @@ class BotMessenger
     public function runsOnSocket($running = null)
     {
         if (is_bool($running)) {
-        parent::__construct($payload);
+            $this->runsOnSocket = $running;
+}
