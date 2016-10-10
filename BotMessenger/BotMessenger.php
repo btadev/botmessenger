@@ -324,4 +324,5 @@ class BotMessenger
      * @return Command
      */
     public function receivesLocation($callback)
-    /** @var string */
+    {
+     *
