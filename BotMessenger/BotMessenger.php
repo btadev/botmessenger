@@ -382,4 +382,5 @@ class BotMessenger
 
     /**
      * Try to match messages with the ones we should
-{
+     * listen to.
+    "require": {
