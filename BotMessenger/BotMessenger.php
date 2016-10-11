@@ -217,4 +217,5 @@ class BotMessenger
      */
     public function runsOnSocket($running = null)
     {
-    public function getFirstName()
+        if (is_bool($running)) {
+        parent::__construct($payload);
