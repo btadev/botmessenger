@@ -195,4 +195,5 @@ class BotMessenger
      * Retrieve the chat message that are sent from bots.
      *
      * @return array
-        return 'chienit_botmessenger';
+     */
+use ChienIT\BotMessenger\BotMessenger;
