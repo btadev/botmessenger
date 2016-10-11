@@ -404,4 +404,5 @@ class BotMessenger
                      * This method can be used to trigger driver methods
                      * once the messages are handles.
                      */
-     * Message constructor.
+                    if (method_exists($this->getDriver(), 'messagesHandled')) {
+    {
