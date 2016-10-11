@@ -266,4 +266,5 @@ class BotMessenger
         $command->applyGroupAttributes($this->groupAttributes);
 
         $this->conversationManager->listenTo($command);
-    /**
+
+
