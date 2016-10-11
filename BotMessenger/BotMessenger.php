@@ -250,3 +250,4 @@ class BotMessenger
         preg_match_all(Matcher::PARAM_NAME_REGEX, $value, $matches);
 
         return array_map(function ($m) {
+            return trim($m, '?');
