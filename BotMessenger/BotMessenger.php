@@ -364,4 +364,4 @@ class BotMessenger
         if ($driverEvent instanceof DriverEventInterface) {
             $this->firedDriverEvents = true;
 
-
+            Collection::make($this->events)->filter(function ($event) use ($driverEvent) {
