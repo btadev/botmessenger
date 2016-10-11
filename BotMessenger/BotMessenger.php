@@ -202,3 +202,4 @@ class BotMessenger
             return $message->isFromBot();
         })->toArray();
     }
+
