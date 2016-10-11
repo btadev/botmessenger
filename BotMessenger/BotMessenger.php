@@ -201,4 +201,4 @@ class BotMessenger
         return Collection::make($this->getDriver()->getMessages())->filter(function (IncomingMessage $message) {
             return $message->isFromBot();
         })->toArray();
-        }
+    }
