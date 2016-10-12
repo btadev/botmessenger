@@ -270,4 +270,5 @@ class BotMessenger
         return $command;
     }
 
-        $this->adapter = $adapter;
+    /**
+
