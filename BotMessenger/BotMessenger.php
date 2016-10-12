@@ -240,4 +240,4 @@ class BotMessenger
     }
 
     /**
-    public function buildServicePayload($message, $matchingMessage, $additionalParameters = []);
+     * Get the parameter names for the route.
