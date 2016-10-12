@@ -245,3 +245,4 @@ class BotMessenger
      * @param $value
      * @return array
      */
+    protected function compileParameterNames($value)
