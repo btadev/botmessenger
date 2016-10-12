@@ -295,4 +295,4 @@ class BotMessenger
         return $this->hears(Image::PATTERN, $callback);
     }
 
-        $this->text = $text;
+    /**
