@@ -350,4 +350,4 @@ class BotMessenger
         $previousGroupAttributes = $this->groupAttributes;
         $this->groupAttributes = array_merge_recursive($previousGroupAttributes, $attributes);
 
-<?php
+        call_user_func($callback, $this);
