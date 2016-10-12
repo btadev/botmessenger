@@ -389,3 +389,5 @@ class BotMessenger
         try {
             $isVerificationRequest = $this->verifyServices();
 
+            if (! $isVerificationRequest) {
+class InlineConversation extends Conversation
