@@ -332,4 +332,4 @@ class BotMessenger
      * Listening for files attachment.
      *
      * @param $callback
-    {
+     * @return Command
