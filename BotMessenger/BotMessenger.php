@@ -400,4 +400,5 @@ class BotMessenger
                     }
 
                     /*
-namespace ChienIT\BotMessenger\Exceptions\Base;
+                     * If the driver has a  "messagesHandled" method, call it.
+     *
