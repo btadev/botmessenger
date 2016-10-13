@@ -342,4 +342,5 @@ class BotMessenger
     /**
      * Create a command group with shared attributes.
      *
-    public function getLocation() : Location
+     * @param  array $attributes
+<?php
