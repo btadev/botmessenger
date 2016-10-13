@@ -206,3 +206,5 @@ class BotMessenger
     /**
      * @return Answer
      */
+    public function getConversationAnswer()
+    public function getPrefix()
