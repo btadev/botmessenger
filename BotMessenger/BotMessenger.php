@@ -386,4 +386,5 @@ class BotMessenger
      */
     public function listen()
     {
-    /**
+        try {
+     * @param HttpInterface $http
