@@ -302,4 +302,5 @@ class BotMessenger
      * @return Command
      */
     public function receivesVideos($callback)
+    {
     }
