@@ -222,4 +222,4 @@ class BotMessenger
         }
 
         return $this->runsOnSocket;
-        $this->images = $images;
+    }
