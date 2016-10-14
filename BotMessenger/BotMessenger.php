@@ -327,3 +327,5 @@ class BotMessenger
     {
         return $this->hears(Location::PATTERN, $callback);
     }
+
+
