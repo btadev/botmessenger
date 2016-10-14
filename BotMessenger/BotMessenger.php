@@ -425,3 +425,5 @@ class BotMessenger
         $matchingMessages = $this->conversationManager->getMatchingMessages($this->getMessages(), $this->middleware, $this->getConversationAnswer(), $this->getDriver());
 
         foreach ($matchingMessages as $matchingMessage) {
+            $this->command = $matchingMessage->getCommand();
+<?php
