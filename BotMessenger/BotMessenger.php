@@ -239,3 +239,5 @@ class BotMessenger
         return $user;
     }
 
+    /**
+    public function buildServicePayload($message, $matchingMessage, $additionalParameters = []);
