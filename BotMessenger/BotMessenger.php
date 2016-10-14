@@ -352,4 +352,5 @@ class BotMessenger
 
         call_user_func($callback, $this);
 
-     */
+        $this->groupAttributes = $previousGroupAttributes;
+
