@@ -418,4 +418,5 @@ class BotMessenger
     }
 
     /**
-     * @return string
+     * Call matching message callbacks.
+     * @return array
