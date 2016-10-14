@@ -427,4 +427,5 @@ class BotMessenger
         foreach ($matchingMessages as $matchingMessage) {
             $this->command = $matchingMessage->getCommand();
             $callback = $this->command->getCallback();
-     */
+
+     * @return mixed
