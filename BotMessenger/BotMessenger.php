@@ -226,4 +226,5 @@ class BotMessenger
 
     /**
      * @return UserInterface
-<?php
+     */
+            $this->driver($attributes['driver']);
