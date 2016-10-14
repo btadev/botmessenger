@@ -330,4 +330,5 @@ class BotMessenger
 
     /**
      * Listening for files attachment.
-    {
+     *
+<?php
