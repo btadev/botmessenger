@@ -384,3 +384,5 @@ class BotMessenger
      * Try to match messages with the ones we should
      * listen to.
      */
+    public function listen()
+        "react/socket": "~0.4",
