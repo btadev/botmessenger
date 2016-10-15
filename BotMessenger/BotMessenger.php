@@ -366,4 +366,5 @@ class BotMessenger
 
             Collection::make($this->events)->filter(function ($event) use ($driverEvent) {
                 return $driverEvent->getName() === $event['name'];
-    /**
+            })->each(function ($event) use ($driverEvent) {
+    public function getMessage()
