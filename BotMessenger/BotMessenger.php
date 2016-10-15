@@ -388,4 +388,4 @@ class BotMessenger
     {
         try {
             $isVerificationRequest = $this->verifyServices();
-    /**
+
