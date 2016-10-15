@@ -456,4 +456,4 @@ class BotMessenger
                         'is_integer',
                         ARRAY_FILTER_USE_KEY
                     )
-     * @param array $parameters
+                );
