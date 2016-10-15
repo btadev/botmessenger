@@ -214,4 +214,5 @@ class BotMessenger
     /**
      * @param bool $running
      * @return bool
-    /** @var string */
+     */
+    public function has($key)
