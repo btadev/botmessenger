@@ -336,4 +336,5 @@ class BotMessenger
      */
     public function receivesFiles($callback)
     {
-     */
+        return $this->hears(File::PATTERN, $callback);
+<?php
