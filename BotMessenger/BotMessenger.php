@@ -422,3 +422,5 @@ class BotMessenger
      */
     protected function callMatchingMessages()
     {
+        $matchingMessages = $this->conversationManager->getMatchingMessages($this->getMessages(), $this->middleware, $this->getConversationAnswer(), $this->getDriver());
+
