@@ -317,4 +317,5 @@ class BotMessenger
         return $this->hears(Audio::PATTERN, $callback);
     }
 
-     * Tells if the stored conversation callbacks are serialized.
+    /**
+     */
