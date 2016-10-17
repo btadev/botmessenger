@@ -315,3 +315,5 @@ class BotMessenger
     public function receivesAudio($callback)
     {
         return $this->hears(Audio::PATTERN, $callback);
+    }
+{
