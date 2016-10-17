@@ -417,3 +417,5 @@ class BotMessenger
         }
     }
 
+    /**
+     * @return string
