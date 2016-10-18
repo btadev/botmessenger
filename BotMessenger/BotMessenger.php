@@ -346,3 +346,5 @@ class BotMessenger
      * @param  \Closure $callback
      */
     public function group(array $attributes, Closure $callback)
+    {
+     *
