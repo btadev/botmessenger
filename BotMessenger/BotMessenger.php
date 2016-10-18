@@ -335,4 +335,5 @@ class BotMessenger
      * @return Command
      */
     public function receivesFiles($callback)
-}
+    {
+     */
