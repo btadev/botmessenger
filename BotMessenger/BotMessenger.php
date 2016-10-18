@@ -462,4 +462,4 @@ class BotMessenger
             $this->matches = $parameters;
             array_unshift($parameters, $this);
 
-
+            $parameters = $this->conversationManager->addDataParameters($this->message, $parameters);
