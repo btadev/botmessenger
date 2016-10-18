@@ -365,3 +365,5 @@ class BotMessenger
             $this->firedDriverEvents = true;
 
             Collection::make($this->events)->filter(function ($event) use ($driverEvent) {
+                return $driverEvent->getName() === $event['name'];
+    /**
