@@ -321,4 +321,5 @@ class BotMessenger
      * Listening for location attachment.
      *
      * @param $callback
-     * Array representation of the question action.
+     * @return Command
+     *
