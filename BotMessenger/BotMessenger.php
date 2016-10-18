@@ -476,4 +476,5 @@ class BotMessenger
      * Call the fallback method.
      */
     protected function callFallbackMessage()
-        $i = 0;
+    {
+class DriverAttachmentException extends DriverException
