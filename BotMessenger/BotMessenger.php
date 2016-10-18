@@ -371,4 +371,5 @@ class BotMessenger
                  * Load the message, so driver events can reply.
                  */
                 $messages = $this->getDriver()->getMessages();
-<?php
+                if (isset($messages[0])) {
+     */
