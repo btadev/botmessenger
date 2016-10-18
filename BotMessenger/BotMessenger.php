@@ -256,4 +256,5 @@ class BotMessenger
 
     /**
      * @param string $pattern the pattern to listen for
-        parent::__construct($payload);
+     * @param Closure|string $callback the callback to execute. Either a closure or a Class@method notation
+     *
