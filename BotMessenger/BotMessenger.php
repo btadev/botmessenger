@@ -489,3 +489,5 @@ class BotMessenger
 
         call_user_func($this->fallbackMessage, $this);
     }
+
+     * This will be used within the WebDriver.
