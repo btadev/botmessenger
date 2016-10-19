@@ -407,4 +407,4 @@ class BotMessenger
                     if (method_exists($this->getDriver(), 'messagesHandled')) {
                         $this->getDriver()->messagesHandled();
                     }
-    public function getText()
+                }
