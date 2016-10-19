@@ -311,4 +311,5 @@ class BotMessenger
      *
      * @param $callback
      * @return Command
-
+     */
+    public function __construct($latitude, $longitude, $payload = null)
