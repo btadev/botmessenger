@@ -495,3 +495,5 @@ class BotMessenger
      *
      * @return bool
      */
+    protected function verifyServices()
+     * @return Storage
