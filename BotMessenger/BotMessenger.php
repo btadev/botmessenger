@@ -379,4 +379,5 @@ class BotMessenger
             });
         }
     }
-        $item->set($value);
+
+     * @param mixed $payload
