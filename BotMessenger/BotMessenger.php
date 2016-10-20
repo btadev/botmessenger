@@ -439,3 +439,5 @@ class BotMessenger
 
             $this->message = $this->middleware->applyMiddleware('heard', $matchingMessage->getMessage(), $commandMiddleware);
 
+            $parameterNames = $this->compileParameterNames($this->command->getPattern());
+use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
