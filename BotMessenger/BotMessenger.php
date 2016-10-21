@@ -487,4 +487,5 @@ class BotMessenger
 
         $this->fallbackMessage = $this->getCallable($this->fallbackMessage);
 
-
+        call_user_func($this->fallbackMessage, $this);
+     */
