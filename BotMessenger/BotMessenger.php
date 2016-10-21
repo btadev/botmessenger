@@ -348,4 +348,5 @@ class BotMessenger
     public function group(array $attributes, Closure $callback)
     {
         $previousGroupAttributes = $this->groupAttributes;
-    /**
+        $this->groupAttributes = array_merge_recursive($previousGroupAttributes, $attributes);
+use Symfony\Component\HttpFoundation\Response;
