@@ -393,4 +393,4 @@ class BotMessenger
                 $this->fireDriverEvents();
 
                 if ($this->firedDriverEvents === false) {
-        parent::__construct($payload);
+                    $this->loadActiveConversation();
