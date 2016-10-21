@@ -453,4 +453,5 @@ class BotMessenger
                     //Then, all other unsorted parameters (regex non named results)
                     array_filter(
                         $parameters,
-        return [
+                        'is_integer',
+    public function sendPayload($payload);
