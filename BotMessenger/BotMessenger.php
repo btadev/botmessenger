@@ -376,3 +376,5 @@ class BotMessenger
                 }
 
                 call_user_func_array($event['callback'], [$driverEvent->getPayload(), $this]);
+            });
+     * hits the message service.
