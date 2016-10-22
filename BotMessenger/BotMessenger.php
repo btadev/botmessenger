@@ -354,3 +354,4 @@ class BotMessenger
 
         $this->groupAttributes = $previousGroupAttributes;
     }
+
