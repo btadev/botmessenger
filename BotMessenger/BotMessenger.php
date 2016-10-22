@@ -369,4 +369,5 @@ class BotMessenger
             })->each(function ($event) use ($driverEvent) {
                 /**
                  * Load the message, so driver events can reply.
-    "authors": [{
+                 */
+        } elseif ($messageText === Video::PATTERN) {
