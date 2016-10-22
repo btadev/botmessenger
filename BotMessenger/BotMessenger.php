@@ -397,4 +397,4 @@ class BotMessenger
 
                     if ($this->loadedConversation === false) {
                         $this->callMatchingMessages();
-    /** @var string */
+                    }
