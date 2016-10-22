@@ -430,3 +430,4 @@ class BotMessenger
 
             $callback = $this->getCallable($callback);
 
+     */
