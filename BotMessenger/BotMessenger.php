@@ -340,4 +340,4 @@ class BotMessenger
     }
 
     /**
-<?php
+     * Create a command group with shared attributes.
