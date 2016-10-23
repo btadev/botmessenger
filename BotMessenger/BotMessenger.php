@@ -477,4 +477,5 @@ class BotMessenger
      */
     protected function callFallbackMessage()
     {
-class DriverAttachmentException extends DriverException
+        $messages = $this->getMessages();
+if(php_sapi_name() !== 'cli') {
