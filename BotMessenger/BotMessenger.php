@@ -523,3 +523,4 @@ class BotMessenger
             $this->setDriver(DriverManager::loadFromName($driver, $this->config));
         }
 
+        $recipients = is_array($recipients) ? $recipients : [$recipients];
