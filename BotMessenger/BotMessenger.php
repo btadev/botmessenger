@@ -303,4 +303,5 @@ class BotMessenger
      */
     public function receivesVideos($callback)
     {
-    }
+        return $this->hears(Video::PATTERN, $callback);
+    public function getMessages();
