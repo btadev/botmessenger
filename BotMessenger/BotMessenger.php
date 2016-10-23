@@ -370,4 +370,5 @@ class BotMessenger
                 /**
                  * Load the message, so driver events can reply.
                  */
-        } elseif ($messageText === Video::PATTERN) {
+                $messages = $this->getDriver()->getMessages();
+<?php
