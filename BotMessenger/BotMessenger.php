@@ -375,4 +375,4 @@ class BotMessenger
                     $this->message = $messages[0];
                 }
 
-        $this->exceptions = Collection::make();
+                call_user_func_array($event['callback'], [$driverEvent->getPayload(), $this]);
