@@ -343,4 +343,5 @@ class BotMessenger
      * Create a command group with shared attributes.
      *
      * @param  array $attributes
-<?php
+     * @param  \Closure $callback
+
