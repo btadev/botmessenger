@@ -541,4 +541,5 @@ class BotMessenger
      * @param array|Closure $next
      * @param array $additionalParameters
      * @param null|string $recipient
-
+     * @param null|string $driver
+     * Array representation of the question action.
