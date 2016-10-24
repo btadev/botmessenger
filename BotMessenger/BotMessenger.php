@@ -460,4 +460,5 @@ class BotMessenger
             }
 
             $this->matches = $parameters;
-
+            array_unshift($parameters, $this);
+    /**
