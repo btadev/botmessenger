@@ -473,4 +473,5 @@ class BotMessenger
     }
 
     /**
-     */
+     * Call the fallback method.
+{
