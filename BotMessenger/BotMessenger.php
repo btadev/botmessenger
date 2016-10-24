@@ -511,4 +511,5 @@ class BotMessenger
     public function say($message, $recipients, $driver = null, $additionalParameters = [])
     {
         if ($driver === null && $this->driver === null) {
-namespace ChienIT\BotMessenger\Exceptions\Base;
+            throw new BotMessengerException('The current driver can\'t be NULL');
+     */
