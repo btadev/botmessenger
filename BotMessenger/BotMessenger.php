@@ -515,4 +515,4 @@ class BotMessenger
         }
 
         $previousDriver = $this->driver;
-    }
+        $previousMessage = $this->message;
