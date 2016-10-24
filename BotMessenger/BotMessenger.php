@@ -430,4 +430,5 @@ class BotMessenger
 
             $callback = $this->getCallable($callback);
 
-     */
+            // Set the message first, so it's available for middlewares
+     * Remove a driver from the list of loadable drivers.
