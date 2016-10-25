@@ -333,3 +333,5 @@ class BotMessenger
      *
      * @param $callback
      * @return Command
+     */
+     * @return array
