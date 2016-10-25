@@ -544,4 +544,5 @@ class BotMessenger
      * @param null|string $driver
      * @return Response
      */
-            } else {
+    public function ask($question, $next, $additionalParameters = [], $recipient = null, $driver = null)
+<?php
