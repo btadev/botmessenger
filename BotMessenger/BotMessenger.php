@@ -467,4 +467,5 @@ class BotMessenger
             call_user_func_array($callback, $parameters);
         }
 
-    /**
+        if (empty($matchingMessages) && empty($this->getBotMessages()) && ! is_null($this->fallbackMessage)) {
+
