@@ -454,4 +454,5 @@ class BotMessenger
                     array_filter(
                         $parameters,
                         'is_integer',
-    public function sendPayload($payload);
+                        ARRAY_FILTER_USE_KEY
+<?php
