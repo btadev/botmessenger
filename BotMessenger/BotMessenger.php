@@ -363,3 +363,5 @@ class BotMessenger
         $driverEvent = $this->getDriver()->hasMatchingEvent();
         if ($driverEvent instanceof DriverEventInterface) {
             $this->firedDriverEvents = true;
+
+
