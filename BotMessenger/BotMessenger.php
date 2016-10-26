@@ -435,4 +435,5 @@ class BotMessenger
 
             $commandMiddleware = Collection::make($this->command->getMiddleware())->filter(function ($middleware) {
                 return $middleware instanceof Heard;
-    public function isConfigured()
+            })->toArray();
+<?php
