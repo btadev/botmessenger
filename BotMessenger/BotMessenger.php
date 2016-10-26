@@ -413,4 +413,5 @@ class BotMessenger
                 $this->message = new IncomingMessage('', '', '');
             }
         } catch (\Throwable $e) {
-        $middleware = $this->$method + $additionalMiddleware;
+            $this->exceptionHandler->handleException($e, $this);
+
