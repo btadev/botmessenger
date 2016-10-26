@@ -403,3 +403,5 @@ class BotMessenger
                      * If the driver has a  "messagesHandled" method, call it.
                      * This method can be used to trigger driver methods
                      * once the messages are handles.
+                     */
+     * Message constructor.
