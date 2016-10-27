@@ -446,4 +446,5 @@ class BotMessenger
                 $parameters = array_merge(
                     //First, all named parameters (eg. function ($a, $b, $c))
                     array_filter(
-<?php
+                        $parameters,
+
