@@ -442,4 +442,5 @@ class BotMessenger
             $parameterNames = $this->compileParameterNames($this->command->getPattern());
 
             $parameters = $matchingMessage->getMatches();
-
+            if (count($parameterNames) !== count($parameters)) {
+     * Register a custom exception handler.
