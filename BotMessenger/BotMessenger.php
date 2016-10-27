@@ -449,3 +449,5 @@ class BotMessenger
                         $parameters,
                         'is_string',
                         ARRAY_FILTER_USE_KEY
+                    ),
+
