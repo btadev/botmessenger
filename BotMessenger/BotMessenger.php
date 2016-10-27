@@ -358,3 +358,5 @@ class BotMessenger
     /**
      * Fire potential driver event callbacks.
      */
+    protected function fireDriverEvents()
+            $parameters[] = $message->getFiles();
