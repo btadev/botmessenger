@@ -381,4 +381,5 @@ class BotMessenger
     }
 
     /**
-interface UserInterface
+     * Try to match messages with the ones we should
+{
