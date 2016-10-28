@@ -552,4 +552,5 @@ class BotMessenger
             }
             $this->message = new IncomingMessage('', $recipient, '');
             $this->setDriver($driver);
-    }
+        }
+    {
