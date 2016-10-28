@@ -564,4 +564,5 @@ class BotMessenger
      * @return $this
      */
     public function types()
-namespace ChienIT\BotMessenger\Exceptions\Base;
+    {
+use ChienIT\BotMessenger\BotMessenger;
