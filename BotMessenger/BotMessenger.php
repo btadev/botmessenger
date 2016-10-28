@@ -372,4 +372,5 @@ class BotMessenger
                  */
                 $messages = $this->getDriver()->getMessages();
                 if (isset($messages[0])) {
-     */
+                    $this->message = $messages[0];
+            'type' => 'video',
