@@ -586,4 +586,5 @@ class BotMessenger
      * Low-level method to perform driver specific API requests.
      *
      * @param string $endpoint
-namespace ChienIT\BotMessenger\Interfaces;
+     * @param array $additionalParameters
+        foreach($installed as $pkg) {
