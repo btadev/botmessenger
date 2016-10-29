@@ -378,4 +378,5 @@ class BotMessenger
                 call_user_func_array($event['callback'], [$driverEvent->getPayload(), $this]);
             });
         }
-<?php
+    }
+        $item->set($value);
