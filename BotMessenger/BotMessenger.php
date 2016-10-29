@@ -458,4 +458,5 @@ class BotMessenger
                     )
                 );
             }
-     * @param Request $request
+
+     * Save an item in the storage with a specific key and data.
