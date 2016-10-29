@@ -512,4 +512,5 @@ class BotMessenger
     {
         if ($driver === null && $this->driver === null) {
             throw new BotMessengerException('The current driver can\'t be NULL');
-     */
+        }
+
