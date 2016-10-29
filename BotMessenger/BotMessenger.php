@@ -444,4 +444,5 @@ class BotMessenger
             $parameters = $matchingMessage->getMatches();
             if (count($parameterNames) !== count($parameters)) {
                 $parameters = array_merge(
-use ChienIT\BotMessenger\Interfaces\Middleware\Sending;
+                    //First, all named parameters (eg. function ($a, $b, $c))
+<?php
