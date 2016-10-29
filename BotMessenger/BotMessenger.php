@@ -398,3 +398,5 @@ class BotMessenger
                     if ($this->loadedConversation === false) {
                         $this->callMatchingMessages();
                     }
+
+    abstract public function run();
