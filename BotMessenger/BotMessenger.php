@@ -410,3 +410,5 @@ class BotMessenger
                 }
 
                 $this->firedDriverEvents = false;
+                $this->message = new IncomingMessage('', '', '');
+    /** @var array */
