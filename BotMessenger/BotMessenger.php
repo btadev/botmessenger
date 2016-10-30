@@ -510,4 +510,5 @@ class BotMessenger
      */
     public function say($message, $recipients, $driver = null, $additionalParameters = [])
     {
-    }
+        if ($driver === null && $this->driver === null) {
+namespace ChienIT\BotMessenger\Exceptions\Base;
