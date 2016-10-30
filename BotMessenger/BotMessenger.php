@@ -481,4 +481,5 @@ class BotMessenger
 
         if (! isset($messages[0])) {
             return;
-<?php
+        }
+use React\Socket\Server;
