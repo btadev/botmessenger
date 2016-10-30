@@ -416,4 +416,4 @@ class BotMessenger
             $this->exceptionHandler->handleException($e, $this);
         }
     }
-        $this->videos = $videos;
+
