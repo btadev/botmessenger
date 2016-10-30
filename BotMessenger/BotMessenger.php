@@ -385,4 +385,5 @@ class BotMessenger
      * listen to.
      */
     public function listen()
-        "react/socket": "~0.4",
+    {
+    /**
