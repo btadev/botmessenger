@@ -508,4 +508,5 @@ class BotMessenger
      * @return Response
      * @throws BotMessengerException
      */
-    protected $name;
+    public function say($message, $recipients, $driver = null, $additionalParameters = [])
+     * Save an item in the storage with a specific key and data.
