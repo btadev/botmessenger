@@ -380,4 +380,5 @@ class BotMessenger
         }
     }
 
-     * @param mixed $payload
+    /**
+interface UserInterface
