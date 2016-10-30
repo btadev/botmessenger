@@ -539,4 +539,5 @@ class BotMessenger
     /**
      * @param string|Question $question
      * @param array|Closure $next
-
+     * @param array $additionalParameters
+     * Pattern that messages use to identify audio uploads.
