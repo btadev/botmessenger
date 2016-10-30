@@ -587,4 +587,4 @@ class BotMessenger
      *
      * @param string $endpoint
      * @param array $additionalParameters
-        foreach($installed as $pkg) {
+     * @return $this
