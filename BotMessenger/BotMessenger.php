@@ -506,3 +506,5 @@ class BotMessenger
      * @param DriverInterface|null $driver
      * @param array $additionalParameters
      * @return Response
+     * @throws BotMessengerException
+     */
