@@ -409,4 +409,4 @@ class BotMessenger
                     }
                 }
 
-            return $cached;
+                $this->firedDriverEvents = false;
