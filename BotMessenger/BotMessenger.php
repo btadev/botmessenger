@@ -526,4 +526,4 @@ class BotMessenger
         $recipients = is_array($recipients) ? $recipients : [$recipients];
 
         foreach ($recipients as $recipient) {
-{
+            $this->message = new IncomingMessage('', $recipient, '');
