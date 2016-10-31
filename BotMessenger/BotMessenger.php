@@ -582,4 +582,5 @@ class BotMessenger
         return $this;
     }
 
-     * Retrieve User information.
+    /**
+        }
