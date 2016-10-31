@@ -498,4 +498,5 @@ class BotMessenger
     protected function verifyServices()
     {
         return DriverManager::verifyServices($this->config);
-     * @param array $audio
+    }
+
