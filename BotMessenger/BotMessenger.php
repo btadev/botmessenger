@@ -535,3 +535,4 @@ class BotMessenger
 
         return $response;
     }
+
