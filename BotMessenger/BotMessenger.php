@@ -547,3 +547,5 @@ class BotMessenger
     public function ask($question, $next, $additionalParameters = [], $recipient = null, $driver = null)
     {
         if (! is_null($recipient) && ! is_null($driver)) {
+            if (is_string($driver)) {
+                $driver = basename(str_replace('\\', '/', $driver));
