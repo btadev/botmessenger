@@ -538,4 +538,5 @@ class BotMessenger
 
     /**
      * @param string|Question $question
+     * @param array|Closure $next
 
