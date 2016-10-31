@@ -395,4 +395,5 @@ class BotMessenger
                 if ($this->firedDriverEvents === false) {
                     $this->loadActiveConversation();
 
-    }
+                    if ($this->loadedConversation === false) {
+    /**
