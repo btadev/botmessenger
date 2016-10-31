@@ -514,3 +514,5 @@ class BotMessenger
             throw new BotMessengerException('The current driver can\'t be NULL');
         }
 
+        $previousDriver = $this->driver;
+    }
