@@ -508,3 +508,4 @@ class BotMessenger
      * @return Response
      * @throws BotMessengerException
      */
+    protected $name;
