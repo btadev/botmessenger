@@ -485,4 +485,4 @@ class BotMessenger
 
         $this->message = $messages[0];
 
-    }
+        $this->fallbackMessage = $this->getCallable($this->fallbackMessage);
