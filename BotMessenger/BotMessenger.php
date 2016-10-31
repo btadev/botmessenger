@@ -601,4 +601,5 @@ class BotMessenger
     }
 
     /**
+     * @param string|Question $message
      */
