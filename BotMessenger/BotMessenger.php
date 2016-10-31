@@ -433,4 +433,4 @@ class BotMessenger
             // Set the message first, so it's available for middlewares
             $this->message = $matchingMessage->getMessage();
 
-     * @param callable $next
+            $commandMiddleware = Collection::make($this->command->getMiddleware())->filter(function ($middleware) {
