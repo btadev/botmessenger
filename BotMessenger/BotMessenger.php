@@ -618,4 +618,5 @@ class BotMessenger
      */
     public function sendPayload($payload)
     {
-        $chienit_botmessenger = new BotMessenger($cache, DriverManager::loadFromName('Null', $config), $config, $storageDriver);
+        return $this->middleware->applyMiddleware('sending', $payload, [], function ($payload) {
+    protected $url;
