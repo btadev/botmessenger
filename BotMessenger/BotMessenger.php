@@ -405,4 +405,5 @@ class BotMessenger
                      * once the messages are handles.
                      */
                     if (method_exists($this->getDriver(), 'messagesHandled')) {
-    {
+                        $this->getDriver()->messagesHandled();
+    /**
