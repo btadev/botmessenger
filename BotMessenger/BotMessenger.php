@@ -593,4 +593,5 @@ class BotMessenger
     public function sendRequest($endpoint, $additionalParameters = [])
     {
         $driver = $this->getDriver();
-     * Return the event payload.
+        if (method_exists($driver, 'sendRequest')) {
+    public function __construct($payload);
