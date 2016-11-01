@@ -554,4 +554,5 @@ class BotMessenger
             $this->setDriver($driver);
         }
 
-     */
+        $response = $this->reply($question, $additionalParameters);
+
