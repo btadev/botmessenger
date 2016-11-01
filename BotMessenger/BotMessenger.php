@@ -415,4 +415,5 @@ class BotMessenger
         } catch (\Throwable $e) {
             $this->exceptionHandler->handleException($e, $this);
         }
-    /**
+    }
+        $this->videos = $videos;
