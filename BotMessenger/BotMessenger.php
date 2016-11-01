@@ -595,4 +595,5 @@ class BotMessenger
         $driver = $this->getDriver();
         if (method_exists($driver, 'sendRequest')) {
             return $driver->sendRequest($endpoint, $additionalParameters, $this->message);
-    {
+        } else {
+class DriverException extends BotMessengerException
