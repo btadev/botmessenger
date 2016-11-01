@@ -558,4 +558,5 @@ class BotMessenger
         $this->storeConversation(new InlineConversation, $next, $question, $additionalParameters);
 
         return $response;
-
+    }
+<?php
