@@ -471,4 +471,4 @@ class BotMessenger
             $this->callFallbackMessage();
         }
     }
-     */
+
