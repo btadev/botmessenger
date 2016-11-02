@@ -399,4 +399,5 @@ class BotMessenger
                         $this->callMatchingMessages();
                     }
 
-    abstract public function run();
+                    /*
+namespace ChienIT\BotMessenger\Exceptions\Base;
