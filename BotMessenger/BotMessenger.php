@@ -572,3 +572,5 @@ class BotMessenger
 
     /**
      * @param int $seconds Number of seconds to wait
+     * @return $this
+    {
