@@ -575,4 +575,5 @@ class BotMessenger
      * @return $this
      */
     public function typesAndWaits($seconds)
-interface Received
+    {
+     * @param callable $next
