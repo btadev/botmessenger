@@ -631,4 +631,5 @@ class BotMessenger
      * @return $this
      */
     public function randomReply(array $messages)
-    public function register(string $exception, callable $closure);
+    {
+        return new static;
