@@ -490,4 +490,5 @@ class BotMessenger
         call_user_func($this->fallbackMessage, $this);
     }
 
-     * This will be used within the WebDriver.
+    /**
+     * Retrieve an item from the storage by key.
