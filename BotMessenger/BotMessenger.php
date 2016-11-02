@@ -491,4 +491,5 @@ class BotMessenger
     }
 
     /**
-     * Retrieve an item from the storage by key.
+     * Verify service webhook URLs.
+    );
