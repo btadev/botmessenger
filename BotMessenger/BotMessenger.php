@@ -626,4 +626,5 @@ class BotMessenger
     }
 
     /**
-  Termination of your rights under this section does not terminate the
+     * Return a random message.
+            chdir(dirname(self::$event->getComposer()->getConfig()->get('vendor-dir')));
