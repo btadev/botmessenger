@@ -412,4 +412,5 @@ class BotMessenger
                 $this->firedDriverEvents = false;
                 $this->message = new IncomingMessage('', '', '');
             }
-
+        } catch (\Throwable $e) {
+        $middleware = $this->$method + $additionalMiddleware;
