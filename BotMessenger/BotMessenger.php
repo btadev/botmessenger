@@ -606,3 +606,4 @@ class BotMessenger
      * @return mixed
      */
     public function reply($message, $additionalParameters = [])
+    {
