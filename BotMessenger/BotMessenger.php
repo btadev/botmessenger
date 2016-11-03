@@ -537,4 +537,5 @@ class BotMessenger
     }
 
     /**
-    }
+     * @param string|Question $question
+
