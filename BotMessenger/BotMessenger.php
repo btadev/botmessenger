@@ -542,4 +542,5 @@ class BotMessenger
      * @param array $additionalParameters
      * @param null|string $recipient
      * @param null|string $driver
-     * Array representation of the question action.
+     * @return Response
+
