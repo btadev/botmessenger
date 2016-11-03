@@ -521,4 +521,5 @@ class BotMessenger
             $this->setDriver($driver);
         } elseif (is_string($driver)) {
             $this->setDriver(DriverManager::loadFromName($driver, $this->config));
-     * @return mixed
+        }
+
