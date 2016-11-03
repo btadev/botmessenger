@@ -583,4 +583,4 @@ class BotMessenger
     }
 
     /**
-        }
+     * Low-level method to perform driver specific API requests.
