@@ -437,4 +437,5 @@ class BotMessenger
                 return $middleware instanceof Heard;
             })->toArray();
 
-
+            $this->message = $this->middleware->applyMiddleware('heard', $matchingMessage->getMessage(), $commandMiddleware);
+     * @return string
