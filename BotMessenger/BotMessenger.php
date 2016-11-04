@@ -474,4 +474,5 @@ class BotMessenger
 
     /**
      * Call the fallback method.
-{
+     */
+    public function __toString()
