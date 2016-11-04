@@ -621,3 +621,5 @@ class BotMessenger
         return $this->middleware->applyMiddleware('sending', $payload, [], function ($payload) {
             $this->outgoingMessage = null;
 
+            return $this->getDriver()->sendPayload($payload);
+     * Handle an exception.
