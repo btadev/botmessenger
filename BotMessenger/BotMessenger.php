@@ -451,4 +451,5 @@ class BotMessenger
                         ARRAY_FILTER_USE_KEY
                     ),
                     //Then, all other unsorted parameters (regex non named results)
-{
+                    array_filter(
+     *
