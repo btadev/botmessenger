@@ -432,4 +432,5 @@ class BotMessenger
 
             // Set the message first, so it's available for middlewares
             $this->message = $matchingMessage->getMessage();
-        self::$instance = $driver;
+
+     * @param callable $next
