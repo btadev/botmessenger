@@ -638,4 +638,5 @@ class BotMessenger
     /**
      * Make an action for an invokable controller.
      *
-    protected static $drivers = [];
+     * @param string $action
+<?php
