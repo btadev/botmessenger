@@ -647,4 +647,4 @@ class BotMessenger
         if (! method_exists($action, '__invoke')) {
             throw new UnexpectedValueException(sprintf(
                 'Invalid hears action: [%s]', $action
-
+            ));
