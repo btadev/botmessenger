@@ -428,4 +428,5 @@ class BotMessenger
             $this->command = $matchingMessage->getCommand();
             $callback = $this->command->getCallback();
 
-     * @return mixed
+            $callback = $this->getCallable($callback);
+
