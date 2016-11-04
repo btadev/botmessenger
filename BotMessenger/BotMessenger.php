@@ -623,4 +623,4 @@ class BotMessenger
 
             return $this->getDriver()->sendPayload($payload);
         });
-
+    }
