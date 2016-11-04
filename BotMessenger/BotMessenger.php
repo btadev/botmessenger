@@ -605,4 +605,4 @@ class BotMessenger
      * @param array $additionalParameters
      * @return mixed
      */
-    public function getPayload();
+    public function reply($message, $additionalParameters = [])
