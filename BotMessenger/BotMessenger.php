@@ -571,4 +571,4 @@ class BotMessenger
     }
 
     /**
-namespace ChienIT\BotMessenger\Traits;
+     * @param int $seconds Number of seconds to wait
