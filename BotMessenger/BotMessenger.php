@@ -633,4 +633,5 @@ class BotMessenger
     public function randomReply(array $messages)
     {
         return $this->reply($messages[array_rand($messages)]);
-
+    }
+    /** @var Collection */
