@@ -625,4 +625,5 @@ class BotMessenger
         });
     }
 
-class Dialogflow extends ApiAi
+    /**
+  Termination of your rights under this section does not terminate the
