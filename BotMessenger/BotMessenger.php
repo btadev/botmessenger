@@ -441,4 +441,5 @@ class BotMessenger
 
             $parameterNames = $this->compileParameterNames($this->command->getPattern());
 
-    /**
+            $parameters = $matchingMessage->getMatches();
+
