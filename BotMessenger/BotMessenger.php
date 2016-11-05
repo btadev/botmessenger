@@ -664,3 +664,4 @@ class BotMessenger
         if ($callback instanceof Closure) {
             return $callback;
         }
+
