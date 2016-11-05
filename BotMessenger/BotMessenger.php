@@ -443,4 +443,5 @@ class BotMessenger
 
             $parameters = $matchingMessage->getMatches();
             if (count($parameterNames) !== count($parameters)) {
-     * Register a custom exception handler.
+                $parameters = array_merge(
+use ChienIT\BotMessenger\Interfaces\Middleware\Sending;
