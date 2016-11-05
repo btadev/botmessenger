@@ -530,4 +530,5 @@ class BotMessenger
             $response = $this->reply($message, $additionalParameters);
         }
 
-    /**
+        $this->message = $previousMessage;
+     * @return string
