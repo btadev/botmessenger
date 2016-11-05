@@ -470,4 +470,5 @@ class BotMessenger
         if (empty($matchingMessages) && empty($this->getBotMessages()) && ! is_null($this->fallbackMessage)) {
             $this->callFallbackMessage();
         }
-
+    }
+     */
