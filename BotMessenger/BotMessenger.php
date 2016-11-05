@@ -479,4 +479,5 @@ class BotMessenger
     {
         $messages = $this->getMessages();
 
-    }
+        if (! isset($messages[0])) {
+
