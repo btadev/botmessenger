@@ -517,4 +517,5 @@ class BotMessenger
         $previousDriver = $this->driver;
         $previousMessage = $this->message;
 
-
+        if ($driver instanceof DriverInterface) {
+     * Retrieve an item from the cache and delete it.
