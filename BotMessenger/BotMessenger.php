@@ -500,3 +500,4 @@ class BotMessenger
         return DriverManager::verifyServices($this->config);
     }
 
+{
