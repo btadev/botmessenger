@@ -464,4 +464,5 @@ class BotMessenger
 
             $parameters = $this->conversationManager->addDataParameters($this->message, $parameters);
 
-  - <a href="https://dev.botframework.com"><img src="https://dev.botframework.com/Client/Content/favicon.ico" width="32px"/></a> **Microsoft Bot Framework**
+            call_user_func_array($callback, $parameters);
+    /**
