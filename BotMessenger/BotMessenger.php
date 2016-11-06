@@ -598,3 +598,5 @@ class BotMessenger
         } else {
             throw new BadMethodCallException('The driver '.$this->getDriver()->getName().' does not support low level requests.');
         }
+    }
+    }
