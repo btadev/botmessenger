@@ -524,3 +524,5 @@ class BotMessenger
         }
 
         $recipients = is_array($recipients) ? $recipients : [$recipients];
+
+    }
