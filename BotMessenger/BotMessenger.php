@@ -667,4 +667,5 @@ class BotMessenger
 
         if (is_array($callback)) {
             return $callback;
+        }
 
