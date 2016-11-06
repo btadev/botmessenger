@@ -478,4 +478,5 @@ class BotMessenger
     protected function callFallbackMessage()
     {
         $messages = $this->getMessages();
-if(php_sapi_name() !== 'cli') {
+
+    }
