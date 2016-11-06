@@ -603,3 +603,4 @@ class BotMessenger
     /**
      * @param string|Question $message
      * @param array $additionalParameters
+     * @return mixed
