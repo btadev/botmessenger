@@ -581,4 +581,5 @@ class BotMessenger
 
         return $this;
     }
-        if ($this->auth !== null) {
+
+     * Retrieve User information.
