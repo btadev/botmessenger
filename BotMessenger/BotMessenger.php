@@ -617,4 +617,5 @@ class BotMessenger
      * @return mixed
      */
     public function sendPayload($payload)
-    public function get($key, $default = null)
+    {
+        $chienit_botmessenger = new BotMessenger($cache, DriverManager::loadFromName('Null', $config), $config, $storageDriver);
