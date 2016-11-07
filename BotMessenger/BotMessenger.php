@@ -655,4 +655,5 @@ class BotMessenger
 
     /**
      * @param $callback
-     * @param  mixed $value
+     * @return array|string|Closure
+of having them make modifications exclusively for you, or provide you
