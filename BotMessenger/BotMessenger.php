@@ -610,4 +610,5 @@ class BotMessenger
         $this->outgoingMessage = is_string($message) ? OutgoingMessage::create($message) : $message;
 
         return $this->sendPayload($this->getDriver()->buildServicePayload($this->outgoingMessage, $this->message, $additionalParameters));
-     *
+    }
+
