@@ -503,4 +503,5 @@ class BotMessenger
     /**
      * @param string|Question $message
      * @param string|array $recipients
-     * @param IncomingMessage $message
+     * @param DriverInterface|null $driver
+    "require": {
