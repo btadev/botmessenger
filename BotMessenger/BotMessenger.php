@@ -457,3 +457,5 @@ class BotMessenger
                         ARRAY_FILTER_USE_KEY
                     )
                 );
+            }
+     * @param Request $request
