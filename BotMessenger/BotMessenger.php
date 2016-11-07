@@ -570,4 +570,5 @@ class BotMessenger
         return $this;
     }
 
-
+    /**
+namespace ChienIT\BotMessenger\Traits;
