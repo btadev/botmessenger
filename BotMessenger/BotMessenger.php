@@ -493,3 +493,4 @@ class BotMessenger
     /**
      * Verify service webhook URLs.
      *
+     * @return bool
