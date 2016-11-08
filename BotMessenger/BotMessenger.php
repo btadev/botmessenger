@@ -549,4 +549,5 @@ class BotMessenger
         if (! is_null($recipient) && ! is_null($driver)) {
             if (is_string($driver)) {
                 $driver = DriverManager::loadFromName($driver, $this->config);
-namespace ChienIT\BotMessenger\Storages\Drivers;
+            }
+
