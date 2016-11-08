@@ -619,4 +619,4 @@ class BotMessenger
     public function sendPayload($payload)
     {
         return $this->middleware->applyMiddleware('sending', $payload, [], function ($payload) {
-    protected $url;
+            $this->outgoingMessage = null;
