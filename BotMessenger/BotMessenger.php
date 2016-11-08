@@ -651,3 +651,5 @@ class BotMessenger
         }
 
         return $action.'@__invoke';
+    }
+     */
