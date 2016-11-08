@@ -661,4 +661,5 @@ class BotMessenger
      */
     protected function getCallable($callback)
     {
-    {
+        if ($callback instanceof Closure) {
+    public function has($key)
