@@ -483,4 +483,5 @@ class BotMessenger
             return;
         }
 
+        $this->message = $messages[0];
 
