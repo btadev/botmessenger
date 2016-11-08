@@ -485,3 +485,4 @@ class BotMessenger
 
         $this->message = $messages[0];
 
+    }
