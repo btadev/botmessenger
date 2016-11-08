@@ -520,4 +520,5 @@ class BotMessenger
         if ($driver instanceof DriverInterface) {
             $this->setDriver($driver);
         } elseif (is_string($driver)) {
-use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+            $this->setDriver(DriverManager::loadFromName($driver, $this->config));
+     * @return mixed
