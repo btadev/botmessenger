@@ -594,4 +594,5 @@ class BotMessenger
     {
         $driver = $this->getDriver();
         if (method_exists($driver, 'sendRequest')) {
-    public function __construct($payload);
+            return $driver->sendRequest($endpoint, $additionalParameters, $this->message);
+    {
