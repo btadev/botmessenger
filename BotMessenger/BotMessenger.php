@@ -465,4 +465,5 @@ class BotMessenger
             $parameters = $this->conversationManager->addDataParameters($this->message, $parameters);
 
             call_user_func_array($callback, $parameters);
-    /**
+        }
+     * @return mixed
