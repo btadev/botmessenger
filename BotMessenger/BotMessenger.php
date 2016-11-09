@@ -687,4 +687,4 @@ class BotMessenger
     {
         return $this->matches;
     }
-            ->setDefaultKey($this->getMessage()->getRecipient());
+
