@@ -525,4 +525,5 @@ class BotMessenger
 
         $recipients = is_array($recipients) ? $recipients : [$recipients];
 
-    }
+        foreach ($recipients as $recipient) {
+{
