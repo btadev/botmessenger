@@ -627,4 +627,5 @@ class BotMessenger
 
     /**
      * Return a random message.
-            chdir(dirname(self::$event->getComposer()->getConfig()->get('vendor-dir')));
+     * @param array $messages
+            if(isset($pkged[$drive['name']])) echo ' [Installed]';
