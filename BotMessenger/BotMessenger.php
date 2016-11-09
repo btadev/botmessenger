@@ -545,4 +545,5 @@ class BotMessenger
      * @return Response
      */
     public function ask($question, $next, $additionalParameters = [], $recipient = null, $driver = null)
-<?php
+    {
+     * @param Request|null $request
