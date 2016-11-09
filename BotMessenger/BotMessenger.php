@@ -560,4 +560,4 @@ class BotMessenger
         return $response;
     }
 
-use ChienIT\BotMessenger\Interfaces\UserInterface;
+    /**
