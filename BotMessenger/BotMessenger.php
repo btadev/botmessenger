@@ -492,4 +492,4 @@ class BotMessenger
 
     /**
      * Verify service webhook URLs.
-    );
+     *
