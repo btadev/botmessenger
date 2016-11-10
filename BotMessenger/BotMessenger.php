@@ -576,4 +576,5 @@ class BotMessenger
      */
     public function typesAndWaits($seconds)
     {
-     * @param callable $next
+        $this->getDriver()->types($this->message);
+     * @param mixed $payload
