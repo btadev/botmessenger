@@ -637,4 +637,5 @@ class BotMessenger
 
     /**
      * Make an action for an invokable controller.
-use ChienIT\BotMessenger\Messages\Matcher;
+     *
+    protected static $drivers = [];
