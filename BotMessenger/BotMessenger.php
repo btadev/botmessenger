@@ -591,3 +591,5 @@ class BotMessenger
      * @throws BadMethodCallException
      */
     public function sendRequest($endpoint, $additionalParameters = [])
+    {
+<?php
