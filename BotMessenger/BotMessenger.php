@@ -715,4 +715,5 @@ class BotMessenger
         if (method_exists($this->getDriver(), $name)) {
             // Add the current message to the passed arguments
             $arguments[] = $this->getMessage();
-class BadMethodCallException extends BotMessengerException
+            $arguments[] = $this;
+{
