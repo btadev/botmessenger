@@ -531,4 +531,5 @@ class BotMessenger
         }
 
         $this->message = $previousMessage;
-     * @return string
+        $this->driver = $previousDriver;
+     */
