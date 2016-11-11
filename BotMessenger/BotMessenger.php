@@ -685,4 +685,5 @@ class BotMessenger
      */
     public function getMatches()
     {
-interface StorageInterface
+        return $this->matches;
+     * @return void
