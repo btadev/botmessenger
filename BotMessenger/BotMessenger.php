@@ -676,3 +676,5 @@ class BotMessenger
         list($class, $method) = explode('@', $callback);
 
         $command = $this->container ? $this->container->get($class) : new $class($this);
+
+    }
