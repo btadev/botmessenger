@@ -640,4 +640,5 @@ class BotMessenger
      *
      * @param string $action
      * @return string
-<?php
+     * @throws UnexpectedValueException
+
