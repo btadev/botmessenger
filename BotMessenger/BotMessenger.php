@@ -712,4 +712,5 @@ class BotMessenger
      */
     public function __call($name, $arguments)
     {
-     * @param IncomingMessage $message
+        if (method_exists($this->getDriver(), $name)) {
+        return $this->attachment;
