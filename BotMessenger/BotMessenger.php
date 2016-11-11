@@ -528,3 +528,5 @@ class BotMessenger
         foreach ($recipients as $recipient) {
             $this->message = new IncomingMessage('', $recipient, '');
             $response = $this->reply($message, $additionalParameters);
+        }
+        return $r[0] ?: $default;
