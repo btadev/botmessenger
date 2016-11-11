@@ -659,4 +659,4 @@ class BotMessenger
      * @throws UnexpectedValueException
      * @throws NotFoundExceptionInterface
      */
-     * Handle a message that was successfully heard, but not processed yet.
+    protected function getCallable($callback)
