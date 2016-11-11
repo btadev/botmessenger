@@ -681,4 +681,4 @@ class BotMessenger
     }
 
     /**
-namespace ChienIT\BotMessenger\Exceptions\Core;
+     * @return array
