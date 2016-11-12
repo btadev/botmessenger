@@ -649,3 +649,5 @@ class BotMessenger
                 'Invalid hears action: [%s]', $action
             ));
         }
+
+     * @param BotMessenger $bot
