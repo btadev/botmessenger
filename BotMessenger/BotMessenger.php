@@ -555,4 +555,5 @@ class BotMessenger
         }
 
         $response = $this->reply($question, $additionalParameters);
-
+        $this->storeConversation(new InlineConversation, $next, $question, $additionalParameters);
+}
