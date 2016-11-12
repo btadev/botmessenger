@@ -534,3 +534,4 @@ class BotMessenger
         $this->driver = $previousDriver;
 
         return $response;
+    }
