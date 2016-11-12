@@ -567,3 +567,5 @@ class BotMessenger
     {
         $this->getDriver()->types($this->message);
 
+        return $this;
+class Psr6Cache implements CacheInterface
