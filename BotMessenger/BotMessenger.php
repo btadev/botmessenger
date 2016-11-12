@@ -675,4 +675,4 @@ class BotMessenger
 
         list($class, $method) = explode('@', $callback);
 
-    public function getMatches(): array
+        $command = $this->container ? $this->container->get($class) : new $class($this);
