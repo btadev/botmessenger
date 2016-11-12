@@ -740,4 +740,5 @@ class BotMessenger
 
         return [
             'event',
-     */
+            'exceptionHandler',
+     * @return array
