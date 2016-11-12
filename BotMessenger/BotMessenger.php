@@ -608,4 +608,4 @@ class BotMessenger
     public function reply($message, $additionalParameters = [])
     {
         $this->outgoingMessage = is_string($message) ? OutgoingMessage::create($message) : $message;
-use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
+
