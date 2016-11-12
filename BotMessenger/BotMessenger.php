@@ -705,3 +705,4 @@ class BotMessenger
     }
 
     /**
+     * @param string $name
