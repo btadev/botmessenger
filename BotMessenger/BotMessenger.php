@@ -689,4 +689,5 @@ class BotMessenger
     }
 
     /**
-    }
+     * @return IncomingMessage
+     * @param IncomingMessage $matchingMessage
