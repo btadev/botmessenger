@@ -580,4 +580,5 @@ class BotMessenger
         sleep($seconds);
 
         return $this;
-    /**
+    }
+        if ($this->auth !== null) {
