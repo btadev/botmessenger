@@ -690,4 +690,5 @@ class BotMessenger
 
     /**
      * @return IncomingMessage
-     * @param IncomingMessage $matchingMessage
+     */
+    /** @var bool */
