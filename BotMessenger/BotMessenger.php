@@ -551,4 +551,5 @@ class BotMessenger
                 $driver = DriverManager::loadFromName($driver, $this->config);
             }
             $this->message = new IncomingMessage('', $recipient, '');
+            $this->setDriver($driver);
     }
