@@ -642,4 +642,5 @@ class BotMessenger
      * @return string
      * @throws UnexpectedValueException
      */
-        return $this->message;
+    protected function makeInvokableAction($action)
+        return $default;
