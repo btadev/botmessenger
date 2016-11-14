@@ -628,4 +628,4 @@ class BotMessenger
     /**
      * Return a random message.
      * @param array $messages
-            if(isset($pkged[$drive['name']])) echo ' [Installed]';
+     * @return $this
