@@ -546,4 +546,4 @@ class BotMessenger
      */
     public function ask($question, $next, $additionalParameters = [], $recipient = null, $driver = null)
     {
-     * @param Request|null $request
+        if (! is_null($recipient) && ! is_null($driver)) {
