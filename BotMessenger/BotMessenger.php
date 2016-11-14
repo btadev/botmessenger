@@ -670,4 +670,5 @@ class BotMessenger
         }
 
         if (strpos($callback, '@') === false) {
-
+            $callback = $this->makeInvokableAction($callback);
+    }
