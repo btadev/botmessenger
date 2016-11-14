@@ -660,3 +660,5 @@ class BotMessenger
      * @throws NotFoundExceptionInterface
      */
     protected function getCallable($callback)
+    {
+    {
