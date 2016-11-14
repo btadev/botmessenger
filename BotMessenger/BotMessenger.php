@@ -731,4 +731,4 @@ class BotMessenger
         $this->driver = DriverManager::loadFromName($this->driverName, $this->config);
     }
 
-
+    /**
