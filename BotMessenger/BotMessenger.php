@@ -596,4 +596,5 @@ class BotMessenger
         if (method_exists($driver, 'sendRequest')) {
             return $driver->sendRequest($endpoint, $additionalParameters, $this->message);
         } else {
-class DriverException extends BotMessengerException
+            throw new BadMethodCallException('The driver '.$this->getDriver()->getName().' does not support low level requests.');
+use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
