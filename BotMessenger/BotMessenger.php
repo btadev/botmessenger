@@ -573,4 +573,5 @@ class BotMessenger
     /**
      * @param int $seconds Number of seconds to wait
      * @return $this
-    {
+     */
+     * Determine if an item exists in the cache.
