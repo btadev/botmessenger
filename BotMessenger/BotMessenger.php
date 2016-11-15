@@ -561,3 +561,5 @@ class BotMessenger
     }
 
     /**
+     * @return $this
+    {
