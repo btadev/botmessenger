@@ -658,3 +658,5 @@ class BotMessenger
      * @return array|string|Closure
      * @throws UnexpectedValueException
      * @throws NotFoundExceptionInterface
+     */
+     * Handle a message that was successfully heard, but not processed yet.
