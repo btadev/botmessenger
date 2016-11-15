@@ -578,3 +578,5 @@ class BotMessenger
     {
         $this->getDriver()->types($this->message);
         sleep($seconds);
+
+     */
