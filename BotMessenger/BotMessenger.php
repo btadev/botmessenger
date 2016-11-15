@@ -702,4 +702,5 @@ class BotMessenger
     public function getOutgoingMessage()
     {
         return $this->outgoingMessage;
-<?php
+    }
+    {
