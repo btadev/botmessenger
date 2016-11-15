@@ -694,4 +694,5 @@ class BotMessenger
     public function getMessage()
     {
         return $this->message;
-    {
+    }
+     *
