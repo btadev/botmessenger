@@ -652,4 +652,5 @@ class BotMessenger
 
         return $action.'@__invoke';
     }
-     */
+
+     * Retrieve User information.
