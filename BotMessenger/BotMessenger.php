@@ -744,4 +744,5 @@ class BotMessenger
             'driverName',
             'storage',
             'message',
-class GenericEvent implements DriverEventInterface
+            'cache',
+
