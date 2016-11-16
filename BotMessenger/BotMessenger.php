@@ -716,4 +716,4 @@ class BotMessenger
             // Add the current message to the passed arguments
             $arguments[] = $this->getMessage();
             $arguments[] = $this;
-{
+
