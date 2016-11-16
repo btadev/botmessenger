@@ -707,3 +707,5 @@ class BotMessenger
     /**
      * @param string $name
      * @param array $arguments
+     * @return mixed
+
