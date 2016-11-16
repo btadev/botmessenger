@@ -616,4 +616,5 @@ class BotMessenger
      * @param $payload
      * @return mixed
      */
-use ChienIT\BotMessenger\Interfaces\CacheInterface;
+    public function sendPayload($payload)
+    public function get($key, $default = null)
