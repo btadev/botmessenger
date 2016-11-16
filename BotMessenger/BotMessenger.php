@@ -727,4 +727,4 @@ class BotMessenger
      * Load driver on wakeup.
      */
     public function __wakeup()
-        return $this;
+    {
