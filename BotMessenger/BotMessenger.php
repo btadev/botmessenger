@@ -620,3 +620,4 @@ class BotMessenger
     {
         return $this->middleware->applyMiddleware('sending', $payload, [], function ($payload) {
             $this->outgoingMessage = null;
+
