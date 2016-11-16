@@ -746,3 +746,5 @@ class BotMessenger
             'message',
             'cache',
             'matches',
+            'matcher',
+    {
