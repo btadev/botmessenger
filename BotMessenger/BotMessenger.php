@@ -654,4 +654,5 @@ class BotMessenger
     }
 
     /**
-
+     * @param $callback
+     * @param  mixed $value
