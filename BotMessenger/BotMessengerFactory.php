@@ -30,4 +30,5 @@ class BotMessengerFactory
      * @param array $arguments
      * @return mixed
      */
-namespace ChienIT\BotMessenger\Drivers;
+    public static function __callStatic($name, $arguments)
+     * Register a new exception type.
