@@ -678,4 +678,5 @@ class BotMessenger
         $command = $this->container ? $this->container->get($class) : new $class($this);
 
         return [$command, $method];
-     * @return string
+    }
+     */
