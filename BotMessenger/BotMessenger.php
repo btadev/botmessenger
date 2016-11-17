@@ -657,3 +657,4 @@ class BotMessenger
      * @param $callback
      * @return array|string|Closure
      * @throws UnexpectedValueException
+     * @throws NotFoundExceptionInterface
