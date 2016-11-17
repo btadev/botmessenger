@@ -729,3 +729,5 @@ class BotMessenger
     public function __wakeup()
     {
         $this->driver = DriverManager::loadFromName($this->driverName, $this->config);
+    }
+        parent::__construct($payload);
