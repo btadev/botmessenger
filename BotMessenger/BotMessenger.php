@@ -622,4 +622,5 @@ class BotMessenger
             $this->outgoingMessage = null;
 
             return $this->getDriver()->sendPayload($payload);
-     * Handle an exception.
+        });
+
