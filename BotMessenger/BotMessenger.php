@@ -565,4 +565,5 @@ class BotMessenger
      */
     public function types()
     {
-use ChienIT\BotMessenger\BotMessenger;
+        $this->getDriver()->types($this->message);
+namespace ChienIT\BotMessenger\Interfaces;
