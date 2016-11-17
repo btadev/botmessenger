@@ -629,3 +629,5 @@ class BotMessenger
      * Return a random message.
      * @param array $messages
      * @return $this
+     */
+    {
