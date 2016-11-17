@@ -643,4 +643,5 @@ class BotMessenger
      * @throws UnexpectedValueException
      */
     protected function makeInvokableAction($action)
-        return $default;
+    {
+    {
