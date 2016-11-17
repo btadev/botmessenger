@@ -559,4 +559,5 @@ class BotMessenger
 
         return $response;
     }
-<?php
+
+use ChienIT\BotMessenger\Interfaces\UserInterface;
