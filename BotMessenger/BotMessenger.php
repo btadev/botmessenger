@@ -656,4 +656,4 @@ class BotMessenger
     /**
      * @param $callback
      * @return array|string|Closure
-of having them make modifications exclusively for you, or provide you
+     * @throws UnexpectedValueException
