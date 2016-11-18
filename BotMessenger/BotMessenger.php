@@ -711,4 +711,5 @@ class BotMessenger
      * @throws BadMethodCallException
      */
     public function __call($name, $arguments)
-            call_user_func([$driver, 'loadExtension']);
+    {
+     * @param IncomingMessage $message
