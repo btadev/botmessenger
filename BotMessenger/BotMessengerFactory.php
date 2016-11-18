@@ -12,4 +12,4 @@ use Symfony\Component\HttpFoundation\Request;
 use ChienIT\BotMessenger\Interfaces\StorageInterface;
 use ChienIT\BotMessenger\Storages\Drivers\FileStorage;
 
-     */
+class BotMessengerFactory
