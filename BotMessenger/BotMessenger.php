@@ -749,4 +749,4 @@ class BotMessenger
             'matcher',
             'config',
             'middleware',
-}
+        ];
