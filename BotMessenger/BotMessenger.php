@@ -612,4 +612,5 @@ class BotMessenger
         return $this->sendPayload($this->getDriver()->buildServicePayload($this->outgoingMessage, $this->message, $additionalParameters));
     }
 
-{
+    /**
+     * @return mixed
