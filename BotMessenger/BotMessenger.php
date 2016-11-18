@@ -720,4 +720,5 @@ class BotMessenger
             return call_user_func_array([$this->getDriver(), $name], $arguments);
         }
 
-}
+        throw new BadMethodCallException('Method ['.$name.'] does not exist.');
+interface Sending
