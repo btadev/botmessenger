@@ -713,4 +713,5 @@ class BotMessenger
     public function __call($name, $arguments)
     {
         if (method_exists($this->getDriver(), $name)) {
-        return $this->attachment;
+            // Add the current message to the passed arguments
+avoid the special danger that patents applied to a free program could
