@@ -723,4 +723,4 @@ class BotMessenger
         throw new BadMethodCallException('Method ['.$name.'] does not exist.');
     }
 
-
+    /**
