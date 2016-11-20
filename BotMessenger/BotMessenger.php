@@ -737,4 +737,4 @@ class BotMessenger
     public function __sleep()
     {
         $this->driverName = $this->driver->getName();
-    public static function setInstance(DriverInterface $driver)
+
