@@ -645,4 +645,4 @@ class BotMessenger
     protected function makeInvokableAction($action)
     {
         if (! method_exists($action, '__invoke')) {
-}
+            throw new UnexpectedValueException(sprintf(
