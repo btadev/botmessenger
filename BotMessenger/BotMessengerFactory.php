@@ -57,3 +57,4 @@ class BotMessengerFactory
         if (empty($cache)) {
             $cache = new ArrayCache();
         }
+        if (empty($request)) {
