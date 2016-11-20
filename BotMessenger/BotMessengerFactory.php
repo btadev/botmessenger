@@ -36,4 +36,4 @@ class BotMessengerFactory
             return call_user_func_array(self::$extensions[$name], $arguments);
         } catch (\Exception $e) {
             throw new \BadMethodCallException("Method [$name] does not exist.");
-
+        }
