@@ -691,4 +691,4 @@ class BotMessenger
     /**
      * @return IncomingMessage
      */
-    /** @var bool */
+    public function getMessage()
