@@ -698,4 +698,5 @@ class BotMessenger
 
     /**
      * @return OutgoingMessage|Question
-    }
+     */
+     */
