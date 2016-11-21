@@ -55,4 +55,4 @@ class BotMessengerFactory
         StorageInterface $storageDriver = null
     ) {
         if (empty($cache)) {
-    public function setVideos(array $videos)
+            $cache = new ArrayCache();
