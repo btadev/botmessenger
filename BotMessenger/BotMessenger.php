@@ -648,3 +648,4 @@ class BotMessenger
             throw new UnexpectedValueException(sprintf(
                 'Invalid hears action: [%s]', $action
             ));
+        }
