@@ -589,4 +589,4 @@ class BotMessenger
      * @param array $additionalParameters
      * @return $this
      * @throws BadMethodCallException
-{
+     */
