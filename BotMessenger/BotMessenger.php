@@ -703,4 +703,5 @@ class BotMessenger
     {
         return $this->outgoingMessage;
     }
-    {
+
+    /**
