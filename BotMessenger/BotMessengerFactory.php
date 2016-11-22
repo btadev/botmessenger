@@ -1,4 +1,5 @@
 <?php
 
 namespace ChienIT\BotMessenger;
-        return $this->toArray();
+
+     * @param BotMessenger $bot
