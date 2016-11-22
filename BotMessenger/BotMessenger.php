@@ -679,4 +679,4 @@ class BotMessenger
 
         return [$command, $method];
     }
-     */
+
