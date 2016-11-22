@@ -81,3 +81,4 @@ class BotMessengerFactory
      */
     public static function createForSocket(
         array $config,
+        LoopInterface $loop,
