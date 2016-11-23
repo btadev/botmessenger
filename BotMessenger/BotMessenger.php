@@ -709,4 +709,5 @@ class BotMessenger
      * @param array $arguments
      * @return mixed
      * @throws BadMethodCallException
-    }
+     */
+     * @param callable $closure
