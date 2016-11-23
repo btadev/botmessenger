@@ -718,3 +718,5 @@ class BotMessenger
             $arguments[] = $this;
 
             return call_user_func_array([$this->getDriver(), $name], $arguments);
+        }
+    }
