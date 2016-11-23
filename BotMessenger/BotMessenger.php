@@ -613,4 +613,4 @@ class BotMessenger
     }
 
     /**
-     * @return mixed
+     * @param $payload
