@@ -743,4 +743,5 @@ class BotMessenger
             'exceptionHandler',
             'driverName',
             'storage',
-    /**
+            'message',
+class GenericEvent implements DriverEventInterface
