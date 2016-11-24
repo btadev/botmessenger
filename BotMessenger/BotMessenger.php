@@ -751,4 +751,5 @@ class BotMessenger
             'middleware',
         ];
     }
-     * @return $this
+}
+<?php
