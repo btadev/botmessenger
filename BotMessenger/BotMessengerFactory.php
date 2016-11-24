@@ -80,3 +80,4 @@ class BotMessengerFactory
      * @return ChienIT\BotMessenger\BotMessenger
      */
     public static function createForSocket(
+        array $config,
