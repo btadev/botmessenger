@@ -750,3 +750,5 @@ class BotMessenger
             'config',
             'middleware',
         ];
+    }
+     * @return $this
