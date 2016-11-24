@@ -635,4 +635,5 @@ class BotMessenger
         return $this->reply($messages[array_rand($messages)]);
     }
 
-interface VerifiesService
+    /**
+        ];
