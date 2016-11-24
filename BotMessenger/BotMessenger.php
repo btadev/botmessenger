@@ -669,3 +669,4 @@ class BotMessenger
             return $callback;
         }
 
+     * @param $payload
