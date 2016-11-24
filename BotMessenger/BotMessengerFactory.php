@@ -18,3 +18,5 @@ class BotMessengerFactory
 
     /**
      * @param $methodName
+     * @param $callable
+    /**
