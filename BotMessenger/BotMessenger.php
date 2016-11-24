@@ -624,3 +624,5 @@ class BotMessenger
             return $this->getDriver()->sendPayload($payload);
         });
     }
+
+class Dialogflow extends ApiAi
