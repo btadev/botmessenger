@@ -673,4 +673,5 @@ class BotMessenger
             $callback = $this->makeInvokableAction($callback);
         }
 
-
+        list($class, $method) = explode('@', $callback);
+     */
