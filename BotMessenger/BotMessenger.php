@@ -684,4 +684,5 @@ class BotMessenger
      * @return array
      */
     public function getMatches()
-     */
+    {
+interface StorageInterface
