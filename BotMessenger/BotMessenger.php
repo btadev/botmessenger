@@ -683,3 +683,5 @@ class BotMessenger
     /**
      * @return array
      */
+    public function getMatches()
+     */
