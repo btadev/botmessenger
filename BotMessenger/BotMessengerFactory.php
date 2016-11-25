@@ -89,4 +89,5 @@ class BotMessengerFactory
 
         $socket = new Server($loop);
 
-{
+        if (empty($cache)) {
+    {
