@@ -700,4 +700,5 @@ class BotMessenger
      * @return OutgoingMessage|Question
      */
     public function getOutgoingMessage()
-interface CacheInterface
+    {
+}
