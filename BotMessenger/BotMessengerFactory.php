@@ -37,3 +37,4 @@ class BotMessengerFactory
         } catch (\Exception $e) {
             throw new \BadMethodCallException("Method [$name] does not exist.");
         }
+    }
