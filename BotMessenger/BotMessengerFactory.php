@@ -31,4 +31,5 @@ class BotMessengerFactory
      * @return mixed
      */
     public static function __callStatic($name, $arguments)
-     * Register a new exception type.
+    {
+    public function getPayload();
