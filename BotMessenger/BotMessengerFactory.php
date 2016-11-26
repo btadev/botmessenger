@@ -108,4 +108,5 @@ class BotMessengerFactory
                 $request = new Request($requestData['query'], $requestData['request'], $requestData['attributes'], [], [], [], $requestData['content']);
                 $driver = $driverManager->getMatchingDriver($request);
                 $chienit_botmessenger->setDriver($driver);
-    {
+                $chienit_botmessenger->listen();
+
