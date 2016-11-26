@@ -641,4 +641,5 @@ class BotMessenger
      * @param string $action
      * @return string
      * @throws UnexpectedValueException
-
+     */
+        return $this->message;
