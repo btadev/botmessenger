@@ -738,3 +738,4 @@ class BotMessenger
     {
         $this->driverName = $this->driver->getName();
 
+        return [
