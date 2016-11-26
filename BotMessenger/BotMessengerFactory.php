@@ -49,4 +49,5 @@ class BotMessengerFactory
      * @return ChienIT\BotMessenger\BotMessenger
      */
     public static function create(
+        array $config,
 
