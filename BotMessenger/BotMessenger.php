@@ -669,4 +669,5 @@ class BotMessenger
             return $callback;
         }
 
-     * @param $payload
+        if (strpos($callback, '@') === false) {
+
