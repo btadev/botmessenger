@@ -125,4 +125,4 @@ class BotMessengerFactory
      */
     public static function passRequestToSocket($port = 8080, Request $request = null)
     {
-     */
+        if (empty($request)) {
