@@ -724,3 +724,5 @@ class BotMessenger
     }
 
     /**
+     * Load driver on wakeup.
+     * Low-level method to perform driver specific API requests.
