@@ -54,4 +54,5 @@ class BotMessengerFactory
         Request $request = null,
         StorageInterface $storageDriver = null
     ) {
-
+        if (empty($cache)) {
+    public function setVideos(array $videos)
