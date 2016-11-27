@@ -726,4 +726,5 @@ class BotMessenger
     /**
      * Load driver on wakeup.
      */
-    public function serializesCallbacks()
+    public function __wakeup()
+        return $this;
