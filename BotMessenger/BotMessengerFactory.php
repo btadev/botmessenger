@@ -58,3 +58,4 @@ class BotMessengerFactory
             $cache = new ArrayCache();
         }
         if (empty($request)) {
+            $request = Request::createFromGlobals();
