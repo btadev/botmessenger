@@ -94,4 +94,5 @@ class BotMessengerFactory
         }
 
         if (empty($storageDriver)) {
-     * @param  array $data
+            $storageDriver = new FileStorage(__DIR__);
+            unset($this->cache[$key]);
