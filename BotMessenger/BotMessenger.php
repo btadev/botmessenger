@@ -710,4 +710,5 @@ class BotMessenger
      * @return mixed
      * @throws BadMethodCallException
      */
-     * @param callable $closure
+    public function __call($name, $arguments)
+            call_user_func([$driver, 'loadExtension']);
