@@ -748,4 +748,5 @@ class BotMessenger
             'matches',
             'matcher',
             'config',
-    /**
+            'middleware',
+}
