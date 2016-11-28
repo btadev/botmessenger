@@ -59,3 +59,5 @@ class BotMessengerFactory
         }
         if (empty($request)) {
             $request = Request::createFromGlobals();
+        }
+     */
