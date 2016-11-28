@@ -734,3 +734,5 @@ class BotMessenger
     /**
      * @return array
      */
+    public function __sleep()
+     */
