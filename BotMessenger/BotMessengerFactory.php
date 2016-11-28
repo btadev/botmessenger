@@ -9,4 +9,5 @@ use ChienIT\BotMessenger\Cache\ArrayCache;
 use ChienIT\BotMessenger\Drivers\DriverManager;
 use ChienIT\BotMessenger\Interfaces\CacheInterface;
 use Symfony\Component\HttpFoundation\Request;
-}
+use ChienIT\BotMessenger\Interfaces\StorageInterface;
+    {
