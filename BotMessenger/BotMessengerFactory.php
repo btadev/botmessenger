@@ -72,4 +72,5 @@ class BotMessengerFactory
 
     /**
      * Create a new BotMessenger instance that listens on a socket.
-    const PARAM_NAME_REGEX = '/\{((?:(?!\d+,?\d+?)\w)+?)\}/';
+     *
+
