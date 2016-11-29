@@ -17,3 +17,4 @@ class BotMessengerFactory
     private static $extensions = [];
 
     /**
+     * @param $methodName
