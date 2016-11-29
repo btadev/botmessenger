@@ -73,4 +73,5 @@ class BotMessengerFactory
     /**
      * Create a new BotMessenger instance that listens on a socket.
      *
-
+     * @param array $config
+{
