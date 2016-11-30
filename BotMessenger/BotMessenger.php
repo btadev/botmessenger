@@ -742,4 +742,5 @@ class BotMessenger
             'event',
             'exceptionHandler',
             'driverName',
-    {
+            'storage',
+    /**
