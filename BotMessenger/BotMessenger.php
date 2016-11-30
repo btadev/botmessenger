@@ -680,3 +680,5 @@ class BotMessenger
         return [$command, $method];
     }
 
+    /**
+namespace ChienIT\BotMessenger\Exceptions\Core;
