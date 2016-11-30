@@ -52,3 +52,4 @@ class BotMessengerFactory
         array $config,
         CacheInterface $cache = null,
         Request $request = null,
+        StorageInterface $storageDriver = null
