@@ -16,3 +16,4 @@ class BotMessengerFactory
 {
     private static $extensions = [];
 
+    /**
