@@ -83,4 +83,5 @@ class BotMessengerFactory
         array $config,
         LoopInterface $loop,
         CacheInterface $cache = null,
-            'type' => 'video',
+        StorageInterface $storageDriver = null
+    {
