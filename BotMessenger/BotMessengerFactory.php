@@ -44,4 +44,5 @@ class BotMessengerFactory
      *
      * @param array $config
      * @param CacheInterface $cache
-class UnexpectedValueException extends BotMessengerException
+     * @param Request $request
+use ChienIT\BotMessenger\Cache\ArrayCache;
