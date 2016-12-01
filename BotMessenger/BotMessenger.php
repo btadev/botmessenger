@@ -732,3 +732,5 @@ class BotMessenger
     }
 
     /**
+     * @return array
+    /**
