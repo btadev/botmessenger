@@ -101,3 +101,5 @@ class BotMessengerFactory
 
         $chienit_botmessenger = new BotMessenger($cache, DriverManager::loadFromName('Null', $config), $config, $storageDriver);
         $chienit_botmessenger->runsOnSocket(true);
+
+{
