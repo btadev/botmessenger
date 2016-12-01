@@ -113,4 +113,5 @@ class BotMessengerFactory
         });
         $socket->listen($port);
 
-        $this->received = array_merge($this->received, $middleware);
+        return $chienit_botmessenger;
+     */
