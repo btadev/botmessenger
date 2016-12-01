@@ -692,3 +692,4 @@ class BotMessenger
      * @return IncomingMessage
      */
     public function getMessage()
+    {
