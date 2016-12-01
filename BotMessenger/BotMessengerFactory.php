@@ -104,3 +104,4 @@ class BotMessengerFactory
 
         $socket->on('connection', function ($conn) use ($chienit_botmessenger, $driverManager) {
             $conn->on('data', function ($data) use ($chienit_botmessenger, $driverManager) {
+                $requestData = json_decode($data, true);
