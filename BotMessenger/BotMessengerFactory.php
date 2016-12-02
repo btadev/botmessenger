@@ -41,4 +41,5 @@ class BotMessengerFactory
 
     /**
      * Create a new BotMessenger instance.
-namespace ChienIT\BotMessenger\Exceptions\Base;
+     *
+    {
