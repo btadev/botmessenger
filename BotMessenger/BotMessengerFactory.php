@@ -66,4 +66,4 @@ class BotMessengerFactory
 
         $driverManager = new DriverManager($config, new Curl());
         $driver = $driverManager->getMatchingDriver($request);
-        "tightenco/collect": "~5.0",
+
