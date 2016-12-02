@@ -32,4 +32,5 @@ class ArrayCache implements CacheInterface
     public function get($key, $default = null)
     {
         if (isset($this->cache[$key])) {
-covered work, you indicate your acceptance of this License to do so.
+            return $this->cache[$key];
+        }
