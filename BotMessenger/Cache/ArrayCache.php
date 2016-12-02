@@ -19,3 +19,4 @@ class ArrayCache implements CacheInterface
      */
     public function has($key)
     {
+        return isset($this->cache[$key]);
