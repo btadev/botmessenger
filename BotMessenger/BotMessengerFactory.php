@@ -42,4 +42,4 @@ class BotMessengerFactory
     /**
      * Create a new BotMessenger instance.
      *
-    {
+     * @param array $config
