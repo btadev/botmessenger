@@ -33,4 +33,5 @@ class BotMessengerFactory
     public static function __callStatic($name, $arguments)
     {
         try {
-use ChienIT\BotMessenger\Interfaces\WebAccess;
+            return call_user_func_array(self::$extensions[$name], $arguments);
+    public function sending($payload, $next, BotMessenger $bot);
