@@ -34,3 +34,4 @@ class ArrayCache implements CacheInterface
         if (isset($this->cache[$key])) {
             return $this->cache[$key];
         }
+     * @param IncomingMessage $message
