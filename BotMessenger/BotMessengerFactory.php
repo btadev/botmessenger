@@ -123,4 +123,5 @@ class BotMessengerFactory
      * @param  Request|null $request
      * @return void
      */
-    public function verifyRequest(Request $request);
+    public static function passRequestToSocket($port = 8080, Request $request = null)
+     * Retrieve an item from the cache by key.
