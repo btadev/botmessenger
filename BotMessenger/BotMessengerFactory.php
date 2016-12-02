@@ -1,3 +1,4 @@
 <?php
 
-     * @param null|string $recipient
+namespace ChienIT\BotMessenger;
+        return $this->toArray();
