@@ -137,4 +137,4 @@ class BotMessengerFactory
             'content' => $request->getContent(),
         ]));
         fclose($client);
-    /**
+    }
