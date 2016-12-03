@@ -85,4 +85,4 @@ class BotMessengerFactory
         CacheInterface $cache = null,
         StorageInterface $storageDriver = null
     ) {
-     *
+        $port = isset($config['port']) ? $config['port'] : 8080;
