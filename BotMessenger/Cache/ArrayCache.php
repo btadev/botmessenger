@@ -29,4 +29,5 @@ class ArrayCache implements CacheInterface
      * @param  mixed $default
      * @return mixed
      */
-    {
+    public function get($key, $default = null)
+
