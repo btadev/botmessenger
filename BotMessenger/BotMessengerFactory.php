@@ -76,4 +76,5 @@ class BotMessengerFactory
      * @param array $config
      * @param LoopInterface $loop
      * @param CacheInterface $cache
-    public function toArray()
+     * @param StorageInterface $storageDriver
+            $storageDriver = new FileStorage(__DIR__);
