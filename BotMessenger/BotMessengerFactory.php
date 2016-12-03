@@ -32,4 +32,5 @@ class BotMessengerFactory
      */
     public static function __callStatic($name, $arguments)
     {
-    public function getPayload();
+        try {
+use ChienIT\BotMessenger\Interfaces\WebAccess;
