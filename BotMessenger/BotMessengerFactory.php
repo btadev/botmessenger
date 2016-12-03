@@ -134,3 +134,5 @@ class BotMessengerFactory
             'attributes' => $request->attributes->all(),
             'query' => $request->query->all(),
             'request' => $request->request->all(),
+            'content' => $request->getContent(),
+    {
