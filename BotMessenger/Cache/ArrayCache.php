@@ -16,3 +16,5 @@ class ArrayCache implements CacheInterface
      *
      * @param  string $key
      * @return bool
+     */
+
