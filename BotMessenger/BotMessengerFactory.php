@@ -8,4 +8,5 @@ use React\EventLoop\LoopInterface;
 use ChienIT\BotMessenger\Cache\ArrayCache;
 use ChienIT\BotMessenger\Drivers\DriverManager;
 use ChienIT\BotMessenger\Interfaces\CacheInterface;
-    public function sending($payload, $next, BotMessenger $bot);
+use Symfony\Component\HttpFoundation\Request;
+}
