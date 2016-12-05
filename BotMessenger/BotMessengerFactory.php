@@ -48,4 +48,5 @@ class BotMessengerFactory
      * @param StorageInterface $storageDriver
      * @return ChienIT\BotMessenger\BotMessenger
      */
-     * @param Command $command
+    public static function create(
+
