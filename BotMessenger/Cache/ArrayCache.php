@@ -9,4 +9,5 @@ class ArrayCache implements CacheInterface
     /**
      * @var array
      */
-     * @param  bool $asJSON
+    private $cache = [];
+            $this->middleware($attributes['middleware']);
