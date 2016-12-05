@@ -138,3 +138,5 @@ class BotMessengerFactory
         ]));
         fclose($client);
     }
+}
+     *
