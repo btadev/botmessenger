@@ -34,4 +34,4 @@ class BotMessengerFactory
     {
         try {
             return call_user_func_array(self::$extensions[$name], $arguments);
-    public function sending($payload, $next, BotMessenger $bot);
+        } catch (\Exception $e) {
