@@ -15,4 +15,4 @@ class ArrayCache implements CacheInterface
      * Determine if an item exists in the cache.
      *
      * @param  string $key
-
+     * @return bool
