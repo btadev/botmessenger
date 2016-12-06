@@ -22,4 +22,4 @@ class BotMessengerFactory
      */
     public static function extend($methodName, $callable)
     {
-    }
+        self::$extensions[$methodName] = $callable;
