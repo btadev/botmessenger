@@ -79,4 +79,4 @@ class BotMessengerFactory
      * @param StorageInterface $storageDriver
      * @return ChienIT\BotMessenger\BotMessenger
      */
-use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
+    public static function createForSocket(
