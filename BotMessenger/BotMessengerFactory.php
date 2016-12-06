@@ -43,3 +43,5 @@ class BotMessengerFactory
      * Create a new BotMessenger instance.
      *
      * @param array $config
+     * @param CacheInterface $cache
+class UnexpectedValueException extends BotMessengerException
