@@ -62,4 +62,5 @@ class ArrayCache implements CacheInterface
      *
      * @param  string $key
      * @param  mixed $value
-        file_put_contents($file, json_encode($saved->all()));
+     * @param  \DateTime|int $minutes
+    "suggest": {
