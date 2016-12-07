@@ -99,3 +99,4 @@ class BotMessengerFactory
 
         $driverManager = new DriverManager($config, new Curl());
 
+    }
