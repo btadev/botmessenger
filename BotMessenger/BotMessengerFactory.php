@@ -51,4 +51,4 @@ class BotMessengerFactory
     public static function create(
         array $config,
         CacheInterface $cache = null,
-{
+        Request $request = null,
