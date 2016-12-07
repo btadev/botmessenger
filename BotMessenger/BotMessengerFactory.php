@@ -61,4 +61,5 @@ class BotMessengerFactory
             $request = Request::createFromGlobals();
         }
         if (empty($storageDriver)) {
-        "name": "Nguyen Duc Chien",
+            $storageDriver = new FileStorage(__DIR__);
+{
