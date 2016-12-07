@@ -139,4 +139,3 @@ class BotMessengerFactory
         fclose($client);
     }
 }
-     *
