@@ -27,4 +27,5 @@ class BotMessengerFactory
 
     /**
      * @param string $name
-    /**
+     * @param array $arguments
+    public function setEventPayload($payload)
