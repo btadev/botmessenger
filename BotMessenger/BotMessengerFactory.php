@@ -26,3 +26,5 @@ class BotMessengerFactory
     }
 
     /**
+     * @param string $name
+    /**
