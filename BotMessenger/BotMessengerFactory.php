@@ -21,3 +21,5 @@ class BotMessengerFactory
      * @param $callable
      */
     public static function extend($methodName, $callable)
+    {
+    }
