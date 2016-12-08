@@ -88,4 +88,5 @@ class BotMessengerFactory
         $port = isset($config['port']) ? $config['port'] : 8080;
 
         $socket = new Server($loop);
-    private function connect()
+
+{
