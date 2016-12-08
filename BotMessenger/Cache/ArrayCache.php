@@ -41,4 +41,5 @@ class ArrayCache implements CacheInterface
     /**
      * Retrieve an item from the cache and delete it.
      *
-            chdir(dirname(self::$event->getComposer()->getConfig()->get('vendor-dir')));
+     * @param  string $key
+     *
