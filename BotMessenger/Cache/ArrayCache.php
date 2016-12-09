@@ -46,3 +46,4 @@ class ArrayCache implements CacheInterface
      * @return mixed
      */
     public function pull($key, $default = null)
+    {
