@@ -67,3 +67,5 @@ class BotMessengerFactory
         $driverManager = new DriverManager($config, new Curl());
         $driver = $driverManager->getMatchingDriver($request);
 
+        return new BotMessenger($cache, $driver, $config, $storageDriver);
+    /**
