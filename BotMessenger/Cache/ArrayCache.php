@@ -35,4 +35,5 @@ class ArrayCache implements CacheInterface
             return $this->cache[$key];
         }
 
-interface Matching
+        return $default;
+    public function register(string $exception, callable $closure);
