@@ -120,3 +120,5 @@ class BotMessengerFactory
      * Pass an incoming HTTP request to the socket.
      *
      * @param  int      $port    The port to use. Default is 8080
+     * @param  Request|null $request
+
