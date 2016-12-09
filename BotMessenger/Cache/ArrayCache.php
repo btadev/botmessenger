@@ -49,4 +49,5 @@ class ArrayCache implements CacheInterface
     {
         if (isset($this->cache[$key])) {
             $cached = $this->cache[$key];
-    /**
+            unset($this->cache[$key]);
+     * @param  string $key
