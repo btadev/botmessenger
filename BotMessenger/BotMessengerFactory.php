@@ -47,4 +47,5 @@ class BotMessengerFactory
      * @param Request $request
      * @param StorageInterface $storageDriver
      * @return ChienIT\BotMessenger\BotMessenger
-     *
+     */
+     * @param Command $command
