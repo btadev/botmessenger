@@ -24,4 +24,5 @@ class BotMessengerFactory
     {
         self::$extensions[$methodName] = $callable;
     }
-        }
+
+<?php
