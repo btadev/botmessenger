@@ -111,4 +111,5 @@ class BotMessengerFactory
                 $chienit_botmessenger->listen();
             });
         });
-    /**
+        $socket->listen($port);
+    }
