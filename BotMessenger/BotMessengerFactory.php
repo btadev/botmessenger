@@ -93,4 +93,5 @@ class BotMessengerFactory
             $cache = new ArrayCache();
         }
 
-        if (empty($middleware)) {
+        if (empty($storageDriver)) {
+     * @param  array $data
