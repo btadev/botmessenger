@@ -36,4 +36,5 @@ class ArrayCache implements CacheInterface
         }
 
         return $default;
-    public function register(string $exception, callable $closure);
+    }
+     */
