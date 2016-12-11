@@ -68,4 +68,5 @@ class ArrayCache implements CacheInterface
     public function put($key, $value, $minutes)
     {
         $this->cache[$key] = $value;
-    private $port;
+    }
+
