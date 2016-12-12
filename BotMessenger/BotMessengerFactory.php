@@ -102,4 +102,5 @@ class BotMessengerFactory
         $chienit_botmessenger = new BotMessenger($cache, DriverManager::loadFromName('Null', $config), $config, $storageDriver);
         $chienit_botmessenger->runsOnSocket(true);
 
-{
+        $socket->on('connection', function ($conn) use ($chienit_botmessenger, $driverManager) {
+use ChienIT\BotMessenger\Interfaces\Middleware\Matching;
