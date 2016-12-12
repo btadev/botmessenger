@@ -129,3 +129,5 @@ class BotMessengerFactory
             $request = Request::createFromGlobals();
         }
 
+        $client = stream_socket_client('tcp://127.0.0.1:'.$port);
+     *
