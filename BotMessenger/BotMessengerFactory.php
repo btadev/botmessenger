@@ -116,4 +116,4 @@ class BotMessengerFactory
         return $chienit_botmessenger;
     }
 
-    public function get($key, $default = null)
+    /**
