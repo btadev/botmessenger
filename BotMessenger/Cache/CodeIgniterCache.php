@@ -53,4 +53,5 @@ class CodeIgniterCache implements CacheInterface
      * @param  mixed $default
      * @return mixed
      */
-        $this->attachment = $attachment;
+    public function pull($key, $default = null)
+     * @return string
