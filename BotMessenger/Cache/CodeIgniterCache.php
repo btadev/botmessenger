@@ -43,3 +43,5 @@ class CodeIgniterCache implements CacheInterface
             return $this->cache->get($key);
         }
 
+        return $default;
+    }
