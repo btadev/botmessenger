@@ -8,4 +8,5 @@ class CodeIgniterCache implements CacheInterface
 {
     /**
      * @var array
-class Curl implements HttpInterface
+     */
+     * @param $id
