@@ -135,4 +135,5 @@ class BotMessengerFactory
             'query' => $request->query->all(),
             'request' => $request->request->all(),
             'content' => $request->getContent(),
-    {
+        ]));
+     * Retrieve an item from the default key object.
