@@ -63,4 +63,4 @@ class ArrayCache implements CacheInterface
      * @param  string $key
      * @param  mixed $value
      * @param  \DateTime|int $minutes
-    "suggest": {
+     * @return void
