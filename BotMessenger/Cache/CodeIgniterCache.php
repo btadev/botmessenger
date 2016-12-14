@@ -82,4 +82,5 @@ class CodeIgniterCache implements CacheInterface
         }
 
         $this->cache->save($key, $value, $seconds);
-     * Retrieve an item from the cache by key.
+    }
+
