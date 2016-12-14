@@ -10,4 +10,5 @@ class ArrayCache implements CacheInterface
      * @var array
      */
     private $cache = [];
-            $this->middleware($attributes['middleware']);
+
+     * @return string
