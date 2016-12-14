@@ -26,4 +26,5 @@ class CodeIgniterCache implements CacheInterface
      * @return bool
      */
     public function has($key)
-    /**
+    {
+    {
