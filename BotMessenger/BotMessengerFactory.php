@@ -77,4 +77,5 @@ class BotMessengerFactory
      * @param LoopInterface $loop
      * @param CacheInterface $cache
      * @param StorageInterface $storageDriver
-            $storageDriver = new FileStorage(__DIR__);
+     * @return ChienIT\BotMessenger\BotMessenger
+    /**
