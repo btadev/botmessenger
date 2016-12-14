@@ -6,3 +6,4 @@ use ChienIT\BotMessenger\Interfaces\CacheInterface;
 
 class ArrayCache implements CacheInterface
 {
+    /**
