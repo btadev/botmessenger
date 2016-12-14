@@ -18,4 +18,4 @@ class ArrayCache implements CacheInterface
      * @return bool
      */
     public function has($key)
-    /**
+    {
