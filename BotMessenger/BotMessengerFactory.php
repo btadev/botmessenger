@@ -75,4 +75,5 @@ class BotMessengerFactory
      *
      * @param array $config
      * @param LoopInterface $loop
-
+     * @param CacheInterface $cache
+    public function toArray()
