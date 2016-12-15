@@ -16,4 +16,5 @@ class CodeIgniterCache implements CacheInterface
      */
     public function __construct($driver)
     {
-        $statusCode = $info['http_code'] === 0 ? 500 : $info['http_code'];
+        $this->cache = $driver;
+     * @return Storage
