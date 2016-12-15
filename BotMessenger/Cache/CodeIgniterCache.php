@@ -13,4 +13,5 @@ class CodeIgniterCache implements CacheInterface
 
     /**
      * @param array $driver
+     */
     /**
