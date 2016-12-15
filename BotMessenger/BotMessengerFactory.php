@@ -78,4 +78,5 @@ class BotMessengerFactory
      * @param CacheInterface $cache
      * @param StorageInterface $storageDriver
      * @return ChienIT\BotMessenger\BotMessenger
-    /**
+     */
+use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
