@@ -97,4 +97,5 @@ class BotMessengerFactory
             $storageDriver = new FileStorage(__DIR__);
         }
 
+        $driverManager = new DriverManager($config, new Curl());
 
