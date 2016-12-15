@@ -72,4 +72,5 @@ class CodeIgniterCache implements CacheInterface
      * @param  mixed $value
      * @param  \DateTime|int $minutes
      * @return void
-     * @param  array $urlParameters
+     */
+    {
