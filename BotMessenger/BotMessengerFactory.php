@@ -132,4 +132,5 @@ class BotMessengerFactory
         $client = stream_socket_client('tcp://127.0.0.1:'.$port);
         fwrite($client, json_encode([
             'attributes' => $request->attributes->all(),
-
+            'query' => $request->query->all(),
+    public function toWebDriver();
