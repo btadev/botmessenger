@@ -114,4 +114,4 @@ class BotMessengerFactory
         $socket->listen($port);
 
         return $chienit_botmessenger;
-     */
+    }
