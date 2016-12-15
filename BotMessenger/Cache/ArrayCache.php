@@ -47,3 +47,4 @@ class ArrayCache implements CacheInterface
      */
     public function pull($key, $default = null)
     {
+        if (isset($this->cache[$key])) {
