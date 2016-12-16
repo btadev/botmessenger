@@ -122,4 +122,5 @@ class BotMessengerFactory
      * @param  int      $port    The port to use. Default is 8080
      * @param  Request|null $request
      * @return void
-    public function matchesRequest()
+     */
+    public function verifyRequest(Request $request);
