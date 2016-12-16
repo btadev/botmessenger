@@ -9,3 +9,5 @@ class DoctrineCache implements CacheInterface
 {
     /**
      * @var Cache
+     */
+        } else {
