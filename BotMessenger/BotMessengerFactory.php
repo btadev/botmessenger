@@ -117,3 +117,5 @@ class BotMessengerFactory
     }
 
     /**
+     * Pass an incoming HTTP request to the socket.
+
