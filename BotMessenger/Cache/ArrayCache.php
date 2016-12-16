@@ -39,4 +39,5 @@ class ArrayCache implements CacheInterface
     }
 
     /**
-use ChienIT\BotMessenger\Storages\Storage;
+     * Retrieve an item from the cache and delete it.
+    protected $listenTo = [];
