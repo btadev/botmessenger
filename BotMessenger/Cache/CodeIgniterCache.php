@@ -9,4 +9,4 @@ class CodeIgniterCache implements CacheInterface
     /**
      * @var array
      */
-     * @param $id
+    private $cache;
