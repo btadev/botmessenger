@@ -54,4 +54,5 @@ class CodeIgniterCache implements CacheInterface
      * @return mixed
      */
     public function pull($key, $default = null)
-     * @return string
+    {
+
