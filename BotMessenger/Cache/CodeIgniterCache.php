@@ -69,4 +69,4 @@ class CodeIgniterCache implements CacheInterface
      * Store an item in the cache.
      *
      * @param  string $key
-     *
+     * @param  mixed $value
