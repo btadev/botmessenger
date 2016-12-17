@@ -14,4 +14,5 @@ class DoctrineCache implements CacheInterface
 
     /**
      * @param Cache $driver
-        "ChienIT"
+     */
+        return new static($token, new Curl(), $lang);
