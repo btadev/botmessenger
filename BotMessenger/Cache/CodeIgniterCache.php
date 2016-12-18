@@ -20,4 +20,5 @@ class CodeIgniterCache implements CacheInterface
     }
 
     /**
-
+     * Determine if an item exists in the cache.
+namespace ChienIT\BotMessenger\Interfaces;
