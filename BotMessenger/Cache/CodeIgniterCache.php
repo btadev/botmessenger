@@ -39,4 +39,5 @@ class CodeIgniterCache implements CacheInterface
      */
     public function get($key, $default = null)
     {
-
+        if ($this->has($key)) {
+     */
