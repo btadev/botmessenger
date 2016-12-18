@@ -133,4 +133,4 @@ class BotMessengerFactory
         fwrite($client, json_encode([
             'attributes' => $request->attributes->all(),
             'query' => $request->query->all(),
-    public function toWebDriver();
+            'request' => $request->request->all(),
