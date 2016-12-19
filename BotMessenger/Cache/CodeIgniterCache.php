@@ -10,3 +10,4 @@ class CodeIgniterCache implements CacheInterface
      * @var array
      */
     private $cache;
+
