@@ -8,3 +8,4 @@ use ChienIT\BotMessenger\Interfaces\CacheInterface;
 class DoctrineCache implements CacheInterface
 {
     /**
+     * @var Cache
