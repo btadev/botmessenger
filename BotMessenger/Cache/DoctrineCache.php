@@ -27,3 +27,4 @@ class DoctrineCache implements CacheInterface
      * @return bool
      */
     public function has($key)
+    {
