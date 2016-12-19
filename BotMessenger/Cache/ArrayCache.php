@@ -30,4 +30,4 @@ class ArrayCache implements CacheInterface
      * @return mixed
      */
     public function get($key, $default = null)
-
+    {
