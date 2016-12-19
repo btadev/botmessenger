@@ -33,4 +33,5 @@ class DoctrineCache implements CacheInterface
 
     /**
      * Retrieve an item from the cache by key.
-<?php
+     *
+    public function get($key);
