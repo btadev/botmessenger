@@ -37,4 +37,5 @@ class ArrayCache implements CacheInterface
 
         return $default;
     }
-     */
+
+form of a separately written license, or stated as exceptions;
