@@ -69,4 +69,5 @@ class ArrayCache implements CacheInterface
     {
         $this->cache[$key] = $value;
     }
-
+}
+        return $default;
