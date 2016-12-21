@@ -23,4 +23,5 @@ class ArrayCache implements CacheInterface
     }
 
     /**
-use ChienIT\BotMessenger\Interfaces\HttpInterface;
+     * Retrieve an item from the cache by key.
+    {
