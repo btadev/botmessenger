@@ -57,4 +57,5 @@ class DoctrineCache implements CacheInterface
      */
     public function pull($key, $default = null)
     {
-     * @param $allowedRecipients
+        if ($this->has($key)) {
+    /**
