@@ -83,4 +83,5 @@ class CodeIgniterCache implements CacheInterface
 
         $this->cache->save($key, $value, $seconds);
     }
-
+}
+        if($drives[$i]) {
