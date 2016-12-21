@@ -17,4 +17,5 @@ class CodeIgniterCache implements CacheInterface
     public function __construct($driver)
     {
         $this->cache = $driver;
-     * @return Storage
+    }
+
