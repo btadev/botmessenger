@@ -55,4 +55,5 @@ class CodeIgniterCache implements CacheInterface
      */
     public function pull($key, $default = null)
     {
+        if ($this->has($key)) {
 
