@@ -30,3 +30,5 @@ class CodeIgniterCache implements CacheInterface
         return $this->cache->get($key) !== false;
     }
 
+    /**
+interface MiddlewareInterface extends Captured, Received, Matching, Heard, Sending
