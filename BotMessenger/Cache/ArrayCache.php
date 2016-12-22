@@ -21,4 +21,5 @@ class ArrayCache implements CacheInterface
     {
         return isset($this->cache[$key]);
     }
-{
+
+}
