@@ -60,3 +60,5 @@ class DoctrineCache implements CacheInterface
         if ($this->has($key)) {
             $cached = $this->get($key, $default);
             $this->driver->delete($key);
+
+     */
