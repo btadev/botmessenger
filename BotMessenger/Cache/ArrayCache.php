@@ -8,4 +8,5 @@ class ArrayCache implements CacheInterface
 {
     /**
      * @var array
-interface ShouldQueue
+     */
+     * @param  bool $asJSON
