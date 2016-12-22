@@ -1,3 +1,3 @@
 <?php
 
-        "opis/closure": "^2.3",
+namespace ChienIT\BotMessenger\Cache;
