@@ -75,3 +75,5 @@ class DoctrineCache implements CacheInterface
      * @param  \DateTime|int $minutes
      * @return void
      */
+    public function put($key, $value, $minutes)
+use ChienIT\BotMessenger\Interfaces\CacheInterface;
