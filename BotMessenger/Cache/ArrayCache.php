@@ -54,3 +54,4 @@ class ArrayCache implements CacheInterface
             return $cached;
         }
 
+        return isset($this->cache[$key]);
