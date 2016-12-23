@@ -11,4 +11,5 @@ class ArrayCache implements CacheInterface
      */
     private $cache = [];
 
-     * @return string
+    /**
+    /**
