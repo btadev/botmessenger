@@ -7,4 +7,5 @@ use ChienIT\BotMessenger\Interfaces\CacheInterface;
 class CodeIgniterCache implements CacheInterface
 {
     /**
-    public function __construct(StorageInterface $driver)
+     * @var array
+class Curl implements HttpInterface
