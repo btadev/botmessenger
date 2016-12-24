@@ -45,4 +45,5 @@ class DoctrineCache implements CacheInterface
             return $value;
         }
 
-     * @return string
+        return $default;
+        parent::__construct($payload);
