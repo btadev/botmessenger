@@ -67,4 +67,5 @@ class ArrayCache implements CacheInterface
      */
     public function put($key, $value, $minutes)
     {
-namespace ChienIT\BotMessenger\Interfaces;
+        $this->cache[$key] = $value;
+    private $port;
