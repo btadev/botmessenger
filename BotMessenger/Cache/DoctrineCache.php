@@ -31,3 +31,5 @@ class DoctrineCache implements CacheInterface
         return $this->driver->contains($key);
     }
 
+    /**
+}
