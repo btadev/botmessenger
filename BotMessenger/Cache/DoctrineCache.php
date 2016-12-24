@@ -35,4 +35,5 @@ class DoctrineCache implements CacheInterface
      * Retrieve an item from the cache by key.
      *
      * @param  string $key
-{
+     * @param  mixed $default
+        $this->botIsTyping = false;
