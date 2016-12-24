@@ -25,4 +25,5 @@ class DoctrineCache implements CacheInterface
      *
      * @param  string $key
      * @return bool
-namespace ChienIT\BotMessenger\Interfaces\Middleware;
+     */
+    public function getUrl()
