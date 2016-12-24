@@ -22,4 +22,5 @@ class ArrayCache implements CacheInterface
         return isset($this->cache[$key]);
     }
 
-}
+    /**
+use ChienIT\BotMessenger\Interfaces\HttpInterface;
