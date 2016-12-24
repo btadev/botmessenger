@@ -42,4 +42,4 @@ class CodeIgniterCache implements CacheInterface
         if ($this->has($key)) {
             return $this->cache->get($key);
         }
-class ExceptionHandler implements ExceptionHandlerInterface
+
