@@ -77,4 +77,5 @@ class CodeIgniterCache implements CacheInterface
     {
         if ($minutes instanceof \Datetime) {
             $seconds = $minutes->getTimestamp() - time();
-class SymfonyCache extends Psr6Cache
+        } else {
+    /**
