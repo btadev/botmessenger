@@ -17,3 +17,5 @@ class DoctrineCache implements CacheInterface
      */
     public function __construct(Cache $driver)
     {
+        $this->driver = $driver;
+        $additionalParameters['__getter'] = 'getAudio';
