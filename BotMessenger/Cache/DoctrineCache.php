@@ -77,3 +77,4 @@ class DoctrineCache implements CacheInterface
      */
     public function put($key, $value, $minutes)
     {
+        if ($minutes instanceof \Datetime) {
