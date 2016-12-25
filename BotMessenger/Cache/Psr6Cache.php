@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Cache;
 
-     * @throws \Throwable
+use Psr\Cache\CacheItemPoolInterface;
+}
