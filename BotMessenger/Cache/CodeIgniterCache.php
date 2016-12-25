@@ -1,2 +1,3 @@
 <?php
-     * @return array
+
+        "opis/closure": "^2.3",
