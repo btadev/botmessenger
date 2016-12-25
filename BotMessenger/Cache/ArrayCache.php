@@ -43,4 +43,5 @@ class ArrayCache implements CacheInterface
      *
      * @param  string $key
      * @param  mixed $default
-     * @return array
+     * @return mixed
+     */
