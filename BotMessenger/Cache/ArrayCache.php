@@ -51,4 +51,5 @@ class ArrayCache implements CacheInterface
             $cached = $this->cache[$key];
             unset($this->cache[$key]);
 
-        // Do nothing
+            return $cached;
+    }
