@@ -11,3 +11,5 @@ class CodeIgniterCache implements CacheInterface
      */
     private $cache;
 
+    /**
+    {
