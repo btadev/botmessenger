@@ -83,4 +83,5 @@ class DoctrineCache implements CacheInterface
             $seconds = $minutes * 60;
         }
 
+        $this->driver->save($key, $value, $seconds);
 
