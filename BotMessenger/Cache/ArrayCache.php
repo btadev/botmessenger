@@ -58,4 +58,5 @@ class ArrayCache implements CacheInterface
     }
 
     /**
-     * @return string
+     * Store an item in the cache.
+    /**
