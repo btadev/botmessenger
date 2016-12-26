@@ -45,4 +45,5 @@ class CodeIgniterCache implements CacheInterface
 
         return $default;
     }
-            ->then($destination);
+
+namespace ChienIT\BotMessenger\Messages\Attachments;
