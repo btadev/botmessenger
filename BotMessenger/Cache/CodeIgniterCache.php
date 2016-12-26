@@ -81,3 +81,5 @@ class CodeIgniterCache implements CacheInterface
             $seconds = $minutes * 60;
         }
 
+        $this->cache->save($key, $value, $seconds);
+     * Retrieve an item from the cache by key.
