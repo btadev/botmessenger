@@ -76,4 +76,4 @@ class DoctrineCache implements CacheInterface
      * @return void
      */
     public function put($key, $value, $minutes)
-use ChienIT\BotMessenger\Interfaces\CacheInterface;
+    {
