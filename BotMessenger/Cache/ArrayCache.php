@@ -61,4 +61,5 @@ class ArrayCache implements CacheInterface
      * Store an item in the cache.
      *
      * @param  string $key
-        }
+     * @param  mixed $value
+        file_put_contents($file, json_encode($saved->all()));
