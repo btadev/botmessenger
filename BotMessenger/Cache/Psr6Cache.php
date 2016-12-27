@@ -26,4 +26,5 @@ class Psr6Cache implements CacheInterface
      */
     public function has($key)
     {
-}
+        return $this->adapter->hasItem($key);
+    }
