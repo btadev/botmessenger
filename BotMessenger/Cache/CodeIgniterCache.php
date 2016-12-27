@@ -74,4 +74,4 @@ class CodeIgniterCache implements CacheInterface
      * @return void
      */
     public function put($key, $value, $minutes)
-use ChienIT\BotMessenger\BotMessenger;
+    {
