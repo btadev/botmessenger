@@ -44,4 +44,4 @@ class Psr6Cache implements CacheInterface
         return $default;
     }
 
-                echo 'You want to install drive '.$drives[$i]['name'].' ?';
+    /**
