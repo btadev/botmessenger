@@ -28,3 +28,4 @@ class Psr6Cache implements CacheInterface
     {
         return $this->adapter->hasItem($key);
     }
+{
