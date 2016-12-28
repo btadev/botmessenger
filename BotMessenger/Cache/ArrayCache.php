@@ -57,3 +57,5 @@ class ArrayCache implements CacheInterface
         return $default;
     }
 
+    /**
+     * @return string
