@@ -79,4 +79,5 @@ class CodeIgniterCache implements CacheInterface
             $seconds = $minutes->getTimestamp() - time();
         } else {
             $seconds = $minutes * 60;
-
+        }
+    }
