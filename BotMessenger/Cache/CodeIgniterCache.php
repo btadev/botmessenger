@@ -22,4 +22,4 @@ class CodeIgniterCache implements CacheInterface
     /**
      * Determine if an item exists in the cache.
      *
-    protected $videos = [];
+     * @param  string $key
