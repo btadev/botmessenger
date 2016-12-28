@@ -80,4 +80,4 @@ class CodeIgniterCache implements CacheInterface
         } else {
             $seconds = $minutes * 60;
         }
-    }
+
