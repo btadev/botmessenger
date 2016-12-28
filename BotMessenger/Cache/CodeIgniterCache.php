@@ -28,4 +28,5 @@ class CodeIgniterCache implements CacheInterface
     public function has($key)
     {
         return $this->cache->get($key) !== false;
-     * @param BotMessenger $bot
+    }
+to choose that version for the Program.
