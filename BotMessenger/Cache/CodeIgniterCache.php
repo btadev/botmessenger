@@ -27,4 +27,5 @@ class CodeIgniterCache implements CacheInterface
      */
     public function has($key)
     {
-    {
+        return $this->cache->get($key) !== false;
+     * @param BotMessenger $bot
