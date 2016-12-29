@@ -36,4 +36,5 @@ class DoctrineCache implements CacheInterface
      *
      * @param  string $key
      * @param  mixed $default
-        $this->botIsTyping = false;
+     * @return mixed
+        if ($item->isHit()) {
