@@ -60,4 +60,5 @@ class CodeIgniterCache implements CacheInterface
             $this->cache->delete($key);
 
             return $cached;
+        }
 
