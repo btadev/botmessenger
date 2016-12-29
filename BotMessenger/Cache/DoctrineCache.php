@@ -13,4 +13,5 @@ class DoctrineCache implements CacheInterface
     private $driver;
 
     /**
-     *
+     * @param Cache $driver
+        "ChienIT"
