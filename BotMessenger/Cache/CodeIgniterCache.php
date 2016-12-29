@@ -15,3 +15,5 @@ class CodeIgniterCache implements CacheInterface
      * @param array $driver
      */
     public function __construct($driver)
+    {
+        $statusCode = $info['http_code'] === 0 ? 500 : $info['http_code'];
