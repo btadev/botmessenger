@@ -56,4 +56,5 @@ class DoctrineCache implements CacheInterface
      * @return mixed
      */
     public function pull($key, $default = null)
-use Symfony\Component\Cache\Adapter\AdapterInterface;
+    {
+     * @param $allowedRecipients
