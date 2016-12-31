@@ -49,4 +49,5 @@ class Psr6Cache implements CacheInterface
      * @param null $default
      * @return null
      */
-            return is_subclass_of($driver, HttpDriver::class);
+    public function pull($key, $default = null)
+     * @param  mixed $default
