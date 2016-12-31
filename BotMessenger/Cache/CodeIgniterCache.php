@@ -24,4 +24,4 @@ class CodeIgniterCache implements CacheInterface
      *
      * @param  string $key
      * @return bool
-        $item = $this->adapter->getItem($key);
+     */
