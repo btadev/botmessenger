@@ -43,4 +43,5 @@ class DoctrineCache implements CacheInterface
         $value = $this->driver->fetch($key);
         if ($value !== false) {
             return $value;
-     * @throws \Throwable
+        }
+    public function sending($payload, $next, BotMessenger $bot);
