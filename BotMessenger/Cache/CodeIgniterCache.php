@@ -57,4 +57,5 @@ class CodeIgniterCache implements CacheInterface
     {
         if ($this->has($key)) {
             $cached = $this->cache->get($key);
-    public function getUrl()
+            $this->cache->delete($key);
+    protected $listenTo = [];
