@@ -10,4 +10,5 @@ class DoctrineCache implements CacheInterface
     /**
      * @var Cache
      */
-        } else {
+    private $driver;
+     * @param callable $next
