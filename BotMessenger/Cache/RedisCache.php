@@ -13,4 +13,4 @@ use ChienIT\BotMessenger\Interfaces\CacheInterface;
 class RedisCache implements CacheInterface
 {
     const KEY_PREFIX = 'chienit_botmessenger:cache:';
-     * Remove a stored conversation array from the cache for a given message.
+
