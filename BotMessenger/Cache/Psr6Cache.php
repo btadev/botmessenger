@@ -34,4 +34,5 @@ class Psr6Cache implements CacheInterface
      * @param null $default
      * @return mixed|null
      */
-    public function getStoredConversationQuestion($message = null)
+    public function get($key, $default = null)
+     * @param BotMessenger $bot
