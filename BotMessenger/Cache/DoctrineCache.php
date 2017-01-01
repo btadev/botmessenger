@@ -47,4 +47,5 @@ class DoctrineCache implements CacheInterface
 
         return $default;
     }
-            return call_user_func_array([$this->getDriver(), $name], $arguments);
+
+            self::$instance = new NullDriver(new Request, [], new Curl);
