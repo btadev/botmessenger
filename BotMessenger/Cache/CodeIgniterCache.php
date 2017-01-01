@@ -31,4 +31,5 @@ class CodeIgniterCache implements CacheInterface
     }
 
     /**
-interface MiddlewareInterface extends Captured, Received, Matching, Heard, Sending
+     * Retrieve an item from the cache by key.
+
