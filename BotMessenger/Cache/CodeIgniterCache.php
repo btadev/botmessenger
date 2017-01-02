@@ -66,4 +66,4 @@ class CodeIgniterCache implements CacheInterface
     }
 
     /**
-        foreach ($messages as $message) {
+     * Store an item in the cache.
