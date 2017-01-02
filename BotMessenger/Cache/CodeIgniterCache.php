@@ -62,4 +62,5 @@ class CodeIgniterCache implements CacheInterface
             return $cached;
         }
 
+        return $default;
     /**
