@@ -18,3 +18,4 @@ class RedisCache implements CacheInterface
     private $redis;
     private $host;
     private $port;
+    private $auth;
