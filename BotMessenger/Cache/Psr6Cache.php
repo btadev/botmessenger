@@ -53,4 +53,4 @@ class Psr6Cache implements CacheInterface
     {
         $item = $this->adapter->getItem($key);
         if ($item->isHit()) {
-namespace ChienIT\BotMessenger\Interfaces;
+            $this->adapter->deleteItem($key);
