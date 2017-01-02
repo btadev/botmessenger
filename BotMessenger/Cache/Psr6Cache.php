@@ -31,3 +31,5 @@ class Psr6Cache implements CacheInterface
 
     /**
      * @param string $key
+     * @param null $default
+
