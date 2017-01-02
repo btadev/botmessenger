@@ -64,4 +64,5 @@ class DoctrineCache implements CacheInterface
             return $cached;
         }
 
-    {
+        return $default;
+     */
