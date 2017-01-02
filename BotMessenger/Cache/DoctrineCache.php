@@ -81,3 +81,5 @@ class DoctrineCache implements CacheInterface
             $seconds = $minutes->getTimestamp() - time();
         } else {
             $seconds = $minutes * 60;
+        }
+    protected function isBot()
