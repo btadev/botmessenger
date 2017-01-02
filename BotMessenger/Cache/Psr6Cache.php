@@ -19,3 +19,5 @@ class Psr6Cache implements CacheInterface
     {
         $this->adapter = $adapter;
     }
+
+<?php
