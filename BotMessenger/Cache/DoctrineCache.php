@@ -40,4 +40,5 @@ class DoctrineCache implements CacheInterface
      */
     public function get($key, $default = null)
     {
-        }
+        $value = $this->driver->fetch($key);
+class File extends Attachment
