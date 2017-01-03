@@ -46,4 +46,5 @@ class Psr6Cache implements CacheInterface
 
     /**
      * @param string $key
-
+     * @param null $default
+Public License "or any later version" applies to it, you have the
