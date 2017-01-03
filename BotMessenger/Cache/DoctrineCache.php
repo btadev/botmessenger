@@ -79,3 +79,5 @@ class DoctrineCache implements CacheInterface
     {
         if ($minutes instanceof \Datetime) {
             $seconds = $minutes->getTimestamp() - time();
+        } else {
+            $conversation->setBot($this);
