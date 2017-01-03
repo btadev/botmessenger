@@ -43,4 +43,5 @@ class Psr6Cache implements CacheInterface
 
         return $default;
     }
-patent license (a) in connection with copies of the covered work
+
+                echo 'You want to install drive '.$drives[$i]['name'].' ?';
