@@ -5,4 +5,5 @@ namespace ChienIT\BotMessenger\Cache;
 use Psr\Cache\CacheItemPoolInterface;
 use ChienIT\BotMessenger\Interfaces\CacheInterface;
 
-     * @return bool
+class Psr6Cache implements CacheInterface
+     */
