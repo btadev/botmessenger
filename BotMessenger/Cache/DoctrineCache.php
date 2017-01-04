@@ -55,4 +55,5 @@ class DoctrineCache implements CacheInterface
      * @param  mixed $default
      * @return mixed
      */
-interface QuestionActionInterface
+    public function pull($key, $default = null)
+use Symfony\Component\Cache\Adapter\AdapterInterface;
