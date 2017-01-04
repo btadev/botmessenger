@@ -60,3 +60,4 @@ class Psr6Cache implements CacheInterface
 
         return $default;
     }
+
