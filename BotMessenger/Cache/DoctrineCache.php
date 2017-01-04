@@ -86,4 +86,3 @@ class DoctrineCache implements CacheInterface
         $this->driver->save($key, $value, $seconds);
     }
 }
-     * @return mixed
