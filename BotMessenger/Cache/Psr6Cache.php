@@ -50,4 +50,5 @@ class Psr6Cache implements CacheInterface
      * @return null
      */
     public function pull($key, $default = null)
-     * @param  mixed $default
+    {
+     * @param mixed $payload
