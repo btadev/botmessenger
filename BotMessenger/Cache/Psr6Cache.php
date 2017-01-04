@@ -72,4 +72,5 @@ class Psr6Cache implements CacheInterface
         $item->set($value);
 
         if ($minutes instanceof \DateTimeInterface) {
-        curl_setopt($request, CURLOPT_POST, count($postParameters));
+            $item->expiresAt($minutes);
+
