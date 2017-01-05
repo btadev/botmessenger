@@ -39,4 +39,5 @@ class RedisCache implements CacheInterface
 
     /**
      * Determine if an item exists in the cache.
-    /** @var string */
+     *
+namespace ChienIT\BotMessenger\Interfaces;
