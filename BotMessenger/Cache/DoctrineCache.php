@@ -11,4 +11,5 @@ class DoctrineCache implements CacheInterface
      * @var Cache
      */
     private $driver;
-     * @param callable $next
+
+class DriverException extends BotMessengerException
