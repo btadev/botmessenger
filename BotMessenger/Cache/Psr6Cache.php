@@ -68,4 +68,5 @@ class Psr6Cache implements CacheInterface
      */
     public function put($key, $value, $minutes)
     {
-    public function getConversationAnswer(IncomingMessage $message);
+        $item = $this->adapter->getItem($key);
+{
