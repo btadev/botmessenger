@@ -56,3 +56,5 @@ class Psr6Cache implements CacheInterface
             $this->adapter->deleteItem($key);
 
             return $item->get();
+        }
+
