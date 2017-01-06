@@ -26,4 +26,5 @@ class RedisCache implements CacheInterface
      * @param $port
      * @param $auth
      */
-abstract class Attachment implements WebAccess
+    public function __construct($host = '127.0.0.1', $port = 6379, $auth = null)
+     * @return mixed
