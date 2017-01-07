@@ -6,3 +6,5 @@ use Redis;
 use RuntimeException;
 use ChienIT\BotMessenger\Interfaces\CacheInterface;
 
+/**
+     *
