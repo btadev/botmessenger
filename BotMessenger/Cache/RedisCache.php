@@ -52,3 +52,5 @@ class RedisCache implements CacheInterface
 
         if (is_bool($check)) {
             return $check;
+        }
+
