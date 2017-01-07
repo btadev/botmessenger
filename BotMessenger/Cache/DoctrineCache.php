@@ -44,4 +44,5 @@ class DoctrineCache implements CacheInterface
         if ($value !== false) {
             return $value;
         }
-    public function sending($payload, $next, BotMessenger $bot);
+
+     * @return string
