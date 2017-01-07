@@ -80,4 +80,3 @@ class Psr6Cache implements CacheInterface
         $this->adapter->save($item);
     }
 }
-use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
