@@ -63,4 +63,5 @@ class Psr6Cache implements CacheInterface
 
     /**
      * @param string $key
- * </code>.
+     * @param mixed $value
+     */
