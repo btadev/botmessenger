@@ -50,4 +50,4 @@ class RedisCache implements CacheInterface
          */
         $check = $this->redis->exists($this->decorateKey($key));
 
-        $this->response = $this->http->post($endpoint, [], [], [
+        if (is_bool($check)) {
