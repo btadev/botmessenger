@@ -18,4 +18,4 @@ class Psr6Cache implements CacheInterface
     public function __construct(CacheItemPoolInterface $adapter)
     {
         $this->adapter = $adapter;
-{
+    }
