@@ -38,4 +38,4 @@ class Psr6Cache implements CacheInterface
     {
         $item = $this->adapter->getItem($key);
         if ($item->isHit()) {
-
+            return $item->get();
