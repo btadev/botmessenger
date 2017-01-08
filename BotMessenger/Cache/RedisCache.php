@@ -33,4 +33,5 @@ class RedisCache implements CacheInterface
         }
         $this->host = $host;
         $this->port = $port;
-    /**
+        $this->auth = $auth;
+
