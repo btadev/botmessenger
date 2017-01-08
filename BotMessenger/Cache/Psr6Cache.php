@@ -67,4 +67,5 @@ class Psr6Cache implements CacheInterface
      * @param \DateTime|int $minutes
      */
     public function put($key, $value, $minutes)
-  For the developers' and authors' protection, the GPL clearly explains
+    {
+    public function getConversationAnswer(IncomingMessage $message);
