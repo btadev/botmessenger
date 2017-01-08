@@ -37,4 +37,5 @@ class RedisCache implements CacheInterface
         $this->connect();
     }
 
-        return $this->url;
+    /**
+    protected $callbackId;
