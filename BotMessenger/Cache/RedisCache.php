@@ -64,4 +64,5 @@ class RedisCache implements CacheInterface
      * @param  mixed $default
      * @return mixed
      */
-        "react/socket": "~0.4",
+    public function get($key, $default = null)
+     *
