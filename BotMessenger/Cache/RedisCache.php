@@ -51,3 +51,4 @@ class RedisCache implements CacheInterface
         $check = $this->redis->exists($this->decorateKey($key));
 
         if (is_bool($check)) {
+            return $check;
