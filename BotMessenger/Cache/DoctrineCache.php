@@ -73,3 +73,5 @@ class DoctrineCache implements CacheInterface
      * @param  string $key
      * @param  mixed $value
      * @param  \DateTime|int $minutes
+     * @return void
+    public function all();
