@@ -67,3 +67,5 @@ class RedisCache implements CacheInterface
     public function get($key, $default = null)
     {
         return $this->redis->get($this->decorateKey($key)) ?: $default;
+    }
+
