@@ -77,3 +77,4 @@ class RedisCache implements CacheInterface
      * @return mixed
      */
     public function pull($key, $default = null)
+    {
