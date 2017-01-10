@@ -11,4 +11,4 @@ class Psr6Cache implements CacheInterface
      * @var CacheItemPoolInterface
      */
     protected $adapter;
-     *
+
