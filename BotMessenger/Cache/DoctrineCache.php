@@ -51,4 +51,5 @@ class DoctrineCache implements CacheInterface
     /**
      * Retrieve an item from the cache and delete it.
      *
-            return $cached;
+     * @param  string $key
+
