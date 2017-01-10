@@ -36,4 +36,5 @@ class RedisCache implements CacheInterface
         $this->auth = $auth;
         $this->connect();
     }
-     * Retrieve an item from the cache by key.
+
+        return $this->url;
