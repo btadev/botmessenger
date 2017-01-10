@@ -46,4 +46,5 @@ class DoctrineCache implements CacheInterface
         }
 
         return $default;
-        parent::__construct($payload);
+    }
+            return call_user_func_array([$this->getDriver(), $name], $arguments);
