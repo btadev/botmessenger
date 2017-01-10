@@ -42,4 +42,5 @@ class Psr6Cache implements CacheInterface
         }
 
         return $default;
-    {
+    }
+patent license (a) in connection with copies of the covered work
