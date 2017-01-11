@@ -7,4 +7,5 @@ use ChienIT\BotMessenger\Interfaces\CacheInterface;
 
 class Psr6Cache implements CacheInterface
 {
-
+    /**
+        $this->message = $message;
