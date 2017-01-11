@@ -58,4 +58,5 @@ class RedisCache implements CacheInterface
     }
 
     /**
-     * @return mixed
+     * Retrieve an item from the cache by key.
+            $data[] = $this->get(basename($key, '.json'));
