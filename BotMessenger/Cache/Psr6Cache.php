@@ -78,4 +78,5 @@ class Psr6Cache implements CacheInterface
         }
 
         $this->adapter->save($item);
-
+    }
+        if (isset($this->cache[$key])) {
