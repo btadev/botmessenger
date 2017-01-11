@@ -58,3 +58,5 @@ class Psr6Cache implements CacheInterface
             return $item->get();
         }
 
+        return $default;
+     * @param string $url
