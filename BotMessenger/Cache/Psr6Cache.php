@@ -24,4 +24,5 @@ class Psr6Cache implements CacheInterface
      * @param string $key
      * @return bool
      */
-    },
+    public function has($key)
+    /**
