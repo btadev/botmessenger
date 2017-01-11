@@ -1,3 +1,4 @@
 <?php
 
-use ChienIT\BotMessenger\Interfaces\CacheInterface;
+namespace ChienIT\BotMessenger\Cache;
+
