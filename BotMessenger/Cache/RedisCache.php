@@ -92,4 +92,5 @@ class RedisCache implements CacheInterface
      *
      * @param  string $key
      * @param  mixed $value
-        $item = $this->adapter->getItem($key);
+     * @param  \DateTime|int $minutes
+        return 'chienit_botmessenger';
