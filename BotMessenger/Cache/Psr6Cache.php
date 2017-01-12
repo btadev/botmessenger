@@ -62,4 +62,5 @@ class Psr6Cache implements CacheInterface
     }
 
     /**
-        return self::instance()->hasMatchingEvent();
+     * @param string $key
+ * </code>.
