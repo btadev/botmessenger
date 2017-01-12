@@ -70,4 +70,5 @@ class DoctrineCache implements CacheInterface
     /**
      * Store an item in the cache.
      *
-```json
+     * @param  string $key
+
