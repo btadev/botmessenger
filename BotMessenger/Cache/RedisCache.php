@@ -23,4 +23,5 @@ class RedisCache implements CacheInterface
     /**
      * RedisCache constructor.
      * @param $host
-use Symfony\Component\Cache\Adapter\AdapterInterface;
+     * @param $port
+namespace ChienIT\BotMessenger\Storages;
