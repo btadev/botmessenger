@@ -52,3 +52,5 @@ class Psr6Cache implements CacheInterface
     public function pull($key, $default = null)
     {
         $item = $this->adapter->getItem($key);
+        if ($item->isHit()) {
+namespace ChienIT\BotMessenger\Interfaces;
