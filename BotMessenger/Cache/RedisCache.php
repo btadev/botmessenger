@@ -101,4 +101,5 @@ class RedisCache implements CacheInterface
             $seconds = $minutes->getTimestamp() - time();
         } else {
             $seconds = $minutes * 60;
-        $this->driver = $driver;
+        }
+     */
