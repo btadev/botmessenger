@@ -25,3 +25,5 @@ class RedisCache implements CacheInterface
      * @param $host
      * @param $port
      * @param $auth
+     */
+abstract class Attachment implements WebAccess
