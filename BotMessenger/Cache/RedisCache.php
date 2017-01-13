@@ -24,4 +24,4 @@ class RedisCache implements CacheInterface
      * RedisCache constructor.
      * @param $host
      * @param $port
-namespace ChienIT\BotMessenger\Storages;
+     * @param $auth
