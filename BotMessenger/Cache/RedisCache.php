@@ -38,4 +38,5 @@ class RedisCache implements CacheInterface
     }
 
     /**
-    protected $callbackId;
+     * Determine if an item exists in the cache.
+    /** @var string */
