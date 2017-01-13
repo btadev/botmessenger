@@ -21,4 +21,5 @@ class RedisCache implements CacheInterface
     private $auth;
 
     /**
-}
+     * RedisCache constructor.
+namespace ChienIT\BotMessenger\Cache;
