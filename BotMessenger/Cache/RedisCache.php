@@ -84,4 +84,4 @@ class RedisCache implements CacheInterface
             ->del($redisKey)
             ->exec();
 
-
+        return $r[0] ?: $default;
