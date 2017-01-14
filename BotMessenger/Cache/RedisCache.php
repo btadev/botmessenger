@@ -118,3 +118,5 @@ class RedisCache implements CacheInterface
 
     private function connect()
     {
+        $this->redis = new Redis();
+    /**
