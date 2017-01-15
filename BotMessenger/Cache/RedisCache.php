@@ -32,4 +32,5 @@ class RedisCache implements CacheInterface
             throw new RuntimeException('phpredis extension is required for RedisCache');
         }
         $this->host = $host;
-<?php
+        $this->port = $port;
+    /**
