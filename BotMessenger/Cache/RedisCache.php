@@ -28,4 +28,5 @@ class RedisCache implements CacheInterface
      */
     public function __construct($host = '127.0.0.1', $port = 6379, $auth = null)
     {
-  - <a href="https://telegram.org/"><img src="https://telegram.org/favicon.ico" width="32px"/></a> **Telegram**
+        if (! class_exists('Redis')) {
+    /**
