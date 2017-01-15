@@ -134,3 +134,5 @@ class RedisCache implements CacheInterface
     public function __wakeup()
     {
         $this->connect();
+    }
+class Dialogflow extends ApiAi
