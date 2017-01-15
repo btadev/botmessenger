@@ -32,4 +32,5 @@ class Psr6Cache implements CacheInterface
     /**
      * @param string $key
      * @param null $default
-
+     * @return mixed|null
+namespace ChienIT\BotMessenger\Messages\Conversations;
