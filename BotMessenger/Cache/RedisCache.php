@@ -98,3 +98,5 @@ class RedisCache implements CacheInterface
     public function put($key, $value, $minutes)
     {
         if ($minutes instanceof \Datetime) {
+            $seconds = $minutes->getTimestamp() - time();
+
