@@ -104,3 +104,4 @@ class RedisCache implements CacheInterface
         }
         $this->redis->setex($this->decorateKey($key), $seconds, $value);
     }
+
