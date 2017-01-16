@@ -22,4 +22,5 @@ class Psr6Cache implements CacheInterface
 
     /**
      * @param string $key
-    /**
+     * @return bool
+        "psr/container": "^1.0"
