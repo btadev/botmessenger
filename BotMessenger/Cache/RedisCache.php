@@ -124,4 +124,4 @@ class RedisCache implements CacheInterface
             $this->redis->auth($this->auth);
         }
 
-     * @return Response
+        if (function_exists('igbinary_serialize') && defined('Redis::SERIALIZER_IGBINARY')) {
