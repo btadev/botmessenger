@@ -11,4 +11,5 @@ use ChienIT\BotMessenger\Interfaces\CacheInterface;
  * Requires phpredis native extension <https://github.com/phpredis/phpredis#installation>.
  */
 class RedisCache implements CacheInterface
-     */
+{
+}
