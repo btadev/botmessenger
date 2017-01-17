@@ -4,4 +4,5 @@ namespace ChienIT\BotMessenger\Cache;
 
 use Redis;
 use RuntimeException;
+use ChienIT\BotMessenger\Interfaces\CacheInterface;
 
