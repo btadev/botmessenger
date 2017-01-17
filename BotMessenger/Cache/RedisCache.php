@@ -85,3 +85,4 @@ class RedisCache implements CacheInterface
             ->exec();
 
         return $r[0] ?: $default;
+    }
