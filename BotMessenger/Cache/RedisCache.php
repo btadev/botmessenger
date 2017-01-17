@@ -42,4 +42,4 @@ class RedisCache implements CacheInterface
      *
      * @param  string $key
      * @return bool
-{
+     */
