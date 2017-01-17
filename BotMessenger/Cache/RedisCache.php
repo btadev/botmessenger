@@ -70,4 +70,5 @@ class RedisCache implements CacheInterface
     }
 
     /**
-    }
+     * Retrieve an item from the cache and delete it.
+     * @param callable $next
