@@ -77,4 +77,5 @@ class Psr6Cache implements CacheInterface
             $item->expiresAfter(new \DateInterval(sprintf('PT%dM', $minutes)));
         }
 
-namespace ChienIT\BotMessenger\Interfaces;
+        $this->adapter->save($item);
+
