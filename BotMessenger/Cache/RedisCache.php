@@ -61,3 +61,5 @@ class RedisCache implements CacheInterface
      * Retrieve an item from the cache by key.
      *
      * @param  string $key
+     * @param  mixed $default
+
