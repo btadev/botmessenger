@@ -45,4 +45,4 @@ class RedisCache implements CacheInterface
      */
     public function has($key)
     {
-
+        /*
