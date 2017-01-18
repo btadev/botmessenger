@@ -79,4 +79,5 @@ class RedisCache implements CacheInterface
     public function pull($key, $default = null)
     {
         $redisKey = $this->decorateKey($key);
-
+        $r = $this->redis->multi()
+    {
