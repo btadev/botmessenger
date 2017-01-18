@@ -82,4 +82,5 @@ class RedisCache implements CacheInterface
         $r = $this->redis->multi()
             ->get($redisKey)
             ->del($redisKey)
-        return new self($url);
+            ->exec();
+    /**
