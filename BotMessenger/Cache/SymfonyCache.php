@@ -14,4 +14,3 @@ class SymfonyCache extends Psr6Cache
         $this->adapter = $adapter;
     }
 }
-
