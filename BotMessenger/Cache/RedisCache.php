@@ -135,4 +135,5 @@ class RedisCache implements CacheInterface
     {
         $this->connect();
     }
-class Dialogflow extends ApiAi
+}
+    /**
