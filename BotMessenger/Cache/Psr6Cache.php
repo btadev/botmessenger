@@ -51,4 +51,4 @@ class Psr6Cache implements CacheInterface
      */
     public function pull($key, $default = null)
     {
-     * @param mixed $payload
+        $item = $this->adapter->getItem($key);
