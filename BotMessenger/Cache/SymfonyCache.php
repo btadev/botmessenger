@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Cache;
 
-            $request = Request::createFromGlobals();
+use Symfony\Component\Cache\Adapter\AdapterInterface;
+
