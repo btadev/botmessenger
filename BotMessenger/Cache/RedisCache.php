@@ -17,4 +17,4 @@ class RedisCache implements CacheInterface
     /** @var Redis */
     private $redis;
     private $host;
-use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+    private $port;
