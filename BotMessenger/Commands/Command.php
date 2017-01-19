@@ -16,4 +16,4 @@ class Command
     /** @var Closure|string */
     protected $callback;
 
-
+    /** @var string */
