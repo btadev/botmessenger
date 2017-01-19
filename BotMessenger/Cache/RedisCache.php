@@ -27,4 +27,5 @@ class RedisCache implements CacheInterface
      * @param $auth
      */
     public function __construct($host = '127.0.0.1', $port = 6379, $auth = null)
-     * @return mixed
+    {
+  - <a href="https://telegram.org/"><img src="https://telegram.org/favicon.ico" width="32px"/></a> **Telegram**
