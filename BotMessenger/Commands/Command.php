@@ -33,3 +33,5 @@ class Command
 
     /** @var bool */
     protected $skipsConversation = false;
+
+
