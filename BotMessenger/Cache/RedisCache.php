@@ -20,4 +20,5 @@ class RedisCache implements CacheInterface
     private $port;
     private $auth;
 
-     * Set the button name (defaults to button text).
+    /**
+}
