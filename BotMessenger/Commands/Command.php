@@ -20,4 +20,4 @@ class Command
     protected $in;
 
     /** @var string */
-namespace ChienIT\BotMessenger\Interfaces;
+    protected $driver;
