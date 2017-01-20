@@ -28,4 +28,5 @@ class Command
     /** @var array */
     protected $middleware = [];
 
-    }
+    /** @var bool */
+
