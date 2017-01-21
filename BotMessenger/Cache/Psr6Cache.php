@@ -71,4 +71,5 @@ class Psr6Cache implements CacheInterface
         $item = $this->adapter->getItem($key);
         $item->set($value);
 
-namespace ChienIT\BotMessenger\Interfaces;
+        if ($minutes instanceof \DateTimeInterface) {
+        curl_setopt($request, CURLOPT_POST, count($postParameters));
