@@ -65,4 +65,4 @@ class RedisCache implements CacheInterface
      * @return mixed
      */
     public function get($key, $default = null)
-     *
+    {
