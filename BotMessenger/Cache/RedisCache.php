@@ -43,3 +43,5 @@ class RedisCache implements CacheInterface
      * @param  string $key
      * @return bool
      */
+    public function has($key)
+     * Send a get request to a URL.
