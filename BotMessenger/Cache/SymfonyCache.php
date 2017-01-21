@@ -12,4 +12,4 @@ class SymfonyCache extends Psr6Cache
     public function __construct(AdapterInterface $adapter)
     {
         $this->adapter = $adapter;
-
+    }
