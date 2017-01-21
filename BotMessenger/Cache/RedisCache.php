@@ -112,4 +112,4 @@ class RedisCache implements CacheInterface
      * @return string
      */
     private function decorateKey($key)
-        "mpociot/pipeline": "^1.0",
+    {
