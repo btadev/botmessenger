@@ -13,3 +13,5 @@ class Command
     /** @var string */
     protected $pattern;
 
+    /** @var Closure|string */
+            $driver = new $driver(Request::createFromGlobals(), $config, new Curl());
