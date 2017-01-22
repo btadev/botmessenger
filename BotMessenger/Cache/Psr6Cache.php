@@ -70,4 +70,5 @@ class Psr6Cache implements CacheInterface
     {
         $item = $this->adapter->getItem($key);
         $item->set($value);
-use ChienIT\BotMessenger\Interfaces\HttpInterface;
+
+namespace ChienIT\BotMessenger\Interfaces;
