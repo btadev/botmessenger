@@ -47,4 +47,5 @@ class RedisCache implements CacheInterface
     {
         /*
          * Version >= 4.0 of phpredis returns an integer instead of bool
-        $parentExceptions = Collection::make(class_parents($class));
+         */
+<?php
