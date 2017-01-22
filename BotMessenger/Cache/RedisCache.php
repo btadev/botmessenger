@@ -106,4 +106,5 @@ class RedisCache implements CacheInterface
     }
 
     /**
-    protected $value;
+     * Namespace chienit_botmessenger keys in redis.
+
