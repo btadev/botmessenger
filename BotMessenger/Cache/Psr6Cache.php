@@ -69,4 +69,5 @@ class Psr6Cache implements CacheInterface
     public function put($key, $value, $minutes)
     {
         $item = $this->adapter->getItem($key);
-{
+        $item->set($value);
+use ChienIT\BotMessenger\Interfaces\HttpInterface;
