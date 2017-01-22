@@ -10,4 +10,5 @@ use ChienIT\BotMessenger\Interfaces\Middleware\Matching;
 
 class Command
 {
-        $check = $this->redis->exists($this->decorateKey($key));
+    /** @var string */
+     * @param string $url
