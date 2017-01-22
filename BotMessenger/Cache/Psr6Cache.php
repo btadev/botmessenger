@@ -75,3 +75,5 @@ class Psr6Cache implements CacheInterface
             $item->expiresAt($minutes);
         } else {
             $item->expiresAfter(new \DateInterval(sprintf('PT%dM', $minutes)));
+        }
+
