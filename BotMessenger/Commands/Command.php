@@ -37,4 +37,5 @@ class Command
     /**
      * Command constructor.
      *
-     */
+     * @param string $pattern
+    public function getId();
