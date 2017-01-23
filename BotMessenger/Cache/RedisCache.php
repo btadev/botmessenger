@@ -14,3 +14,5 @@ class RedisCache implements CacheInterface
 {
     const KEY_PREFIX = 'chienit_botmessenger:cache:';
 
+    /** @var Redis */
+     *
