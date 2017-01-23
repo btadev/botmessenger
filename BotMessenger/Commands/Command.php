@@ -51,4 +51,5 @@ class Command
     }
 
     /**
-namespace ChienIT\BotMessenger\Messages\Conversations;
+     * Apply possible group attributes.
+        if ($this->has($key)) {
