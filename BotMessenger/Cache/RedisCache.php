@@ -116,4 +116,4 @@ class RedisCache implements CacheInterface
         return self::KEY_PREFIX.$key;
     }
 
-
+    private function connect()
