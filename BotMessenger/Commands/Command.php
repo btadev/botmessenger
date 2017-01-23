@@ -39,4 +39,5 @@ class Command
      *
      * @param string $pattern
      * @param Closure|string $callback
-
+     * @param array|null $recipients
+  - <a href="https://www.nexmo.com"><img src="https://www.nexmo.com/favicon.ico" width="32px"/></a> **Nexmo**
