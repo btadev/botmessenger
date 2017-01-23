@@ -30,3 +30,4 @@ class Command
 
     /** @var bool */
     protected $stopsConversation = false;
+
