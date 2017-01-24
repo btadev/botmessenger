@@ -109,3 +109,5 @@ class RedisCache implements CacheInterface
      * Namespace chienit_botmessenger keys in redis.
      *
      * @param $key
+     * @return string
+    public function fallback($fallback)
