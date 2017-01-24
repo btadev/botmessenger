@@ -61,4 +61,5 @@ class Command
             $this->middleware($attributes['middleware']);
         }
 
-    /**
+        if (isset($attributes['driver'])) {
+    }
