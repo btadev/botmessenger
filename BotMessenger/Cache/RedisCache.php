@@ -80,4 +80,4 @@ class RedisCache implements CacheInterface
     {
         $redisKey = $this->decorateKey($key);
         $r = $this->redis->multi()
-    {
+            ->get($redisKey)
