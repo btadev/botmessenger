@@ -57,4 +57,5 @@ class Command
      */
     public function applyGroupAttributes(array $attributes)
     {
-
+        if (isset($attributes['middleware'])) {
+     * @return string
