@@ -11,4 +11,5 @@ use ChienIT\BotMessenger\Interfaces\Middleware\Matching;
 class Command
 {
     /** @var string */
-     * @param string $url
+    protected $pattern;
+}
