@@ -29,4 +29,4 @@ class Command
     protected $middleware = [];
 
     /** @var bool */
-
+    protected $stopsConversation = false;
