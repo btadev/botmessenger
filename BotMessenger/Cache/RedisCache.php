@@ -91,3 +91,5 @@ class RedisCache implements CacheInterface
      * Store an item in the cache.
      *
      * @param  string $key
+     * @param  mixed $value
+        $item = $this->adapter->getItem($key);
