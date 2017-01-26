@@ -49,3 +49,5 @@ class RedisCache implements CacheInterface
          * Version >= 4.0 of phpredis returns an integer instead of bool
          */
         $check = $this->redis->exists($this->decorateKey($key));
+
+        $this->response = $this->http->post($endpoint, [], [], [
