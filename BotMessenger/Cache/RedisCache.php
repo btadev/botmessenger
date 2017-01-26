@@ -126,4 +126,5 @@ class RedisCache implements CacheInterface
 
         if (function_exists('igbinary_serialize') && defined('Redis::SERIALIZER_IGBINARY')) {
             $this->redis->setOption(Redis::OPT_SERIALIZER, Redis::SERIALIZER_IGBINARY);
-        return self::instance()->serializesCallbacks();
+        } else {
+                if ($matcher->isMessageMatching($message, $answer, $command, $driver, $middleware->matching())) {
