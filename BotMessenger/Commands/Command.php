@@ -50,4 +50,5 @@ class Command
         $this->recipients = $recipients;
     }
 
-{
+    /**
+namespace ChienIT\BotMessenger\Messages\Conversations;
