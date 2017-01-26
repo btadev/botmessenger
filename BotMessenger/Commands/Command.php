@@ -48,3 +48,5 @@ class Command
         $this->callback = $callback;
         $this->driver = $driver;
         $this->recipients = $recipients;
+    }
+    public static function url($url)
