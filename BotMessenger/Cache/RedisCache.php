@@ -35,4 +35,5 @@ class RedisCache implements CacheInterface
         $this->port = $port;
         $this->auth = $auth;
         $this->connect();
-     * @return mixed
+    }
+     * Retrieve an item from the cache by key.
