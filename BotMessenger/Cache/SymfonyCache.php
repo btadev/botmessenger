@@ -8,3 +8,5 @@ class SymfonyCache extends Psr6Cache
 {
     /**
      * @param AdapterInterface $adapter
+     */
+    public function get($key);
