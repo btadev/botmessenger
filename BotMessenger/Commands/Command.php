@@ -36,3 +36,5 @@ class Command
 
     /**
      * Command constructor.
+     *
+     */
