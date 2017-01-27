@@ -54,3 +54,5 @@ class RedisCache implements CacheInterface
             return $check;
         }
 
+        return $check > 0;
+
