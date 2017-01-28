@@ -117,4 +117,5 @@ class Command
     /**
      * With this command a current conversation should be skipped.
      */
-
+    public function skipsConversation()
+        return false;
