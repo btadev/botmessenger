@@ -82,4 +82,5 @@ class Command
      * @param $driver
      * @return $this
      */
-        }
+    public function driver($driver)
+            ->setDefaultKey($this->getMessage()->getRecipient());
