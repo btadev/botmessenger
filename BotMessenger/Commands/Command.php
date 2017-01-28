@@ -27,4 +27,5 @@ class Command
 
     /** @var array */
     protected $middleware = [];
-     *
+
+    }
