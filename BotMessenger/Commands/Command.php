@@ -18,3 +18,5 @@ class Command
 
     /** @var string */
     protected $in;
+
+    /**
