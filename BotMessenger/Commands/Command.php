@@ -25,4 +25,4 @@ class Command
     /** @var array */
     protected $recipients;
 
-     *
+    /** @var array */
