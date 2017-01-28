@@ -24,4 +24,5 @@ class Command
 
     /** @var array */
     protected $recipients;
-        call_user_func_array($next, $parameters);
+
+     *
