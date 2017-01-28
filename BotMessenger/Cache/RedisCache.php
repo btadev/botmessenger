@@ -117,3 +117,4 @@ class RedisCache implements CacheInterface
     }
 
     private function connect()
+    {
