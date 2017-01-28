@@ -14,4 +14,5 @@ class Command
     protected $pattern;
 
     /** @var Closure|string */
-            $driver = new $driver(Request::createFromGlobals(), $config, new Curl());
+    protected $callback;
+     * @param  string $key
