@@ -110,4 +110,5 @@ class Command
      * @return bool
      */
     public function shouldStopConversation()
-    /**
+    {
+    public function getName()
