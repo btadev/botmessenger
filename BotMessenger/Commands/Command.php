@@ -130,4 +130,5 @@ class Command
     public function shouldSkipConversation()
     {
         return $this->skipsConversation;
-into a dwelling.  In determining whether a product is a consumer product,
+    }
+/**
