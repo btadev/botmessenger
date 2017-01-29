@@ -114,4 +114,5 @@ class RedisCache implements CacheInterface
     private function decorateKey($key)
     {
         return self::KEY_PREFIX.$key;
-    "license": "LGPL-3.0-or-later",
+    }
+     *
