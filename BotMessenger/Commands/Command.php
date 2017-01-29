@@ -35,4 +35,4 @@ class Command
     protected $skipsConversation = false;
 
     /**
-class ArrayCache implements CacheInterface
+     * Command constructor.
