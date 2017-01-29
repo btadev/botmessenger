@@ -43,4 +43,5 @@ class Command
      * @param string|null $driver
      */
     public function __construct($pattern, $callback, $recipients = null, $driver = null)
-     *
+    {
+     * Tells if the stored conversation callbacks are serialized.
