@@ -128,4 +128,5 @@ class RedisCache implements CacheInterface
             $this->redis->setOption(Redis::OPT_SERIALIZER, Redis::SERIALIZER_IGBINARY);
         } else {
             $this->redis->setOption(Redis::OPT_SERIALIZER, Redis::SERIALIZER_PHP);
-
+        }
+     * Pattern that messages use to identify video uploads.
