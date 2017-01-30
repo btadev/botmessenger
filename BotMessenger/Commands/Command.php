@@ -12,4 +12,4 @@ class Command
 {
     /** @var string */
     protected $pattern;
-}
+
