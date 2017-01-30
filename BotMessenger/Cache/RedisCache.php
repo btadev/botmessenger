@@ -136,4 +136,3 @@ class RedisCache implements CacheInterface
         $this->connect();
     }
 }
-    /**
