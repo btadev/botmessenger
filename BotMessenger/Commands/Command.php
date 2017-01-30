@@ -74,3 +74,5 @@ class Command
         }
 
         if (isset($attributes['skip_conversation']) && $attributes['skip_conversation'] === true) {
+            $this->skipsConversation();
+     * RedisCache constructor.
