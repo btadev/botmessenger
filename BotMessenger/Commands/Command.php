@@ -70,4 +70,5 @@ class Command
         }
 
         if (isset($attributes['stop_conversation']) && $attributes['stop_conversation'] === true) {
-     *
+            $this->stopsConversation();
+
