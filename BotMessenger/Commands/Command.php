@@ -135,3 +135,4 @@ class Command
     /**
      * @param $recipients
      * @return $this
+     */
