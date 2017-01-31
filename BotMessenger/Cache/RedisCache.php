@@ -123,4 +123,5 @@ class RedisCache implements CacheInterface
         if ($this->auth !== null) {
             $this->redis->auth($this->auth);
         }
-namespace ChienIT\BotMessenger\Interfaces;
+
+     * @return Response
