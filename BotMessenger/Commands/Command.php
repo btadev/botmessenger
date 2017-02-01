@@ -104,4 +104,5 @@ class Command
         $this->stopsConversation = true;
     }
 
-    public function title($title)
+    /**
+        ];
