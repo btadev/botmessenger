@@ -150,4 +150,5 @@ class Command
     public function middleware($middleware)
     {
         if (! is_array($middleware)) {
-    }
+            $middleware = [$middleware];
+use Closure;
