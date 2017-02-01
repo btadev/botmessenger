@@ -111,4 +111,4 @@ class Command
      */
     public function shouldStopConversation()
     {
-    public function getName()
+        return $this->stopsConversation;
