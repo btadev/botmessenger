@@ -59,4 +59,5 @@ class Command
     {
         if (isset($attributes['middleware'])) {
             $this->middleware($attributes['middleware']);
-    {
+        }
+
