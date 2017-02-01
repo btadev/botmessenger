@@ -109,4 +109,5 @@ class Command
      *
      * @return bool
      */
-
+    public function shouldStopConversation()
+    /**
