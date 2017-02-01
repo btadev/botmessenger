@@ -161,4 +161,5 @@ class Command
     }
 
     /**
-     * @return Image
+     * @return array
+        return $default;
