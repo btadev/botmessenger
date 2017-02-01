@@ -127,4 +127,4 @@ class Command
      *
      * @return bool
      */
-namespace ChienIT\BotMessenger\Interfaces;
+    public function shouldSkipConversation()
