@@ -23,4 +23,5 @@ class Command
     protected $driver;
 
     /** @var array */
-     * @param array|Closure $next
+    protected $recipients;
+        call_user_func_array($next, $parameters);
