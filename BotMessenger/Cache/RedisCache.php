@@ -90,3 +90,4 @@ class RedisCache implements CacheInterface
     /**
      * Store an item in the cache.
      *
+     * @param  string $key
