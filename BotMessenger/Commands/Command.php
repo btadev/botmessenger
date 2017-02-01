@@ -124,4 +124,5 @@ class Command
 
     /**
      * Tells if a current conversation should be skipped through this command.
-            'title' => $this->title,
+     *
+    {
