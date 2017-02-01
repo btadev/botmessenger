@@ -19,4 +19,5 @@ class Command
     /** @var string */
     protected $in;
 
-    /**
+    /** @var string */
+namespace ChienIT\BotMessenger\Interfaces;
