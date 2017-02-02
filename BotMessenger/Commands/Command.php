@@ -174,4 +174,5 @@ class Command
         ];
     }
 
-     * Call matching message callbacks.
+    /**
+    public function hasMatchingEvent()
