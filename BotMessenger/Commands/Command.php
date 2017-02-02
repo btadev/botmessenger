@@ -81,4 +81,5 @@ class Command
     /**
      * @param $driver
      * @return $this
-                $command = $matchingMessage->getCommand();
+     */
+        }
