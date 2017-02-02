@@ -166,4 +166,5 @@ class Command
     public function toArray()
     {
         return [
-{
+            'pattern' => $this->pattern,
+     * Return the event payload.
