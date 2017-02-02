@@ -93,4 +93,5 @@ class RedisCache implements CacheInterface
      * @param  string $key
      * @param  mixed $value
      * @param  \DateTime|int $minutes
-        return 'chienit_botmessenger';
+     * @return void
+namespace ChienIT\BotMessenger\Interfaces;
