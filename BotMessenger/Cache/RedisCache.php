@@ -89,4 +89,4 @@ class RedisCache implements CacheInterface
 
     /**
      * Store an item in the cache.
-        return $this->command;
+     *
