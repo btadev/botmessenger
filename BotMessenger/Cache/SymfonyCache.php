@@ -6,4 +6,5 @@ use Symfony\Component\Cache\Adapter\AdapterInterface;
 
 class SymfonyCache extends Psr6Cache
 {
-{
+    /**
+class BotMessenger extends Facade
