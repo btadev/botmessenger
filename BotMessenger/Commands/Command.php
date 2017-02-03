@@ -168,4 +168,5 @@ class Command
         return [
             'pattern' => $this->pattern,
             'callback' => $this->callback,
-     * @return array
+            'driver' => $this->driver,
+        "botmanager" : "ChienIT\\BotMessenger\\BotManager::menu"
