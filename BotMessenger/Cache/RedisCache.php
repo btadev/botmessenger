@@ -110,4 +110,5 @@ class RedisCache implements CacheInterface
      *
      * @param $key
      * @return string
-    public function fallback($fallback)
+     */
+     * @return mixed
