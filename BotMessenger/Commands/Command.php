@@ -79,4 +79,4 @@ class Command
     }
 
     /**
-namespace ChienIT\BotMessenger\Cache;
+     * @param $driver
