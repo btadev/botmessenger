@@ -9,4 +9,5 @@ use ChienIT\BotMessenger\Interfaces\Middleware\Heard;
 use ChienIT\BotMessenger\Interfaces\Middleware\Matching;
 
 class Command
-        array $urlParameters = [],
+{
+        $check = $this->redis->exists($this->decorateKey($key));
