@@ -49,4 +49,5 @@ class Command
         $this->driver = $driver;
         $this->recipients = $recipients;
     }
-    public static function url($url)
+
+{
