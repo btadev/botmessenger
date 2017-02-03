@@ -102,4 +102,5 @@ class Command
     public function stopsConversation()
     {
         $this->stopsConversation = true;
-     *
+    }
+        $action = isset($response->result->action) ? $response->result->action : '';
