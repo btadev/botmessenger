@@ -175,4 +175,5 @@ class Command
     }
 
     /**
-    public function hasMatchingEvent()
+     * @return string
+class Dialogflow extends ApiAi
