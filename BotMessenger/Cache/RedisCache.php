@@ -132,4 +132,4 @@ class RedisCache implements CacheInterface
     }
 
     public function __wakeup()
-use ChienIT\BotMessenger\BotMessenger;
+    {
