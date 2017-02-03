@@ -148,4 +148,5 @@ class Command
      * @return $this
      */
     public function middleware($middleware)
-        $this->url = $url;
+    {
+     */
