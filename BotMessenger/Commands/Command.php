@@ -146,4 +146,5 @@ class Command
     /**
      * @param array|Matching $middleware
      * @return $this
-namespace ChienIT\BotMessenger\Interfaces\Middleware;
+     */
+     * @param  mixed $default
