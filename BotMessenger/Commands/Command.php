@@ -185,4 +185,4 @@ class Command
     /**
      * @return Closure|string
      */
-     * @param  string $url
+    public function getCallback()
