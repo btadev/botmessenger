@@ -160,4 +160,5 @@ class Command
         return $this;
     }
 
-
+    /**
+     * @return Image
