@@ -116,3 +116,5 @@ class Command
 
     /**
      * With this command a current conversation should be skipped.
+     */
+
