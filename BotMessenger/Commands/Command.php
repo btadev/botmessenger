@@ -65,4 +65,5 @@ class Command
             $this->driver($attributes['driver']);
         }
 
-<?php
+        if (isset($attributes['recipient'])) {
+namespace ChienIT\BotMessenger\Interfaces;
