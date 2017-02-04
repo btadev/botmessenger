@@ -41,4 +41,4 @@ class Command
      * @param Closure|string $callback
      * @param array|null $recipients
      * @param string|null $driver
-use ChienIT\BotMessenger\Interfaces\Middleware\Captured;
+     */
