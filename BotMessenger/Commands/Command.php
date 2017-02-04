@@ -131,4 +131,4 @@ class Command
     {
         return $this->skipsConversation;
     }
-/**
+
