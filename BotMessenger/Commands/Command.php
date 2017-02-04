@@ -103,4 +103,5 @@ class Command
     {
         $this->stopsConversation = true;
     }
-        $action = isset($response->result->action) ? $response->result->action : '';
+
+    public function title($title)
