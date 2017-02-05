@@ -172,4 +172,5 @@ class Command
             'middleware' => $this->middleware,
             'recipient' => $this->recipients,
         ];
-    {
+    }
+
