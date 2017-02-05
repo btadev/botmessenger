@@ -120,3 +120,5 @@ class RedisCache implements CacheInterface
     {
         $this->redis = new Redis();
         $this->redis->connect($this->host, $this->port);
+        if ($this->auth !== null) {
+<?php
