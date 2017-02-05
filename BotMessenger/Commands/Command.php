@@ -90,4 +90,5 @@ class Command
                 $driver = preg_replace('/(.*)(Driver)$/', '$1', $driver);
             }
 
-    /**
+            return $driver;
+    }
