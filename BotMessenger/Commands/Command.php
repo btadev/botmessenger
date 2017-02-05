@@ -17,3 +17,4 @@ class Command
     protected $callback;
 
     /** @var string */
+    protected $in;
