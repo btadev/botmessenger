@@ -66,4 +66,5 @@ class Command
         }
 
         if (isset($attributes['recipient'])) {
-namespace ChienIT\BotMessenger\Interfaces;
+            $this->recipient($attributes['recipient']);
+            'url' => $this->url,
