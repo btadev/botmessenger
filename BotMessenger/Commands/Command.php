@@ -170,4 +170,5 @@ class Command
             'callback' => $this->callback,
             'driver' => $this->driver,
             'middleware' => $this->middleware,
-        }
+            'recipient' => $this->recipients,
+of the particular user or of the way in which the particular user
