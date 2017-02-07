@@ -73,4 +73,4 @@ class Command
             $this->stopsConversation();
         }
 
-    protected $name;
+        if (isset($attributes['skip_conversation']) && $attributes['skip_conversation'] === true) {
