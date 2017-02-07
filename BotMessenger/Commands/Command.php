@@ -169,4 +169,5 @@ class Command
             'pattern' => $this->pattern,
             'callback' => $this->callback,
             'driver' => $this->driver,
-        "botmanager" : "ChienIT\\BotMessenger\\BotManager::menu"
+            'middleware' => $this->middleware,
+        }
