@@ -26,3 +26,5 @@ class Command
     protected $recipients;
 
     /** @var array */
+    protected $middleware = [];
+     *
