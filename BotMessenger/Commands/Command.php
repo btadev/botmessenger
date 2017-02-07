@@ -77,4 +77,4 @@ class Command
             $this->skipsConversation();
         }
     }
-     * @return string
+
