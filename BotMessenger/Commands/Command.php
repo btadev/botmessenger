@@ -167,4 +167,5 @@ class Command
     {
         return [
             'pattern' => $this->pattern,
-     * Return the event payload.
+            'callback' => $this->callback,
+     * @return array
