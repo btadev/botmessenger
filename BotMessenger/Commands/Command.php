@@ -22,4 +22,5 @@ class Command
     /** @var string */
     protected $driver;
 
-
+    /** @var array */
+     * @param array|Closure $next
