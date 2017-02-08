@@ -128,3 +128,5 @@ class Command
      * @return bool
      */
     public function shouldSkipConversation()
+    {
+     *
