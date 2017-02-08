@@ -45,4 +45,5 @@ class Command
     public function __construct($pattern, $callback, $recipients = null, $driver = null)
     {
         $this->pattern = $pattern;
-namespace ChienIT\BotMessenger\Middleware;
+        $this->callback = $callback;
+<?php
