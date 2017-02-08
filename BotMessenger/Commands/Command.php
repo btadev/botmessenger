@@ -46,4 +46,5 @@ class Command
     {
         $this->pattern = $pattern;
         $this->callback = $callback;
-<?php
+        $this->driver = $driver;
+        $responseData = Collection::make(json_decode($response->getContent(), true));
