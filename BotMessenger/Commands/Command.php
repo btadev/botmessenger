@@ -163,4 +163,5 @@ class Command
     /**
      * @return array
      */
-        return self::instance()->getName();
+    public function toArray()
+     * @param BotMessenger $bot
