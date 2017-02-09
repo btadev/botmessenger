@@ -93,4 +93,4 @@ class Command
             return $driver;
         });
 
-<?php
+        return $this;
