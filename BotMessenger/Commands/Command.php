@@ -101,4 +101,5 @@ class Command
      */
     public function stopsConversation()
     {
-    protected $chienit_botmessenger;
+        $this->stopsConversation = true;
+     *
