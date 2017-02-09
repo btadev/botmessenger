@@ -157,4 +157,5 @@ class Command
             return $item instanceof Matching || $item instanceof Heard;
         })->merge($this->middleware)->toArray();
 
-
+        return $this;
+    public function __construct($payload)
