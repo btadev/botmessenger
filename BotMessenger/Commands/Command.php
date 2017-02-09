@@ -136,3 +136,5 @@ class Command
      * @param $recipients
      * @return $this
      */
+    public function recipient($recipients)
+
