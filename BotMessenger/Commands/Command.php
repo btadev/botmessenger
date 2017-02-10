@@ -142,4 +142,5 @@ class Command
 
         return $this;
     }
-     * hits the message service.
+
+     */
