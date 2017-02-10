@@ -165,3 +165,5 @@ class Command
      */
     public function toArray()
     {
+        return [
+{
