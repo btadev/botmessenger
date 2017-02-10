@@ -34,4 +34,5 @@ class Command
     /** @var bool */
     protected $skipsConversation = false;
 
-
+    /**
+class ArrayCache implements CacheInterface
