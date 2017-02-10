@@ -89,4 +89,5 @@ class Command
                 $driver = basename(str_replace('\\', '/', $driver));
                 $driver = preg_replace('/(.*)(Driver)$/', '$1', $driver);
             }
-class BotMessenger extends Facade
+
+    /**
