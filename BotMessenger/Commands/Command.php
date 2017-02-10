@@ -162,4 +162,5 @@ class Command
 
     /**
      * @return array
-        return $default;
+     */
+        return self::instance()->getName();
