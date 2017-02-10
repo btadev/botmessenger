@@ -183,4 +183,5 @@ class Command
     }
 
     /**
-
+     * @return Closure|string
+     * @param $username
