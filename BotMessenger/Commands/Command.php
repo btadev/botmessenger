@@ -68,3 +68,5 @@ class Command
         if (isset($attributes['recipient'])) {
             $this->recipient($attributes['recipient']);
         }
+
+    /**
