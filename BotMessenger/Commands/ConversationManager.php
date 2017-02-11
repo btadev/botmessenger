@@ -38,4 +38,4 @@ class ConversationManager
      */
     public function addDataParameters(IncomingMessage $message, array $parameters)
     {
-     * @return string
+        $messageText = $message->getText();
