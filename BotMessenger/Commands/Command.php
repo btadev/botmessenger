@@ -61,3 +61,4 @@ class Command
             $this->middleware($attributes['middleware']);
         }
 
+    /**
