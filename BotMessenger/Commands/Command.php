@@ -62,4 +62,5 @@ class Command
         }
 
         if (isset($attributes['driver'])) {
-    }
+            $this->driver($attributes['driver']);
+{
