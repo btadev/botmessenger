@@ -112,3 +112,5 @@ class Command
     public function shouldStopConversation()
     {
         return $this->stopsConversation;
+    }
+<?php
