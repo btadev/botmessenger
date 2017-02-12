@@ -156,3 +156,5 @@ class Command
         $this->middleware = Collection::make($middleware)->filter(function ($item) {
             return $item instanceof Matching || $item instanceof Heard;
         })->merge($this->middleware)->toArray();
+
+
