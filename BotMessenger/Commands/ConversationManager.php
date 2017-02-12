@@ -26,4 +26,5 @@ class ConversationManager
     public function listenTo(Command $command)
     {
         $this->listenTo[] = $command;
-
+    }
+class Matcher
