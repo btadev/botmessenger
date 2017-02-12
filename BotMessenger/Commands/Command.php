@@ -53,4 +53,5 @@ class Command
     /**
      * Apply possible group attributes.
      *
-     * @param string $exception
+     * @param  array $attributes
+    /**
