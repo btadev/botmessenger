@@ -179,4 +179,5 @@ class Command
      */
     public function getPattern(): string
     {
-
+        return $this->pattern;
+     */
