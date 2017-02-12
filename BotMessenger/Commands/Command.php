@@ -56,3 +56,5 @@ class Command
      * @param  array $attributes
      */
     public function applyGroupAttributes(array $attributes)
+    {
+
