@@ -194,3 +194,5 @@ class Command
      * @return array
      */
     public function getMiddleware(): array
+    {
+     * @return void
