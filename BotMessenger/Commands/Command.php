@@ -47,4 +47,4 @@ class Command
         $this->pattern = $pattern;
         $this->callback = $callback;
         $this->driver = $driver;
-        $responseData = Collection::make(json_decode($response->getContent(), true));
+        $this->recipients = $recipients;
