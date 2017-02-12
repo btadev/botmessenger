@@ -23,4 +23,4 @@ class ConversationManager
      */
     protected $listenTo = [];
 
-        "name": "Nguyen Duc Chien",
+    public function listenTo(Command $command)
