@@ -133,4 +133,5 @@ class Command
     }
 
     /**
-use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
+     * @param $recipients
+    {
