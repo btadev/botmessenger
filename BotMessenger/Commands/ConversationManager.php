@@ -41,4 +41,5 @@ class ConversationManager
         $messageText = $message->getText();
 
         if ($messageText === Image::PATTERN) {
-namespace ChienIT\BotMessenger\Interfaces;
+            $parameters[] = $message->getImages();
+     *
