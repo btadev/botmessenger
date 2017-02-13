@@ -195,4 +195,5 @@ class Command
      */
     public function getMiddleware(): array
     {
-     * @return void
+        return $this->middleware;
+    {
