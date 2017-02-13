@@ -52,4 +52,5 @@ class Command
 
     /**
      * Apply possible group attributes.
-        if ($this->has($key)) {
+     *
+     * @param string $exception
