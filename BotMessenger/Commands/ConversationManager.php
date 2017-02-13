@@ -64,4 +64,5 @@ class ConversationManager
      * @return array|MatchingMessage[]
      */
     public function getMatchingMessages($messages, MiddlewareManager $middleware, Answer $answer, DriverInterface $driver, $withReceivedMiddleware = true) : array
-        }
+    {
+     * Return the event payload.
