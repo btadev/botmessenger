@@ -69,4 +69,4 @@ class ConversationManager
         $messages = Collection::make($messages)->reject(function (IncomingMessage $message) {
             return $message->isFromBot();
         });
-    }
+
