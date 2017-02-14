@@ -138,4 +138,4 @@ class Command
      */
     public function recipient($recipients)
     {
-    public function get($key)
+        $this->recipients = is_array($recipients) ? $recipients : [$recipients];
