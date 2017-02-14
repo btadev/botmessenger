@@ -33,3 +33,5 @@ class ConversationManager
      * callable parameters.
      *
      * @param IncomingMessage $message
+     * @param array $parameters
+     * @return string
