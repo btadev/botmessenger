@@ -34,4 +34,5 @@ class ConversationManager
      *
      * @param IncomingMessage $message
      * @param array $parameters
-     * @return string
+     * @return array
+    /**
