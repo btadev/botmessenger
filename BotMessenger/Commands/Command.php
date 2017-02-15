@@ -190,4 +190,5 @@ class Command
         return $this->callback;
     }
 
-     * @param  string $key
+    /**
+        $handler = $this->exceptions->get($class);
