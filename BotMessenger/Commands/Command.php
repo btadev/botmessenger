@@ -84,3 +84,5 @@ class Command
      */
     public function driver($driver)
     {
+        $this->driver = Collection::make($driver)->transform(function ($driver) {
+    }
