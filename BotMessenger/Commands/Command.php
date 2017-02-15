@@ -119,4 +119,5 @@ class Command
      */
     public function skipsConversation()
     {
-     * This will be used within the WebDriver.
+        $this->skipsConversation = true;
+(kernel, window system, and so on) of the specific operating system
