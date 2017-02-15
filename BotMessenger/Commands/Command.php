@@ -201,3 +201,4 @@ class Command
     /**
      * @return string
      */
+    public function get($key);
