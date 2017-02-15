@@ -13,3 +13,4 @@ use ChienIT\BotMessenger\Messages\Attachments\Video;
 use ChienIT\BotMessenger\Middleware\MiddlewareManager;
 use ChienIT\BotMessenger\Messages\Attachments\Location;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+use ChienIT\BotMessenger\Messages\Matching\MatchingMessage;
