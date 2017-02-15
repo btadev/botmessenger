@@ -178,4 +178,5 @@ class Command
      * @return string
      */
     public function getPattern(): string
+    {
 
