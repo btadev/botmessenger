@@ -189,3 +189,5 @@ class Command
     {
         return $this->callback;
     }
+
+     * @param  string $key
