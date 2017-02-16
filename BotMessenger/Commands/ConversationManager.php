@@ -47,3 +47,4 @@ class ConversationManager
         } elseif ($messageText === Audio::PATTERN) {
             $parameters[] = $message->getAudio();
         } elseif ($messageText === Location::PATTERN) {
+            $parameters[] = $message->getLocation();
