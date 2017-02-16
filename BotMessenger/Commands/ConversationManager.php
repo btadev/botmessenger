@@ -71,4 +71,5 @@ class ConversationManager
         });
 
         $matchingMessages = [];
-            'query' => $request->query->all(),
+        foreach ($messages as $message) {
+    /**
