@@ -139,3 +139,5 @@ class Command
     public function recipient($recipients)
     {
         $this->recipients = is_array($recipients) ? $recipients : [$recipients];
+
+    public function userStorage()
