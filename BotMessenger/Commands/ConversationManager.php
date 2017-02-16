@@ -43,4 +43,5 @@ class ConversationManager
         if ($messageText === Image::PATTERN) {
             $parameters[] = $message->getImages();
         } elseif ($messageText === Video::PATTERN) {
-
+            $parameters[] = $message->getVideos();
+    {
