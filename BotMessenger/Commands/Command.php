@@ -108,4 +108,5 @@ class Command
      * Tells if a current conversation should be stopped through this command.
      *
      * @return bool
+     */
 
