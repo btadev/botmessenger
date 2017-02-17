@@ -87,3 +87,5 @@ class Command
         $this->driver = Collection::make($driver)->transform(function ($driver) {
             if (class_exists($driver) && is_subclass_of($driver, DriverInterface::class)) {
                 $driver = basename(str_replace('\\', '/', $driver));
+                $driver = preg_replace('/(.*)(Driver)$/', '$1', $driver);
+    {
