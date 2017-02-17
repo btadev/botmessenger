@@ -57,4 +57,4 @@ class ConversationManager
 
     /**
      * @param IncomingMessage[] $messages
-        });
+     * @param MiddlewareManager $middleware
