@@ -85,4 +85,4 @@ class Command
     public function driver($driver)
     {
         $this->driver = Collection::make($driver)->transform(function ($driver) {
-    }
+            if (class_exists($driver) && is_subclass_of($driver, DriverInterface::class)) {
