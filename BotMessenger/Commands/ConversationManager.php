@@ -49,4 +49,4 @@ class ConversationManager
         } elseif ($messageText === Location::PATTERN) {
             $parameters[] = $message->getLocation();
         } elseif ($messageText === File::PATTERN) {
-    }
+            $parameters[] = $message->getFiles();
