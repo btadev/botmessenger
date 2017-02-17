@@ -2,4 +2,4 @@
 
 namespace ChienIT\BotMessenger\Commands;
 
-    public function withAttachment(Attachment $attachment)
+use Illuminate\Support\Collection;
