@@ -36,4 +36,4 @@ class ConversationManager
      * @param array $parameters
      * @return array
      */
-{
+    public function addDataParameters(IncomingMessage $message, array $parameters)
