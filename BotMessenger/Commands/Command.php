@@ -118,4 +118,5 @@ class Command
      * With this command a current conversation should be skipped.
      */
     public function skipsConversation()
-        return false;
+    {
+     * This will be used within the WebDriver.
