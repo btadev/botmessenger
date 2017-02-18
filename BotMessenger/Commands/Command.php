@@ -97,4 +97,5 @@ class Command
     }
 
     /**
-<?php
+     * With this command a current conversation should be stopped.
+     * @param Captured[] ...$middleware
