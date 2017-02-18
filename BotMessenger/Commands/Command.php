@@ -153,4 +153,4 @@ class Command
             $middleware = [$middleware];
         }
 
-{
+        $this->middleware = Collection::make($middleware)->filter(function ($item) {
