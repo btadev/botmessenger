@@ -78,4 +78,5 @@ class ConversationManager
 
             foreach ($this->listenTo as $command) {
                 if ($matcher->isMessageMatching($message, $answer, $command, $driver, $middleware->matching())) {
-     * @return mixed
+                    $matchingMessages[] = new MatchingMessage($command, $message, $matcher->getMatches());
+    }
