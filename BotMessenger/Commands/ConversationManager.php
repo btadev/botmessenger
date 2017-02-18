@@ -27,4 +27,5 @@ class ConversationManager
     {
         $this->listenTo[] = $command;
     }
-class Matcher
+
+     * @param BotMessenger $bot
