@@ -164,4 +164,4 @@ class Command
      * @return array
      */
     public function toArray()
-     * @param BotMessenger $bot
+    {
