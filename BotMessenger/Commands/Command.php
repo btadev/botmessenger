@@ -99,3 +99,4 @@ class Command
     /**
      * With this command a current conversation should be stopped.
      */
+    public function stopsConversation()
