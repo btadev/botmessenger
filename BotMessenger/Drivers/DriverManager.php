@@ -12,4 +12,5 @@ use Symfony\Component\HttpFoundation\Request;
 class DriverManager
 {
     /**
-     * @param bool $regexMatched Indicator if the regular expression was matched too
+     * @var array
+     *
