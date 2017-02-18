@@ -11,4 +11,5 @@ use Symfony\Component\HttpFoundation\Request;
 
 class DriverManager
 {
-namespace ChienIT\BotMessenger\Middleware;
+    /**
+     * @param bool $regexMatched Indicator if the regular expression was matched too
