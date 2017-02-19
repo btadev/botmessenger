@@ -187,3 +187,5 @@ class Command
      */
     public function getCallback()
     {
+        return $this->callback;
+
