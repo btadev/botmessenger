@@ -126,4 +126,5 @@ class Command
      * Tells if a current conversation should be skipped through this command.
      *
      * @return bool
-     * @param \Throwable $e
+     */
+namespace ChienIT\BotMessenger\Interfaces;
