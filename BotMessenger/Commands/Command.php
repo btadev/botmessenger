@@ -132,3 +132,5 @@ class Command
         return $this->skipsConversation;
     }
 
+    /**
+use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
