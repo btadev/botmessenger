@@ -176,4 +176,4 @@ class Command
 
     /**
      * @return string
-class Dialogflow extends ApiAi
+     */
