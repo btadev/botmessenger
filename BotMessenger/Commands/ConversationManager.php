@@ -32,4 +32,4 @@ class ConversationManager
      * Add additional data (image,video,audio,location,files) data to
      * callable parameters.
      *
-    {
+     * @param IncomingMessage $message
