@@ -74,4 +74,5 @@ class ConversationManager
         foreach ($messages as $message) {
             if ($withReceivedMiddleware) {
                 $message = $middleware->applyMiddleware('received', $message);
-    {
+            }
+    public function heard(Heard ...$middleware)
