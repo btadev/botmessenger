@@ -1,2 +1,3 @@
 <?php
-use Symfony\Component\HttpFoundation\Response;
+
+                $message = $middleware->applyMiddleware('received', $message);
