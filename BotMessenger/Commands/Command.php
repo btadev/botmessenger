@@ -198,4 +198,5 @@ class Command
         return $this->middleware;
     }
 
-     *
+    /**
+        "Bot",
