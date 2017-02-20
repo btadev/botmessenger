@@ -140,4 +140,4 @@ class Command
     {
         $this->recipients = is_array($recipients) ? $recipients : [$recipients];
 
-    public function userStorage()
+        return $this;
