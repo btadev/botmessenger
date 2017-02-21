@@ -120,4 +120,5 @@ class Command
     public function skipsConversation()
     {
         $this->skipsConversation = true;
-(kernel, window system, and so on) of the specific operating system
+    }
+ */
