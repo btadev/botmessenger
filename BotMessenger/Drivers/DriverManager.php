@@ -10,4 +10,5 @@ use ChienIT\BotMessenger\Interfaces\VerifiesService;
 use Symfony\Component\HttpFoundation\Request;
 
 class DriverManager
-
+{
+namespace ChienIT\BotMessenger\Middleware;
