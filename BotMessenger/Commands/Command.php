@@ -191,4 +191,5 @@ class Command
     }
 
     /**
-        $handler = $this->exceptions->get($class);
+     * @return array
+{
