@@ -21,4 +21,5 @@ class DriverManager
 
     /** @var HttpInterface */
     protected $http;
-     * @param array $parameters
+
+        if (isset($this->cache[$key])) {
