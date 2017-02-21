@@ -174,3 +174,4 @@ class Command
         ];
     }
 
+     * Call matching message callbacks.
