@@ -9,4 +9,5 @@ use ChienIT\BotMessenger\Messages\Attachments\File;
 use ChienIT\BotMessenger\Interfaces\DriverInterface;
 use ChienIT\BotMessenger\Messages\Attachments\Audio;
 use ChienIT\BotMessenger\Messages\Attachments\Image;
-    public function getInfo();
+use ChienIT\BotMessenger\Messages\Attachments\Video;
+<?php
