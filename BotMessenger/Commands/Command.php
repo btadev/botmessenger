@@ -192,4 +192,5 @@ class Command
 
     /**
      * @return array
-{
+     */
+
