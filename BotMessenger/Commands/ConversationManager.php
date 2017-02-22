@@ -45,3 +45,4 @@ class ConversationManager
         } elseif ($messageText === Video::PATTERN) {
             $parameters[] = $message->getVideos();
         } elseif ($messageText === Audio::PATTERN) {
+            $parameters[] = $message->getAudio();
