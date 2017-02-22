@@ -58,3 +58,4 @@ class ConversationManager
     /**
      * @param IncomingMessage[] $messages
      * @param MiddlewareManager $middleware
+     * @param Answer $answer
