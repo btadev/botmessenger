@@ -11,4 +11,4 @@ use ChienIT\BotMessenger\Messages\Attachments\Audio;
 use ChienIT\BotMessenger\Messages\Attachments\Image;
 use ChienIT\BotMessenger\Messages\Attachments\Video;
 use ChienIT\BotMessenger\Middleware\MiddlewareManager;
-    public function getMatchingDriver(Request $request)
+use ChienIT\BotMessenger\Messages\Attachments\Location;
