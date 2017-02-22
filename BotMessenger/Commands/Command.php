@@ -152,4 +152,5 @@ class Command
         if (! is_array($middleware)) {
             $middleware = [$middleware];
         }
-    }
+
+{
