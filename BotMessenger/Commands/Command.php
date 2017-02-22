@@ -137,4 +137,5 @@ class Command
      * @return $this
      */
     public function recipient($recipients)
-
+    {
+    public function get($key)
