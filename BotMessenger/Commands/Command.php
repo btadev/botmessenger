@@ -144,3 +144,5 @@ class Command
     }
 
     /**
+     * @param array|Matching $middleware
+namespace ChienIT\BotMessenger\Interfaces;
