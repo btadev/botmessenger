@@ -147,4 +147,5 @@ class Command
      * @param array|Matching $middleware
      * @return $this
      */
-     * @param  mixed $default
+    public function middleware($middleware)
+        $this->url = $url;
