@@ -16,3 +16,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 use ChienIT\BotMessenger\Messages\Matching\MatchingMessage;
 
 class ConversationManager
+{
+    public function captured(IncomingMessage $message, $next, BotMessenger $bot)
