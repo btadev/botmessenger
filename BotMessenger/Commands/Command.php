@@ -205,4 +205,5 @@ class Command
     {
         return $this->driver;
     }
-     * @return $this
+
+  - <a href="https://slack.com"><img src="https://a.slack-edge.com/436da/marketing/img/meta/favicon-32.png" width="32px"/></a> **Slack**
