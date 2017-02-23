@@ -22,4 +22,4 @@ class DriverManager
     /** @var HttpInterface */
     protected $http;
 
-        if (isset($this->cache[$key])) {
+    /**
