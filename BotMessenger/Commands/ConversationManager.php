@@ -15,4 +15,4 @@ use ChienIT\BotMessenger\Messages\Attachments\Location;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 use ChienIT\BotMessenger\Messages\Matching\MatchingMessage;
 
-    /**
+class ConversationManager
