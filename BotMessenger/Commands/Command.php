@@ -141,3 +141,5 @@ class Command
         $this->recipients = is_array($recipients) ? $recipients : [$recipients];
 
         return $this;
+    }
+     * hits the message service.
