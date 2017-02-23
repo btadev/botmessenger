@@ -69,3 +69,5 @@ class DriverManager
             $name = preg_replace('#(Driver$)#', '', basename(str_replace('\\', '/', $name)));
         }
         /*
+         * Use the driver name constant if we try to load a driver by it's
+    }
