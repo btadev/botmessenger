@@ -24,3 +24,5 @@ class ConversationManager
     protected $listenTo = [];
 
     public function listenTo(Command $command)
+    {
+     * @param AdapterInterface $adapter
