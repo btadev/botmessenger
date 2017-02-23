@@ -197,3 +197,5 @@ class Command
     {
         return $this->middleware;
     }
+
+     *
