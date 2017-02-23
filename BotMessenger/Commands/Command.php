@@ -158,4 +158,5 @@ class Command
         })->merge($this->middleware)->toArray();
 
         return $this;
-    public function __construct($payload)
+    }
+namespace ChienIT\BotMessenger\Exceptions\Base;
