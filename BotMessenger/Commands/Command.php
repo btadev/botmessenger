@@ -213,3 +213,5 @@ class Command
     {
         return $this->recipients;
     }
+}
+
