@@ -201,4 +201,5 @@ class Command
     /**
      * @return string
      */
-    public function get($key);
+    public function getDriver()
+            $seconds = $minutes * 60;
