@@ -60,4 +60,5 @@ class ConversationManager
      * @param MiddlewareManager $middleware
      * @param Answer $answer
      * @param DriverInterface $driver
-     */
+     * @param bool $withReceivedMiddleware
+     * @param IncomingMessage $message
