@@ -33,4 +33,5 @@ class DriverManager
         $this->http = $http;
     }
 
-
+    /**
+     * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
