@@ -21,4 +21,4 @@ class ConversationManager
      * Messages to listen to.
      * @var Command[]
      */
-    /**
+    protected $listenTo = [];
