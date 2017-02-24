@@ -31,4 +31,5 @@ class ConversationManager
     /**
      * Add additional data (image,video,audio,location,files) data to
      * callable parameters.
-use ChienIT\BotMessenger\Messages\Attachments\Image;
+     *
+    {
