@@ -14,3 +14,5 @@ class DriverManager
     /**
      * @var array
      */
+    protected static $drivers = [];
+            ->setPrefix('user_')
