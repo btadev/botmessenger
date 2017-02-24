@@ -1,4 +1,5 @@
 <?php
 
 namespace ChienIT\BotMessenger\Commands;
-     * Attachment constructor.
+
+    public function withAttachment(Attachment $attachment)
