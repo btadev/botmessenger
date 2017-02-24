@@ -55,4 +55,4 @@ class ConversationManager
         return $parameters;
     }
 
-
+    /**
