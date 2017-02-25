@@ -25,4 +25,5 @@ class ConversationManager
 
     public function listenTo(Command $command)
     {
-     * @param AdapterInterface $adapter
+        $this->listenTo[] = $command;
+
