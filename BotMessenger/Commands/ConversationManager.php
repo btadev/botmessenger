@@ -70,3 +70,5 @@ class ConversationManager
             return $message->isFromBot();
         });
 
+        $matchingMessages = [];
+            'query' => $request->query->all(),
