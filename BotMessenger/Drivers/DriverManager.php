@@ -36,3 +36,5 @@ class DriverManager
     /**
      * @return array
      */
+    public static function getAvailableDrivers()
+     *
