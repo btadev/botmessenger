@@ -212,3 +212,4 @@ class Command
     public function getRecipients()
     {
         return $this->recipients;
+    }
