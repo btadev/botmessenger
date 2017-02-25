@@ -90,4 +90,5 @@ class DriverManager
     }
 
     /**
-        Request $request = null,
+     * @param array $config
+    {
