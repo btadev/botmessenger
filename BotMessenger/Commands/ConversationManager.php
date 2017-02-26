@@ -51,3 +51,5 @@ class ConversationManager
         } elseif ($messageText === File::PATTERN) {
             $parameters[] = $message->getFiles();
         }
+
+        if ($minutes instanceof \DateTimeInterface) {
