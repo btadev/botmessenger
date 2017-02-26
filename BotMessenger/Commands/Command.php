@@ -202,4 +202,5 @@ class Command
      * @return string
      */
     public function getDriver()
-            $seconds = $minutes * 60;
+    {
+use Illuminate\Support\Collection;
