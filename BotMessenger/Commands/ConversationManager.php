@@ -84,3 +84,5 @@ class ConversationManager
         }
 
         return $matchingMessages;
+    }
+    public function sending($payload, $next, BotMessenger $bot);
