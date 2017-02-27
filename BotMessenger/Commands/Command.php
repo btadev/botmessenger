@@ -199,4 +199,5 @@ class Command
     }
 
     /**
-        "Bot",
+     * @return string
+     */
