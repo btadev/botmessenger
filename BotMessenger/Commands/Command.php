@@ -204,4 +204,5 @@ class Command
     public function getDriver()
     {
         return $this->driver;
-    public function matching(IncomingMessage $message, $pattern, $regexMatched);
+    }
+     * @return $this
