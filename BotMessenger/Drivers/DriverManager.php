@@ -81,4 +81,5 @@ class DriverManager
         foreach (self::getAvailableDrivers() as $driver) {
             /** @var HttpDriver $driver */
             $driver = new $driver($request, $config, new Curl());
-        $this->attachment = $attachment;
+            if ($driver->getName() === $name) {
+     */
