@@ -86,4 +86,3 @@ class ConversationManager
         return $matchingMessages;
     }
 }
-namespace ChienIT\BotMessenger\Interfaces;
