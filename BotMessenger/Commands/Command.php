@@ -209,4 +209,5 @@ class Command
     /**
      * @return array
      */
+    public function getRecipients()
 
