@@ -186,3 +186,4 @@ class Command
      * @return Closure|string
      */
     public function getCallback()
+    {
