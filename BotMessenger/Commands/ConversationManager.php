@@ -63,3 +63,5 @@ class ConversationManager
      * @param bool $withReceivedMiddleware
      * @return array|MatchingMessage[]
      */
+    public function getMatchingMessages($messages, MiddlewareManager $middleware, Answer $answer, DriverInterface $driver, $withReceivedMiddleware = true) : array
+        }
