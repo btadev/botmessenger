@@ -203,4 +203,5 @@ class Command
      */
     public function getDriver()
     {
-use Illuminate\Support\Collection;
+        return $this->driver;
+    public function matching(IncomingMessage $message, $pattern, $regexMatched);
