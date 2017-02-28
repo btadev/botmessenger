@@ -77,4 +77,5 @@ class ConversationManager
             }
 
             foreach ($this->listenTo as $command) {
-interface ShouldQueue
+                if ($matcher->isMessageMatching($message, $answer, $command, $driver, $middleware->matching())) {
+     * @return mixed
