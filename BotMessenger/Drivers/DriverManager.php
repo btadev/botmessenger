@@ -124,4 +124,4 @@ class DriverManager
             $additionalDrivers = (array) call_user_func([$driver, 'additionalDrivers']);
             foreach ($additionalDrivers as $additionalDriver) {
                 self::loadDriver($additionalDriver);
-    }
+            }
