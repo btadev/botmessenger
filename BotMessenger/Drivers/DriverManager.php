@@ -42,3 +42,4 @@ class DriverManager
     }
 
     /**
+     * @return array
