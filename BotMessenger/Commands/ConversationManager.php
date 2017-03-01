@@ -56,3 +56,5 @@ class ConversationManager
     }
 
     /**
+     * @param IncomingMessage[] $messages
+        });
