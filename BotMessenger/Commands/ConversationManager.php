@@ -52,4 +52,5 @@ class ConversationManager
             $parameters[] = $message->getFiles();
         }
 
-        if ($minutes instanceof \DateTimeInterface) {
+        return $parameters;
+        return $action.'@__invoke';
