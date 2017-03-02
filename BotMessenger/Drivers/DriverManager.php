@@ -23,3 +23,4 @@ class DriverManager
     protected $http;
 
     /**
+     * DriverManager constructor.
