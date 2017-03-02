@@ -49,4 +49,5 @@ class DriverManager
         return Collection::make(self::$drivers)->filter(function ($driver) {
             return is_subclass_of($driver, HttpDriver::class);
         })->toArray();
-use ChienIT\BotMessenger\Interfaces\MiddlewareInterface;
+    }
+
