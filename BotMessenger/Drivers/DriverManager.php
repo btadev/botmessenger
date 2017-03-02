@@ -132,4 +132,4 @@ class DriverManager
 
     /**
      * Remove a driver from the list of loadable drivers.
-            echo $i.'. ';
+     *
