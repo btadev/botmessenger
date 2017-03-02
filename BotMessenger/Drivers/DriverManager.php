@@ -102,4 +102,5 @@ class DriverManager
             if ($driver->isConfigured()) {
                 $drivers[] = $driver;
             }
-<?php
+        }
+     * @return array
