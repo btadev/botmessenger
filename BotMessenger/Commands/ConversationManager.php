@@ -18,4 +18,5 @@ use ChienIT\BotMessenger\Messages\Matching\MatchingMessage;
 class ConversationManager
 {
     /**
-namespace ChienIT\BotMessenger\Exceptions\Base;
+     * Messages to listen to.
+    /**
