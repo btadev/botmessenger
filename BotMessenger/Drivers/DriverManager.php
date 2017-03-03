@@ -80,4 +80,5 @@ class DriverManager
         }
         foreach (self::getAvailableDrivers() as $driver) {
             /** @var HttpDriver $driver */
-    public function __construct($url, $payload = null)
+            $driver = new $driver($request, $config, new Curl());
+        $this->attachment = $attachment;
