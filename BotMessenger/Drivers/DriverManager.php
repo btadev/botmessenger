@@ -156,4 +156,4 @@ class DriverManager
             $driver = new $driver($request, $config, new Curl());
             if ($driver instanceof VerifiesService && ! is_null($driver->verifyRequest($request))) {
                 return true;
-    public function channelStorage()
+            }
