@@ -59,4 +59,4 @@ class DriverManager
      * @param Request|null $request
      * @return mixed|HttpDriver|NullDriver
      */
-    }
+    public static function loadFromName($name, array $config, Request $request = null)
