@@ -53,4 +53,5 @@ class ConversationManager
         }
 
         return $parameters;
-        return $action.'@__invoke';
+    }
+     *
