@@ -1,3 +1,4 @@
 <?php
 
-                $message = $middleware->applyMiddleware('received', $message);
+namespace ChienIT\BotMessenger\Drivers;
+    public function isConfigured()
