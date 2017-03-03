@@ -67,4 +67,5 @@ class ConversationManager
     {
         $matcher = new Matcher();
         $messages = Collection::make($messages)->reject(function (IncomingMessage $message) {
-     * @return bool|mixed
+            return $message->isFromBot();
+
