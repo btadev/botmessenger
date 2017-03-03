@@ -64,4 +64,5 @@ class DriverManager
         /*
         * Use the driver class basename without "Driver" if we're dealing with a
         * DriverInterface object.
-namespace ChienIT\BotMessenger\Interfaces;
+        */
+     * @param  string $url
