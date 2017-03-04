@@ -163,4 +163,5 @@ class DriverManager
     }
 
     /**
-    public function get($key, $default = null)
+     * @param Request $request
+
