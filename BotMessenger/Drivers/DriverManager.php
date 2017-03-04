@@ -46,3 +46,4 @@ class DriverManager
      */
     public static function getAvailableHttpDrivers()
     {
+     * @param mixed $value
