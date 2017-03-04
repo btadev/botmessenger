@@ -65,4 +65,5 @@ class DriverManager
         * Use the driver class basename without "Driver" if we're dealing with a
         * DriverInterface object.
         */
-     * @param  string $url
+        if (class_exists($name) && is_subclass_of($name, DriverInterface::class)) {
+namespace ChienIT\BotMessenger\Interfaces;
