@@ -46,4 +46,5 @@ class DriverManager
      */
     public static function getAvailableHttpDrivers()
     {
-     * @param mixed $value
+        return Collection::make(self::$drivers)->filter(function ($driver) {
+    {
