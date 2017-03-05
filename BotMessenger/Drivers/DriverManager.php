@@ -73,4 +73,4 @@ class DriverManager
          * fully qualified class name.
          */
         if (class_exists($name) && is_subclass_of($name, HttpDriver::class)) {
-    /**
+            $name = $name::DRIVER_NAME;
