@@ -19,3 +19,5 @@ class DriverManager
     /** @var array */
     protected $config;
 
+    /** @var HttpInterface */
+{
