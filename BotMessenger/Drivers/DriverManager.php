@@ -158,4 +158,5 @@ class DriverManager
                 return true;
             }
         }
-{
+
+        return $this->message;
