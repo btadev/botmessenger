@@ -62,4 +62,4 @@ class ConversationManager
      * @param DriverInterface $driver
      * @param bool $withReceivedMiddleware
      * @return array|MatchingMessage[]
-    {
+     */
