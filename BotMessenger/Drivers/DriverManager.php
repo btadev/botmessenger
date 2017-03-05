@@ -117,4 +117,5 @@ class DriverManager
     {
         array_unshift(self::$drivers, $driver);
         if (method_exists($driver, 'loadExtension')) {
-     * @param mixed $payload
+            call_user_func([$driver, 'loadExtension']);
+            return $message->isFromBot();
