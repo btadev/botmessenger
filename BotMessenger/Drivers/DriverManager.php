@@ -51,3 +51,4 @@ class DriverManager
         })->toArray();
     }
 
+     * @return Attachment
