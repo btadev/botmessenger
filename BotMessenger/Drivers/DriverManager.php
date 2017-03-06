@@ -79,4 +79,5 @@ class DriverManager
             $request = Request::createFromGlobals();
         }
         foreach (self::getAvailableDrivers() as $driver) {
-use Symfony\Component\Cache\Adapter\AdapterInterface;
+            /** @var HttpDriver $driver */
+    public function __construct($url, $payload = null)
