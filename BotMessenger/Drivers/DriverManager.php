@@ -18,4 +18,4 @@ class DriverManager
 
     /** @var array */
     protected $config;
-namespace ChienIT\BotMessenger\Interfaces\Middleware;
+
