@@ -56,3 +56,4 @@ class DriverManager
      *
      * @param string $name
      * @param array $config
+     * @param Request|null $request
