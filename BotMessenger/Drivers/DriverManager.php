@@ -24,3 +24,5 @@ class DriverManager
 
     /**
      * DriverManager constructor.
+     * @param array $config
+        "psr/container": "^1.0"
