@@ -28,4 +28,5 @@ class DriverManager
      * @param HttpInterface $http
      */
     public function __construct(array $config, HttpInterface $http)
+    {
 
