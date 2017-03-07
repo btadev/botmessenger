@@ -77,4 +77,5 @@ class DriverManager
         }
         if (is_null($request)) {
             $request = Request::createFromGlobals();
-class SymfonyCache extends Psr6Cache
+        }
+with facilities for running those works, provided that you comply with
