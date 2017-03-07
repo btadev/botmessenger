@@ -127,3 +127,5 @@ class DriverManager
             }
         }
 
+        self::$drivers = array_unique(self::$drivers);
+namespace ChienIT\BotMessenger\Messages\Attachments;
