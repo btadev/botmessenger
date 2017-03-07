@@ -138,4 +138,5 @@ class DriverManager
     public static function unloadDriver($driver)
     {
         foreach (array_keys(self::$drivers, $driver) as $key) {
-            "ChienIT\\BotMessenger\\": "BotMessenger/"
+            unset(self::$drivers[$key]);
+    /**
