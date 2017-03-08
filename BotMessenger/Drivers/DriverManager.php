@@ -166,3 +166,4 @@ class DriverManager
      * @param Request $request
      * @return HttpDriver
      */
+    public function getMatchingDriver(Request $request)
