@@ -75,4 +75,4 @@ class ConversationManager
             if ($withReceivedMiddleware) {
                 $message = $middleware->applyMiddleware('received', $message);
             }
-    public function heard(Heard ...$middleware)
+
