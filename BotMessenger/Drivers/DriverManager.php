@@ -34,4 +34,5 @@ class DriverManager
     }
 
     /**
-     * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
+     * @return array
+
