@@ -116,4 +116,5 @@ class DriverManager
     public static function loadDriver($driver, $explicit = false)
     {
         array_unshift(self::$drivers, $driver);
-        $this->matches = [];
+        if (method_exists($driver, 'loadExtension')) {
+     * @param mixed $payload
