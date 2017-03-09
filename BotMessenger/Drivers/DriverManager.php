@@ -30,3 +30,5 @@ class DriverManager
     public function __construct(array $config, HttpInterface $http)
     {
         $this->config = $config;
+        $this->http = $http;
+namespace ChienIT\BotMessenger\Middleware;
