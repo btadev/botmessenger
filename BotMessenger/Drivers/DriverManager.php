@@ -114,3 +114,5 @@ class DriverManager
      * @param bool $explicit Only load this one driver and not any additional (sub)-drivers
      */
     public static function loadDriver($driver, $explicit = false)
+    {
+use ChienIT\BotMessenger\BotMessenger;
