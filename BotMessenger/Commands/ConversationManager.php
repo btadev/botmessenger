@@ -72,4 +72,5 @@ class ConversationManager
 
         $matchingMessages = [];
         foreach ($messages as $message) {
-    /**
+            if ($withReceivedMiddleware) {
+    public function get($url, array $urlParameters = [], array $headers = [], $asJSON = false);
