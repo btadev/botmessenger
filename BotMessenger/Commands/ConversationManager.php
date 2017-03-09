@@ -76,3 +76,5 @@ class ConversationManager
                 $message = $middleware->applyMiddleware('received', $message);
             }
 
+            foreach ($this->listenTo as $command) {
+interface ShouldQueue
