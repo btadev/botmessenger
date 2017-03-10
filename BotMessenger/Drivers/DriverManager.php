@@ -25,4 +25,5 @@ class DriverManager
     /**
      * DriverManager constructor.
      * @param array $config
-        "psr/container": "^1.0"
+     * @param HttpInterface $http
+
