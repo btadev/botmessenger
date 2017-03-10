@@ -38,4 +38,5 @@ class DriverManager
      */
     public static function getAvailableDrivers()
     {
-
+        return self::$drivers;
+    }
