@@ -47,4 +47,4 @@ class DriverManager
     public static function getAvailableHttpDrivers()
     {
         return Collection::make(self::$drivers)->filter(function ($driver) {
-    {
+            return is_subclass_of($driver, HttpDriver::class);
