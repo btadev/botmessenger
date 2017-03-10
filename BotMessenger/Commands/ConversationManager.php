@@ -80,4 +80,5 @@ class ConversationManager
                 if ($matcher->isMessageMatching($message, $answer, $command, $driver, $middleware->matching())) {
                     $matchingMessages[] = new MatchingMessage($command, $message, $matcher->getMatches());
                 }
-{
+            }
+  If you convey an object code work under this section in, or with, or
