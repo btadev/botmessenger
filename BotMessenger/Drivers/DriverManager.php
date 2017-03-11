@@ -121,4 +121,4 @@ class DriverManager
         }
 
         if (method_exists($driver, 'additionalDrivers') && $explicit === false) {
-    public function all()
+            $additionalDrivers = (array) call_user_func([$driver, 'additionalDrivers']);
