@@ -108,4 +108,5 @@ class DriverManager
     }
 
     /**
-namespace ChienIT\BotMessenger\Traits;
+     * Append a driver to the list of loadable drivers.
+    /**
