@@ -16,4 +16,5 @@ class DriverManager
      */
     protected static $drivers = [];
 
-
+    /** @var array */
+     * @param BotMessenger $bot
