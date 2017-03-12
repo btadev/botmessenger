@@ -123,4 +123,5 @@ class DriverManager
         if (method_exists($driver, 'additionalDrivers') && $explicit === false) {
             $additionalDrivers = (array) call_user_func([$driver, 'additionalDrivers']);
             foreach ($additionalDrivers as $additionalDriver) {
-    {
+                self::loadDriver($additionalDriver);
+    }
