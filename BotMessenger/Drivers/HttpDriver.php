@@ -1,4 +1,5 @@
 <?php
 
 namespace ChienIT\BotMessenger\Drivers;
-namespace ChienIT\BotMessenger\Exceptions\Core;
+
+            if ($this->matcher->isPatternValid($message, $this->getConversationAnswer(), $additionalParameters->get('__pattern'))) {
