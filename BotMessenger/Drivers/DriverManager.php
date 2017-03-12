@@ -27,4 +27,5 @@ class DriverManager
      * @param array $config
      * @param HttpInterface $http
      */
-            'Authorization: Bearer '.$this->token,
+    public function __construct(array $config, HttpInterface $http)
+
