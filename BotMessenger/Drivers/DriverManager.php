@@ -137,4 +137,5 @@ class DriverManager
      */
     public static function unloadDriver($driver)
     {
-    it) with contractual assumptions of liability to the recipient, for
+        foreach (array_keys(self::$drivers, $driver) as $key) {
+            "ChienIT\\BotMessenger\\": "BotMessenger/"
