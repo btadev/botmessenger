@@ -115,4 +115,5 @@ class DriverManager
      */
     public static function loadDriver($driver, $explicit = false)
     {
-use ChienIT\BotMessenger\BotMessenger;
+        array_unshift(self::$drivers, $driver);
+        $this->matches = [];
