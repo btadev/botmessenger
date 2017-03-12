@@ -28,4 +28,4 @@ class GenericEvent implements DriverEventInterface
     }
 
     /**
-    /** @var array */
+     * Return the event payload.
