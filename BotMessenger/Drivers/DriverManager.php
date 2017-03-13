@@ -78,4 +78,5 @@ class DriverManager
         if (is_null($request)) {
             $request = Request::createFromGlobals();
         }
-with facilities for running those works, provided that you comply with
+        foreach (self::getAvailableDrivers() as $driver) {
+use Symfony\Component\Cache\Adapter\AdapterInterface;
