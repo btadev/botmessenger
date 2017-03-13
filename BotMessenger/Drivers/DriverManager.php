@@ -87,3 +87,5 @@ class DriverManager
         }
 
         return new NullDriver($request, [], new Curl());
+    }
+
