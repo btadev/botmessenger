@@ -120,4 +120,5 @@ class DriverManager
             call_user_func([$driver, 'loadExtension']);
         }
 
-use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
+        if (method_exists($driver, 'additionalDrivers') && $explicit === false) {
+    public function all()
