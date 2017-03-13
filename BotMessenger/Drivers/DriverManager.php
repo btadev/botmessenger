@@ -168,4 +168,4 @@ class DriverManager
      */
     public function getMatchingDriver(Request $request)
     {
-
+        foreach (self::getAvailableDrivers() as $driver) {
