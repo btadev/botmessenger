@@ -31,4 +31,5 @@ class DriverManager
     {
         $this->config = $config;
         $this->http = $http;
-namespace ChienIT\BotMessenger\Middleware;
+    }
+
