@@ -13,4 +13,5 @@ class GenericEvent implements DriverEventInterface
      * @param $payload
      */
     public function __construct($payload)
-    /** @var string */
+    {
+
