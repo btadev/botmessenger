@@ -18,4 +18,4 @@ class GenericEvent implements DriverEventInterface
     }
 
     /**
-
+     * Return the event name to match.
