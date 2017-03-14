@@ -142,4 +142,4 @@ class DriverManager
         }
     }
 
-namespace ChienIT\BotMessenger\Interfaces\Middleware;
+    /**
