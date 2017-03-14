@@ -129,4 +129,4 @@ class DriverManager
 
         self::$drivers = array_unique(self::$drivers);
     }
-     * @param bool $regexMatched Indicator if the regular expression was matched too
+
