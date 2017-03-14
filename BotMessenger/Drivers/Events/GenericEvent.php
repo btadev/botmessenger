@@ -29,3 +29,5 @@ class GenericEvent implements DriverEventInterface
 
     /**
      * Return the event payload.
+     *
+}
