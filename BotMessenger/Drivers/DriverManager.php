@@ -101,4 +101,5 @@ class DriverManager
             $driver = new $driver(Request::createFromGlobals(), $config, new Curl());
             if ($driver->isConfigured()) {
                 $drivers[] = $driver;
-class UnexpectedValueException extends BotMessengerException
+            }
+<?php
