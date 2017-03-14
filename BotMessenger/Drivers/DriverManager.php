@@ -113,4 +113,4 @@ class DriverManager
      * @param string $driver Driver class name
      * @param bool $explicit Only load this one driver and not any additional (sub)-drivers
      */
-    public function heard(IncomingMessage $message, $next, BotMessenger $bot);
+    public static function loadDriver($driver, $explicit = false)
