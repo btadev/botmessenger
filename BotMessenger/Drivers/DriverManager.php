@@ -54,4 +54,5 @@ class DriverManager
     /**
      * Load a driver by using its name.
      *
-
+     * @param string $name
+    /**
