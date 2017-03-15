@@ -107,3 +107,5 @@ class DriverManager
         return $drivers;
     }
 
+    /**
+namespace ChienIT\BotMessenger\Traits;
