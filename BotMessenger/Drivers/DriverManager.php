@@ -152,4 +152,5 @@ class DriverManager
     public static function verifyServices(array $config, Request $request = null)
     {
         $request = (isset($request)) ? $request : Request::createFromGlobals();
-    public function getImages()
+        foreach (self::getAvailableHttpDrivers() as $driver) {
+
