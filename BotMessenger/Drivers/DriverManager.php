@@ -66,4 +66,5 @@ class DriverManager
         * DriverInterface object.
         */
         if (class_exists($name) && is_subclass_of($name, DriverInterface::class)) {
-namespace ChienIT\BotMessenger\Interfaces;
+            $name = preg_replace('#(Driver$)#', '', basename(str_replace('\\', '/', $name)));
+
