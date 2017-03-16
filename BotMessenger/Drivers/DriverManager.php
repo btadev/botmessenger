@@ -139,4 +139,5 @@ class DriverManager
     {
         foreach (array_keys(self::$drivers, $driver) as $key) {
             unset(self::$drivers[$key]);
-    /**
+        }
+
