@@ -147,4 +147,4 @@ class DriverManager
      *
      * @param array $config
      * @param Request|null $request
-     * @param mixed $payload
+     * @return bool
