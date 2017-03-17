@@ -18,4 +18,4 @@ abstract class HttpDriver implements DriverInterface
 
     /** @var HttpInterface */
     protected $http;
-     */
+
