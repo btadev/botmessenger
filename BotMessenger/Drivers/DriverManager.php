@@ -105,4 +105,4 @@ class DriverManager
         }
 
         return $drivers;
-<?php
+    }
