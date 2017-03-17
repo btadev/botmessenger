@@ -45,4 +45,5 @@ abstract class HttpDriver implements DriverInterface
      * @return string
      */
     public function getName()
-        "tightenco/collect": "~5.0",
+    {
+
