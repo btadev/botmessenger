@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Drivers;
 
-            if ($this->matcher->isPatternValid($message, $this->getConversationAnswer(), $additionalParameters->get('__pattern'))) {
+use Illuminate\Support\Collection;
+namespace ChienIT\BotMessenger\Interfaces;
