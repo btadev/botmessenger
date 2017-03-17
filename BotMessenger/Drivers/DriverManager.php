@@ -62,3 +62,5 @@ class DriverManager
     public static function loadFromName($name, array $config, Request $request = null)
     {
         /*
+        * Use the driver class basename without "Driver" if we're dealing with a
+
