@@ -146,4 +146,5 @@ class DriverManager
      * Verify service webhook URLs.
      *
      * @param array $config
-     * Determine if the request is for this driver.
+     * @param Request|null $request
+     * @param mixed $payload
