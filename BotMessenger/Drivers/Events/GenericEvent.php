@@ -23,3 +23,4 @@ class GenericEvent implements DriverEventInterface
      * @return string
      */
     public function getName()
+    {
