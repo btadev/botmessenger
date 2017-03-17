@@ -32,4 +32,4 @@ class GenericEvent implements DriverEventInterface
      *
      * @return mixed
      */
-     */
+    public function getPayload()
