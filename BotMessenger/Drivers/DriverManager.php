@@ -111,3 +111,5 @@ class DriverManager
      * Append a driver to the list of loadable drivers.
      *
      * @param string $driver Driver class name
+     * @param bool $explicit Only load this one driver and not any additional (sub)-drivers
+namespace ChienIT\BotMessenger\Interfaces;
