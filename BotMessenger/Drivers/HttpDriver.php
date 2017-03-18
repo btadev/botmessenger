@@ -76,4 +76,5 @@ abstract class HttpDriver implements DriverInterface
     public function types(IncomingMessage $matchingMessage)
     {
         // Do nothing
-
+    }
+    public function captured(IncomingMessage $message, $next, BotMessenger $bot);
