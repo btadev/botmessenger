@@ -98,4 +98,5 @@ class DriverManager
         $drivers = [];
 
         foreach (self::getAvailableHttpDrivers() as $driver) {
-     * Pattern that messages use to identify image uploads.
+            $driver = new $driver(Request::createFromGlobals(), $config, new Curl());
+    /**
