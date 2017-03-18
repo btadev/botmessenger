@@ -170,4 +170,4 @@ class DriverManager
     {
         foreach (self::getAvailableDrivers() as $driver) {
             /** @var HttpDriver $driver */
-                $res = @file_get_contents('https://packagist.org/p/'.$package.'.json');
+            $driver = new $driver($request, $this->config, $this->http);
