@@ -77,4 +77,5 @@ abstract class HttpDriver implements DriverInterface
     {
         // Do nothing
     }
-    public function captured(IncomingMessage $message, $next, BotMessenger $bot);
+
+        return $this->ask($question, $next, $additionalParameters);
