@@ -20,3 +20,4 @@ abstract class HttpDriver implements DriverInterface
     protected $http;
 
     /** @var Collection */
+    protected $config;
