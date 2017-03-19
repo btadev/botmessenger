@@ -46,4 +46,5 @@ abstract class HttpDriver implements DriverInterface
      */
     public function getName()
     {
-
+        return static::DRIVER_NAME;
+{
