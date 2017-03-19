@@ -14,4 +14,5 @@ class GenericEvent implements DriverEventInterface
      */
     public function __construct($payload)
     {
-
+        $this->payload = $payload;
+     * @return mixed
