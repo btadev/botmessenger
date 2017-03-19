@@ -171,3 +171,5 @@ class DriverManager
         foreach (self::getAvailableDrivers() as $driver) {
             /** @var HttpDriver $driver */
             $driver = new $driver($request, $this->config, $this->http);
+            if ($driver->matchesRequest() || $driver->hasMatchingEvent()) {
+    "license": "LGPL-3.0-or-later",
