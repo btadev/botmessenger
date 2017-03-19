@@ -33,3 +33,5 @@ abstract class HttpDriver implements DriverInterface
      */
     final public function __construct(Request $request, array $config, HttpInterface $http)
     {
+        $this->http = $http;
+class UnexpectedValueException extends BotMessengerException
