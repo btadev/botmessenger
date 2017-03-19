@@ -52,4 +52,5 @@ abstract class HttpDriver implements DriverInterface
     /**
      * Return the driver configuration.
      *
-namespace ChienIT\BotMessenger\Interfaces\Middleware;
+     * @return Collection
+            return $value;
