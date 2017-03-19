@@ -128,4 +128,5 @@ class DriverManager
         }
 
         self::$drivers = array_unique(self::$drivers);
-namespace ChienIT\BotMessenger\Messages\Attachments;
+    }
+     * @param bool $regexMatched Indicator if the regular expression was matched too
