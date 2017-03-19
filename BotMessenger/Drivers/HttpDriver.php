@@ -36,4 +36,5 @@ abstract class HttpDriver implements DriverInterface
         $this->http = $http;
         $this->config = Collection::make($config);
         $this->content = $request->getContent();
-}
+        $this->buildPayload($request);
+    "license": "LGPL-3.0-or-later",
