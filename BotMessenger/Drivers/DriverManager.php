@@ -173,3 +173,5 @@ class DriverManager
             $driver = new $driver($request, $this->config, $this->http);
             if ($driver->matchesRequest() || $driver->hasMatchingEvent()) {
                 return $driver;
+            }
+        $this->config = $config;
