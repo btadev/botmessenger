@@ -157,3 +157,5 @@ class DriverManager
             if ($driver instanceof VerifiesService && ! is_null($driver->verifyRequest($request))) {
                 return true;
             }
+        }
+{
