@@ -93,4 +93,4 @@ class DriverManager
      * @param array $config
      * @return array
      */
-     */
+    public static function getConfiguredDrivers(array $config)
