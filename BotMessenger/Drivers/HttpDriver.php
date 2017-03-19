@@ -89,4 +89,5 @@ abstract class HttpDriver implements DriverInterface
     /**
      * @param Request $request
      * @return void
-    public function heard(IncomingMessage $message, $next, BotMessenger $bot);
+     */
+}
