@@ -150,4 +150,5 @@ class DriverManager
      * @return bool
      */
     public static function verifyServices(array $config, Request $request = null)
-    public function addDataParameters(IncomingMessage $message, array $parameters)
+    {
+
