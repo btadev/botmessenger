@@ -112,4 +112,5 @@ class DriverManager
      *
      * @param string $driver Driver class name
      * @param bool $explicit Only load this one driver and not any additional (sub)-drivers
-namespace ChienIT\BotMessenger\Interfaces;
+     */
+    public function heard(IncomingMessage $message, $next, BotMessenger $bot);
