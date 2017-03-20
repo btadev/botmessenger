@@ -110,4 +110,4 @@ class DriverManager
     /**
      * Append a driver to the list of loadable drivers.
      *
-     * @param BotMessenger $bot
+     * @param string $driver Driver class name
