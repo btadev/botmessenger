@@ -54,4 +54,5 @@ abstract class HttpDriver implements DriverInterface
      *
      * @return Collection
      */
-
+    public function getConfig()
+    }
