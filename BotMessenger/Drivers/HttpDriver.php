@@ -83,4 +83,5 @@ abstract class HttpDriver implements DriverInterface
      */
     public function hasMatchingEvent()
     {
-namespace ChienIT\BotMessenger\Drivers\Tests;
+        return false;
+        $vendorDir = $event->getComposer()->getConfig()->get('vendor-dir');
