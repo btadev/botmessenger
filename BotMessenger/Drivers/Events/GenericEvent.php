@@ -35,4 +35,5 @@ class GenericEvent implements DriverEventInterface
     public function getPayload()
     {
         return $this->payload;
-
+    }
+        $this->adapter = $adapter;
