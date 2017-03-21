@@ -176,3 +176,5 @@ class DriverManager
             }
         }
 
+        return new NullDriver($request, [], $this->http);
+        parent::__construct($payload);
