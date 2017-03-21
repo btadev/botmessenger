@@ -169,3 +169,5 @@ class DriverManager
     public function getMatchingDriver(Request $request)
     {
         foreach (self::getAvailableDrivers() as $driver) {
+            /** @var HttpDriver $driver */
+                $res = @file_get_contents('https://packagist.org/p/'.$package.'.json');
