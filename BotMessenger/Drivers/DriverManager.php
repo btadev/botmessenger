@@ -174,4 +174,4 @@ class DriverManager
             if ($driver->matchesRequest() || $driver->hasMatchingEvent()) {
                 return $driver;
             }
-        $this->config = $config;
+        }
