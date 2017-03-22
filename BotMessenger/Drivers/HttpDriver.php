@@ -96,4 +96,4 @@ abstract class HttpDriver implements DriverInterface
      * Low-level method to perform driver specific API requests.
      *
      * @param string $endpoint
-{
+     * @param array $parameters
