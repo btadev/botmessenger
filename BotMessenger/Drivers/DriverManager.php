@@ -119,4 +119,5 @@ class DriverManager
         if (method_exists($driver, 'loadExtension')) {
             call_user_func([$driver, 'loadExtension']);
         }
-     * Return the event payload.
+
+use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
