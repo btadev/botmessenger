@@ -4,4 +4,4 @@ namespace ChienIT\BotMessenger\Drivers;
 
 use Illuminate\Support\Collection;
 use ChienIT\BotMessenger\Interfaces\HttpInterface;
-     * @param mixed $payload
+use ChienIT\BotMessenger\Interfaces\DriverInterface;
