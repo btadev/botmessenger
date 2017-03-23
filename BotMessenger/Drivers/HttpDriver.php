@@ -64,4 +64,5 @@ abstract class HttpDriver implements DriverInterface
      *
      * @return string
      */
-    {
+    public function getContent()
+        }
