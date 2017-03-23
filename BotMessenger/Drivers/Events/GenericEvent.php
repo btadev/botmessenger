@@ -22,4 +22,4 @@ class GenericEvent implements DriverEventInterface
      *
      * @return string
      */
-use ChienIT\BotMessenger\Interfaces\CacheInterface;
+    public function getName()
