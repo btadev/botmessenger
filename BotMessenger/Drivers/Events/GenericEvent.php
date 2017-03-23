@@ -38,3 +38,5 @@ class GenericEvent implements DriverEventInterface
     }
 
     /**
+     * @param string $name
+use Illuminate\Support\Collection;
