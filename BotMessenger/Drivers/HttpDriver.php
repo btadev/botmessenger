@@ -75,3 +75,5 @@ abstract class HttpDriver implements DriverInterface
      */
     public function types(IncomingMessage $matchingMessage)
     {
+        // Do nothing
+
