@@ -10,4 +10,5 @@ class GenericEvent implements DriverEventInterface
     protected $name;
 
     /**
-
+     * @param $payload
+<?php
