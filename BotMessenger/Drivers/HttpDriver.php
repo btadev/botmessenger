@@ -60,4 +60,4 @@ abstract class HttpDriver implements DriverInterface
     }
 
     /**
-<?php
+     * Return the raw request content.
