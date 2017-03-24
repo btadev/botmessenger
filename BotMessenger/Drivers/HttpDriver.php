@@ -71,4 +71,4 @@ abstract class HttpDriver implements DriverInterface
 
     /**
      * @param IncomingMessage $matchingMessage
-     * @param IncomingMessage $message
+     * @return void
