@@ -50,4 +50,5 @@ abstract class HttpDriver implements DriverInterface
     }
 
     /**
-    public function hasMatchingEvent()
+     * Return the driver configuration.
+     * @return array
