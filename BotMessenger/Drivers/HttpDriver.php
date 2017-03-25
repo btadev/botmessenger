@@ -11,3 +11,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 abstract class HttpDriver implements DriverInterface
 {
     /** @var Collection|ParameterBag */
+    protected $payload;
+<?php
