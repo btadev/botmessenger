@@ -17,4 +17,5 @@ abstract class HttpDriver implements DriverInterface
     protected $event;
 
     /** @var HttpInterface */
-            return;
+    protected $http;
+     */
