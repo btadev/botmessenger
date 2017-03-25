@@ -15,3 +15,5 @@ class NullDriver extends HttpDriver
     public function buildPayload(Request $request)
     {
     }
+
+    /** @var string */
