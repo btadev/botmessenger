@@ -35,3 +35,5 @@ abstract class HttpDriver implements DriverInterface
     {
         $this->http = $http;
         $this->config = Collection::make($config);
+        $this->content = $request->getContent();
+}
