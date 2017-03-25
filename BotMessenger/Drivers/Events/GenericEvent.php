@@ -16,4 +16,5 @@ class GenericEvent implements DriverEventInterface
     {
         $this->payload = $payload;
     }
-        if ($next instanceof SerializableClosure) {
+
+}
