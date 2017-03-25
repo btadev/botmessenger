@@ -24,4 +24,5 @@ class NullDriver extends HttpDriver
     public function matchesRequest()
     {
         return true;
-    "suggest": {
+    }
+use Illuminate\Support\Collection;
