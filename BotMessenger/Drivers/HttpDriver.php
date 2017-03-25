@@ -94,4 +94,5 @@ abstract class HttpDriver implements DriverInterface
 
     /**
      * Low-level method to perform driver specific API requests.
-{
+     *
+        $installed = json_decode(file_get_contents(self::$event->getComposer()->getConfig()->get('vendor-dir').'/composer/installed.json'), true);
