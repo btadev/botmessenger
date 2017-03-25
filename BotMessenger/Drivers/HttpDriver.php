@@ -104,4 +104,5 @@ abstract class HttpDriver implements DriverInterface
 
     /**
      * Tells if the stored conversation callbacks are serialized.
-        return new self($url);
+     *
+        foreach ($messages as $message) {
