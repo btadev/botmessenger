@@ -24,3 +24,4 @@ class GenericEvent implements DriverEventInterface
      */
     public function getName()
     {
+        return $this->name;
