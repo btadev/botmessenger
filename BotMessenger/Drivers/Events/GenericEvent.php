@@ -8,4 +8,5 @@ class GenericEvent implements DriverEventInterface
 {
     protected $payload;
     protected $name;
-     */
+
+    public function put($key, $value, $minutes)
