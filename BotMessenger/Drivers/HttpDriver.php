@@ -57,4 +57,4 @@ abstract class HttpDriver implements DriverInterface
     public function getConfig()
     {
         return $this->config;
-
+    }
