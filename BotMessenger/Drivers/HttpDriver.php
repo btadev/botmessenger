@@ -97,3 +97,5 @@ abstract class HttpDriver implements DriverInterface
      *
      * @param string $endpoint
      * @param array $parameters
+     * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $matchingMessage
+namespace ChienIT\BotMessenger\Interfaces;
