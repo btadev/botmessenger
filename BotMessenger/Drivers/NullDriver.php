@@ -53,4 +53,5 @@ class NullDriver extends HttpDriver
      */
     public function getMessages()
     {
-    }
+        return [new IncomingMessage('', '', '')];
+     * Get the instance as a web accessible array.
