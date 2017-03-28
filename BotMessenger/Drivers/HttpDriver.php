@@ -44,4 +44,5 @@ abstract class HttpDriver implements DriverInterface
      *
      * @return string
      */
-        $this->payload = $payload;
+    public function getName()
+        "tightenco/collect": "~5.0",
