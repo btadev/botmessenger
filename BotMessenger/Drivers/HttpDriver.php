@@ -81,4 +81,5 @@ abstract class HttpDriver implements DriverInterface
     /**
      * @return bool
      */
-
+    public function hasMatchingEvent()
+    public function verifyRequest(Request $request);
