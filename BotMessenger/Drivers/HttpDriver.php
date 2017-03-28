@@ -102,4 +102,5 @@ abstract class HttpDriver implements DriverInterface
      */
     abstract public function sendRequest($endpoint, array $parameters, IncomingMessage $matchingMessage);
 
-    public static function create($text = '')
+    /**
+        ], $conversation_cache_time ?? $this->config['config']['conversation_cache_time'] ?? 30);
