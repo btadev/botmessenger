@@ -8,4 +8,4 @@ use Symfony\Component\HttpFoundation\Request;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 class NullDriver extends HttpDriver
-     *
+{
