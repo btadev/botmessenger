@@ -43,4 +43,5 @@ abstract class HttpDriver implements DriverInterface
      * Return the driver name.
      *
      * @return string
-                $chienit_botmessenger->setDriver($driver);
+     */
+        $this->payload = $payload;
