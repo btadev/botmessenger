@@ -43,3 +43,5 @@ class GenericEvent implements DriverEventInterface
     public function setName($name)
     {
         $this->name = $name;
+    }
+     *
