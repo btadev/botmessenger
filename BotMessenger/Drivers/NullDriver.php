@@ -49,4 +49,4 @@ class NullDriver extends HttpDriver
     /**
      * Retrieve the chat message.
      *
-    }
+     * @return string
