@@ -86,4 +86,5 @@ abstract class HttpDriver implements DriverInterface
         return false;
     }
 
-    public static function verifyServices(array $config, Request $request = null)
+    /**
+    protected $text;
