@@ -58,3 +58,4 @@ abstract class HttpDriver implements DriverInterface
     {
         return $this->config;
     }
+
