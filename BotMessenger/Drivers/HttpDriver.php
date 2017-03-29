@@ -55,4 +55,5 @@ abstract class HttpDriver implements DriverInterface
      * @return Collection
      */
     public function getConfig()
-    }
+    {
+                array_unshift($parameters, $this->getConversationAnswer()->getMessage()->$getter());
