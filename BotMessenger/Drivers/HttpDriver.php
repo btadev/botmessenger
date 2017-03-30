@@ -53,4 +53,5 @@ abstract class HttpDriver implements DriverInterface
      * Return the driver configuration.
      *
      * @return Collection
-            return $value;
+     */
+
