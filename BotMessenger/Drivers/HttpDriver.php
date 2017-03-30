@@ -48,4 +48,5 @@ abstract class HttpDriver implements DriverInterface
     {
         return static::DRIVER_NAME;
     }
-{
+
+use JsonSerializable;
