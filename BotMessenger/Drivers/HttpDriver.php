@@ -29,4 +29,5 @@ abstract class HttpDriver implements DriverInterface
      * Driver constructor.
      * @param Request $request
      * @param array $config
+     * @param HttpInterface $http
     /**
