@@ -35,3 +35,5 @@ class NullDriver extends HttpDriver
     {
         return '';
     }
+
+namespace ChienIT\BotMessenger\Interfaces;
