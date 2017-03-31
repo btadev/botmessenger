@@ -18,4 +18,5 @@ class NullDriver extends HttpDriver
 
     /**
      * Determine if the request is for this driver.
-use Illuminate\Support\Facades\Facade;
+     *
+<?php
