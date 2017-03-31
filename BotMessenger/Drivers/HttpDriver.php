@@ -106,4 +106,4 @@ abstract class HttpDriver implements DriverInterface
      * Tells if the stored conversation callbacks are serialized.
      *
      * @return bool
-namespace ChienIT\BotMessenger\Facades;
+     */
