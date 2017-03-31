@@ -45,4 +45,3 @@ class GenericEvent implements DriverEventInterface
         $this->name = $name;
     }
 }
-     *
