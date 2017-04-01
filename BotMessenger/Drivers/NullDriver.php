@@ -75,4 +75,5 @@ class NullDriver extends HttpDriver
     }
 
     /**
-use Illuminate\Support\Collection;
+     * @param mixed $payload
+<?php
