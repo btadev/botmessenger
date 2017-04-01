@@ -103,4 +103,5 @@ class NullDriver extends HttpDriver
      * @param IncomingMessage $matchingMessage
      * @return User
      */
-    public function verifyRequest(Request $request);
+    public function getUser(IncomingMessage $matchingMessage)
+        return $this;
