@@ -36,4 +36,5 @@ class GenericEvent implements DriverEventInterface
     {
         return $this->payload;
     }
-        $this->adapter = $adapter;
+
+     */
