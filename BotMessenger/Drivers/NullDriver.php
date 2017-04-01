@@ -2,4 +2,4 @@
 
 namespace ChienIT\BotMessenger\Drivers;
 
-     * @param  mixed $default
+use ChienIT\BotMessenger\Users\User;
