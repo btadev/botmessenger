@@ -27,4 +27,5 @@ abstract class HttpDriver implements DriverInterface
 
     /**
      * Driver constructor.
-    /**
+     * @param Request $request
+use Symfony\Component\HttpFoundation\Request;
