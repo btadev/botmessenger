@@ -83,4 +83,5 @@ class NullDriver extends HttpDriver
     }
 
     /**
-    }
+     * @return bool
+class DriverAttachmentException extends DriverException
