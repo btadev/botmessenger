@@ -88,4 +88,5 @@ abstract class HttpDriver implements DriverInterface
 
     /**
      * @param Request $request
-[![License](https://poser.pugx.org/chiendevit/botmessenger/license)](https://packagist.org/packages/chiendevit/botmessenger)
+     * @return void
+    public function heard(IncomingMessage $message, $next, BotMessenger $bot);
