@@ -13,3 +13,4 @@ abstract class HttpDriver implements DriverInterface
     /** @var Collection|ParameterBag */
     protected $payload;
 
+    /** @var Collection */
