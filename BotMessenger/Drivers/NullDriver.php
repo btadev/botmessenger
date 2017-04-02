@@ -79,3 +79,5 @@ class NullDriver extends HttpDriver
      * @return Response
      */
     public function sendPayload($payload)
+    {
+
