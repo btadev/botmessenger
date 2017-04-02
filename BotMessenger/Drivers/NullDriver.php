@@ -26,3 +26,5 @@ class NullDriver extends HttpDriver
         return true;
     }
 
+    /**
+    /** @var string */
