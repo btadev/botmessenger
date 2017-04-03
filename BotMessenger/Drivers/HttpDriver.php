@@ -109,3 +109,4 @@ abstract class HttpDriver implements DriverInterface
      */
     public function serializesCallbacks()
     {
+        return true;
