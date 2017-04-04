@@ -90,4 +90,4 @@ abstract class HttpDriver implements DriverInterface
      * @param Request $request
      * @return void
      */
-}
+    abstract public function buildPayload(Request $request);
