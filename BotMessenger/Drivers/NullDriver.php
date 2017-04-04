@@ -69,3 +69,5 @@ class NullDriver extends HttpDriver
      * @param IncomingMessage $matchingMessage
      * @param array $additionalParameters
      * @return $this
+     */
+    /** @var IncomingMessage */
