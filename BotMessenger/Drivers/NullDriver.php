@@ -16,4 +16,5 @@ class NullDriver extends HttpDriver
     {
     }
 
-    /** @var string */
+    /**
+    exit(500);
