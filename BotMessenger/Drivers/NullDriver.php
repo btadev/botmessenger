@@ -80,4 +80,5 @@ class NullDriver extends HttpDriver
      */
     public function sendPayload($payload)
     {
-
+    }
+use ChienIT\BotMessenger\Interfaces\Middleware\Captured;
