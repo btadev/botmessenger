@@ -24,4 +24,5 @@ abstract class HttpDriver implements DriverInterface
 
     /** @var string */
     protected $content;
-    }
+
+
