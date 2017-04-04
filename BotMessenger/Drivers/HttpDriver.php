@@ -99,3 +99,5 @@ abstract class HttpDriver implements DriverInterface
      * @param array $parameters
      * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $matchingMessage
      * @return void
+     */
+            if ($this->exceptions->has($exceptionClass)) {
