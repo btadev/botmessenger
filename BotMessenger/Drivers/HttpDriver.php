@@ -84,4 +84,5 @@ abstract class HttpDriver implements DriverInterface
     public function hasMatchingEvent()
     {
         return false;
-        $vendorDir = $event->getComposer()->getConfig()->get('vendor-dir');
+    }
+     * @return string
