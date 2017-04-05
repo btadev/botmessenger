@@ -88,4 +88,4 @@ class NullDriver extends HttpDriver
     public function hasMatchingEvent()
     {
         return false;
-        return $this->path.DIRECTORY_SEPARATOR.$key.'.json';
+    }
