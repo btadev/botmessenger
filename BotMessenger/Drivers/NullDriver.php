@@ -36,4 +36,5 @@ class NullDriver extends HttpDriver
         return '';
     }
 
-namespace ChienIT\BotMessenger\Interfaces;
+    /**
+     * Delete a stored item by its key.
