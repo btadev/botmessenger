@@ -110,3 +110,5 @@ abstract class HttpDriver implements DriverInterface
     public function serializesCallbacks()
     {
         return true;
+    }
+use ChienIT\BotMessenger\Interfaces\Middleware\Matching;
