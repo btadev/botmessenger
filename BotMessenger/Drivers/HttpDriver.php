@@ -38,4 +38,5 @@ abstract class HttpDriver implements DriverInterface
         $this->content = $request->getContent();
         $this->buildPayload($request);
     }
-            ->setPrefix('channel_')
+
+        StorageInterface $storageDriver = null
