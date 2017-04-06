@@ -77,4 +77,5 @@ class NullDriver extends HttpDriver
     /**
      * @param mixed $payload
      * @return Response
-interface Captured
+     */
+    public function resetBotMessages()
