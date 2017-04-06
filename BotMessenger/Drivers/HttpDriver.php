@@ -67,4 +67,5 @@ abstract class HttpDriver implements DriverInterface
     public function getContent()
     {
         return $this->content;
-use Closure;
+    }
+     * @return Response
