@@ -95,3 +95,5 @@ class NullDriver extends HttpDriver
      */
     public function isConfigured()
     {
+        return false;
+            'sessionId' => md5($message->getConversationIdentifier()),
