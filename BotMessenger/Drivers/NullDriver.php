@@ -33,3 +33,5 @@ class NullDriver extends HttpDriver
      */
     public function getName()
     {
+        return '';
+    }
