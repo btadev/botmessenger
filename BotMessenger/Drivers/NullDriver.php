@@ -104,4 +104,5 @@ class NullDriver extends HttpDriver
      * @return User
      */
     public function getUser(IncomingMessage $matchingMessage)
-        return $this;
+    {
+        while ($keys = $this->redis->scan($it, self::KEY_PREFIX.'*')) {
