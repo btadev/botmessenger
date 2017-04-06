@@ -32,4 +32,4 @@ abstract class HttpDriver implements DriverInterface
      * @param HttpInterface $http
      */
     final public function __construct(Request $request, array $config, HttpInterface $http)
-            'longitude' => $this->longitude,
+    {
