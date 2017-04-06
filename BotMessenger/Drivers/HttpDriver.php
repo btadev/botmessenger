@@ -101,3 +101,5 @@ abstract class HttpDriver implements DriverInterface
      * @return void
      */
     abstract public function sendRequest($endpoint, array $parameters, IncomingMessage $matchingMessage);
+
+    public static function create($text = '')
