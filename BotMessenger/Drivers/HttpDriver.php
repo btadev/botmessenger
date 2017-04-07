@@ -62,4 +62,5 @@ abstract class HttpDriver implements DriverInterface
     /**
      * Return the raw request content.
      *
-     * @param IncomingMessage $message
+     * @return string
+        }
