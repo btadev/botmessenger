@@ -33,3 +33,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     public $matchesRequest = true;
 
     /** @var bool */
+    public $hasMatchingEvent = false;
+    public function getName();
