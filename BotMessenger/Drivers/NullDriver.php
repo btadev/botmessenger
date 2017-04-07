@@ -9,3 +9,4 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 class NullDriver extends HttpDriver
 {
+    /**
