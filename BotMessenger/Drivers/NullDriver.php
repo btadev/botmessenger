@@ -47,4 +47,5 @@ class NullDriver extends HttpDriver
     }
 
     /**
-    /**
+     * Retrieve the chat message.
+namespace ChienIT\BotMessenger\Exceptions\Base;
