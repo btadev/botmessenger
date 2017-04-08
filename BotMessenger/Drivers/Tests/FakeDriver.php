@@ -35,4 +35,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     /** @var bool */
     public $hasMatchingEvent = false;
 
-
+    /** @var \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage[] */
+namespace ChienIT\BotMessenger\Exceptions\Core;
