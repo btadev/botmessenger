@@ -100,4 +100,5 @@ class NullDriver extends HttpDriver
 
     /**
      * Retrieve User information.
-}
+     * @param IncomingMessage $matchingMessage
+     */
