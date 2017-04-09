@@ -23,4 +23,5 @@ class NullDriver extends HttpDriver
      */
     public function matchesRequest()
     {
-    {
+        return true;
+    "suggest": {
