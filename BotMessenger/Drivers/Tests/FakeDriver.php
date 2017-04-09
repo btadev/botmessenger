@@ -38,3 +38,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     /** @var \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage[] */
     public $messages = [];
 
+    /** @var bool */
+
