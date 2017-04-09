@@ -76,4 +76,5 @@ class NullDriver extends HttpDriver
 
     /**
      * @param mixed $payload
-<?php
+     * @return Response
+interface Captured
