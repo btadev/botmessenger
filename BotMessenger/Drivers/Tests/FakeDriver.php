@@ -14,3 +14,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 /**
  * A fake driver for tests. Must be used with ProxyDriver.
+ * Example to set it up in a unit test:
+    protected $first_name;
