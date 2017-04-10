@@ -61,4 +61,5 @@ class NullDriver extends HttpDriver
      */
     public function isBot()
     {
-use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+        return false;
+
