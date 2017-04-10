@@ -31,4 +31,5 @@ class NullDriver extends HttpDriver
      *
      * @return string
      */
-
+    public function getName()
+use Closure;
