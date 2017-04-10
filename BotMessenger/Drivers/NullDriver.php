@@ -55,4 +55,5 @@ class NullDriver extends HttpDriver
     {
         return [new IncomingMessage('', '', '')];
     }
-    public function __construct(Command $command, IncomingMessage $message, array $matches)
+
+    public function get($url, array $urlParameters = [], array $headers = [], $asJSON = false);
