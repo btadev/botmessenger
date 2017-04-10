@@ -78,4 +78,5 @@ abstract class HttpDriver implements DriverInterface
         // Do nothing
     }
 
-        return $this->ask($question, $next, $additionalParameters);
+    /**
+    }
