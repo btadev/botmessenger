@@ -13,4 +13,4 @@ use Symfony\Component\HttpFoundation\Response;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 /**
-class BotMessengerException extends Exception
+ * A fake driver for tests. Must be used with ProxyDriver.
