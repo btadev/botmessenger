@@ -59,4 +59,4 @@ class NullDriver extends HttpDriver
     /**
      * @return bool
      */
-    public function setName($name)
+    public function isBot()
