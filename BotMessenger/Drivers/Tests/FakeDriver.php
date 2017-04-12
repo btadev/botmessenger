@@ -88,4 +88,4 @@ class FakeDriver implements DriverInterface, VerifiesService
     /**
      * @return FakeDriver
      */
-class BadMethodCallException extends BotMessengerException
+    public static function createInactive()
