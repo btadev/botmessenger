@@ -103,4 +103,5 @@ abstract class HttpDriver implements DriverInterface
     abstract public function sendRequest($endpoint, array $parameters, IncomingMessage $matchingMessage);
 
     /**
-        ], $conversation_cache_time ?? $this->config['config']['conversation_cache_time'] ?? 30);
+     * Tells if the stored conversation callbacks are serialized.
+        return new self($url);
