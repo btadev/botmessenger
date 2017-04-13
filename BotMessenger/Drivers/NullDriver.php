@@ -42,3 +42,4 @@ class NullDriver extends HttpDriver
      * @return Answer
      */
     public function getConversationAnswer(IncomingMessage $message)
+    {
