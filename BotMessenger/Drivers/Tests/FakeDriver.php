@@ -92,3 +92,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     {
         $driver = new static;
         $driver->isConfigured = false;
+
+
