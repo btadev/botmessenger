@@ -25,4 +25,4 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
  *      $this->fakeDriver = new FakeDriver();
  *      ProxyDriver::setInstance($this->fakeDriver);
  *  }
-    public function setAudio(array $audio)
+ * </code>.
