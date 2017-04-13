@@ -27,4 +27,4 @@ class NullDriver extends HttpDriver
     }
 
     /**
-    /** @var string */
+     * Return the driver name.
