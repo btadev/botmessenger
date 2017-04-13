@@ -114,4 +114,5 @@ class NullDriver extends HttpDriver
      * @param string $endpoint
      * @param array $parameters
      * @param IncomingMessage $matchingMessage
-
+     * @return void
+    public function __construct($url, $payload = null)
