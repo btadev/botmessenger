@@ -90,4 +90,4 @@ class FakeDriver implements DriverInterface, VerifiesService
      */
     public static function createInactive()
     {
-/**
+        $driver = new static;
