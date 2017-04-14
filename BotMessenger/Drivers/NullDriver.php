@@ -39,4 +39,5 @@ class NullDriver extends HttpDriver
     /**
      * @param IncomingMessage $message
      *
-    /** @var BotMessenger */
+     * @return Answer
+    public function value($value)
