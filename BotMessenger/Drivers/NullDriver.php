@@ -43,3 +43,5 @@ class NullDriver extends HttpDriver
      */
     public function getConversationAnswer(IncomingMessage $message)
     {
+        return Answer::create('')->setMessage($message);
+    }
