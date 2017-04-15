@@ -101,4 +101,5 @@ class FakeDriver implements DriverInterface, VerifiesService
         return $this->matchesRequest;
     }
 
-     */
+    public function getMessages()
+}
