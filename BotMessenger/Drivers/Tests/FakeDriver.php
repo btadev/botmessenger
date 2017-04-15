@@ -102,4 +102,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     }
 
     public function getMessages()
-}
+    {
+     *
