@@ -8,4 +8,4 @@ use ChienIT\BotMessenger\Interfaces\DriverInterface;
 use ChienIT\BotMessenger\Interfaces\VerifiesService;
 use ChienIT\BotMessenger\Messages\Outgoing\Question;
 use Symfony\Component\HttpFoundation\Request;
-            ->setPrefix('user_')
+use ChienIT\BotMessenger\Drivers\Events\GenericEvent;
