@@ -62,4 +62,4 @@ class NullDriver extends HttpDriver
     public function isBot()
     {
         return false;
-
+    }
