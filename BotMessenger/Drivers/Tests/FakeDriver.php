@@ -120,3 +120,5 @@ class FakeDriver implements DriverInterface, VerifiesService
         return $this->isConfigured;
     }
 
+    public function setUser(array $user_info)
+     * @param BotMessenger $bot
