@@ -71,4 +71,5 @@ class NullDriver extends HttpDriver
      * @return $this
      */
     public function buildServicePayload($message, $matchingMessage, $additionalParameters = [])
-     * @param array $parameters
+    {
+     *
