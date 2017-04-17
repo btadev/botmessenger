@@ -37,4 +37,4 @@ class NullDriver extends HttpDriver
     }
 
     /**
-     * Delete a stored item by its key.
+     * @param IncomingMessage $message
