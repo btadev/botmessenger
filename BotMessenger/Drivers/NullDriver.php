@@ -75,3 +75,4 @@ class NullDriver extends HttpDriver
     }
 
     /**
+use Illuminate\Support\Collection;
