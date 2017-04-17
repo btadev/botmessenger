@@ -65,3 +65,5 @@ class NullDriver extends HttpDriver
     }
 
     /**
+     * @param string|\ChienIT\BotMessenger\Messages\Outgoing\Question $message
+     * Video constructor.
