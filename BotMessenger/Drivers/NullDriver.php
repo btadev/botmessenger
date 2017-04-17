@@ -58,4 +58,5 @@ class NullDriver extends HttpDriver
 
     /**
      * @return bool
-     * {@inheritdoc}
+     */
+    public function setName($name)
