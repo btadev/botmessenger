@@ -69,3 +69,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     private $user_first_name = 'Marcel';
 
     /** @var string */
+    private $user_last_name = 'Pociot';
+     * Delete a stored item by its key.
