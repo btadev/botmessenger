@@ -57,4 +57,5 @@ class NullDriver extends HttpDriver
     }
 
     /**
-}
+     * @return bool
+     * {@inheritdoc}
