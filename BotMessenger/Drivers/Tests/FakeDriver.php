@@ -119,4 +119,4 @@ class FakeDriver implements DriverInterface, VerifiesService
     {
         return $this->isConfigured;
     }
-namespace ChienIT\BotMessenger\Interfaces\Middleware;
+
