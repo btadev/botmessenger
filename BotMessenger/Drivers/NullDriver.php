@@ -51,3 +51,4 @@ class NullDriver extends HttpDriver
      *
      * @return string
      */
+    public function getMessages()
