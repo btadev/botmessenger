@@ -106,4 +106,5 @@ class NullDriver extends HttpDriver
     public function getUser(IncomingMessage $matchingMessage)
     {
         return new User();
-                }
+    }
+    /** @var Received[] */
