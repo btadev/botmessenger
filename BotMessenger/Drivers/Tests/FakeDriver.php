@@ -27,4 +27,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
  *  }
  * </code>.
  */
-     */
+class FakeDriver implements DriverInterface, VerifiesService
+    public static function url($url)
