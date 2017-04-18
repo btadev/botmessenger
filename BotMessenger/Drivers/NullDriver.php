@@ -86,4 +86,5 @@ class NullDriver extends HttpDriver
      * @return bool
      */
     public function hasMatchingEvent()
-    public function get($url, array $urlParameters = [], array $headers = [], $asJSON = false)
+    {
+                if ($matcher->isMessageMatching($message, $answer, $command, $driver, $middleware->matching())) {
