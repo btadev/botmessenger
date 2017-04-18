@@ -68,3 +68,4 @@ class NullDriver extends HttpDriver
      * @param string|\ChienIT\BotMessenger\Messages\Outgoing\Question $message
      * @param IncomingMessage $matchingMessage
      * @param array $additionalParameters
+     * @return $this
