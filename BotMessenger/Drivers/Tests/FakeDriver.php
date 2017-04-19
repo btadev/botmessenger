@@ -94,3 +94,4 @@ class FakeDriver implements DriverInterface, VerifiesService
         $driver->isConfigured = false;
 
         return $driver;
+    }
