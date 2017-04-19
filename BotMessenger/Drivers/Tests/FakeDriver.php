@@ -17,4 +17,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
  * Example to set it up in a unit test:
  * <code>
  *  public static function setUpBeforeClass()
-     * @param ExceptionHandlerInterface $exceptionHandler
+ *  {
+    /**
