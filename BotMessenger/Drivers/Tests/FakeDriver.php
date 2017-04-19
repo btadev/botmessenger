@@ -45,3 +45,4 @@ class FakeDriver implements DriverInterface, VerifiesService
     public $isInteractiveMessageReply = false;
 
     /** @var bool */
+    public $isConfigured = true;
