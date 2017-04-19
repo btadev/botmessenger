@@ -43,4 +43,5 @@ class FakeDriver implements DriverInterface, VerifiesService
 
     /** @var bool */
     public $isInteractiveMessageReply = false;
-     */
+
+class File extends Attachment
