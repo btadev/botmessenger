@@ -138,4 +138,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     {
         $answer = Answer::create($message->getText())->setMessage($message)->setValue($message->getText());
         $answer->setInteractiveReply($this->isInteractiveMessageReply);
-        return $default;
+
+     * Return all stored entries.
