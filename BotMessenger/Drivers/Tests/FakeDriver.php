@@ -80,3 +80,4 @@ class FakeDriver implements DriverInterface, VerifiesService
     /**
      * @return FakeDriver
      */
+    public static function create()
