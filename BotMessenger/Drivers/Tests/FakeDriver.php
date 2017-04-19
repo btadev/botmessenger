@@ -47,4 +47,4 @@ class FakeDriver implements DriverInterface, VerifiesService
     /** @var bool */
     public $isConfigured = true;
 
-     * Handle an exception.
+    /** @var array */
