@@ -78,4 +78,4 @@ class NullDriver extends HttpDriver
      * @param mixed $payload
      * @return Response
      */
-    public function resetBotMessages()
+    public function sendPayload($payload)
