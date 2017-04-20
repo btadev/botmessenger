@@ -148,4 +148,4 @@ class FakeDriver implements DriverInterface, VerifiesService
     }
 
     public function sendPayload($payload)
-your receipt of the notice.
+    {
