@@ -131,3 +131,4 @@ class FakeDriver implements DriverInterface, VerifiesService
 
     public function getUser(IncomingMessage $matchingMessage)
     {
+        return new User($this->user_id ?? $matchingMessage->getSender(), $this->user_first_name, $this->user_last_name, $this->username, $this->user_info);
