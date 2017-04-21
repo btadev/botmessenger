@@ -26,3 +26,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
  *      ProxyDriver::setInstance($this->fakeDriver);
  *  }
  * </code>.
+ */
+     */
