@@ -55,4 +55,5 @@ class FakeDriver implements DriverInterface, VerifiesService
 
     /** @var string */
     private $driver_name = 'Fake';
-     * @param HttpInterface $http
+
+ *  public function setUp()
