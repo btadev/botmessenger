@@ -117,4 +117,5 @@ class NullDriver extends HttpDriver
      * @return void
      */
     public function sendRequest($endpoint, array $parameters, IncomingMessage $matchingMessage)
-    /**
+    {
+
