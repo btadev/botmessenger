@@ -110,4 +110,5 @@ class FakeDriver implements DriverInterface, VerifiesService
         return $this->messages;
     }
 
-     * @param callable $next
+    protected function isBot()
+        $this->longitude = $longitude;
