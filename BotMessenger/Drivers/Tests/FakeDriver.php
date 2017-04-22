@@ -126,4 +126,4 @@ class FakeDriver implements DriverInterface, VerifiesService
         $this->user_first_name = $user_info['first_name'] ?? $this->user_first_name;
         $this->user_last_name = $user_info['last_name'] ?? $this->user_last_name;
         $this->username = $user_info['username'] ?? $this->username;
-     * @param $user_info
+        $this->user_info = $user_info;
