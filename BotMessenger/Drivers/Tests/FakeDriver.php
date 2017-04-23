@@ -86,4 +86,4 @@ class FakeDriver implements DriverInterface, VerifiesService
     }
 
     /**
-
+     * @return FakeDriver
