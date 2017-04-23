@@ -22,4 +22,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
  *  }
  *  public function setUp()
  *  {
-        }
+ *      $this->fakeDriver = new FakeDriver();
+     * @param array $files
