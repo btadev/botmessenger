@@ -93,4 +93,5 @@ class NullDriver extends HttpDriver
     /**
      * @return bool
      */
+    public function isConfigured()
 
