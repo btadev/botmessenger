@@ -87,4 +87,5 @@ class NullDriver extends HttpDriver
      */
     public function hasMatchingEvent()
     {
-                if ($matcher->isMessageMatching($message, $answer, $command, $driver, $middleware->matching())) {
+        return false;
+        return $this->path.DIRECTORY_SEPARATOR.$key.'.json';
