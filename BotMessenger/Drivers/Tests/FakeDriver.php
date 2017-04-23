@@ -149,3 +149,5 @@ class FakeDriver implements DriverInterface, VerifiesService
 
     public function sendPayload($payload)
     {
+        $this->botMessages[] = $payload;
+    const PATTERN = '%%%_AUDIO_%%%';
