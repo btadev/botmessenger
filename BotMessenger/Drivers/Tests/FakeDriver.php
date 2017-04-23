@@ -18,4 +18,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
  * <code>
  *  public static function setUpBeforeClass()
  *  {
-    /**
+ *      DriverManager::loadDriver(ProxyDriver::class);
+
