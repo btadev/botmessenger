@@ -54,4 +54,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     private $botIsTyping = false;
 
     /** @var string */
-    }
+    private $driver_name = 'Fake';
+     * @param HttpInterface $http
