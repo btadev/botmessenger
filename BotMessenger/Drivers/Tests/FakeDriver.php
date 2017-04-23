@@ -67,4 +67,5 @@ class FakeDriver implements DriverInterface, VerifiesService
 
     /** @var string */
     private $user_first_name = 'Marcel';
-    }
+
+     * @param string|null $key
