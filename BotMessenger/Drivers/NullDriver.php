@@ -89,3 +89,4 @@ class NullDriver extends HttpDriver
     {
         return false;
     }
+
