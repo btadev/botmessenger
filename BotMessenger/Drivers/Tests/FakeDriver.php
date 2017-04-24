@@ -48,3 +48,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     public $isConfigured = true;
 
     /** @var array */
+    private $botMessages = [];
+        echo 'Input> ';
