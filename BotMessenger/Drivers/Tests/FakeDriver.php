@@ -58,3 +58,4 @@ class FakeDriver implements DriverInterface, VerifiesService
 
     /** @var string */
     private $event_name;
+
