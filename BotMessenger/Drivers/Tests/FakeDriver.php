@@ -160,4 +160,5 @@ class FakeDriver implements DriverInterface, VerifiesService
         $this->driver_name = $name;
     }
 
-
+    public function getName()
+namespace ChienIT\BotMessenger\Exceptions\Core;
