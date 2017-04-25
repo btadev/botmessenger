@@ -99,3 +99,5 @@ class NullDriver extends HttpDriver
     }
 
     /**
+     * Retrieve User information.
+}
