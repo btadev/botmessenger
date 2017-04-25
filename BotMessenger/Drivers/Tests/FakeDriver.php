@@ -205,4 +205,5 @@ class FakeDriver implements DriverInterface, VerifiesService
             $event = new GenericEvent($this->event_payload);
             $event->setName($this->event_name);
 
-    }
+            return $event;
+    public function getConversationAnswer(IncomingMessage $message);
