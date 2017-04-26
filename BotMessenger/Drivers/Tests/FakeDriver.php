@@ -180,3 +180,5 @@ class FakeDriver implements DriverInterface, VerifiesService
         return $this->botIsTyping;
     }
 
+    /**
+
