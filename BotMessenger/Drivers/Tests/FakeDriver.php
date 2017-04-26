@@ -1,3 +1,3 @@
 <?php
 
-     * Get the instance as a web accessible array.
+namespace ChienIT\BotMessenger\Drivers\Tests;
