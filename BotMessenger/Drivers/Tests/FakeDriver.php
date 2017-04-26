@@ -234,4 +234,4 @@ class FakeDriver implements DriverInterface, VerifiesService
      * Tells if the stored conversation callbacks are serialized.
      *
      * @return bool
-}
+     */
