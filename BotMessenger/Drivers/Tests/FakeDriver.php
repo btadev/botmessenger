@@ -72,4 +72,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     private $user_last_name = 'Pociot';
 
     /** @var string */
-     *
+    private $username = 'BotMessenger';
+{
