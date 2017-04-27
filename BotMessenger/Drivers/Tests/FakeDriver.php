@@ -39,4 +39,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     public $messages = [];
 
     /** @var bool */
+    public $isBot = false;
 
