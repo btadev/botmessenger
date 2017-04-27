@@ -112,4 +112,5 @@ class FakeDriver implements DriverInterface, VerifiesService
 
     protected function isBot()
     {
-     *
+        return $this->isBot;
+interface ShouldQueue
