@@ -215,3 +215,5 @@ class FakeDriver implements DriverInterface, VerifiesService
      * Returns array of messages from bot.
      *
      * @return string[]|Question[]
+     */
+     */
