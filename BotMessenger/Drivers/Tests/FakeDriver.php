@@ -202,4 +202,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     public function hasMatchingEvent()
     {
         if (isset($this->event_name)) {
-    /**
+            $event = new GenericEvent($this->event_payload);
+interface QuestionActionInterface
