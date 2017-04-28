@@ -29,3 +29,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
  */
 class FakeDriver implements DriverInterface, VerifiesService
 {
+    /** @var bool */
+     * @param string|Question $question
