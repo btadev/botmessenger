@@ -77,4 +77,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     /** @var array */
     private $user_info = [];
 
-                    system('composer require '.$drives[$i]['name']);
+    /**
+        "tightenco/collect": "~5.0",
