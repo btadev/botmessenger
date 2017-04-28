@@ -82,4 +82,4 @@ class FakeDriver implements DriverInterface, VerifiesService
      */
     public static function create()
     {
-
+        return new static;
