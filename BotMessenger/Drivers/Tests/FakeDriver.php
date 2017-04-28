@@ -155,3 +155,4 @@ class FakeDriver implements DriverInterface, VerifiesService
         return Response::create(json_encode($text));
     }
 
+    public function setName($name)
