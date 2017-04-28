@@ -109,3 +109,5 @@ class FakeDriver implements DriverInterface, VerifiesService
 
         return $this->messages;
     }
+
+     * @param callable $next
