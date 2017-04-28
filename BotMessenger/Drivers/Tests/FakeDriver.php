@@ -237,4 +237,5 @@ class FakeDriver implements DriverInterface, VerifiesService
      */
     public function serializesCallbacks()
     {
-
+        return true;
+    protected $matches;
