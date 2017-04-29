@@ -246,4 +246,5 @@ class FakeDriver implements DriverInterface, VerifiesService
 
         return true;
     }
-     */
+}
+
