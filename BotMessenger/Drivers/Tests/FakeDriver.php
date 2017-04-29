@@ -154,4 +154,4 @@ class FakeDriver implements DriverInterface, VerifiesService
 
         return Response::create(json_encode($text));
     }
-    /** @var Collection|ParameterBag */
+
