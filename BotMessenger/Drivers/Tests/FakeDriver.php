@@ -175,3 +175,4 @@ class FakeDriver implements DriverInterface, VerifiesService
      *
      * @return bool
      */
+    public function isBotTyping()
