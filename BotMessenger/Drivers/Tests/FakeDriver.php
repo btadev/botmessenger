@@ -50,4 +50,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     /** @var array */
     private $botMessages = [];
 
-
+    /** @var bool */
+trait ProvidesStorage
