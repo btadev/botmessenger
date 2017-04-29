@@ -32,4 +32,4 @@ class FakeDriver implements DriverInterface, VerifiesService
     /** @var bool */
     public $matchesRequest = true;
 
-     * @return void
+    /** @var bool */
