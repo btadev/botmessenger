@@ -177,3 +177,5 @@ class FakeDriver implements DriverInterface, VerifiesService
      */
     public function isBotTyping()
     {
+        return $this->botIsTyping;
+    {
