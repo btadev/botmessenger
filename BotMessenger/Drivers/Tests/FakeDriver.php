@@ -105,3 +105,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     {
         foreach ($this->messages as &$message) {
             $message->setIsFromBot($this->isBot());
+        }
+     * Retrieve an item from the cache by key.
