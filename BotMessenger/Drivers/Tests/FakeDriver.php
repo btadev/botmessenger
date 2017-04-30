@@ -140,4 +140,5 @@ class FakeDriver implements DriverInterface, VerifiesService
         $answer->setInteractiveReply($this->isInteractiveMessageReply);
 
         return $answer;
-                $pkg = @json_decode($res, true);
+    }
+     *
