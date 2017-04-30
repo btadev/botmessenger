@@ -136,4 +136,5 @@ class FakeDriver implements DriverInterface, VerifiesService
 
     public function getConversationAnswer(IncomingMessage $message)
     {
-     * @return string
+        $answer = Answer::create($message->getText())->setMessage($message)->setValue($message->getText());
+        return $default;
