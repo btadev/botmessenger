@@ -99,4 +99,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     public function matchesRequest()
     {
         return $this->matchesRequest;
-
+    }
+*Take a look at the example at https://github.com/chiendevit/BotMessengerExample*
