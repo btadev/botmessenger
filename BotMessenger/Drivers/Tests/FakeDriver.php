@@ -208,4 +208,4 @@ class FakeDriver implements DriverInterface, VerifiesService
             return $event;
         }
 
-/**
+        return $this->hasMatchingEvent;
