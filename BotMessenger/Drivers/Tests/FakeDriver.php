@@ -207,4 +207,5 @@ class FakeDriver implements DriverInterface, VerifiesService
 
             return $event;
         }
-use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
+
+/**
