@@ -146,3 +146,4 @@ class FakeDriver implements DriverInterface, VerifiesService
     {
         return $message;
     }
+namespace ChienIT\BotMessenger\Interfaces;
