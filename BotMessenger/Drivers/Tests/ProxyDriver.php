@@ -23,4 +23,5 @@ final class ProxyDriver implements DriverInterface
      *
      * @param DriverInterface $driver
      */
-        $this->text = $text;
+    public static function setInstance(DriverInterface $driver)
+    public function heard(IncomingMessage $message, $next, BotMessenger $bot)
