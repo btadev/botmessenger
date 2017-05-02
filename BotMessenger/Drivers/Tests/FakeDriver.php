@@ -204,4 +204,5 @@ class FakeDriver implements DriverInterface, VerifiesService
         if (isset($this->event_name)) {
             $event = new GenericEvent($this->event_payload);
             $event->setName($this->event_name);
-<?php
+
+    }
