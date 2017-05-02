@@ -229,4 +229,4 @@ class FakeDriver implements DriverInterface, VerifiesService
         $this->botIsTyping = false;
         $this->botMessages = [];
     }
-            $data[] = $this->get(basename($key, '.json'));
+
