@@ -19,4 +19,5 @@ final class ProxyDriver implements DriverInterface
     private static $instance;
 
     /**
-    protected $message;
+     * Set driver instance to be used.
+    public function getRecipients()
