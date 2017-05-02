@@ -197,4 +197,4 @@ class FakeDriver implements DriverInterface, VerifiesService
     }
 
     /**
-<?php
+     * @return bool
