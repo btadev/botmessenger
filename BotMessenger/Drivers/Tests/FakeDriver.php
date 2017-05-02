@@ -198,3 +198,5 @@ class FakeDriver implements DriverInterface, VerifiesService
 
     /**
      * @return bool
+     */
+     * @param HttpInterface $http
