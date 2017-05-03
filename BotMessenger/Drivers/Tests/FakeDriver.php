@@ -104,3 +104,4 @@ class FakeDriver implements DriverInterface, VerifiesService
     public function getMessages()
     {
         foreach ($this->messages as &$message) {
+            $message->setIsFromBot($this->isBot());
