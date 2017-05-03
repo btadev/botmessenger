@@ -144,4 +144,5 @@ class FakeDriver implements DriverInterface, VerifiesService
 
     public function buildServicePayload($message, $matchingMessage, $additionalParameters = [])
     {
-{
+        return $message;
+    }
