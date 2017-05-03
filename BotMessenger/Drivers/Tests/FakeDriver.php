@@ -241,4 +241,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     }
 
     public function verifyRequest(Request $request)
-    }
+    {
+    /**
