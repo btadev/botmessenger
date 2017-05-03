@@ -168,3 +168,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     public function types(IncomingMessage $matchingMessage)
     {
         $this->botIsTyping = true;
+    }
+    /** @var string */
