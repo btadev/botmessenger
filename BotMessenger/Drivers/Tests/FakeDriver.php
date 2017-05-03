@@ -78,4 +78,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     private $user_info = [];
 
     /**
-        "tightenco/collect": "~5.0",
+     * @return FakeDriver
+{
