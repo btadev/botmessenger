@@ -225,4 +225,4 @@ class FakeDriver implements DriverInterface, VerifiesService
      * Clear received messages from bot.
      */
     public function resetBotMessages()
-{
+    {
