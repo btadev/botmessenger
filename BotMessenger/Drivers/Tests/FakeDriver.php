@@ -199,4 +199,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     /**
      * @return bool
      */
-     * @param HttpInterface $http
+    public function hasMatchingEvent()
+<?php
