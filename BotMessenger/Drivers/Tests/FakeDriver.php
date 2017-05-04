@@ -162,4 +162,5 @@ class FakeDriver implements DriverInterface, VerifiesService
 
     public function getName()
     {
-
+        return $this->driver_name;
+interface HttpInterface
