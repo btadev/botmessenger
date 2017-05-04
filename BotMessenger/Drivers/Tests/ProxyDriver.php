@@ -21,4 +21,5 @@ final class ProxyDriver implements DriverInterface
     /**
      * Set driver instance to be used.
      *
-     * @return mixed
+     * @param DriverInterface $driver
+use ChienIT\BotMessenger\Interfaces\ExceptionHandlerInterface;
