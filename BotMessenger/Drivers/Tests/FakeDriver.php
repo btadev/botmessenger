@@ -123,4 +123,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     public function setUser(array $user_info)
     {
         $this->user_id = $user_info['id'] ?? $this->user_id;
-class Dialogflow extends ApiAi
+        $this->user_first_name = $user_info['first_name'] ?? $this->user_first_name;
+     * @param  \DateTime|int $minutes
