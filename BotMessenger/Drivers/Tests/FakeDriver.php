@@ -186,3 +186,4 @@ class FakeDriver implements DriverInterface, VerifiesService
     public function setEventName($name)
     {
         $this->event_name = $name;
+    }
