@@ -58,4 +58,5 @@ final class ProxyDriver implements DriverInterface
     public function isBot()
     {
         return self::instance()->isBot();
-}
+    }
+        foreach ($parentExceptions as $exceptionClass) {
