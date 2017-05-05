@@ -13,3 +13,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
  */
 final class ProxyDriver implements DriverInterface
 {
+    /**
+abstract class HttpDriver implements DriverInterface
