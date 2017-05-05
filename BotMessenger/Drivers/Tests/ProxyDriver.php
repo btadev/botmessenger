@@ -38,4 +38,4 @@ final class ProxyDriver implements DriverInterface
         }
 
         return self::$instance;
-use ChienIT\BotMessenger\Interfaces\DriverInterface;
+    }
