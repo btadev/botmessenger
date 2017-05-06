@@ -115,4 +115,5 @@ class FakeDriver implements DriverInterface, VerifiesService
         return $this->isBot;
     }
 
-    }
+    public function isConfigured()
+
