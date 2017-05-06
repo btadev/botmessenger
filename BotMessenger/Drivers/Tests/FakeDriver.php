@@ -96,4 +96,5 @@ class FakeDriver implements DriverInterface, VerifiesService
         return $driver;
     }
 
+    public function matchesRequest()
 
