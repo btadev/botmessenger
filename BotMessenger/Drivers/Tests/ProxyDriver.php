@@ -33,3 +33,5 @@ final class ProxyDriver implements DriverInterface
      */
     private static function instance()
     {
+        if (self::$instance === null) {
+     */
