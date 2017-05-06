@@ -169,4 +169,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     {
         $this->botIsTyping = true;
     }
-    /** @var string */
+
+        if (empty($middleware)) {
