@@ -75,4 +75,5 @@ final class ProxyDriver implements DriverInterface
         return self::instance()->getConversationAnswer($message);
     }
 
-        require $vendorDir . '/autoload.php';
+    public function buildServicePayload($message, $matchingMessage, $additionalParameters = [])
+        return $this;
