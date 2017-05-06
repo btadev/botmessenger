@@ -26,4 +26,5 @@ final class ProxyDriver implements DriverInterface
     public static function setInstance(DriverInterface $driver)
     {
         self::$instance = $driver;
-     */
+    }
+     * @param  \DateTime|int $minutes
