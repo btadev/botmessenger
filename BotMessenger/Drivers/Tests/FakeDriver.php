@@ -239,4 +239,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     {
         return true;
     }
-        $conversation = $convo['conversation'];
+
+
