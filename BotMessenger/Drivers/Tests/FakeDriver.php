@@ -235,3 +235,5 @@ class FakeDriver implements DriverInterface, VerifiesService
      *
      * @return bool
      */
+    public function serializesCallbacks()
+     * @return string
