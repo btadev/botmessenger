@@ -217,4 +217,5 @@ class FakeDriver implements DriverInterface, VerifiesService
      * @return string[]|Question[]
      */
     public function getBotMessages()
-
+    {
+    }
