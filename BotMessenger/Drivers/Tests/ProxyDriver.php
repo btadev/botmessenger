@@ -90,3 +90,5 @@ final class ProxyDriver implements DriverInterface
         return self::instance()->getName();
     }
 
+    public function types(IncomingMessage $matchingMessage)
+    /**
