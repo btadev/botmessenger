@@ -46,4 +46,5 @@ final class ProxyDriver implements DriverInterface
     }
 
     public function hasMatchingEvent()
-    public function isConfigured();
+    {
+### Installation & Using
