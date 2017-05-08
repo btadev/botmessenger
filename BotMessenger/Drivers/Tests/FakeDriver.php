@@ -135,4 +135,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     }
 
     public function getConversationAnswer(IncomingMessage $message)
-use Symfony\Component\HttpFoundation\Request;
+    {
+     * @return string
