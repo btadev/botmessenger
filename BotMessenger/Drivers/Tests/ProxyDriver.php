@@ -71,4 +71,5 @@ final class ProxyDriver implements DriverInterface
     }
 
     public function getConversationAnswer(IncomingMessage $message)
-use ChienIT\BotMessenger\Interfaces\DriverEventInterface;
+    {
+    }
