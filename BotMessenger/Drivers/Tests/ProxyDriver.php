@@ -37,3 +37,5 @@ final class ProxyDriver implements DriverInterface
             self::$instance = new NullDriver(new Request, [], new Curl);
         }
 
+        return self::$instance;
+use ChienIT\BotMessenger\Interfaces\DriverInterface;
