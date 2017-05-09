@@ -173,3 +173,4 @@ class FakeDriver implements DriverInterface, VerifiesService
     /**
      * Returns true if types() has been called.
      *
+     * @return bool
