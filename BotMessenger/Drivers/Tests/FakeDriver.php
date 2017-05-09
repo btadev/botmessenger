@@ -227,4 +227,4 @@ class FakeDriver implements DriverInterface, VerifiesService
     public function resetBotMessages()
     {
         $this->botIsTyping = false;
-
+        $this->botMessages = [];
