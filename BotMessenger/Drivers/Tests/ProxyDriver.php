@@ -70,3 +70,5 @@ final class ProxyDriver implements DriverInterface
         return self::instance()->getUser($matchingMessage);
     }
 
+    public function getConversationAnswer(IncomingMessage $message)
+use ChienIT\BotMessenger\Interfaces\DriverEventInterface;
