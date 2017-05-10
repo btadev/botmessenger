@@ -52,4 +52,5 @@ final class ProxyDriver implements DriverInterface
 
     public function getMessages()
     {
-     *
+        return self::instance()->getMessages();
+
