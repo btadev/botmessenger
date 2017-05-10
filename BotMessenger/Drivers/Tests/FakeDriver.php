@@ -218,4 +218,5 @@ class FakeDriver implements DriverInterface, VerifiesService
      */
     public function getBotMessages()
     {
-    }
+        return $this->botMessages;
+     */
