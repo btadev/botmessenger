@@ -147,4 +147,5 @@ class FakeDriver implements DriverInterface, VerifiesService
         return $message;
     }
 
-    public function has($key)
+    public function sendPayload($payload)
+your receipt of the notice.
