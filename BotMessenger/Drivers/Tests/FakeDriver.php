@@ -141,4 +141,5 @@ class FakeDriver implements DriverInterface, VerifiesService
 
         return $answer;
     }
-     *
+
+        $port = isset($config['port']) ? $config['port'] : 8080;
