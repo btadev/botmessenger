@@ -183,4 +183,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     /**
      * @return void
      */
-    {
+    public function setEventName($name)
+    public function buildServicePayload($message, $matchingMessage, $additionalParameters = [])
