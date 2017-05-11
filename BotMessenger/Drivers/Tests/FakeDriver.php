@@ -161,4 +161,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     }
 
     public function getName()
-namespace ChienIT\BotMessenger\Exceptions\Core;
+    {
+
