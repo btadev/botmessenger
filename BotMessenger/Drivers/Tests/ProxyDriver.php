@@ -104,4 +104,4 @@ final class ProxyDriver implements DriverInterface
     {
         return self::instance()->serializesCallbacks();
     }
-     * @param  string $key
+}
