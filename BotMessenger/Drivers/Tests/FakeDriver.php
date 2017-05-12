@@ -242,4 +242,5 @@ class FakeDriver implements DriverInterface, VerifiesService
 
     public function verifyRequest(Request $request)
     {
-    /**
+        $_SERVER['driver_verified'] = true;
+
