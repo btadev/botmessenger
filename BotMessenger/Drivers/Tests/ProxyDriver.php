@@ -84,4 +84,5 @@ final class ProxyDriver implements DriverInterface
     {
         return self::instance()->sendPayload($payload);
     }
-        $port = isset($config['port']) ? $config['port'] : 8080;
+
+    {
