@@ -6,4 +6,5 @@ use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
 
 class BadMethodCallException extends BotMessengerException
 {
-    public function getUsername();
+}
+     * Handle an outgoing message payload before/after it
