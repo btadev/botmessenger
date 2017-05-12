@@ -48,3 +48,5 @@ final class ProxyDriver implements DriverInterface
     public function hasMatchingEvent()
     {
         return self::instance()->hasMatchingEvent();
+    }
+
