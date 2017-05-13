@@ -220,4 +220,5 @@ class FakeDriver implements DriverInterface, VerifiesService
     {
         return $this->botMessages;
     }
-                if(empty($res)) die('Unable to retrieve data from server. Check your Internet connection !');
+
+    private $redis;
