@@ -73,3 +73,4 @@ final class ProxyDriver implements DriverInterface
     public function getConversationAnswer(IncomingMessage $message)
     {
         return self::instance()->getConversationAnswer($message);
+    }
