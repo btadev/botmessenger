@@ -20,4 +20,5 @@ final class ProxyDriver implements DriverInterface
 
     /**
      * Set driver instance to be used.
-    public function getRecipients()
+     *
+     * @return mixed
