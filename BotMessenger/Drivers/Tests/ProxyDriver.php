@@ -12,3 +12,4 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
  * A driver that acts as a proxy for a global driver instance. Useful for mock/fake drivers in integration tests.
  */
 final class ProxyDriver implements DriverInterface
+{
