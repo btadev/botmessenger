@@ -221,4 +221,5 @@ class FakeDriver implements DriverInterface, VerifiesService
         return $this->botMessages;
     }
 
-    private $redis;
+    /**
+    }],
