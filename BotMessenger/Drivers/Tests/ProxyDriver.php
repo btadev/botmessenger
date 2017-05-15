@@ -43,3 +43,5 @@ final class ProxyDriver implements DriverInterface
     public function matchesRequest()
     {
         return self::instance()->matchesRequest();
+    }
+        "react/socket": "~0.4",
