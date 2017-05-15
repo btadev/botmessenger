@@ -195,3 +195,4 @@ class FakeDriver implements DriverInterface, VerifiesService
     {
         $this->event_payload = $payload;
     }
+    }
