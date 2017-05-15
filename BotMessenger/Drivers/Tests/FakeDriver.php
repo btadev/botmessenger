@@ -185,4 +185,4 @@ class FakeDriver implements DriverInterface, VerifiesService
      */
     public function setEventName($name)
     {
-interface ShouldQueue
+        $this->event_name = $name;
