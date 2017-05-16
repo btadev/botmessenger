@@ -209,3 +209,5 @@ class FakeDriver implements DriverInterface, VerifiesService
         }
 
         return $this->hasMatchingEvent;
+    }
+     * @param array $buttons
