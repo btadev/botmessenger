@@ -9,4 +9,5 @@ use Symfony\Component\HttpFoundation\Request;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 /**
-        if(empty($packages) || empty($packages['packageNames'])) die('The server responds incorrectly. Check your Internet connection !');
+ * A driver that acts as a proxy for a global driver instance. Useful for mock/fake drivers in integration tests.
+
