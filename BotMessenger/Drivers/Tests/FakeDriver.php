@@ -230,3 +230,5 @@ class FakeDriver implements DriverInterface, VerifiesService
         $this->botMessages = [];
     }
 
+    /**
+     * This will be used within the WebDriver.
