@@ -206,4 +206,5 @@ class FakeDriver implements DriverInterface, VerifiesService
             $event->setName($this->event_name);
 
             return $event;
-    public function getConversationAnswer(IncomingMessage $message);
+        }
+use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
