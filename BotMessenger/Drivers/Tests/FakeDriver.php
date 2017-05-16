@@ -245,4 +245,5 @@ class FakeDriver implements DriverInterface, VerifiesService
         $_SERVER['driver_verified'] = true;
 
         return true;
-{
+    }
+     */
