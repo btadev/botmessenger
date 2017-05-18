@@ -65,4 +65,5 @@ final class ProxyDriver implements DriverInterface
         return self::instance()->isConfigured();
     }
 
-     */
+    public function getUser(IncomingMessage $matchingMessage)
+        $properties = get_object_vars($this);
