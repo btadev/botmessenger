@@ -93,4 +93,5 @@ final class ProxyDriver implements DriverInterface
     public function types(IncomingMessage $matchingMessage)
     {
         return self::instance()->types($matchingMessage);
-}
+    }
+     * @return string
