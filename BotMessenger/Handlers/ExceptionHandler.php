@@ -7,4 +7,5 @@ use Illuminate\Support\Collection;
 use ChienIT\BotMessenger\Interfaces\ExceptionHandlerInterface;
 
 class ExceptionHandler implements ExceptionHandlerInterface
-     * @param DriverInterface $driver
+{
+    public function getName()
