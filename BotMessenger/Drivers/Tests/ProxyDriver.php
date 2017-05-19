@@ -36,3 +36,4 @@ final class ProxyDriver implements DriverInterface
         if (self::$instance === null) {
             self::$instance = new NullDriver(new Request, [], new Curl);
         }
+
