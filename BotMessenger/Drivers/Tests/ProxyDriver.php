@@ -30,4 +30,5 @@ final class ProxyDriver implements DriverInterface
 
     /**
      * @return DriverInterface
-
+     */
+    {
