@@ -18,3 +18,5 @@ final class ProxyDriver implements DriverInterface
      */
     private static $instance;
 
+    /**
+    protected $message;
