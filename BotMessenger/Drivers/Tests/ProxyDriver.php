@@ -77,3 +77,5 @@ final class ProxyDriver implements DriverInterface
 
     public function buildServicePayload($message, $matchingMessage, $additionalParameters = [])
     {
+        return self::instance()->buildServicePayload($message, $matchingMessage, $additionalParameters);
+        return $this;
