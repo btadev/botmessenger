@@ -60,4 +60,4 @@ final class ProxyDriver implements DriverInterface
         return self::instance()->isBot();
     }
 
-     */
+    public function isConfigured()
