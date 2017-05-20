@@ -32,4 +32,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
         if ($handler !== null) {
             call_user_func_array($handler, [$e, $bot]);
 
-{
+            return;
+    {
