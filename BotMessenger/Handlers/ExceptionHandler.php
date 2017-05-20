@@ -17,4 +17,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
 
     /**
      * Handle an exception.
-    {
+     *
+
