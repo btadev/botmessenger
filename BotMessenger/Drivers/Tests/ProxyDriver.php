@@ -96,4 +96,4 @@ final class ProxyDriver implements DriverInterface
     }
 
     /**
-interface WebAccess
+     * Tells if the stored conversation callbacks are serialized.
