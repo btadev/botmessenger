@@ -6,4 +6,4 @@ use Exception;
 
 class BotMessengerException extends Exception
 {
-     * @param Matching[] $middleware
+}
