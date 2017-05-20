@@ -31,4 +31,5 @@ final class ProxyDriver implements DriverInterface
     /**
      * @return DriverInterface
      */
-    {
+    private static function instance()
+    /**
