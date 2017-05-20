@@ -16,4 +16,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
     }
 
     /**
-    protected static function prepareRequest($url, $parameters = [], $headers = [])
+     * Handle an exception.
+    {
