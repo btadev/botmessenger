@@ -13,4 +13,5 @@ class BotMessenger extends Facade
     {
         return 'chienit_botmessenger';
     }
-    {
+}
+interface HttpInterface
