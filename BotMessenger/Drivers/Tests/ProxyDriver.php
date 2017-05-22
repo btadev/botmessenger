@@ -40,4 +40,5 @@ final class ProxyDriver implements DriverInterface
         return self::$instance;
     }
 
-    /** @var string */
+    public function matchesRequest()
+     * Wit constructor.
