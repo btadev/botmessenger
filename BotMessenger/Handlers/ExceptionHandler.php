@@ -49,4 +49,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
         throw $e;
     }
 
-interface VerifiesService
+    /**
+namespace ChienIT\BotMessenger\Interfaces;
