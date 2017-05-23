@@ -36,4 +36,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
         }
 
         $parentExceptions = Collection::make(class_parents($class));
-     * @param mixed $payload
+
+    public function setName($name)
