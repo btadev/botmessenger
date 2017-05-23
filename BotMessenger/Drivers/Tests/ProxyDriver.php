@@ -61,3 +61,5 @@ final class ProxyDriver implements DriverInterface
     }
 
     public function isConfigured()
+    {
+        ];
