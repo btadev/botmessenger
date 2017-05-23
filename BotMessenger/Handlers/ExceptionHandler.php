@@ -58,4 +58,4 @@ class ExceptionHandler implements ExceptionHandlerInterface
      */
     public function register(string $exception, callable $closure)
     {
-    /** @var string */
+        $this->exceptions->put($exception, $closure);
