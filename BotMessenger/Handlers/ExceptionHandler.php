@@ -45,4 +45,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
             }
         }
 
-
+        // No matching parent exception, throw the exception away
+     * @return string
