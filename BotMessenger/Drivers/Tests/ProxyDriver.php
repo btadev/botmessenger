@@ -82,3 +82,4 @@ final class ProxyDriver implements DriverInterface
 
     public function sendPayload($payload)
     {
+        return self::instance()->sendPayload($payload);
