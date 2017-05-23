@@ -63,4 +63,5 @@ final class ProxyDriver implements DriverInterface
     public function isConfigured()
     {
         return self::instance()->isConfigured();
-     */
+    }
+interface Sending
