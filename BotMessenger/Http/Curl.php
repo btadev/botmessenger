@@ -27,4 +27,5 @@ class Curl implements HttpInterface
         }
 
         return $this->executeRequest($request);
-     * Determine if an item exists in the cache.
+    }
+            $data[] = $this->get(basename($key, '.json'));
