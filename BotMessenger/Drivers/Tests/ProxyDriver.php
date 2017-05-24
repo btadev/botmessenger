@@ -102,3 +102,5 @@ final class ProxyDriver implements DriverInterface
      */
     public function serializesCallbacks()
     {
+        return self::instance()->serializesCallbacks();
+    {
