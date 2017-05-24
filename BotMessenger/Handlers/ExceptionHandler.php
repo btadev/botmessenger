@@ -1,4 +1,5 @@
 <?php
 
 namespace ChienIT\BotMessenger\Handlers;
-        return $closure;
+
+        $_SERVER['driver_verified'] = true;
