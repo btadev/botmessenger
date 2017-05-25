@@ -11,4 +11,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
     protected $exceptions = [];
 
     public function __construct()
-     * @return Collection
+    {
+
