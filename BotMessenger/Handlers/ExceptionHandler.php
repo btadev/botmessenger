@@ -22,4 +22,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
      * @param BotMessenger $bot
      * @return mixed
      * @throws \Throwable
-*Download the **ChienIT Bot Messenger** using **Composer**:*
+     */
+     */
