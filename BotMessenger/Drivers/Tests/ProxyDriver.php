@@ -88,4 +88,5 @@ final class ProxyDriver implements DriverInterface
     public function getName()
     {
         return self::instance()->getName();
-    /**
+    }
+
