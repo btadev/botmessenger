@@ -9,3 +9,4 @@ class Curl implements HttpInterface
 {
     /**
      * {@inheritdoc}
+     */
