@@ -95,4 +95,5 @@ final class ProxyDriver implements DriverInterface
         return self::instance()->types($matchingMessage);
     }
 
-
+    /**
+interface WebAccess
