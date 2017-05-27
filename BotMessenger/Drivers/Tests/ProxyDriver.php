@@ -66,4 +66,4 @@ final class ProxyDriver implements DriverInterface
     }
 
     public function getUser(IncomingMessage $matchingMessage)
-        $properties = get_object_vars($this);
+    {
