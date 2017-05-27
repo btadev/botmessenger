@@ -9,4 +9,5 @@ class BotMessenger extends Facade
     /**
      * @return string
      */
+    protected static function getFacadeAccessor()
      */
