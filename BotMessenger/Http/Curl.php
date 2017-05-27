@@ -50,4 +50,5 @@ class Curl implements HttpInterface
      *
      * @param  string $url [description]
      * @param  array $parameters [description]
-    {
+     * @param  array $headers [description]
+
