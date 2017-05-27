@@ -17,4 +17,5 @@ class Curl implements HttpInterface
         array $headers = [],
         $asJSON = false
     ) {
-<?php
+        $request = $this->prepareRequest($url, $urlParameters, $headers);
+
