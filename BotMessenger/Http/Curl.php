@@ -45,4 +45,5 @@ class Curl implements HttpInterface
         return $this->executeRequest($request);
     }
 
-*Add into composer.json*
+    /**
+        $this->driver = $driver;
