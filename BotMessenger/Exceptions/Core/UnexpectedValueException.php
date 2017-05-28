@@ -1,4 +1,5 @@
 <?php
 
 namespace ChienIT\BotMessenger\Exceptions\Core;
-     * @return bool
+
+     * @return mixed|HttpDriver|NullDriver
