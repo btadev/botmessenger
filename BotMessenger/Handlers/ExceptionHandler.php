@@ -23,4 +23,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
      * @return mixed
      * @throws \Throwable
      */
-     */
+    public function handleException($e, BotMessenger $bot)
+    {
