@@ -25,3 +25,4 @@ class ExceptionHandler implements ExceptionHandlerInterface
      */
     public function handleException($e, BotMessenger $bot)
     {
+     * @return array
