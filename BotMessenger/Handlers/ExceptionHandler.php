@@ -52,4 +52,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
     /**
      * Register a new exception type.
      *
-     * @return array
+     * @param string $exception
+
