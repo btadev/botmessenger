@@ -87,4 +87,5 @@ final class ProxyDriver implements DriverInterface
 
     public function getName()
     {
-     * @param $url
+        return self::instance()->getName();
+    /**
