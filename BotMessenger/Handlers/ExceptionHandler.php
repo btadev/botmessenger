@@ -50,4 +50,4 @@ class ExceptionHandler implements ExceptionHandlerInterface
     }
 
     /**
-namespace ChienIT\BotMessenger\Interfaces;
+     * Register a new exception type.
