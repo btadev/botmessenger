@@ -29,4 +29,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
         $handler = $this->exceptions->get($class);
 
         // Exact exception handler found, call it.
-    }
+        if ($handler !== null) {
+
