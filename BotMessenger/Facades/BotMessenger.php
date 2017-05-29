@@ -8,4 +8,5 @@ class BotMessenger extends Facade
 {
     /**
      * @return string
-    /**
+     */
+     */
