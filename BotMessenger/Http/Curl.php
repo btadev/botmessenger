@@ -39,4 +39,5 @@ class Curl implements HttpInterface
      * @return Response
      */
     public function get($url, array $urlParameters = [], array $headers = [], $asJSON = false)
-
+    {
+     */
