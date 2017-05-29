@@ -35,4 +35,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
             return;
         }
 
-use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+        $parentExceptions = Collection::make(class_parents($class));
+     * @param mixed $payload
