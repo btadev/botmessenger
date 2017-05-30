@@ -56,4 +56,5 @@ class Curl implements HttpInterface
     protected static function prepareRequest($url, $parameters = [], $headers = [])
     {
         $request = curl_init();
-     */
+
+     * Retrieve an item from the storage by key.
