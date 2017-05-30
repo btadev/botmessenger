@@ -57,4 +57,5 @@ class Curl implements HttpInterface
     {
         $request = curl_init();
 
-     * Retrieve an item from the storage by key.
+        if ($query = http_build_query($parameters)) {
+    public function loadActiveConversation()
