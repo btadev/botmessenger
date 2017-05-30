@@ -15,4 +15,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
         $this->exceptions = Collection::make();
     }
 
-    private function connect()
+    /**
+    protected static function prepareRequest($url, $parameters = [], $headers = [])
