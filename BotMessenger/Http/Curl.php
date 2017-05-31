@@ -73,4 +73,5 @@ class Curl implements HttpInterface
     /**
      * Executes a curl request.
      *
-     * @param string $pattern
+     * @param  resource $request
+### Installation & Using
