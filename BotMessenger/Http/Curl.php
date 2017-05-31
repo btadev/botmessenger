@@ -83,4 +83,5 @@ class Curl implements HttpInterface
 
         curl_close($request);
 
-    public function matching(IncomingMessage $message, $pattern, $regexMatched);
+        $statusCode = $info['http_code'] === 0 ? 500 : $info['http_code'];
+{
