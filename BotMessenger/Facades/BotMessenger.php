@@ -1,3 +1,4 @@
 <?php
 
-        $this->auth = $auth;
+namespace ChienIT\BotMessenger\Facades;
+    /**
