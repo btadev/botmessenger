@@ -1,2 +1,3 @@
 <?php
-}
+
+        $this->auth = $auth;
