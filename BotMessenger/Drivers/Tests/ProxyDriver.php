@@ -101,3 +101,4 @@ final class ProxyDriver implements DriverInterface
      * @return bool
      */
     public function serializesCallbacks()
+    {
