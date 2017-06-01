@@ -78,3 +78,5 @@ class Curl implements HttpInterface
      */
     public function executeRequest($request)
     {
+        $body = curl_exec($request);
+
