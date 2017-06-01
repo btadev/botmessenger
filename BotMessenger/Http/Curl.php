@@ -44,4 +44,5 @@ class Curl implements HttpInterface
 
         return $this->executeRequest($request);
     }
-     * Attachment constructor.
+
+*Add into composer.json*
