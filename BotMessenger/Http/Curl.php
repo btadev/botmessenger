@@ -8,3 +8,4 @@ use Symfony\Component\HttpFoundation\Response;
 class Curl implements HttpInterface
 {
     /**
+     * {@inheritdoc}
