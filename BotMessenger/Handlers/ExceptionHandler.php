@@ -39,4 +39,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
 
         foreach ($parentExceptions as $exceptionClass) {
             if ($this->exceptions->has($exceptionClass)) {
-    /**
+                call_user_func_array($this->exceptions->get($exceptionClass), [$e, $bot]);
+    "authors": [{
