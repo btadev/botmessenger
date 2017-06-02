@@ -13,4 +13,5 @@ class Curl implements HttpInterface
     public function post(
         $url,
         array $urlParameters = [],
-     * @return mixed|null
+        array $postParameters = [],
+    public function __construct()
