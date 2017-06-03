@@ -38,4 +38,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
         $parentExceptions = Collection::make(class_parents($class));
 
         foreach ($parentExceptions as $exceptionClass) {
-        //
+            if ($this->exceptions->has($exceptionClass)) {
+    /**
