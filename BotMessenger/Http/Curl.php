@@ -34,3 +34,5 @@ class Curl implements HttpInterface
      *
      * @param  string $url
      * @param  array $urlParameters
+     * @param  array $headers
+    public function setCallbackId($callbackId)
