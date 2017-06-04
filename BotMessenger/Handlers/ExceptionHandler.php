@@ -48,3 +48,4 @@ class ExceptionHandler implements ExceptionHandlerInterface
         // No matching parent exception, throw the exception away
         throw $e;
     }
+class DriverAttachmentException extends DriverException
