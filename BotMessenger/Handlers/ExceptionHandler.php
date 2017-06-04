@@ -34,4 +34,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
 
             return;
         }
-        return new self($url);
+
+use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
