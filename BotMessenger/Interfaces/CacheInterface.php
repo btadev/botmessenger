@@ -40,4 +40,3 @@ interface CacheInterface
      */
     public function put($key, $value, $minutes);
 }
-<?php
