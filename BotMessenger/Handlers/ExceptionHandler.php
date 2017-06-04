@@ -42,4 +42,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
                 call_user_func_array($this->exceptions->get($exceptionClass), [$e, $bot]);
 
                 return;
-     * @param  \Throwable $e
+            }
+    //
