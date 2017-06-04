@@ -1,4 +1,5 @@
 <?php
 
 namespace ChienIT\BotMessenger\Exceptions\Core;
-class Psr6Cache implements CacheInterface
+
+tells the user that there is no warranty for the work (except to the
