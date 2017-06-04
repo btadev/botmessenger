@@ -9,4 +9,4 @@ use ChienIT\BotMessenger\Interfaces\ExceptionHandlerInterface;
 class ExceptionHandler implements ExceptionHandlerInterface
 {
     protected $exceptions = [];
-}
+
