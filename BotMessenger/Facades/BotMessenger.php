@@ -11,3 +11,5 @@ class BotMessenger extends Facade
      */
     protected static function getFacadeAccessor()
     {
+        return 'chienit_botmessenger';
+     * @param  mixed $default
