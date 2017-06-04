@@ -54,4 +54,4 @@ class ExceptionHandler implements ExceptionHandlerInterface
      *
      * @param string $exception
      * @param callable $closure
-{
+     * @return void
