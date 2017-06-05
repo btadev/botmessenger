@@ -20,3 +20,4 @@ class ExceptionHandler implements ExceptionHandlerInterface
      *
      * @param  \Throwable $e
      * @param BotMessenger $bot
+     * @return mixed
