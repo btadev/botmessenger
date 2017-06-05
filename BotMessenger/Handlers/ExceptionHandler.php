@@ -57,3 +57,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
      * @return void
      */
     public function register(string $exception, callable $closure)
+    {
+    /** @var string */
