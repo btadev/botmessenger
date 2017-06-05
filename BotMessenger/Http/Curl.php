@@ -2,4 +2,4 @@
 
 namespace ChienIT\BotMessenger\Http;
 
-    /** @var string */
+use ChienIT\BotMessenger\Interfaces\HttpInterface;
