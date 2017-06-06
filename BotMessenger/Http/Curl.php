@@ -62,4 +62,4 @@ class Curl implements HttpInterface
         }
 
         curl_setopt($request, CURLOPT_URL, $url);
-
+        curl_setopt($request, CURLOPT_RETURNTRANSFER, true);
