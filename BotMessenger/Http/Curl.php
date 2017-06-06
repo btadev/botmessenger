@@ -48,4 +48,5 @@ class Curl implements HttpInterface
     /**
      * Prepares a request using curl.
      *
-    /** @var string */
+     * @param  string $url [description]
+    /**
