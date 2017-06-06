@@ -77,3 +77,4 @@ class Curl implements HttpInterface
      * @return Response
      */
     public function executeRequest($request)
+    {
