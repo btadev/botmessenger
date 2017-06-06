@@ -7,4 +7,4 @@ use Symfony\Component\HttpFoundation\Response;
 
 class Curl implements HttpInterface
 {
-     * @return mixed
+    /**
