@@ -53,4 +53,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
      * Register a new exception type.
      *
      * @param string $exception
-
+     * @param callable $closure
+{
