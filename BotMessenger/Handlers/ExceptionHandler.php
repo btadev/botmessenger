@@ -33,4 +33,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
             call_user_func_array($handler, [$e, $bot]);
 
             return;
-    {
+        }
+        return new self($url);
