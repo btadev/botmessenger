@@ -60,4 +60,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
     {
         $this->exceptions->put($exception, $closure);
     }
-
+}
+     * @return mixed|HttpDriver|NullDriver
