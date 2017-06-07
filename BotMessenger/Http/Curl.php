@@ -67,4 +67,4 @@ class Curl implements HttpInterface
         curl_setopt($request, CURLINFO_HEADER_OUT, true);
         curl_setopt($request, CURLOPT_SSL_VERIFYPEER, true);
 
-
+        return $request;
