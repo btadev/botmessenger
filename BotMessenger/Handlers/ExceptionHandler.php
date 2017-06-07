@@ -26,3 +26,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
     public function handleException($e, BotMessenger $bot)
     {
         $class = get_class($e);
+        $handler = $this->exceptions->get($class);
+
