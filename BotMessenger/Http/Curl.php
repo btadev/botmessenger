@@ -53,3 +53,4 @@ class Curl implements HttpInterface
      * @param  array $headers [description]
      * @return resource
      */
+    protected static function prepareRequest($url, $parameters = [], $headers = [])
