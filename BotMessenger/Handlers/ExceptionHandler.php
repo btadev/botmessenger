@@ -18,4 +18,4 @@ class ExceptionHandler implements ExceptionHandlerInterface
     /**
      * Handle an exception.
      *
-
+     * @param  \Throwable $e
