@@ -21,3 +21,4 @@ class Curl implements HttpInterface
 
         curl_setopt($request, CURLOPT_POST, count($postParameters));
         if ($asJSON === true) {
+            curl_setopt($request, CURLOPT_POSTFIELDS, json_encode($postParameters));
