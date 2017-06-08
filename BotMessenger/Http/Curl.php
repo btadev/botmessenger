@@ -36,4 +36,5 @@ class Curl implements HttpInterface
      * @param  array $urlParameters
      * @param  array $headers
      * @param  bool $asJSON
-     * @param $title
+     * @return Response
+    /**
