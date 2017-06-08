@@ -19,3 +19,4 @@ class Curl implements HttpInterface
     ) {
         $request = $this->prepareRequest($url, $urlParameters, $headers);
 
+    /**
