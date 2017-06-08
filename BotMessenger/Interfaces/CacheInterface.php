@@ -13,4 +13,5 @@ interface CacheInterface
     public function has($key);
 
     /**
-        //
+     * Retrieve an item from the cache by key.
+interface QuestionActionInterface
