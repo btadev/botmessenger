@@ -10,3 +10,4 @@ class Curl implements HttpInterface
     /**
      * {@inheritdoc}
      */
+    public function post(
