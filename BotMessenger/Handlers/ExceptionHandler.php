@@ -13,4 +13,5 @@ class ExceptionHandler implements ExceptionHandlerInterface
     public function __construct()
     {
         $this->exceptions = Collection::make();
-<?php
+    }
+    public function toArray();
