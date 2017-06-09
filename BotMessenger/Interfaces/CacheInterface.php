@@ -9,4 +9,5 @@ interface CacheInterface
      *
      * @param  string $key
      * @return bool
-namespace ChienIT\BotMessenger\Cache;
+     */
+    /**
