@@ -46,4 +46,5 @@ class Curl implements HttpInterface
     }
 
     /**
-        $this->driver = $driver;
+     * Prepares a request using curl.
+<?php
