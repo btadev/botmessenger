@@ -14,4 +14,5 @@ interface DriverEventInterface
      *
      * @return string
      */
-
+    public function getName();
+use ChienIT\BotMessenger\BotMessenger;
