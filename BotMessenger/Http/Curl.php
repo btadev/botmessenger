@@ -81,3 +81,4 @@ class Curl implements HttpInterface
         $body = curl_exec($request);
         $info = curl_getinfo($request);
 
+
