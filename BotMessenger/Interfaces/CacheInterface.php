@@ -20,3 +20,5 @@ interface CacheInterface
      * @return mixed
      */
     public function get($key, $default = null);
+
+namespace ChienIT\BotMessenger\Messages\Matching;
