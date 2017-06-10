@@ -16,4 +16,5 @@ interface DriverEventInterface
      */
     public function getName();
 
-            'latitude' => $this->latitude,
+    /**
+    /**
