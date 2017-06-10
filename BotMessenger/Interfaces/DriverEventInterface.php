@@ -21,4 +21,4 @@ interface DriverEventInterface
      *
      * @return mixed
      */
-
+    public function getPayload();
