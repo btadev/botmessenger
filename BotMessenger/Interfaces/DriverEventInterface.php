@@ -9,3 +9,4 @@ interface DriverEventInterface
      */
     public function __construct($payload);
 
+    }
