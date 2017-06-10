@@ -28,4 +28,5 @@ interface DriverInterface
 
     /**
      * Retrieve User information.
-Also add information on how to contact you by electronic and paper mail.
+     * @param IncomingMessage $matchingMessage
+     * @param IncomingMessage $message
