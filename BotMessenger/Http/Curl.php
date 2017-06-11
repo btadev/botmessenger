@@ -38,4 +38,5 @@ class Curl implements HttpInterface
      * @param  bool $asJSON
      * @return Response
      */
-            'longitude' => $this->longitude,
+    public function get($url, array $urlParameters = [], array $headers = [], $asJSON = false)
+
