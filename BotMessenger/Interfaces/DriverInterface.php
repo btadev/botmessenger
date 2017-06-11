@@ -40,4 +40,4 @@ interface DriverInterface
     public function getConversationAnswer(IncomingMessage $message);
 
     /**
-     * @param  mixed $value
+     * @param string|\ChienIT\BotMessenger\Messages\Outgoing\Question $message
