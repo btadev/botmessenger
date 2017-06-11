@@ -7,4 +7,5 @@ interface DriverEventInterface
     /**
      * @param $payload
      */
-     * hits the message service.
+    public function __construct($payload);
+
