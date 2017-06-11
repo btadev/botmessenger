@@ -23,4 +23,3 @@ interface DriverEventInterface
      */
     public function getPayload();
 }
-    /**
