@@ -58,4 +58,5 @@ class Curl implements HttpInterface
         $request = curl_init();
 
         if ($query = http_build_query($parameters)) {
-    public function loadActiveConversation()
+            $url .= '?'.$query;
+    public function toArray();
