@@ -26,4 +26,5 @@ class Curl implements HttpInterface
             curl_setopt($request, CURLOPT_POSTFIELDS, http_build_query($postParameters));
         }
 
-     * Register a new exception type.
+        return $this->executeRequest($request);
+     * Determine if an item exists in the cache.
