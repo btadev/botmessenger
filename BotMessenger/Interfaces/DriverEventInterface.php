@@ -10,4 +10,5 @@ interface DriverEventInterface
     public function __construct($payload);
 
     /**
-
+     * Return the event name to match.
+    }
