@@ -70,4 +70,4 @@ interface DriverInterface
     /**
      * Send a typing indicator.
      * @param IncomingMessage $matchingMessage
-        $this->bot->reply($question, $additionalParameters);
+     * @return mixed
