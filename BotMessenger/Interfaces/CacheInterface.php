@@ -2,4 +2,4 @@
 
 namespace ChienIT\BotMessenger\Interfaces;
 
-        $this->matches = $matches;
+interface CacheInterface
