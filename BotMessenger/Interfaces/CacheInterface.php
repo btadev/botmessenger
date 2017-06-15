@@ -18,3 +18,5 @@ interface CacheInterface
      * @param  string $key
      * @param  mixed $default
      * @return mixed
+     */
+    /**
