@@ -19,4 +19,5 @@ class Curl implements HttpInterface
     ) {
         $request = $this->prepareRequest($url, $urlParameters, $headers);
 
-    /**
+        curl_setopt($request, CURLOPT_POST, count($postParameters));
+use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
