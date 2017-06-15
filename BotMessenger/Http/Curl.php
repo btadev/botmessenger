@@ -87,4 +87,5 @@ class Curl implements HttpInterface
 
         return new Response((string) $body, $statusCode, []);
     }
-     * @return $this
+}
+    /**
