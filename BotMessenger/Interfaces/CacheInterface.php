@@ -37,3 +37,5 @@ interface CacheInterface
      * @param  mixed $value
      * @param  \DateTime|int $minutes
      * @return void
+     */
+    {
