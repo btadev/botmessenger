@@ -16,4 +16,5 @@ class Curl implements HttpInterface
         array $postParameters = [],
         array $headers = [],
         $asJSON = false
-     * @return bool
+    ) {
+<?php
