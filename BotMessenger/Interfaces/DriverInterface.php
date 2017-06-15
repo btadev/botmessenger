@@ -50,3 +50,5 @@ interface DriverInterface
     /**
      * @param mixed $payload
      * @return Response
+     */
+        return isset($this->cache[$key]);
