@@ -31,4 +31,5 @@ interface DriverInterface
      * @param IncomingMessage $matchingMessage
      * @return UserInterface
      */
-The hypothetical commands `show w' and `show c' should show the appropriate
+    public function getUser(IncomingMessage $matchingMessage);
+     */
