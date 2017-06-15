@@ -53,4 +53,4 @@ interface DriverInterface
      */
     public function sendPayload($payload);
 
-use ChienIT\BotMessenger\Interfaces\Middleware\Captured;
+    /**
