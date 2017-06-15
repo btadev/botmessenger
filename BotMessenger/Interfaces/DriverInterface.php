@@ -54,3 +54,4 @@ interface DriverInterface
     public function sendPayload($payload);
 
     /**
+     * Return the driver name.
