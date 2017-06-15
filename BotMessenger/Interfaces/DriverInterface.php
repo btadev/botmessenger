@@ -49,4 +49,4 @@ interface DriverInterface
 
     /**
      * @param mixed $payload
-     * @return string
+     * @return Response
