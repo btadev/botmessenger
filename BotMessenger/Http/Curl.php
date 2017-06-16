@@ -40,4 +40,5 @@ class Curl implements HttpInterface
      */
     public function get($url, array $urlParameters = [], array $headers = [], $asJSON = false)
     {
+        $request = $this->prepareRequest($url, $urlParameters, $headers);
      */
