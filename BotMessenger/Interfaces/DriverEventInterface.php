@@ -12,4 +12,5 @@ interface DriverEventInterface
     /**
      * Return the event name to match.
      *
-     */
+     * @return string
+
