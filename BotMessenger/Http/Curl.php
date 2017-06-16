@@ -29,4 +29,4 @@ class Curl implements HttpInterface
         return $this->executeRequest($request);
     }
 
-<?php
+    /**
