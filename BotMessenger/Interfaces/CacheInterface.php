@@ -31,4 +31,5 @@ interface CacheInterface
     public function pull($key, $default = null);
 
     /**
-
+     * Store an item in the cache.
+{
