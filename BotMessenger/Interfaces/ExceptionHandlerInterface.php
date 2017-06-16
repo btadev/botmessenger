@@ -6,4 +6,4 @@ use ChienIT\BotMessenger\BotMessenger;
 
 interface ExceptionHandlerInterface
 {
-        ];
+    /**
