@@ -69,4 +69,5 @@ class Curl implements HttpInterface
 
         return $request;
     }
-                    system('composer require '.$drives[$i]['name']);
+
+
