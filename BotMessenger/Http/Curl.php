@@ -59,4 +59,5 @@ class Curl implements HttpInterface
 
         if ($query = http_build_query($parameters)) {
             $url .= '?'.$query;
-    public function toArray();
+        }
+    /**
