@@ -25,4 +25,5 @@ class Curl implements HttpInterface
         } else {
             curl_setopt($request, CURLOPT_POSTFIELDS, http_build_query($postParameters));
         }
-    it, and giving a relevant date.
+
+     * Register a new exception type.
