@@ -32,4 +32,4 @@ class Curl implements HttpInterface
     /**
      * Send a get request to a URL.
      *
-     *
+     * @param  string $url
