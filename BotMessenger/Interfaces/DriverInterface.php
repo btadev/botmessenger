@@ -26,3 +26,5 @@ interface DriverInterface
      */
     public function isConfigured();
 
+    /**
+     * @param  string $key
