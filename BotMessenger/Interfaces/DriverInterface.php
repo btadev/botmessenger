@@ -43,4 +43,5 @@ interface DriverInterface
      * @param string|\ChienIT\BotMessenger\Messages\Outgoing\Question $message
      * @param IncomingMessage $matchingMessage
      * @param array $additionalParameters
-use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
+     * @return $this
+<?php
