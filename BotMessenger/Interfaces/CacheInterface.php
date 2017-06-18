@@ -12,4 +12,5 @@ interface CacheInterface
      */
     public function has($key);
 
-
+    /**
+        //
