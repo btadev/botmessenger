@@ -29,4 +29,5 @@ interface DriverInterface
     /**
      * Retrieve User information.
      * @param IncomingMessage $matchingMessage
-     * @param IncomingMessage $message
+     * @return UserInterface
+     * @param BotMessenger $bot
