@@ -1,3 +1,3 @@
 <?php
 
-        CacheInterface $cache = null,
+namespace ChienIT\BotMessenger\Interfaces;
