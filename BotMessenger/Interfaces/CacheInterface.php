@@ -26,4 +26,5 @@ interface CacheInterface
      *
      * @param  string $key
      * @param  mixed $default
-namespace ChienIT\BotMessenger\Drivers\Events;
+     * @return mixed
+    {
