@@ -22,4 +22,5 @@ interface CacheInterface
     public function get($key, $default = null);
 
     /**
-        //
+     * Retrieve an item from the cache and delete it.
+
