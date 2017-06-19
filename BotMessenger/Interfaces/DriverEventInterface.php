@@ -17,4 +17,4 @@ interface DriverEventInterface
     public function getName();
 
     /**
-    /**
+     * Return the event payload.
