@@ -34,4 +34,4 @@ interface DriverInterface
     public function getUser(IncomingMessage $matchingMessage);
 
     /**
-     * Return the event name to match.
+     * @param IncomingMessage $message
