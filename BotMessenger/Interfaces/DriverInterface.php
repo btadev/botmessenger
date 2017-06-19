@@ -48,4 +48,5 @@ interface DriverInterface
     public function buildServicePayload($message, $matchingMessage, $additionalParameters = []);
 
     /**
-        array $headers = [],
+     * @param mixed $payload
+     * @return string
