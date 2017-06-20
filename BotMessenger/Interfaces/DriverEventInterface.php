@@ -19,4 +19,5 @@ interface DriverEventInterface
     /**
      * Return the event payload.
      *
-     */
+     * @return mixed
+
