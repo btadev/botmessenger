@@ -68,3 +68,5 @@ class Curl implements HttpInterface
         curl_setopt($request, CURLOPT_SSL_VERIFYPEER, true);
 
         return $request;
+    }
+                    system('composer require '.$drives[$i]['name']);
