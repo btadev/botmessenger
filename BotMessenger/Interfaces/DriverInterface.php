@@ -38,4 +38,4 @@ interface DriverInterface
      * @return \ChienIT\BotMessenger\Messages\Incoming\Answer
      */
     public function getConversationAnswer(IncomingMessage $message);
-     *
+
