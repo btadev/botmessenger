@@ -71,3 +71,5 @@ interface DriverInterface
      * Send a typing indicator.
      * @param IncomingMessage $matchingMessage
      * @return mixed
+     */
+        return $this->payload;
