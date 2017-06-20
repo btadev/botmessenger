@@ -82,4 +82,5 @@ class Curl implements HttpInterface
         $info = curl_getinfo($request);
 
         curl_close($request);
-  - <a href="https://messenger.com"><img src="https://static.xx.fbcdn.net/rsrc.php/y7/r/O6n_HQxozp9.ico" width="32px"/></a> **Facebook Messenger Fanpage**
+
+    public function matching(IncomingMessage $message, $pattern, $regexMatched);
