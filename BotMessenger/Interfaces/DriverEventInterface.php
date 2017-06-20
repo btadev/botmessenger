@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Interfaces;
 
-        $this->message = $message;
+interface DriverEventInterface
+
