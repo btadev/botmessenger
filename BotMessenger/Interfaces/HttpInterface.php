@@ -25,4 +25,5 @@ interface HttpInterface
     );
 
     /**
-     * @param IncomingMessage $matchingMessage
+     * Send a get request to a URL.
+}
