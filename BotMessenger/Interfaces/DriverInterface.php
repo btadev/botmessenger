@@ -44,4 +44,5 @@ interface DriverInterface
      * @param IncomingMessage $matchingMessage
      * @param array $additionalParameters
      * @return $this
-<?php
+     */
+of having them make modifications exclusively for you, or provide you
