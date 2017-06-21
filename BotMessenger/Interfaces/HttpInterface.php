@@ -15,3 +15,5 @@ interface HttpInterface
      * @param  array $headers
      * @param  bool $asJSON
      * @return Response
+     */
+    }
