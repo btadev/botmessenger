@@ -18,3 +18,5 @@ interface HttpInterface
      */
     public function post(
         $url,
+        array $urlParameters = [],
+use ChienIT\BotMessenger\Interfaces\ExceptionHandlerInterface;
