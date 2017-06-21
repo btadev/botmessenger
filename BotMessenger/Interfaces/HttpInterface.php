@@ -17,4 +17,4 @@ interface HttpInterface
      * @return Response
      */
     public function post(
-    {
+        $url,
