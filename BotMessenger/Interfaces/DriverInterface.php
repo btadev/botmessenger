@@ -79,4 +79,5 @@ interface DriverInterface
      *
      * @return bool
      */
-{
+    public function serializesCallbacks();
+     */
