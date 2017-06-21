@@ -61,4 +61,4 @@ interface DriverInterface
     public function getName();
 
     /**
-<?php
+     * Does the driver match to an incoming messaging service event.
