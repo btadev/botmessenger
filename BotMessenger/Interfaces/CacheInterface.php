@@ -29,4 +29,4 @@ interface CacheInterface
      * @return mixed
      */
     public function pull($key, $default = null);
-     * @return string
+
