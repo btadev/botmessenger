@@ -6,4 +6,5 @@ use ChienIT\BotMessenger\BotMessenger;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 interface Captured
-     * @param IncomingMessage $message
+{
+     * Wit constructor.
