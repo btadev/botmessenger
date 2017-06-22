@@ -24,4 +24,5 @@ interface CacheInterface
     /**
      * Retrieve an item from the cache and delete it.
      *
-
+     * @param  string $key
+    }
