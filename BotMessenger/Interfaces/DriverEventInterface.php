@@ -1,1 +1,3 @@
 <?php
+
+    /** @var Collection */
