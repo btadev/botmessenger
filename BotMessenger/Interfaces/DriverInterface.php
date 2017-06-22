@@ -73,4 +73,5 @@ interface DriverInterface
      * @return mixed
      */
     public function types(IncomingMessage $matchingMessage);
-    /**
+
+     * @param IncomingMessage $message
