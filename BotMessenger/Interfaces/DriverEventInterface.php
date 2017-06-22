@@ -1,3 +1,4 @@
 <?php
 
-    /** @var Collection */
+namespace ChienIT\BotMessenger\Interfaces;
+}
