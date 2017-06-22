@@ -30,3 +30,5 @@ interface CacheInterface
      */
     public function pull($key, $default = null);
 
+    /**
+
