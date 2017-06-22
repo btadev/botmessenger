@@ -12,4 +12,5 @@ interface DriverInterface
      *
      * @return bool
      */
-    {
+    public function matchesRequest();
+    public function getMessages()
