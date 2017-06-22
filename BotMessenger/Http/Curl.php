@@ -84,4 +84,5 @@ class Curl implements HttpInterface
         curl_close($request);
 
         $statusCode = $info['http_code'] === 0 ? 500 : $info['http_code'];
-{
+
+     *
