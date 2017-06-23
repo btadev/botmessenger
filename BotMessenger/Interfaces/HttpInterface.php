@@ -9,3 +9,4 @@ interface HttpInterface
     /**
      * Send a post request to a URL.
      *
+     * @param  string $url
