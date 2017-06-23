@@ -72,4 +72,5 @@ interface DriverInterface
      * @param IncomingMessage $matchingMessage
      * @return mixed
      */
-        return $this->payload;
+    public function types(IncomingMessage $matchingMessage);
+    /**
