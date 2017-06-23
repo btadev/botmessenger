@@ -8,3 +8,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 interface DriverInterface
 {
     /**
+     * Determine if the request is for this driver.
+/**
