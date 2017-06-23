@@ -12,4 +12,5 @@ interface Captured
      *
      * @param IncomingMessage $message
      * @param callable $next
-use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+     * @param BotMessenger $bot
+{
