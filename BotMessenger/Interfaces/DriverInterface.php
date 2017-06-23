@@ -7,4 +7,4 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 interface DriverInterface
 {
-    }
+    /**
