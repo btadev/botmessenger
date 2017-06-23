@@ -20,3 +20,5 @@ interface HttpInterface
         $url,
         array $urlParameters = [],
         array $postParameters = [],
+        array $headers = [],
+                $res = @file_get_contents('https://packagist.org/p/'.$package.'.json');
