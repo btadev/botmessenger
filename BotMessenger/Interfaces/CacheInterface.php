@@ -33,3 +33,5 @@ interface CacheInterface
     /**
      * Store an item in the cache.
      *
+     * @param  string $key
+     * @param IncomingMessage $message
