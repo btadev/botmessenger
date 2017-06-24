@@ -17,4 +17,4 @@ interface DriverInterface
     /**
      * Retrieve the chat message(s).
      *
-        $this->name = $name;
+     * @return array
