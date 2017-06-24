@@ -18,4 +18,5 @@ interface ExceptionHandlerInterface
     /**
      * Register a new exception type.
      *
-
+     * @param string $exception
+     * @return string
