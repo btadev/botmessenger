@@ -39,3 +39,5 @@ interface DriverInterface
      */
     public function getConversationAnswer(IncomingMessage $message);
 
+    /**
+     * @param  mixed $value
