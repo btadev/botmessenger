@@ -13,4 +13,5 @@ interface Captured
      * @param IncomingMessage $message
      * @param callable $next
      * @param BotMessenger $bot
-{
+     *
+
