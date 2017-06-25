@@ -38,4 +38,5 @@ interface CacheInterface
      * @param  \DateTime|int $minutes
      * @return void
      */
-    {
+    public function put($key, $value, $minutes);
+    public function getUrl()
