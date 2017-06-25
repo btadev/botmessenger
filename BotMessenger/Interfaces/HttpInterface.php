@@ -22,3 +22,5 @@ interface HttpInterface
         array $postParameters = [],
         array $headers = [],
         $asJSON = false
+    );
+use Illuminate\Support\Collection;
