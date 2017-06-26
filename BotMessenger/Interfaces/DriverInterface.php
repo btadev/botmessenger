@@ -3,4 +3,4 @@
 namespace ChienIT\BotMessenger\Interfaces;
 
 use Symfony\Component\HttpFoundation\Response;
-    const PATTERN = '%%%_LOCATION_%%%';
+use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
