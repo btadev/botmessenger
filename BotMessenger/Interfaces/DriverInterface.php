@@ -19,4 +19,4 @@ interface DriverInterface
      *
      * @return array
      */
-     *
+    public function getMessages();
