@@ -9,4 +9,5 @@ interface ExceptionHandlerInterface
     /**
      * Handle an exception.
      *
-        $this->redis->set($this->decorateKey($key), $data);
+     * @param \Throwable $e
+     * @param IncomingMessage $matchingMessage
