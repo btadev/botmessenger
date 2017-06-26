@@ -13,3 +13,5 @@ interface Heard
      * @param IncomingMessage $message
      * @param callable $next
      * @param BotMessenger $bot
+     *
+use ChienIT\BotMessenger\BotMessenger;
