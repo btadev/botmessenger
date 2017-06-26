@@ -25,4 +25,5 @@ interface CacheInterface
      * Retrieve an item from the cache and delete it.
      *
      * @param  string $key
-    }
+     * @param  mixed $default
+namespace ChienIT\BotMessenger\Drivers\Events;
