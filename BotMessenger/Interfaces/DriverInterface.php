@@ -30,4 +30,5 @@ interface DriverInterface
      * Retrieve User information.
      * @param IncomingMessage $matchingMessage
      * @return UserInterface
-     * @param BotMessenger $bot
+     */
+The hypothetical commands `show w' and `show c' should show the appropriate
