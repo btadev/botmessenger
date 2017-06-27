@@ -24,4 +24,5 @@ interface DriverInterface
     /**
      * @return bool
      */
-
+    public function isConfigured();
+     *
