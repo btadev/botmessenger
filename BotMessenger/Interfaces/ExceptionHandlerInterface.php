@@ -13,4 +13,5 @@ interface ExceptionHandlerInterface
      * @param BotMessenger $bot
      * @return mixed
      */
-     * @return bool
+    public function handleException($e, BotMessenger $bot);
+
