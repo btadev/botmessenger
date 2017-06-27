@@ -32,4 +32,4 @@ interface DriverInterface
      * @return UserInterface
      */
     public function getUser(IncomingMessage $matchingMessage);
-     */
+
