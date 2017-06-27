@@ -16,4 +16,5 @@ interface HttpInterface
      * @param  bool $asJSON
      * @return Response
      */
-    }
+    public function post(
+    {
