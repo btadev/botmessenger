@@ -18,3 +18,5 @@ interface DriverInterface
      * Retrieve the chat message(s).
      *
      * @return array
+     */
+     *
