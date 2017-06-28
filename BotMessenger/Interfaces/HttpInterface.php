@@ -12,4 +12,5 @@ interface HttpInterface
      * @param  string $url
      * @param  array $urlParameters
      * @param  array $postParameters
-     * @return $this
+     * @param  array $headers
+            'type' => 'audio',
