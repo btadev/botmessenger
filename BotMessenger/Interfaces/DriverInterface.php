@@ -65,3 +65,5 @@ interface DriverInterface
      *
      * @return bool|mixed
      */
+    public function hasMatchingEvent();
+interface Received
