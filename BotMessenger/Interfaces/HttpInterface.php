@@ -23,4 +23,5 @@ interface HttpInterface
         array $headers = [],
         $asJSON = false
     );
-use Illuminate\Support\Collection;
+
+{
