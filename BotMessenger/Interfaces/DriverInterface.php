@@ -22,4 +22,5 @@ interface DriverInterface
     public function getMessages();
 
     /**
-         */
+     * @return bool
+    /**
