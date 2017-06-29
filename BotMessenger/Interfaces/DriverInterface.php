@@ -76,4 +76,5 @@ interface DriverInterface
 
     /**
      * Tells if the stored conversation callbacks are serialized.
-
+     *
+     * Pattern that messages use to identify location attachment.
