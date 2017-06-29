@@ -12,3 +12,4 @@ interface DriverInterface
      *
      * @return bool
      */
+    {
