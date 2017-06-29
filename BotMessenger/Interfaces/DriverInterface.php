@@ -27,4 +27,5 @@ interface DriverInterface
     public function isConfigured();
 
     /**
-     * @param  string $key
+     * Retrieve User information.
+Also add information on how to contact you by electronic and paper mail.
