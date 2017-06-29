@@ -14,4 +14,4 @@ interface Received
      * @param callable $next
      * @param BotMessenger $bot
      *
-    }
+     * @return mixed
