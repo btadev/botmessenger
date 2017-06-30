@@ -13,4 +13,5 @@ interface Received
      * @param IncomingMessage $message
      * @param callable $next
      * @param BotMessenger $bot
-    public function matchesRequest()
+     *
+    }
