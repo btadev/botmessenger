@@ -11,4 +11,5 @@ interface HttpInterface
      *
      * @param  string $url
      * @param  array $urlParameters
-    public function __construct(AdapterInterface $adapter)
+     * @param  array $postParameters
+     * @return $this
