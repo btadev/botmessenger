@@ -11,4 +11,5 @@ interface Heard
      * Handle a message that was successfully heard, but not processed yet.
      *
      * @param IncomingMessage $message
-        $parentExceptions = Collection::make(class_parents($class));
+     * @param callable $next
+     * @param string $lang language
