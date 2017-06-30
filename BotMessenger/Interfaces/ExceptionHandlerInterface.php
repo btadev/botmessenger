@@ -16,4 +16,5 @@ interface ExceptionHandlerInterface
     public function handleException($e, BotMessenger $bot);
 
     /**
-<?php
+     * Register a new exception type.
+    /** @var array */
