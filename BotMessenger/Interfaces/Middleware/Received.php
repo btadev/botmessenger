@@ -10,3 +10,5 @@ interface Received
     /**
      * Handle an incoming message.
      *
+     * @param IncomingMessage $message
+     *
