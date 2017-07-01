@@ -13,4 +13,5 @@ interface Matching
      * @return bool
      */
     public function matching(IncomingMessage $message, $pattern, $regexMatched);
-
+}
+namespace ChienIT\BotMessenger\Interfaces\Middleware;
