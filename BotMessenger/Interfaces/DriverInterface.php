@@ -45,4 +45,5 @@ interface DriverInterface
      * @param array $additionalParameters
      * @return $this
      */
-of having them make modifications exclusively for you, or provide you
+    public function buildServicePayload($message, $matchingMessage, $additionalParameters = []);
+<?php
