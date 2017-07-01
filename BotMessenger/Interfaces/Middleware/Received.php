@@ -11,4 +11,5 @@ interface Received
      * Handle an incoming message.
      *
      * @param IncomingMessage $message
-     *
+     * @param callable $next
+use ChienIT\BotMessenger\Interfaces\Middleware\Matching;
