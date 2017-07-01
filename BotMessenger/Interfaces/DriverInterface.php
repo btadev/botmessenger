@@ -13,4 +13,5 @@ interface DriverInterface
      * @return bool
      */
     public function matchesRequest();
-    public function getMessages()
+
+     * @return \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage
