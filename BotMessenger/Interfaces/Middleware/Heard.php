@@ -12,4 +12,4 @@ interface Heard
      *
      * @param IncomingMessage $message
      * @param callable $next
-     * @param string $lang language
+     * @param BotMessenger $bot
