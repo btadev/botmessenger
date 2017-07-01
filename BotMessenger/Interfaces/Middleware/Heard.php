@@ -8,4 +8,4 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 interface Heard
 {
     /**
-     * @param Command $command
+     * Handle a message that was successfully heard, but not processed yet.
