@@ -7,4 +7,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 interface Matching
 {
     /**
-     * @param BotMessenger $bot
+     * @param IncomingMessage $message
+        return $this->config;
