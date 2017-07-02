@@ -60,3 +60,5 @@ interface DriverInterface
      */
     public function getName();
 
+    /**
+<?php
