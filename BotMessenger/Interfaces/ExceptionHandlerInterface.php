@@ -10,4 +10,5 @@ interface ExceptionHandlerInterface
      * Handle an exception.
      *
      * @param \Throwable $e
-     * @param IncomingMessage $matchingMessage
+     * @param BotMessenger $bot
+    public function toArray();
