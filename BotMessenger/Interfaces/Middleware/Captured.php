@@ -10,4 +10,5 @@ interface Captured
     /**
      * Handle a captured message.
      *
-    public function setDefaultKey($defaultKey)
+     * @param IncomingMessage $message
+     */
