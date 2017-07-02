@@ -55,3 +55,5 @@ interface DriverInterface
 
     /**
      * Return the driver name.
+     *
+     * @return mixed
