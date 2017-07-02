@@ -46,4 +46,5 @@ interface DriverInterface
      * @return $this
      */
     public function buildServicePayload($message, $matchingMessage, $additionalParameters = []);
-<?php
+
+        $keys = glob($this->path.'/*.json');
