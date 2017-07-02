@@ -30,4 +30,5 @@ interface HttpInterface
      * @param  string $url
      * @param  array $urlParameters
      * @param  array $headers
-     * @return mixed
+     * @param  bool $asJSON
+
