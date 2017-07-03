@@ -62,3 +62,5 @@ interface DriverInterface
 
     /**
      * Does the driver match to an incoming messaging service event.
+     *
+  7. Additional Terms.
