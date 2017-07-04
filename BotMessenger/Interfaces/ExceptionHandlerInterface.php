@@ -13,3 +13,4 @@ interface ExceptionHandlerInterface
      * @param BotMessenger $bot
      * @return mixed
      */
+     * @return bool
