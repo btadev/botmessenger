@@ -7,4 +7,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 interface Captured
 {
-     * Wit constructor.
+    /**
+}
