@@ -15,3 +15,5 @@ interface Received
      * @param BotMessenger $bot
      *
      * @return mixed
+     */
+        return $this->defaultKey;
