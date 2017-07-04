@@ -8,4 +8,5 @@ interface Sending
 {
     /**
      * Handle an outgoing message payload before/after it
-        return $this->middleware;
+     * hits the message service.
+    public function get($url, array $urlParameters = [], array $headers = [], $asJSON = false);
