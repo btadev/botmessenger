@@ -19,4 +19,5 @@ interface ExceptionHandlerInterface
      * Register a new exception type.
      *
      * @param string $exception
-     * @return string
+     * @param callable $closure
+namespace ChienIT\BotMessenger\Exceptions\Base;
