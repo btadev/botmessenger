@@ -2,4 +2,4 @@
 
 namespace ChienIT\BotMessenger\Interfaces\Middleware;
 
-    protected $skipsConversation = false;
+use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
