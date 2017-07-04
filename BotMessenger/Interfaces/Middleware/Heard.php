@@ -6,3 +6,5 @@ use ChienIT\BotMessenger\BotMessenger;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 interface Heard
+{
+
