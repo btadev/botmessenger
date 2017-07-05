@@ -16,3 +16,5 @@ interface Captured
      *
      * @return mixed
      */
+    public function captured(IncomingMessage $message, $next, BotMessenger $bot);
+
