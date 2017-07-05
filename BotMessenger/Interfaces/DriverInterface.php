@@ -68,4 +68,5 @@ interface DriverInterface
     public function hasMatchingEvent();
 
     /**
-*Download the **ChienIT Bot Messenger** using **Composer**:*
+     * Send a typing indicator.
+    /**
