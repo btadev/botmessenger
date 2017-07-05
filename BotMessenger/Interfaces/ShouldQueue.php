@@ -2,3 +2,5 @@
 
 namespace ChienIT\BotMessenger\Interfaces;
 
+interface ShouldQueue
+     *
