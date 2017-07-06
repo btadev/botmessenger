@@ -1,2 +1,3 @@
 <?php
-    public function hasMatchingEvent();
+
+    const PATTERN = '%%%_VIDEO_%%%';
