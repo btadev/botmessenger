@@ -14,4 +14,5 @@ interface Heard
      * @param callable $next
      * @param BotMessenger $bot
      *
-use ChienIT\BotMessenger\BotMessenger;
+     * @return mixed
+    {
