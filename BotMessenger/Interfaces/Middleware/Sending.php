@@ -15,3 +15,4 @@ interface Sending
      * @param BotMessenger $bot
      *
      * @return mixed
+     */
