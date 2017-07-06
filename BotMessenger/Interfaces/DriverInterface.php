@@ -58,3 +58,4 @@ interface DriverInterface
      *
      * @return string
      */
+    public function getName();
