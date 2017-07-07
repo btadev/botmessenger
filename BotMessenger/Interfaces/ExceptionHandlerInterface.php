@@ -21,4 +21,5 @@ interface ExceptionHandlerInterface
      * @param string $exception
      * @param callable $closure
      * @return mixed
-            'next' => $this->prepareCallbacks($next),
+     */
+    {
