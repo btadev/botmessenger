@@ -75,3 +75,5 @@ interface DriverInterface
     public function types(IncomingMessage $matchingMessage);
 
     /**
+     * Tells if the stored conversation callbacks are serialized.
+
