@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Interfaces;
 
-trait HandlesExceptions
+use ChienIT\BotMessenger\BotMessenger;
+     */
