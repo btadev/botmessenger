@@ -10,3 +10,5 @@ use ChienIT\BotMessenger\Interfaces\Middleware\Received;
 
 interface MiddlewareInterface extends Captured, Received, Matching, Heard, Sending
 {
+    //
+{
