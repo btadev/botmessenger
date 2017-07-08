@@ -17,4 +17,5 @@ interface ExceptionHandlerInterface
 
     /**
      * Register a new exception type.
-    /** @var array */
+     *
+
