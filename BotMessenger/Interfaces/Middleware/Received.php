@@ -16,4 +16,5 @@ interface Received
      *
      * @return mixed
      */
-        return $this->defaultKey;
+    public function received(IncomingMessage $message, $next, BotMessenger $bot);
+    {
