@@ -20,4 +20,5 @@ interface ExceptionHandlerInterface
      *
      * @param string $exception
      * @param callable $closure
-namespace ChienIT\BotMessenger\Exceptions\Base;
+     * @return mixed
+            'next' => $this->prepareCallbacks($next),
