@@ -33,4 +33,5 @@ interface HttpInterface
      * @param  bool $asJSON
      * @return Response
      */
-
+    public function get($url, array $urlParameters = [], array $headers = [], $asJSON = false);
+/**
