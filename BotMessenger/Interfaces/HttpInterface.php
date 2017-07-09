@@ -26,4 +26,5 @@ interface HttpInterface
 
     /**
      * Send a get request to a URL.
-}
+     *
+
