@@ -13,4 +13,4 @@ interface HttpInterface
      * @param  array $urlParameters
      * @param  array $postParameters
      * @param  array $headers
-            'type' => 'audio',
+     * @param  bool $asJSON
