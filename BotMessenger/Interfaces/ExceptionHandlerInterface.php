@@ -11,4 +11,5 @@ interface ExceptionHandlerInterface
      *
      * @param \Throwable $e
      * @param BotMessenger $bot
-    public function toArray();
+     * @return mixed
+     */
