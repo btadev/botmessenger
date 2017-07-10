@@ -29,4 +29,5 @@ interface HttpInterface
      *
      * @param  string $url
      * @param  array $urlParameters
-     * Save an item in the storage with a specific key and data.
+     * @param  array $headers
+     * @return mixed
