@@ -9,4 +9,5 @@ interface Matching
     /**
      * @param IncomingMessage $message
      * @param string $pattern
-  You may charge any price or no price for each copy that you convey,
+     * @param bool $regexMatched Indicator if the regular expression was matched too
+{
