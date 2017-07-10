@@ -6,4 +6,4 @@ use Symfony\Component\HttpFoundation\Response;
 
 interface HttpInterface
 {
-
+    /**
