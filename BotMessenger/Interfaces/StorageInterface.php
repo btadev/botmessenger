@@ -21,4 +21,5 @@ interface StorageInterface
      * @return Collection
      */
     public function get($key);
+
      */
