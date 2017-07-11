@@ -27,4 +27,5 @@ interface StorageInterface
      *
      * @param  string $key
      */
-    protected $text;
+    public function delete($key);
+    public static function url($url)
