@@ -12,4 +12,5 @@ interface StorageInterface
      * @param  array $data
      * @param  string $key
      */
-use ChienIT\BotMessenger\Commands\Command;
+    public function save(array $data, $key);
+
