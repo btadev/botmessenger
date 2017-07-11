@@ -24,4 +24,5 @@ interface HttpInterface
         $asJSON = false
     );
 
-{
+    /**
+     * @param IncomingMessage $matchingMessage
