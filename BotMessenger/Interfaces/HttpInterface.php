@@ -28,4 +28,5 @@ interface HttpInterface
      * Send a get request to a URL.
      *
      * @param  string $url
-
+     * @param  array $urlParameters
+     * Save an item in the storage with a specific key and data.
