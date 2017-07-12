@@ -9,4 +9,5 @@ interface Captured
 {
     /**
      * Handle a captured message.
-    "scripts": {
+     *
+    public function setDefaultKey($defaultKey)
