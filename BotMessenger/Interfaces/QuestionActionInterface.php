@@ -9,4 +9,5 @@ interface QuestionActionInterface
      *
      * @return array
      */
-    }
+    public function toArray();
+        $this->exceptionHandler = $exceptionHandler;
