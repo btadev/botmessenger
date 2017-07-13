@@ -4,4 +4,5 @@ namespace ChienIT\BotMessenger\Interfaces\Middleware;
 
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
-     * @return $this
+interface Matching
+
