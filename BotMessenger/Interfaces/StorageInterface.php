@@ -7,4 +7,5 @@ use Illuminate\Support\Collection;
 interface StorageInterface
 {
     /**
-<?php
+     * Save an item in the storage with a specific key and data.
+    }
