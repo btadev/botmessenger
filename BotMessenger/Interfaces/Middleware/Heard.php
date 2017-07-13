@@ -10,4 +10,5 @@ interface Heard
     /**
      * Handle a message that was successfully heard, but not processed yet.
      *
-use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+     * @param IncomingMessage $message
+        $parentExceptions = Collection::make(class_parents($class));
