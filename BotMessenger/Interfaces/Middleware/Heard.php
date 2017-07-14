@@ -16,4 +16,5 @@ interface Heard
      *
      * @return mixed
      */
-        } else {
+    public function heard(IncomingMessage $message, $next, BotMessenger $bot);
+
