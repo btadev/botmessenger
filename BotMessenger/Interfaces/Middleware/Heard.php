@@ -17,4 +17,5 @@ interface Heard
      * @return mixed
      */
     public function heard(IncomingMessage $message, $next, BotMessenger $bot);
-
+}
+            'type' => 'video',
