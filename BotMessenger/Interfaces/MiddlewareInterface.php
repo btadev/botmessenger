@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Interfaces;
 
-        $this->imageUrl = $imageUrl;
+use ChienIT\BotMessenger\Interfaces\Middleware\Heard;
+    }
