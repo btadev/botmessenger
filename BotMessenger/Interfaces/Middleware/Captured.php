@@ -15,4 +15,4 @@ interface Captured
      * @param BotMessenger $bot
      *
      * @return mixed
-        //
+     */
