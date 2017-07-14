@@ -22,4 +22,5 @@ interface StorageInterface
      */
     public function get($key);
 
-     */
+    /**
+    {
