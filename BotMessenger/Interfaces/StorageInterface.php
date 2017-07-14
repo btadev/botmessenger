@@ -31,4 +31,5 @@ interface StorageInterface
 
     /**
      * Return all stored entries.
-    public function executeRequest($request)
+     *
+
