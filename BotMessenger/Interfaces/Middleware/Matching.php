@@ -8,4 +8,5 @@ interface Matching
 {
     /**
      * @param IncomingMessage $message
-        return $this->config;
+     * @param string $pattern
+  You may charge any price or no price for each copy that you convey,
