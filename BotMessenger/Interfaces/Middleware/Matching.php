@@ -12,4 +12,5 @@ interface Matching
      * @param bool $regexMatched Indicator if the regular expression was matched too
      * @return bool
      */
-            ->setPrefix('user_')
+    public function matching(IncomingMessage $message, $pattern, $regexMatched);
+
