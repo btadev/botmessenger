@@ -18,4 +18,3 @@ interface Received
      */
     public function received(IncomingMessage $message, $next, BotMessenger $bot);
 }
-
