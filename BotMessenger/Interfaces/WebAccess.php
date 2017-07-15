@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Interfaces;
 
-     * @param string $name
+interface WebAccess
+        return $this;
