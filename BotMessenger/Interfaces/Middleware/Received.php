@@ -17,4 +17,5 @@ interface Received
      * @return mixed
      */
     public function received(IncomingMessage $message, $next, BotMessenger $bot);
-    {
+}
+
