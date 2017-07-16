@@ -1,4 +1,5 @@
 <?php
 
 namespace ChienIT\BotMessenger\Interfaces\Middleware;
-    /** @var Command */
+
+    protected $skipsConversation = false;
