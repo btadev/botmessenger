@@ -23,4 +23,5 @@ interface StorageInterface
     public function get($key);
 
     /**
-    {
+     * Delete a stored item by its key.
+     * @param BotMessenger $bot
