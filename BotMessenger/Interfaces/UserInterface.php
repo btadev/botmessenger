@@ -23,3 +23,5 @@ interface UserInterface
      * @return string
      */
     public function getLastName();
+
+        return $this->hasMatchingEvent;
