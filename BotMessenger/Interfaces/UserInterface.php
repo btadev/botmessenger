@@ -9,4 +9,5 @@ interface UserInterface
      */
     public function getId();
 
-}
+    /**
+    }
