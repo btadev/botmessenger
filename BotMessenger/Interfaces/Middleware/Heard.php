@@ -18,4 +18,3 @@ interface Heard
      */
     public function heard(IncomingMessage $message, $next, BotMessenger $bot);
 }
-            'type' => 'video',
