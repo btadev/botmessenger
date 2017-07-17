@@ -8,4 +8,3 @@ interface VerifiesService
 {
     public function verifyRequest(Request $request);
 }
-
