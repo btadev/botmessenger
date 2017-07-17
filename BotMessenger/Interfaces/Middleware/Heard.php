@@ -15,4 +15,5 @@ interface Heard
      * @param BotMessenger $bot
      *
      * @return mixed
-    {
+     */
+        } else {
