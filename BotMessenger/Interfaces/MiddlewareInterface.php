@@ -1,3 +1,4 @@
 <?php
 
-    const PATTERN = '%%%_VIDEO_%%%';
+namespace ChienIT\BotMessenger\Interfaces;
+        if ($this->auth !== null) {
