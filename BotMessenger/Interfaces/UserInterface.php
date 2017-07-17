@@ -29,3 +29,5 @@ interface UserInterface
      * @return array
      */
     public function getInfo();
+}
+    public function run()
