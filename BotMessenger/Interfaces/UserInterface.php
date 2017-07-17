@@ -6,4 +6,5 @@ interface UserInterface
 {
     /**
      * @return string
+     */
 
