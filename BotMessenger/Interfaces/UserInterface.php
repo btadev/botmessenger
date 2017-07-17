@@ -11,3 +11,5 @@ interface UserInterface
 
     /**
      * @return string
+     */
+    /**
