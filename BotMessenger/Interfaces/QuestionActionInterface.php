@@ -11,4 +11,3 @@ interface QuestionActionInterface
      */
     public function toArray();
 }
-     * @param string|\ChienIT\BotMessenger\Messages\Outgoing\Question $message
