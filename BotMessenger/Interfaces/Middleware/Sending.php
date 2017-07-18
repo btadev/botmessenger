@@ -18,4 +18,3 @@ interface Sending
      */
     public function sending($payload, $next, BotMessenger $bot);
 }
-    "name": "chiendevit/botmessenger",
