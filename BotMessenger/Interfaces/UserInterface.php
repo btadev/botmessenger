@@ -21,4 +21,5 @@ interface UserInterface
 
     /**
      * @return string
-{
+     */
+     *
