@@ -32,4 +32,4 @@ interface StorageInterface
     /**
      * Return all stored entries.
      *
-
+     * @return array
