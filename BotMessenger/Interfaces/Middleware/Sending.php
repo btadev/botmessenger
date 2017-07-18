@@ -12,3 +12,5 @@ interface Sending
      *
      * @param mixed $payload
      * @param callable $next
+     * @param BotMessenger $bot
+     * @param  array $headers [description]
