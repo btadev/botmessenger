@@ -30,4 +30,5 @@ interface StorageInterface
     public function delete($key);
 
     /**
-
+     * Return all stored entries.
+    public function executeRequest($request)
