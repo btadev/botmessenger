@@ -8,3 +8,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 interface Received
 {
     /**
+     * Handle an incoming message.
+    private $auth;
