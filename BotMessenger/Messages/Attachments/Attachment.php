@@ -24,3 +24,5 @@ abstract class Attachment implements WebAccess
 
     /**
      * @return mixed
+     */
+namespace ChienIT\BotMessenger\Middleware;
