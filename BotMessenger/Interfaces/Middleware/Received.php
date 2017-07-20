@@ -9,4 +9,4 @@ interface Received
 {
     /**
      * Handle an incoming message.
-    private $auth;
+     *
