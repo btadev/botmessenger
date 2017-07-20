@@ -39,4 +39,5 @@ abstract class Attachment implements WebAccess
     {
         $this->extras[$key] = $value;
 
-     * @param string $key
+        return $this;
+     * This will be used within the WebDriver.
