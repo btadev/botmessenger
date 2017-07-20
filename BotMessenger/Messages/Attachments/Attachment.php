@@ -14,4 +14,5 @@ abstract class Attachment implements WebAccess
     protected $extras = [];
 
     /**
-use ChienIT\BotMessenger\Interfaces\Middleware\Sending;
+     * Attachment constructor.
+
