@@ -6,4 +6,5 @@ use ChienIT\BotMessenger\BotMessenger;
 
 interface Sending
 {
-     *
+    /**
+    {
