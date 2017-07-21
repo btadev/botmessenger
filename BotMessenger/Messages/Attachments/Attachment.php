@@ -18,4 +18,5 @@ abstract class Attachment implements WebAccess
      * @param mixed $payload
      */
     public function __construct($payload)
-
+    {
+interface UserInterface
