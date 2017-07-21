@@ -1,3 +1,4 @@
 <?php
 
-    private $event_payload;
+namespace ChienIT\BotMessenger\Interfaces;
+
