@@ -12,4 +12,3 @@ interface WebAccess
      */
     public function toWebDriver();
 }
-    {
