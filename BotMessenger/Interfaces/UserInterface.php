@@ -4,4 +4,5 @@ namespace ChienIT\BotMessenger\Interfaces;
 
 interface UserInterface
 {
-        $this->location = $location;
+    /**
+    public function __construct($url, $payload = null)
