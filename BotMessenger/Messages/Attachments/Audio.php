@@ -15,3 +15,5 @@ class Audio extends Attachment
     /**
      * Video constructor.
      * @param string $url
+     * @param mixed $payload
+     */
