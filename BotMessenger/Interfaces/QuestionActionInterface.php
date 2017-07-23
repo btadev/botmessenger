@@ -10,4 +10,5 @@ interface QuestionActionInterface
      * @return array
      */
     public function toArray();
-        $this->exceptionHandler = $exceptionHandler;
+}
+     * @param string|\ChienIT\BotMessenger\Messages\Outgoing\Question $message
