@@ -19,4 +19,4 @@ abstract class Attachment implements WebAccess
      */
     public function __construct($payload)
     {
-interface UserInterface
+        $this->payload = $payload;
