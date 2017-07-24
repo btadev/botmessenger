@@ -19,4 +19,5 @@ interface StorageInterface
      *
      * @param  string $key
      * @return Collection
+     */
 
