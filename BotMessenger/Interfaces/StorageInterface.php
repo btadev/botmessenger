@@ -17,3 +17,5 @@ interface StorageInterface
     /**
      * Retrieve an item from the storage by key.
      *
+     * @param  string $key
+    public function pull($key, $default = null)
