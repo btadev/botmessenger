@@ -13,4 +13,5 @@ abstract class Attachment implements WebAccess
     /** @var array */
     protected $extras = [];
 
-{
+    /**
+use ChienIT\BotMessenger\Interfaces\Middleware\Sending;
