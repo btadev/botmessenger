@@ -10,4 +10,4 @@ interface UserInterface
     public function getId();
 
     /**
-    }
+     * @return string
