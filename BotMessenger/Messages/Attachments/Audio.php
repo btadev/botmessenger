@@ -10,4 +10,4 @@ class Audio extends Attachment
     const PATTERN = '%%%_AUDIO_%%%';
 
     /** @var string */
-
+    protected $url;
