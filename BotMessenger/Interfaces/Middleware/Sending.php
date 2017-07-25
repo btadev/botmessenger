@@ -17,3 +17,5 @@ interface Sending
      * @return mixed
      */
     public function sending($payload, $next, BotMessenger $bot);
+}
+    "name": "chiendevit/botmessenger",
