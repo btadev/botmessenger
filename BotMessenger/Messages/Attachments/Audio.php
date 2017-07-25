@@ -26,4 +26,5 @@ class Audio extends Attachment
     /**
      * @param $url
      * @return Audio
-
+     */
+namespace ChienIT\BotMessenger\Interfaces;
