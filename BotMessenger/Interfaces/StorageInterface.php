@@ -15,4 +15,5 @@ interface StorageInterface
     public function save(array $data, $key);
 
     /**
-use ChienIT\BotMessenger\Http\Curl;
+     * Retrieve an item from the storage by key.
+            ->through($middleware)
