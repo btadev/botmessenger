@@ -22,4 +22,4 @@ interface UserInterface
     /**
      * @return string
      */
-     *
+    public function getLastName();
