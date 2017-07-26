@@ -35,4 +35,5 @@ abstract class Attachment implements WebAccess
      * @param mixed $value
      * @return Attachment
      */
-
+    public function addExtras($key, $value)
+    public function received(Received ...$middleware)
