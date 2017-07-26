@@ -48,4 +48,5 @@ abstract class Attachment implements WebAccess
      */
     public function getExtras($key = null)
     {
-        }
+        if (! is_null($key)) {
+     * @param DriverInterface $driver
