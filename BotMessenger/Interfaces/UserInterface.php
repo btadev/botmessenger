@@ -12,4 +12,5 @@ interface UserInterface
     /**
      * @return string
      */
-    /**
+    public function getUsername();
+use ChienIT\BotMessenger\Users\User;
