@@ -30,4 +30,3 @@ interface UserInterface
      */
     public function getInfo();
 }
-    public function run()
