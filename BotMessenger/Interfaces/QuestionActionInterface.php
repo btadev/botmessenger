@@ -5,4 +5,4 @@ namespace ChienIT\BotMessenger\Interfaces;
 interface QuestionActionInterface
 {
     /**
-namespace ChienIT\BotMessenger\Exceptions\Core;
+     * Array representation of the question action.
