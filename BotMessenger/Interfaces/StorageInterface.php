@@ -6,4 +6,5 @@ use Illuminate\Support\Collection;
 
 interface StorageInterface
 {
-{
+    /**
+<?php
