@@ -42,4 +42,4 @@ abstract class Attachment implements WebAccess
         return $this;
     }
 
-            $seconds = $minutes * 60;
+    /**
