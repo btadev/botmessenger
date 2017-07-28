@@ -20,4 +20,4 @@ class Audio extends Attachment
     public function __construct($url, $payload = null)
     {
         parent::__construct($payload);
-use ChienIT\BotMessenger\Interfaces\Middleware\Captured;
+        $this->url = $url;
