@@ -17,3 +17,4 @@ class Audio extends Attachment
      * @param string $url
      * @param mixed $payload
      */
+     * @param string $token wit.ai access token
