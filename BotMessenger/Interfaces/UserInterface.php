@@ -17,3 +17,5 @@ interface UserInterface
     /**
      * @return string
      */
+    public function getFirstName();
+        return self::instance()->sendPayload($payload);
