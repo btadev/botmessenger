@@ -48,4 +48,4 @@ class Audio extends Attachment
      */
     public function toWebDriver()
     {
-    {
+        return [
