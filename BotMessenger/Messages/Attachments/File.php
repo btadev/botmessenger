@@ -24,4 +24,4 @@ class File extends Attachment
     }
 
     /**
-}
+     * @param $url
