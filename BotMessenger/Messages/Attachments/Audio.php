@@ -13,4 +13,5 @@ class Audio extends Attachment
     protected $url;
 
     /**
-
+     * Video constructor.
+     * Return the event payload.
