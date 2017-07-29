@@ -35,4 +35,4 @@ interface StorageInterface
      * @return array
      */
     public function all();
-{
+}
