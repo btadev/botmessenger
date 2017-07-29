@@ -9,4 +9,5 @@ class Audio extends Attachment
      */
     const PATTERN = '%%%_AUDIO_%%%';
 
-        $this->lang = $lang;
+    /** @var string */
+
