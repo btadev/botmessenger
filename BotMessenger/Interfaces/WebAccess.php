@@ -11,4 +11,5 @@ interface WebAccess
      * @return array
      */
     public function toWebDriver();
-    /**
+}
+    {
