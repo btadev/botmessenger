@@ -12,4 +12,5 @@ abstract class Attachment implements WebAccess
 
     /** @var array */
     protected $extras = [];
-    public function sending(Sending ...$middleware)
+
+{
