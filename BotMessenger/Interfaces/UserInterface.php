@@ -25,4 +25,5 @@ interface UserInterface
     public function getLastName();
 
     /**
-<?php
+     * Get raw driver's user info.
+        }
