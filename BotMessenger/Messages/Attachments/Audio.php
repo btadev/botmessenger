@@ -40,4 +40,4 @@ class Audio extends Attachment
         return $this->url;
     }
 
-    protected $command;
+    /**
