@@ -15,4 +15,4 @@ interface UserInterface
     public function getUsername();
 
     /**
-     * Pattern that messages use to identify file uploads.
+     * @return string
