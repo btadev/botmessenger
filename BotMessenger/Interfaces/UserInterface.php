@@ -19,3 +19,5 @@ interface UserInterface
      */
     public function getFirstName();
 
+    /**
+     * @return string
