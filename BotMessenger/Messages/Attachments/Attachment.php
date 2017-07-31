@@ -31,4 +31,5 @@ abstract class Attachment implements WebAccess
     }
 
     /**
-     * @return mixed
+     * @param string $key
+<?php
