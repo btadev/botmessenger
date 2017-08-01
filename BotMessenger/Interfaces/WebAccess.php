@@ -6,4 +6,5 @@ interface WebAccess
 {
     /**
      * Get the instance as a web accessible array.
-<?php
+     * This will be used within the WebDriver.
+        $class = get_class($e);
