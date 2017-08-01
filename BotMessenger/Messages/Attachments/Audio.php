@@ -38,3 +38,5 @@ class Audio extends Attachment
     public function getUrl()
     {
         return $this->url;
+    }
+     * Get the instance as a web accessible array.
