@@ -7,4 +7,5 @@ interface UserInterface
     /**
      * @return string
      */
-
+    public function getId();
+     */
