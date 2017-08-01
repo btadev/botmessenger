@@ -44,4 +44,5 @@ class Audio extends Attachment
      * Get the instance as a web accessible array.
      * This will be used within the WebDriver.
      *
-
+     * @return array
+    protected $payload;
