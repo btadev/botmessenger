@@ -7,3 +7,5 @@ use ChienIT\BotMessenger\Interfaces\WebAccess;
 
 abstract class Attachment implements WebAccess
 {
+    /** @var mixed */
+namespace ChienIT\BotMessenger\Interfaces;
