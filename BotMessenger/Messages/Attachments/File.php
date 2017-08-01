@@ -11,3 +11,4 @@ class File extends Attachment
 
     /** @var string */
     protected $url;
+
