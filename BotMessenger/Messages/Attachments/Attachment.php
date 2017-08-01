@@ -43,3 +43,5 @@ abstract class Attachment implements WebAccess
     }
 
     /**
+     * @param string|null $key
+<?php
