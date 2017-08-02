@@ -3,4 +3,5 @@
 namespace ChienIT\BotMessenger\Interfaces;
 
 interface UserInterface
-use ChienIT\BotMessenger\Interfaces\QuestionActionInterface;
+{
+        $this->location = $location;
