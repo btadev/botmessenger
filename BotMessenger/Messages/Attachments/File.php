@@ -17,3 +17,5 @@ class File extends Attachment
      * @param string $url
      * @param mixed $payload
      */
+    public function __construct($url, $payload = null)
+
