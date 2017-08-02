@@ -16,4 +16,4 @@ abstract class Attachment implements WebAccess
     /**
      * Attachment constructor.
      * @param mixed $payload
-    /**
+     */
