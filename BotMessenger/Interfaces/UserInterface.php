@@ -24,4 +24,5 @@ interface UserInterface
      */
     public function getLastName();
 
-        return $this->hasMatchingEvent;
+    /**
+<?php
