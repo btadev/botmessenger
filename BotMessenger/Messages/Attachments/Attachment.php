@@ -52,4 +52,5 @@ abstract class Attachment implements WebAccess
             return Collection::make($this->extras)->get($key);
         }
 
-for you must do so exclusively on your behalf, under your direction
+        return $this->extras;
+
