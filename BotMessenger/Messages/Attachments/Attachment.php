@@ -29,4 +29,5 @@ abstract class Attachment implements WebAccess
     {
         return $this->payload;
     }
-        return new self($url);
+
+    public function withAttachment(Attachment $attachment)
