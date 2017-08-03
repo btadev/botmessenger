@@ -45,4 +45,5 @@ class Audio extends Attachment
      * This will be used within the WebDriver.
      *
      * @return array
-    protected $payload;
+     */
+  - <a href="https://telegram.org/"><img src="https://telegram.org/favicon.ico" width="32px"/></a> **Telegram**
