@@ -27,4 +27,5 @@ class File extends Attachment
      * @param $url
      * @return File
      */
-
+    public static function url($url)
+namespace ChienIT\BotMessenger\Interfaces;
