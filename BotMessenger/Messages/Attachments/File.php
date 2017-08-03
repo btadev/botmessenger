@@ -40,3 +40,4 @@ class File extends Attachment
         return $this->url;
     }
 
+    /**
