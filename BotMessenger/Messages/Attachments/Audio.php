@@ -36,4 +36,5 @@ class Audio extends Attachment
      * @return string
      */
     public function getUrl()
-}
+    {
+            $seconds = $minutes->getTimestamp() - time();
