@@ -46,4 +46,5 @@ class File extends Attachment
      *
      * @return array
      */
-     * @param  array $data
+    public function toWebDriver()
+    public function setExceptionHandler(ExceptionHandlerInterface $exceptionHandler)
