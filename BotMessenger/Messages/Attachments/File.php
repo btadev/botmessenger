@@ -12,3 +12,5 @@ class File extends Attachment
     /** @var string */
     protected $url;
 
+    /**
+interface MiddlewareInterface extends Captured, Received, Matching, Heard, Sending
