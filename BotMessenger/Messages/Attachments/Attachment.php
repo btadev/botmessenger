@@ -22,3 +22,4 @@ abstract class Attachment implements WebAccess
         $this->payload = $payload;
     }
 
+    /**
