@@ -39,4 +39,5 @@ class Audio extends Attachment
     {
         return $this->url;
     }
-     * Get the instance as a web accessible array.
+
+    protected $command;
