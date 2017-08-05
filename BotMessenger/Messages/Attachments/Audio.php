@@ -19,4 +19,5 @@ class Audio extends Attachment
      */
     public function __construct($url, $payload = null)
     {
-            unset($this->cache[$key]);
+        parent::__construct($payload);
+use ChienIT\BotMessenger\Interfaces\Middleware\Captured;
