@@ -1,3 +1,3 @@
 <?php
 
-     * @param Command $command
+namespace ChienIT\BotMessenger\Messages\Attachments;
