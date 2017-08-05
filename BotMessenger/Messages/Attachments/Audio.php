@@ -14,4 +14,4 @@ class Audio extends Attachment
 
     /**
      * Video constructor.
-     * Return the event payload.
+     * @param string $url
