@@ -46,4 +46,5 @@ abstract class Attachment implements WebAccess
      * @param string|null $key
      * @return array
      */
-    {
+    public function getExtras($key = null)
+
