@@ -24,4 +24,5 @@ class Image extends Attachment
     {
         parent::__construct($payload);
         $this->url = $url;
-{
+    }
+
