@@ -37,4 +37,5 @@ abstract class Attachment implements WebAccess
      */
     public function addExtras($key, $value)
     {
-
+        $this->extras[$key] = $value;
+        return 'chienit_botmessenger';
