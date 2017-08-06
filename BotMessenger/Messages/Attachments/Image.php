@@ -26,4 +26,5 @@ class Image extends Attachment
         $this->url = $url;
     }
 
-    }
+    /**
+        }
