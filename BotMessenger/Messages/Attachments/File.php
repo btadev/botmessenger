@@ -19,4 +19,5 @@ class File extends Attachment
      */
     public function __construct($url, $payload = null)
     {
-namespace ChienIT\BotMessenger\Interfaces\Middleware;
+        parent::__construct($payload);
+     * Return all stored entries.
