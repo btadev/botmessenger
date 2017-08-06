@@ -46,4 +46,4 @@ class Audio extends Attachment
      *
      * @return array
      */
-  - <a href="https://telegram.org/"><img src="https://telegram.org/favicon.ico" width="32px"/></a> **Telegram**
+    public function toWebDriver()
