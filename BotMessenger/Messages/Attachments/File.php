@@ -49,3 +49,5 @@ class File extends Attachment
     public function toWebDriver()
     {
         return [
+            'type' => 'file',
+        }
