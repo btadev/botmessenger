@@ -18,4 +18,4 @@ class Image extends Attachment
     /**
      * Video constructor.
      * @param string $url
-        return $this;
+     * @param mixed $payload
