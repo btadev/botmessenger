@@ -23,3 +23,5 @@ class Audio extends Attachment
         $this->url = $url;
     }
 
+    /**
+     * @param callable $next
