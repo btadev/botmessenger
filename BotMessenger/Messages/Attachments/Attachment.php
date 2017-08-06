@@ -6,3 +6,4 @@ use Illuminate\Support\Collection;
 use ChienIT\BotMessenger\Interfaces\WebAccess;
 
 abstract class Attachment implements WebAccess
+{
