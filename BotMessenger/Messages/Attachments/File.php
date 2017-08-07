@@ -48,3 +48,4 @@ class File extends Attachment
      */
     public function toWebDriver()
     {
+        return [
