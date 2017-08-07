@@ -30,4 +30,5 @@ abstract class Attachment implements WebAccess
         return $this->payload;
     }
 
-    public function withAttachment(Attachment $attachment)
+    /**
+     * @return mixed
