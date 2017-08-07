@@ -29,3 +29,5 @@ class Audio extends Attachment
      */
     public static function url($url)
     {
+        return new self($url);
+     * @param string|array $allowedDrivers
