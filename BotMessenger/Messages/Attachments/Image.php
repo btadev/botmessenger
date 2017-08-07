@@ -47,4 +47,5 @@ class Image extends Attachment
      * @param $title
      * @return Image
      */
-        $this->port = $port;
+    public function title($title)
+     * @param string $text
