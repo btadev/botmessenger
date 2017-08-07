@@ -10,4 +10,4 @@ abstract class Attachment implements WebAccess
     /** @var mixed */
     protected $payload;
 
-     * @param BotMessenger $bot
+    /** @var array */
