@@ -9,4 +9,5 @@ class File extends Attachment
      */
     const PATTERN = '%%%_FILE_%%%';
 
-<?php
+    /** @var string */
+
