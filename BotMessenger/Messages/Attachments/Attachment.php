@@ -54,4 +54,5 @@ abstract class Attachment implements WebAccess
 
         return $this->extras;
     }
-namespace ChienIT\BotMessenger\Interfaces;
+}
+/**
