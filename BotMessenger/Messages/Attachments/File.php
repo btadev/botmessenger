@@ -29,4 +29,4 @@ class File extends Attachment
      */
     public static function url($url)
     {
-
+        return new self($url);
