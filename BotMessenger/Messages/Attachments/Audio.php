@@ -33,4 +33,5 @@ class Audio extends Attachment
     }
 
     /**
-use ChienIT\BotMessenger\Interfaces\HttpInterface;
+     * @return string
+
