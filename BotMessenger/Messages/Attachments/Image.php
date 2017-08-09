@@ -15,4 +15,4 @@ class Image extends Attachment
     /** @var string */
     protected $title;
 
-        $item = $this->adapter->getItem($key);
+    /**
