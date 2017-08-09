@@ -28,4 +28,5 @@ class File extends Attachment
      * @return File
      */
     public static function url($url)
-namespace ChienIT\BotMessenger\Interfaces;
+    {
+
