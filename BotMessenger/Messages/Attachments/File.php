@@ -1,1 +1,3 @@
 <?php
+
+     * @param Command $command
