@@ -22,4 +22,5 @@ class Image extends Attachment
      */
     public function __construct($url, $payload = null)
     {
-    /**
+        parent::__construct($payload);
+{
