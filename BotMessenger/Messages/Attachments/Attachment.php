@@ -27,4 +27,5 @@ abstract class Attachment implements WebAccess
      */
     public function getPayload()
     {
-    }
+        return $this->payload;
+    /** @var string */
