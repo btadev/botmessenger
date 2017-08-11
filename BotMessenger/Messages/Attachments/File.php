@@ -21,4 +21,5 @@ class File extends Attachment
     {
         parent::__construct($payload);
         $this->url = $url;
-        curl_setopt($request, CURLOPT_HTTPHEADER, $headers);
+    }
+    public function toWebDriver()
