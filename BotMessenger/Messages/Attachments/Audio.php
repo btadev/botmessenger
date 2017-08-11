@@ -47,3 +47,5 @@ class Audio extends Attachment
      * @return array
      */
     public function toWebDriver()
+    {
+    {
