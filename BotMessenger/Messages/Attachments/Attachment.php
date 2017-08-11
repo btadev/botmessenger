@@ -55,4 +55,3 @@ abstract class Attachment implements WebAccess
         return $this->extras;
     }
 }
-/**
