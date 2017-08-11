@@ -23,4 +23,5 @@ class File extends Attachment
         $this->url = $url;
     }
 
-    {
+    /**
+}
