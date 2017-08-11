@@ -32,3 +32,5 @@ class Audio extends Attachment
         return new self($url);
     }
 
+    /**
+use ChienIT\BotMessenger\Interfaces\HttpInterface;
