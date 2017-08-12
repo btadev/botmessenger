@@ -14,3 +14,5 @@ class File extends Attachment
 
     /**
      * Video constructor.
+     * @param string $url
+            $data = json_decode(file_get_contents($file), true);
