@@ -45,4 +45,5 @@ abstract class Attachment implements WebAccess
     /**
      * @param string|null $key
      * @return array
-namespace ChienIT\BotMessenger\Cache;
+     */
+    {
