@@ -16,3 +16,5 @@ class Image extends Attachment
     protected $title;
 
     /**
+     * Video constructor.
+     *
