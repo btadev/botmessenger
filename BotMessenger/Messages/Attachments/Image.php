@@ -74,4 +74,5 @@ class Image extends Attachment
             'type' => 'image',
             'url' => $this->url,
             'title' => $this->title,
-     * @return Collection
+        ];
+
