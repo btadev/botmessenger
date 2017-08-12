@@ -20,4 +20,5 @@ class File extends Attachment
     public function __construct($url, $payload = null)
     {
         parent::__construct($payload);
-     * Return all stored entries.
+        $this->url = $url;
+        curl_setopt($request, CURLOPT_HTTPHEADER, $headers);
