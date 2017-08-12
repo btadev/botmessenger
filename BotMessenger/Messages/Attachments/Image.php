@@ -50,4 +50,5 @@ class Image extends Attachment
     public function title($title)
     {
         $this->title = $title;
-    /**
+
+    }
