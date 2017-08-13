@@ -6,4 +6,5 @@ class File extends Attachment
 {
     /**
      * Pattern that messages use to identify file uploads.
-    public function types(IncomingMessage $matchingMessage)
+     */
+    abstract public function buildPayload(Request $request);
