@@ -51,3 +51,5 @@ class Audio extends Attachment
         return [
             'type' => 'audio',
             'url' => $this->url,
+        ];
+
