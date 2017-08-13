@@ -1,3 +1,4 @@
 <?php
 
-            'url' => $this->url,
+namespace ChienIT\BotMessenger\Messages\Attachments;
+
