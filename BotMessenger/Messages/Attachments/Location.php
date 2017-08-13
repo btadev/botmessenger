@@ -12,3 +12,5 @@ class Location extends Attachment
     /** @var string */
     protected $latitude;
 
+    /** @var string */
+     * Store an item in the cache.
