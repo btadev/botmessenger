@@ -76,4 +76,5 @@ class Image extends Attachment
             'title' => $this->title,
         ];
     }
-    protected $additional = [];
+}
+
