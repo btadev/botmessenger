@@ -32,4 +32,5 @@ class File extends Attachment
         return new self($url);
     }
 
-    {
+    /**
+    /** @var string */
