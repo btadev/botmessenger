@@ -52,3 +52,5 @@ class File extends Attachment
             'type' => 'file',
             'url' => $this->url,
         ];
+    }
+}
