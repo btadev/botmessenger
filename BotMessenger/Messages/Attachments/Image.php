@@ -54,3 +54,4 @@ class Image extends Attachment
         return $this;
     }
 
+    /**
