@@ -35,4 +35,5 @@ class File extends Attachment
     /**
      * @return string
      */
-     *
+    public function getUrl()
+    public function matching(IncomingMessage $message, $pattern, $regexMatched)
