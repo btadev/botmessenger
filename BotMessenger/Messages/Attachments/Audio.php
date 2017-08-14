@@ -18,4 +18,5 @@ class Audio extends Attachment
      * @param mixed $payload
      */
     public function __construct($url, $payload = null)
-    /**
+    {
+            unset($this->cache[$key]);
