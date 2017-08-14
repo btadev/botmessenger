@@ -20,4 +20,5 @@ class Location extends Attachment
      * @param string $latitude
      * @param string $longitude
      * @param mixed $payload
-
+     */
+     */
