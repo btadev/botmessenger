@@ -13,4 +13,4 @@ class Image extends Attachment
     protected $url;
 
     /** @var string */
-    /**
+    protected $title;
