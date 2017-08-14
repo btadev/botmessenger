@@ -13,4 +13,4 @@ class File extends Attachment
     protected $url;
 
     /**
-interface MiddlewareInterface extends Captured, Received, Matching, Heard, Sending
+     * Video constructor.
