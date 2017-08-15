@@ -18,4 +18,5 @@ class File extends Attachment
      * @param mixed $payload
      */
     public function __construct($url, $payload = null)
-
+    {
+namespace ChienIT\BotMessenger\Interfaces\Middleware;
