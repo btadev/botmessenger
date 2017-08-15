@@ -28,4 +28,4 @@ class Audio extends Attachment
      * @return Audio
      */
     public static function url($url)
-     * @param  string $key
+    {
