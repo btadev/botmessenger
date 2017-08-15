@@ -51,4 +51,5 @@ class Image extends Attachment
     {
         $this->title = $title;
 
-    }
+        return $this;
+     * @return string
