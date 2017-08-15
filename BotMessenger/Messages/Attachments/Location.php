@@ -47,4 +47,4 @@ class Location extends Attachment
     }
 
     /**
-class DriverAttachmentException extends DriverException
+     * @return string
