@@ -25,3 +25,5 @@ class File extends Attachment
 
     /**
      * @param $url
+     * @return File
+     * Store an item in the cache.
