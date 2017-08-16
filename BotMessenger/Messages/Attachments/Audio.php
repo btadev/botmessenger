@@ -24,4 +24,5 @@ class Audio extends Attachment
     }
 
     /**
-     * @param callable $next
+     * @param $url
+    public function matchesRequest()
