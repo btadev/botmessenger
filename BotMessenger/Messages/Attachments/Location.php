@@ -19,3 +19,5 @@ class Location extends Attachment
      * Message constructor.
      * @param string $latitude
      * @param string $longitude
+     * @param mixed $payload
+
