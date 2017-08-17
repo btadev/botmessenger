@@ -34,4 +34,5 @@ class File extends Attachment
 
     /**
      * @return string
-
+     */
+     *
