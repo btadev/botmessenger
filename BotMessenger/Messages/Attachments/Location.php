@@ -52,4 +52,4 @@ class Location extends Attachment
     public function getLatitude()
     {
         return $this->latitude;
-namespace ChienIT\BotMessenger\Middleware;
+    }
