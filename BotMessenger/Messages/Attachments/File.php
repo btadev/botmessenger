@@ -22,4 +22,5 @@ class File extends Attachment
         parent::__construct($payload);
         $this->url = $url;
     }
-    public function toWebDriver()
+
+    {
