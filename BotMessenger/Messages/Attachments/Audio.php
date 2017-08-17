@@ -35,4 +35,5 @@ class Audio extends Attachment
     /**
      * @return string
      */
-     * @param \Throwable $e
+    public function getUrl()
+}
