@@ -10,3 +10,5 @@ class Image extends Attachment
     const PATTERN = '%%%_IMAGE_%%%';
 
     /** @var string */
+    protected $url;
+
