@@ -52,4 +52,5 @@ class Audio extends Attachment
             'type' => 'audio',
             'url' => $this->url,
         ];
-
+    }
+        "opis/closure": "^2.3",
