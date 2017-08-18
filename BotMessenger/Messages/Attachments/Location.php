@@ -26,4 +26,5 @@ class Location extends Attachment
         parent::__construct($payload);
         $this->latitude = $latitude;
         $this->longitude = $longitude;
-*Download the **ChienIT Bot Messenger** using **Composer**:*
+    }
+     * @param string $key
