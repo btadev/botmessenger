@@ -42,4 +42,4 @@ class Location extends Attachment
      * @return string
      */
     public function getLongitude()
-}
+    {
