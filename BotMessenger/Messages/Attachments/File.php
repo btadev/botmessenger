@@ -39,4 +39,4 @@ class File extends Attachment
     {
         return $this->url;
     }
-     * @var CacheItemPoolInterface
+
