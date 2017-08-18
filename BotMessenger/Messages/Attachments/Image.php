@@ -6,4 +6,5 @@ class Image extends Attachment
 {
     /**
      * Pattern that messages use to identify image uploads.
-    /** @var array */
+     */
+        if ($this->has($key)) {
