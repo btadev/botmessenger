@@ -34,4 +34,5 @@ class Image extends Attachment
     {
         return new self($url);
     }
-{
+
+    /**
