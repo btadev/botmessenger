@@ -54,4 +54,3 @@ class File extends Attachment
         ];
     }
 }
-    public static function menu(Event $event) {
