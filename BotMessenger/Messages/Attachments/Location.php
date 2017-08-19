@@ -59,4 +59,5 @@ class Location extends Attachment
      * This will be used within the WebDriver.
      *
      * @return array
-    you inform other peers where the object code and Corresponding
+     */
+     * @param string $exception
