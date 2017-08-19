@@ -38,4 +38,5 @@ class File extends Attachment
     public function getUrl()
     {
         return $this->url;
-
+    }
+     * @var CacheItemPoolInterface
