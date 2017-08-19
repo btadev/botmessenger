@@ -10,4 +10,4 @@ class File extends Attachment
     const PATTERN = '%%%_FILE_%%%';
 
     /** @var string */
-
+    protected $url;
