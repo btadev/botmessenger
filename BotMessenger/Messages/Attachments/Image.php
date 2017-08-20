@@ -12,4 +12,5 @@ class Image extends Attachment
     /** @var string */
     protected $url;
 
-        "BotMessenger",
+    /** @var string */
+    /**
