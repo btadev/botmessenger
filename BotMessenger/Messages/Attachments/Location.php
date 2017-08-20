@@ -69,4 +69,3 @@ class Location extends Attachment
         ];
     }
 }
-    public function getUser(IncomingMessage $matchingMessage)
