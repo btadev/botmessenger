@@ -9,3 +9,5 @@ class Video extends Attachment
      */
     const PATTERN = '%%%_VIDEO_%%%';
 
+    /** @var string */
+{
