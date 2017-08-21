@@ -24,4 +24,5 @@ class Location extends Attachment
     public function __construct($latitude, $longitude, $payload = null)
     {
         parent::__construct($payload);
-{
+        $this->latitude = $latitude;
+     * Get raw driver's user info.
