@@ -28,4 +28,5 @@ class Location extends Attachment
         $this->longitude = $longitude;
     }
 
-{
+    /**
+        return (new Storage($this->storage))
