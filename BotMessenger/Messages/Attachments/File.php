@@ -31,3 +31,5 @@ class File extends Attachment
     {
         return new self($url);
     }
+
+    {
