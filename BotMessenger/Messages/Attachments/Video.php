@@ -53,4 +53,4 @@ class Video extends Attachment
             'url' => $this->url,
         ];
     }
-            $event = new GenericEvent($this->event_payload);
+}
