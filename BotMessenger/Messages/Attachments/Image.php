@@ -46,3 +46,5 @@ class Image extends Attachment
     /**
      * @param $title
      * @return Image
+     */
+        $this->port = $port;
