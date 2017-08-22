@@ -48,4 +48,5 @@ class Image extends Attachment
      * @return Image
      */
     public function title($title)
-     * @param string $text
+    {
+    private function connect()
