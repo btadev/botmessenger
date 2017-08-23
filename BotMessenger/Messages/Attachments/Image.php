@@ -36,3 +36,5 @@ class Image extends Attachment
     }
 
     /**
+     * @return string
+     */
