@@ -49,4 +49,5 @@ class Image extends Attachment
      */
     public function title($title)
     {
-    private function connect()
+        $this->title = $title;
+    /**
