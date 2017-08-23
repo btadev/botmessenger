@@ -49,4 +49,4 @@ class Video extends Attachment
     public function toWebDriver()
     {
         return [
-        }
+            'type' => 'video',
