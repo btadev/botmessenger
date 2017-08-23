@@ -36,4 +36,5 @@ class Location extends Attachment
     public static function create($latitude, $longitude)
     {
         return new self($latitude, $longitude);
-     * @param string $latitude
+    }
+use ChienIT\BotMessenger\Interfaces\DriverInterface;
