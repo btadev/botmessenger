@@ -45,4 +45,5 @@ class File extends Attachment
      * This will be used within the WebDriver.
      *
      * @return array
-    public function getFirstName();
+     */
+     * @param  array $data
