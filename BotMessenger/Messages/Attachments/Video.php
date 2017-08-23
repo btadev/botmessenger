@@ -33,4 +33,5 @@ class Video extends Attachment
     }
 
     /**
-        //
+     * @return string
+     * @param string $name
