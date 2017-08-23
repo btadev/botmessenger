@@ -73,4 +73,5 @@ class Image extends Attachment
         return [
             'type' => 'image',
             'url' => $this->url,
-class DriverAttachmentException extends DriverException
+            'title' => $this->title,
+     * @return Collection
