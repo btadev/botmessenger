@@ -54,4 +54,5 @@ class Location extends Attachment
         return $this->latitude;
     }
 
-     * @return bool
+    /**
+namespace ChienIT\BotMessenger\Exceptions\Core;
