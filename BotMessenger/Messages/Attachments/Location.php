@@ -29,4 +29,5 @@ class Location extends Attachment
     }
 
     /**
-        return (new Storage($this->storage))
+     * @param string $latitude
+        $this->auth = $auth;
