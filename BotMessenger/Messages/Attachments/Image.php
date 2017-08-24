@@ -57,4 +57,4 @@ class Image extends Attachment
     /**
      * @return string
      */
-    {
+    public function getTitle()
