@@ -41,4 +41,5 @@ class Image extends Attachment
     public function getUrl()
     {
         return $this->url;
-
+    }
+    /**
