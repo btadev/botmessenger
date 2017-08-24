@@ -67,4 +67,5 @@ class Image extends Attachment
      * This will be used within the WebDriver.
      *
      * @return array
-    public function sending($payload, $next, BotMessenger $bot);
+     */
+<?php
