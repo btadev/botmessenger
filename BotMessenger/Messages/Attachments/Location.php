@@ -31,4 +31,5 @@ class Location extends Attachment
     /**
      * @param string $latitude
      * @param string $longitude
-     * @return void
+     * @return Location
+
