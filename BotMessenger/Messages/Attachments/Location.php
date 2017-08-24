@@ -45,3 +45,4 @@ class Location extends Attachment
     {
         return $this->longitude;
     }
+
