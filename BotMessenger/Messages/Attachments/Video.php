@@ -46,4 +46,5 @@ class Video extends Attachment
      *
      * @return array
      */
-    public function addDataParameters(IncomingMessage $message, array $parameters)
+    public function toWebDriver()
+    }
