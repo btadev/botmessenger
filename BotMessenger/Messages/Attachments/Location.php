@@ -34,4 +34,4 @@ class Location extends Attachment
      * @return Location
      */
     public static function create($latitude, $longitude)
-    private $path;
+    {
