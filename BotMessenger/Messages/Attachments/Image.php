@@ -29,3 +29,5 @@ class Image extends Attachment
     /**
      * @param $url
      * @return Image
+     */
+    /**
