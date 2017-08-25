@@ -60,4 +60,5 @@ class Location extends Attachment
      *
      * @return array
      */
-     * @param string $exception
+    public function toWebDriver()
+    /**
