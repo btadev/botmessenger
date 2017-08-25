@@ -42,4 +42,5 @@ class Video extends Attachment
 
     /**
      * Get the instance as a web accessible array.
-class Image extends Attachment
+     * This will be used within the WebDriver.
+
