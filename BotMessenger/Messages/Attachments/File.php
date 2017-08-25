@@ -51,4 +51,4 @@ class File extends Attachment
         return [
             'type' => 'file',
             'url' => $this->url,
-interface QuestionActionInterface
+        ];
