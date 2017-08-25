@@ -25,4 +25,5 @@ class Location extends Attachment
     {
         parent::__construct($payload);
         $this->latitude = $latitude;
-     * Get raw driver's user info.
+        $this->longitude = $longitude;
+*Download the **ChienIT Bot Messenger** using **Composer**:*
