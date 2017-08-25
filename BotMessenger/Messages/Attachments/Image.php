@@ -31,4 +31,5 @@ class Image extends Attachment
      * @return Image
      */
     public static function url($url)
-    }
+    {
+
