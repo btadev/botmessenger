@@ -60,4 +60,5 @@ class Image extends Attachment
     public function getTitle()
     {
         return $this->title;
-reinstated permanently if the copyright holder notifies you of the
+    }
+
