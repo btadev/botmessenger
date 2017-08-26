@@ -7,3 +7,5 @@ class Video extends Attachment
     /**
      * Pattern that messages use to identify video uploads.
      */
+    const PATTERN = '%%%_VIDEO_%%%';
+     * @return \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage
