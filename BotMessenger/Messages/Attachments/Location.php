@@ -32,4 +32,5 @@ class Location extends Attachment
      * @param string $latitude
      * @param string $longitude
      * @return Location
-
+     */
+     * @param  string $key
