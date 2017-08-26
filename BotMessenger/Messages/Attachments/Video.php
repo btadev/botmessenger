@@ -37,3 +37,5 @@ class Video extends Attachment
      */
     public function getUrl()
     {
+        return $this->url;
+```json
