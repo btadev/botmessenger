@@ -61,4 +61,5 @@ class Location extends Attachment
      * @return array
      */
     public function toWebDriver()
-    /**
+    {
+     * Get the instance as a web accessible array.
