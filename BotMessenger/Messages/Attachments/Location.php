@@ -64,4 +64,4 @@ class Location extends Attachment
     {
         return [
             'type' => 'location',
-use ChienIT\BotMessenger\BotMessenger;
+            'latitude' => $this->latitude,
