@@ -68,4 +68,5 @@ class Image extends Attachment
      *
      * @return array
      */
-<?php
+    public function toWebDriver()
+        //
