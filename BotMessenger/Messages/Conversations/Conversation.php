@@ -29,3 +29,5 @@ abstract class Conversation
     /**
      * @var string
      */
+    protected $token;
+        $matchingMessages = [];
