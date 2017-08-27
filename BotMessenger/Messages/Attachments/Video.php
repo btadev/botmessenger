@@ -39,4 +39,4 @@ class Video extends Attachment
     {
         return $this->url;
     }
-     *
+
