@@ -53,4 +53,5 @@ abstract class Conversation
         return $this->bot;
     }
 
-public, and in some countries other activities as well.
+    /**
+    {
