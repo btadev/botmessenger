@@ -16,3 +16,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 /**
  * Class Conversation.
+ */
+use ChienIT\BotMessenger\BotMessenger;
