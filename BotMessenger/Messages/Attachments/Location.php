@@ -55,4 +55,5 @@ class Location extends Attachment
     }
 
     /**
-namespace ChienIT\BotMessenger\Exceptions\Core;
+     * Get the instance as a web accessible array.
+     */
