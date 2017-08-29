@@ -63,4 +63,5 @@ class Location extends Attachment
     public function toWebDriver()
     {
         return [
-
+            'type' => 'location',
+use ChienIT\BotMessenger\BotMessenger;
