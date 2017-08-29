@@ -50,3 +50,4 @@ abstract class Conversation
      */
     public function getBot()
     {
+        return $this->bot;
