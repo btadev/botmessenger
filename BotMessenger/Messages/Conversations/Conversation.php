@@ -66,3 +66,5 @@ abstract class Conversation
 
         return $this;
     }
+
+
