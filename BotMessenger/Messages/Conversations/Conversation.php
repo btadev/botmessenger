@@ -14,4 +14,5 @@ use ChienIT\BotMessenger\Messages\Outgoing\Question;
 use ChienIT\BotMessenger\Messages\Attachments\Location;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
-class DriverAttachmentException extends DriverException
+/**
+        $this->user_id = $user_info['id'] ?? $this->user_id;
