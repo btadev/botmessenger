@@ -63,3 +63,5 @@ class Image extends Attachment
     }
 
     /**
+     * Get the instance as a web accessible array.
+    }
