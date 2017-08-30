@@ -24,3 +24,5 @@ class Video extends Attachment
     }
 
     /**
+     * @param $url
+    public function verifyRequest(Request $request);
