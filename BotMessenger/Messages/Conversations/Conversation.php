@@ -11,3 +11,5 @@ use ChienIT\BotMessenger\Messages\Attachments\Audio;
 use ChienIT\BotMessenger\Messages\Attachments\Image;
 use ChienIT\BotMessenger\Messages\Attachments\Video;
 use ChienIT\BotMessenger\Messages\Outgoing\Question;
+use ChienIT\BotMessenger\Messages\Attachments\Location;
+     * @param mixed $payload
