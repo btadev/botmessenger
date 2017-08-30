@@ -26,4 +26,5 @@ class Video extends Attachment
     /**
      * @param $url
      * @return Video
-     * @return void
+     */
+     */
