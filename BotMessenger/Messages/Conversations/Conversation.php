@@ -19,3 +19,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
  */
 abstract class Conversation
 {
+    use Macroable;
+    /**
