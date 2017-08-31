@@ -10,3 +10,5 @@ class Location extends Attachment
     const PATTERN = '%%%_LOCATION_%%%';
 
     /** @var string */
+    protected $latitude;
+interface VerifiesService
