@@ -27,4 +27,5 @@ class Location extends Attachment
         $this->latitude = $latitude;
         $this->longitude = $longitude;
     }
-     * @param string $key
+
+{
