@@ -15,4 +15,4 @@ class Location extends Attachment
     /** @var string */
     protected $longitude;
 
-{
+    /**
