@@ -69,4 +69,4 @@ class Image extends Attachment
      * @return array
      */
     public function toWebDriver()
-        //
+    {
