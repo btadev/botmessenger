@@ -18,4 +18,5 @@ class Video extends Attachment
      * @param mixed $payload
      */
     public function __construct($url, $payload = null)
-        return $this;
+    {
+        $this->longitude = $longitude;
