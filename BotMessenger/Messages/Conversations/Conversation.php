@@ -31,4 +31,5 @@ abstract class Conversation
      */
     protected $token;
 
-     */
+    /**
+     * @param string $prefix
