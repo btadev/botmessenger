@@ -9,4 +9,5 @@ use Illuminate\Support\Collection;
 use ChienIT\BotMessenger\Interfaces\ShouldQueue;
 use ChienIT\BotMessenger\Messages\Attachments\Audio;
 use ChienIT\BotMessenger\Messages\Attachments\Image;
-    }
+use ChienIT\BotMessenger\Messages\Attachments\Video;
+    /** @var array */
