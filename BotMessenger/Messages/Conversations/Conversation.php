@@ -32,4 +32,5 @@ abstract class Conversation
     protected $token;
 
     /**
-     * @param string $prefix
+     * Number of minutes this specific conversation should be cached.
+     * @param  array $data
