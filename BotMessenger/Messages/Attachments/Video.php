@@ -16,4 +16,4 @@ class Video extends Attachment
      * Video constructor.
      * @param string $url
      * @param mixed $payload
-namespace ChienIT\BotMessenger\Messages\Matching;
+     */
