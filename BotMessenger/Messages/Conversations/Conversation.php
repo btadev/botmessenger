@@ -36,3 +36,5 @@ abstract class Conversation
      * @var int
      */
     protected $cacheTime;
+
+
