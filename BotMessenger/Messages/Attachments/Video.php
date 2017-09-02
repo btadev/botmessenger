@@ -51,4 +51,5 @@ class Video extends Attachment
         return [
             'type' => 'video',
             'url' => $this->url,
-        try {
+        ];
+namespace ChienIT\BotMessenger\Exceptions\Base;
