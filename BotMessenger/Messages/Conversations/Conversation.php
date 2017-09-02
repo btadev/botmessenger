@@ -38,4 +38,5 @@ abstract class Conversation
     protected $cacheTime;
 
     /**
-    protected $name;
+     * @param BotMessenger $bot
+    /**
