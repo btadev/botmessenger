@@ -100,4 +100,4 @@ abstract class Conversation
     }
 
     /**
-     * @param array $additional
+     * @param string|\ChienIT\BotMessenger\Messages\Outgoing\Question $question
