@@ -18,4 +18,4 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
  * Class Conversation.
  */
 abstract class Conversation
-
+{
