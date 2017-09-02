@@ -55,4 +55,4 @@ abstract class Conversation
 
     /**
      * @param string|Question $question
-<?php
+     * @param array|Closure $next
