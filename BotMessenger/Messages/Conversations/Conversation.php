@@ -82,4 +82,5 @@ abstract class Conversation
 
         return $this->ask($question, $next, $additionalParameters);
     }
-interface ExceptionHandlerInterface
+
+        $this->adapter = $adapter;
