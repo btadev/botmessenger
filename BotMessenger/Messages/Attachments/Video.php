@@ -23,3 +23,4 @@ class Video extends Attachment
         $this->url = $url;
     }
 
+    /**
