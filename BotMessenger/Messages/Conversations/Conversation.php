@@ -14,3 +14,4 @@ use ChienIT\BotMessenger\Messages\Outgoing\Question;
 use ChienIT\BotMessenger\Messages\Attachments\Location;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
+class DriverAttachmentException extends DriverException
