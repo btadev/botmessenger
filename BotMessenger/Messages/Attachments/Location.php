@@ -37,4 +37,5 @@ class Location extends Attachment
     {
         return new self($latitude, $longitude);
     }
-use ChienIT\BotMessenger\Interfaces\DriverInterface;
+
+    /**
