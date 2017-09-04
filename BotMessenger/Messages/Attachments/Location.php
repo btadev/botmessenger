@@ -44,3 +44,4 @@ class Location extends Attachment
     public function getLongitude()
     {
         return $this->longitude;
+    }
