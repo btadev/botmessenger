@@ -23,4 +23,5 @@ class Location extends Attachment
      */
     public function __construct($latitude, $longitude, $payload = null)
     {
-namespace ChienIT\BotMessenger\Handlers;
+        parent::__construct($payload);
+{
