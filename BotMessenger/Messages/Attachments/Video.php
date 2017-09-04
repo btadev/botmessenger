@@ -11,3 +11,5 @@ class Video extends Attachment
 
     /** @var string */
     protected $url;
+
+namespace ChienIT\BotMessenger\Exceptions\Base;
