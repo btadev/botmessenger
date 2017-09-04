@@ -35,3 +35,5 @@ class Video extends Attachment
     /**
      * @return string
      */
+    public function getUrl()
+    /**
