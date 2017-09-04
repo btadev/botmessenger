@@ -19,4 +19,4 @@ class Video extends Attachment
      */
     public function __construct($url, $payload = null)
     {
-        $this->longitude = $longitude;
+        parent::__construct($payload);
