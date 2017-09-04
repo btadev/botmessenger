@@ -50,3 +50,5 @@ class Video extends Attachment
     {
         return [
             'type' => 'video',
+            'url' => $this->url,
+        try {
