@@ -68,3 +68,5 @@ class Location extends Attachment
             'longitude' => $this->longitude,
         ];
     }
+}
+    public function getUser(IncomingMessage $matchingMessage)
