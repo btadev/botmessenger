@@ -21,4 +21,4 @@ class Location extends Attachment
      * @param string $longitude
      * @param mixed $payload
      */
-     */
+    public function __construct($latitude, $longitude, $payload = null)
