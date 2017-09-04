@@ -33,4 +33,5 @@ abstract class Conversation
 
     /**
      * Number of minutes this specific conversation should be cached.
-     * @param  array $data
+     * @var int
+
