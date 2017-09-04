@@ -112,4 +112,5 @@ abstract class Conversation
         $additionalParameters['__pattern'] = Audio::PATTERN;
         $additionalParameters['__repeat'] = ! is_null($repeat) ? $this->bot->serializeClosure($repeat) : $repeat;
 
-     * @param array $audio
+        return $this->ask($question, $next, $additionalParameters);
+     */
