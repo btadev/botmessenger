@@ -21,4 +21,4 @@ abstract class Conversation
 {
     use Macroable;
 
-interface WebAccess
+    /**
