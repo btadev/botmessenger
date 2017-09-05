@@ -42,3 +42,5 @@ abstract class Conversation
      */
     public function setBot(BotMessenger $bot)
     {
+        $this->bot = $bot;
+    protected $chienit_botmessenger;
