@@ -40,3 +40,5 @@ class Location extends Attachment
 
     /**
      * @return string
+     */
+        $this->redis = new Redis();
