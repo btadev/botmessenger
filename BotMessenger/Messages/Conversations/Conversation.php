@@ -23,4 +23,5 @@ abstract class Conversation
 
     /**
      * @var BotMessenger
-
+     */
+    /**
