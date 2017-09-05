@@ -67,4 +67,4 @@ class Location extends Attachment
             'latitude' => $this->latitude,
             'longitude' => $this->longitude,
         ];
-    public function addExtras($key, $value)
+    }
