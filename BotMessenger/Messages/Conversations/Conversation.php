@@ -64,4 +64,5 @@ abstract class Conversation
         $this->bot->reply($question, $additionalParameters);
         $this->bot->storeConversation($this, $next, $question, $additionalParameters);
 
-<?php
+        return $this;
+    {
