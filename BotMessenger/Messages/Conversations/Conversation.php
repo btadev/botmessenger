@@ -37,4 +37,5 @@ abstract class Conversation
      */
     protected $cacheTime;
 
-
+    /**
+    protected $name;
