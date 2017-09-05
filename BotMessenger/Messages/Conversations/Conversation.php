@@ -24,4 +24,5 @@ abstract class Conversation
     /**
      * @var BotMessenger
      */
-    /**
+    protected $bot;
+     * @param  array $headers
