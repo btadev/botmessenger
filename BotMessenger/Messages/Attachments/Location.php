@@ -30,4 +30,5 @@ class Location extends Attachment
 
     /**
      * @param string $latitude
-        $this->auth = $auth;
+     * @param string $longitude
+     * @return void
