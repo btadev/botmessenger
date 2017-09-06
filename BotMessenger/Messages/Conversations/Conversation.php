@@ -74,4 +74,5 @@ abstract class Conversation
      * @param array $additionalParameters
      * @return $this
      */
-    public function getName()
+    public function askForImages($question, $next, $repeat = null, $additionalParameters = [])
+     * @param BotMessenger $bot
