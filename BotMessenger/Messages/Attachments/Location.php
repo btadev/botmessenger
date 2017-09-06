@@ -65,3 +65,5 @@ class Location extends Attachment
         return [
             'type' => 'location',
             'latitude' => $this->latitude,
+            'longitude' => $this->longitude,
+
