@@ -115,3 +115,4 @@ abstract class Conversation
         return $this->ask($question, $next, $additionalParameters);
     }
 
+    /**
