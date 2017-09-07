@@ -151,4 +151,5 @@ abstract class Conversation
         } elseif (is_array($next)) {
             $next = Collection::make($next)->map(function ($callback) {
                 if ($this->bot->getDriver()->serializesCallbacks() && ! $this->bot->runsOnSocket()) {
-     * @param  string $url
+                    $callback['callback'] = unserialize($callback['callback'])->getClosure();
+     * @return array
