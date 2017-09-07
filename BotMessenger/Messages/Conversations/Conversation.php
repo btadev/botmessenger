@@ -96,4 +96,5 @@ abstract class Conversation
         $additionalParameters['__pattern'] = Video::PATTERN;
         $additionalParameters['__repeat'] = ! is_null($repeat) ? $this->bot->serializeClosure($repeat) : $repeat;
 
-
+        return $this->ask($question, $next, $additionalParameters);
+     * @return mixed
