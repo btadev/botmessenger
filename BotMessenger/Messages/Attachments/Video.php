@@ -28,4 +28,4 @@ class Video extends Attachment
      * @return Video
      */
     public static function url($url)
-        return $this->longitude;
+    {
