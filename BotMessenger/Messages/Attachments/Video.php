@@ -32,4 +32,5 @@ class Video extends Attachment
         return new self($url);
     }
 
-<?php
+    /**
+        //
