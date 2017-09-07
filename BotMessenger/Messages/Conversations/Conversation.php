@@ -34,4 +34,5 @@ abstract class Conversation
     /**
      * Number of minutes this specific conversation should be cached.
      * @var int
+     */
 
