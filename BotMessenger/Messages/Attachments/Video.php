@@ -52,4 +52,5 @@ class Video extends Attachment
             'type' => 'video',
             'url' => $this->url,
         ];
-namespace ChienIT\BotMessenger\Exceptions\Base;
+    }
+            $event = new GenericEvent($this->event_payload);
