@@ -46,4 +46,4 @@ abstract class Conversation
     }
 
     /**
-     */
+     * @return BotMessenger
