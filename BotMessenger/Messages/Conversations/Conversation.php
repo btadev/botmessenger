@@ -158,4 +158,5 @@ abstract class Conversation
             })->toArray();
         }
         $this->ask($question, $next, $additionalParameters);
-     * @param ExceptionHandlerInterface $exceptionHandler
+    }
+}
