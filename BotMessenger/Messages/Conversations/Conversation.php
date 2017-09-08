@@ -135,3 +135,4 @@ abstract class Conversation
      * Repeat the previously asked question.
      * @param string|Question $question
      */
+     * Handle a captured message.
