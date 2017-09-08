@@ -22,3 +22,5 @@ abstract class Conversation
     use Macroable;
 
     /**
+     * @var BotMessenger
+
