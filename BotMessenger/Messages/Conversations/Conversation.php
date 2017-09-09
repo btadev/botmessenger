@@ -15,4 +15,4 @@ use ChienIT\BotMessenger\Messages\Attachments\Location;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 /**
-        $this->user_id = $user_info['id'] ?? $this->user_id;
+ * Class Conversation.
