@@ -51,3 +51,5 @@ abstract class Conversation
     public function getBot()
     {
         return $this->bot;
+    }
+     * @param IncomingMessage $message
