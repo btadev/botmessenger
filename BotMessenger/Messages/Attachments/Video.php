@@ -31,4 +31,5 @@ class Video extends Attachment
     {
         return new self($url);
     }
-        if (is_bool($check)) {
+
+<?php
