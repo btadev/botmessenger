@@ -93,4 +93,4 @@ abstract class Conversation
     public function askForVideos($question, $next, $repeat = null, $additionalParameters = [])
     {
         $additionalParameters['__getter'] = 'getVideos';
-        if (! is_null($recipient) && ! is_null($driver)) {
+        $additionalParameters['__pattern'] = Video::PATTERN;
