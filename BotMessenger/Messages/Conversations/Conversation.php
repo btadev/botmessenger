@@ -39,4 +39,4 @@ abstract class Conversation
 
     /**
      * @param BotMessenger $bot
-    /**
+     */
