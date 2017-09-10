@@ -13,4 +13,5 @@ class Video extends Attachment
     protected $url;
 
     /**
-    /**
+     * Video constructor.
+     *
