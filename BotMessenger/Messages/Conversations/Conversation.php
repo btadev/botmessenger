@@ -62,3 +62,5 @@ abstract class Conversation
     public function ask($question, $next, $additionalParameters = [])
     {
         $this->bot->reply($question, $additionalParameters);
+        $this->bot->storeConversation($this, $next, $question, $additionalParameters);
+use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
