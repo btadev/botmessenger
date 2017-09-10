@@ -124,3 +124,5 @@ abstract class Conversation
      */
     public function askForLocation($question, $next, $repeat = null, $additionalParameters = [])
     {
+        $additionalParameters['__getter'] = 'getLocation';
+    {
