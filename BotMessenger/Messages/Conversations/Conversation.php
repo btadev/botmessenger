@@ -40,3 +40,5 @@ abstract class Conversation
     /**
      * @param BotMessenger $bot
      */
+    public function setBot(BotMessenger $bot)
+
