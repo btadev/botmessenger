@@ -14,4 +14,5 @@ class Video extends Attachment
 
     /**
      * Video constructor.
-     *
+     * @param string $url
+     * @param  string $key
