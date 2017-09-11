@@ -111,4 +111,5 @@ abstract class Conversation
         $additionalParameters['__getter'] = 'getAudio';
         $additionalParameters['__pattern'] = Audio::PATTERN;
         $additionalParameters['__repeat'] = ! is_null($repeat) ? $this->bot->serializeClosure($repeat) : $repeat;
-free programs, and that you know you can do these things.
+
+     * @param array $audio
