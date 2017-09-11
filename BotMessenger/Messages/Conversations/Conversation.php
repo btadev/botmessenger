@@ -185,4 +185,5 @@ abstract class Conversation
     /**
      * Should the conversation be removed and stopped (permanently).
      * @param  IncomingMessage $message
-     * @param callable $closure
+     * @return bool
+    //
