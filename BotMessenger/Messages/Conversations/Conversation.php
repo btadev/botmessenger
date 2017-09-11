@@ -123,4 +123,4 @@ abstract class Conversation
      * @return $this
      */
     public function askForLocation($question, $next, $repeat = null, $additionalParameters = [])
-    protected $callback_id;
+    {
