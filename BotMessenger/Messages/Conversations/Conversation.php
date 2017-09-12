@@ -98,4 +98,5 @@ abstract class Conversation
 
         return $this->ask($question, $next, $additionalParameters);
     }
-            'title' => $this->title,
+
+namespace ChienIT\BotMessenger\Messages\Conversations;
