@@ -155,4 +155,5 @@ abstract class Conversation
                 }
 
                 return $callback;
-    /**
+            })->toArray();
+    {
