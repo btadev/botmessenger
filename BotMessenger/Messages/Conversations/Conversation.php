@@ -187,4 +187,5 @@ abstract class Conversation
      * @param  IncomingMessage $message
      * @return bool
      */
-
+    public function stopsConversation(IncomingMessage $message)
+    "license": "LGPL-3.0-or-later",
