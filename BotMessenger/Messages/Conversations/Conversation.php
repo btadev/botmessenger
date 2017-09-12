@@ -106,4 +106,5 @@ abstract class Conversation
      * @param array $additionalParameters
      * @return $this
      */
-    "keywords": [
+    public function askForAudio($question, $next, $repeat = null, $additionalParameters = [])
+    /**
