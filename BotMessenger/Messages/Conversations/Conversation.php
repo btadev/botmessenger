@@ -77,3 +77,5 @@ abstract class Conversation
     public function askForImages($question, $next, $repeat = null, $additionalParameters = [])
     {
         $additionalParameters['__getter'] = 'getImages';
+        $additionalParameters['__pattern'] = Image::PATTERN;
+
