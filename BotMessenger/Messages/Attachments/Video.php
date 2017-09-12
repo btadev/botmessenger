@@ -47,4 +47,5 @@ class Video extends Attachment
      * @return array
      */
     public function toWebDriver()
-    }
+    {
+
