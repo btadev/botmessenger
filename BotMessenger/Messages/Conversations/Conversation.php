@@ -178,4 +178,5 @@ abstract class Conversation
      * @return bool
      */
     public function skipsConversation(IncomingMessage $message)
-class DriverAttachmentException extends DriverException
+    {
+        "BotMessenger",
