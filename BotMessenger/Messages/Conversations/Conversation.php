@@ -132,3 +132,5 @@ abstract class Conversation
     }
 
     /**
+     * Repeat the previously asked question.
+
