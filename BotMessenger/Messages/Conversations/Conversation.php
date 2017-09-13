@@ -148,4 +148,5 @@ abstract class Conversation
 
         if (is_string($next)) {
             $next = unserialize($next)->getClosure();
-     * Pass an incoming HTTP request to the socket.
+        } elseif (is_array($next)) {
+<?php
