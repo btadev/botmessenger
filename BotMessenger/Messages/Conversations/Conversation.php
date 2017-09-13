@@ -197,4 +197,4 @@ abstract class Conversation
      * @return mixed
      */
     public function getConversationCacheTime()
-    public function get($key);
+    {
