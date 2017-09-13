@@ -153,4 +153,5 @@ abstract class Conversation
                 if ($this->bot->getDriver()->serializesCallbacks() && ! $this->bot->runsOnSocket()) {
                     $callback['callback'] = unserialize($callback['callback'])->getClosure();
                 }
-use ChienIT\BotMessenger\Interfaces\CacheInterface;
+
+use Illuminate\Support\Collection;
