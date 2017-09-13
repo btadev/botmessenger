@@ -104,4 +104,4 @@ abstract class Conversation
      * @param array|Closure $next
      * @param array|Closure $repeat
      * @param array $additionalParameters
-
+     * @return $this
