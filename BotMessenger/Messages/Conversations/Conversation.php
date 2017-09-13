@@ -182,3 +182,5 @@ abstract class Conversation
         //
     }
 
+    /**
+}
