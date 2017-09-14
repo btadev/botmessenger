@@ -166,4 +166,5 @@ abstract class Conversation
      * @return $this
      */
     public function say($message, $additionalParameters = [])
-     * @param BotMessenger $bot
+    {
+     * Handle an exception.
