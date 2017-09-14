@@ -48,3 +48,5 @@ abstract class Conversation
     /**
      * @return BotMessenger
      */
+    public function getBot()
+     */
