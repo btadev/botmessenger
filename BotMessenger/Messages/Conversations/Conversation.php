@@ -122,3 +122,4 @@ abstract class Conversation
      * @param array $additionalParameters
      * @return $this
      */
+    }
