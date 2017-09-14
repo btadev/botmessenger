@@ -122,4 +122,5 @@ abstract class Conversation
      * @param array $additionalParameters
      * @return $this
      */
-    }
+    public function askForLocation($question, $next, $repeat = null, $additionalParameters = [])
+    protected $callback_id;
