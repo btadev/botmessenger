@@ -125,4 +125,5 @@ abstract class Conversation
     public function askForLocation($question, $next, $repeat = null, $additionalParameters = [])
     {
         $additionalParameters['__getter'] = 'getLocation';
-    {
+        $additionalParameters['__pattern'] = Location::PATTERN;
+namespace ChienIT\BotMessenger\Middleware;
