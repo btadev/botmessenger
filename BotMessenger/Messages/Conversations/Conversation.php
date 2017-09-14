@@ -138,4 +138,5 @@ abstract class Conversation
     public function repeat($question = '')
     {
         $conversation = $this->bot->getStoredConversation();
-     * @param BotMessenger $bot
+
+    {
