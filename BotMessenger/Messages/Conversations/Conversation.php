@@ -27,4 +27,4 @@ abstract class Conversation
     protected $bot;
 
     /**
-namespace ChienIT\BotMessenger\Messages\Conversations;
+     * @var string
