@@ -216,4 +216,5 @@ abstract class Conversation
             unset($properties['bot']);
         }
 
-
+        return array_keys($properties);
+    }
