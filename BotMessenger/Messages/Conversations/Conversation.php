@@ -179,4 +179,5 @@ abstract class Conversation
      */
     public function skipsConversation(IncomingMessage $message)
     {
-        "BotMessenger",
+        //
+
