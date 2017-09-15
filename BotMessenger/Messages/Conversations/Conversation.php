@@ -186,4 +186,5 @@ abstract class Conversation
      * Should the conversation be removed and stopped (permanently).
      * @param  IncomingMessage $message
      * @return bool
-    //
+     */
+
