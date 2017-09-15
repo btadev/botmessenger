@@ -57,3 +57,5 @@ abstract class Conversation
      * @param string|Question $question
      * @param array|Closure $next
      * @param array $additionalParameters
+     * @return $this
+     * @param  string $key
