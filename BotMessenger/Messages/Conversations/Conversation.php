@@ -108,4 +108,5 @@ abstract class Conversation
      */
     public function askForAudio($question, $next, $repeat = null, $additionalParameters = [])
     {
-{
+        $additionalParameters['__getter'] = 'getAudio';
+
