@@ -191,4 +191,5 @@ abstract class Conversation
     {
         //
     }
-<?php
+
+}
