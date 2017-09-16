@@ -15,4 +15,5 @@ class Answer
 
     /** @var IncomingMessage */
     protected $message;
-    }
+
+{
