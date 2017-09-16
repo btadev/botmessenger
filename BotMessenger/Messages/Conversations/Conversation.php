@@ -146,3 +146,5 @@ abstract class Conversation
         $next = $conversation['next'];
         $additionalParameters = unserialize($conversation['additionalParameters']);
 
+        if (is_string($next)) {
+{
