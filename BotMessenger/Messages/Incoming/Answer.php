@@ -8,4 +8,5 @@ class Answer
     protected $text;
 
     /** @var string */
-     *
+    protected $value;
+interface ExceptionHandlerInterface
