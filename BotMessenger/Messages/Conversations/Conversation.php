@@ -59,3 +59,5 @@ abstract class Conversation
      * @param array $additionalParameters
      * @return $this
      */
+    public function ask($question, $next, $additionalParameters = [])
+    {
