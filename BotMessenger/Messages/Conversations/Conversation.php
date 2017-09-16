@@ -91,4 +91,5 @@ abstract class Conversation
      * @return $this
      */
     public function askForVideos($question, $next, $repeat = null, $additionalParameters = [])
+    {
     }
