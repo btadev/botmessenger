@@ -99,4 +99,5 @@ abstract class Conversation
         return $this->ask($question, $next, $additionalParameters);
     }
 
-namespace ChienIT\BotMessenger\Messages\Conversations;
+    /**
+     * @param array $additional
