@@ -184,4 +184,5 @@ abstract class Conversation
 
     /**
      * Should the conversation be removed and stopped (permanently).
-        $this->latitude = $latitude;
+     * @param  IncomingMessage $message
+     * @param callable $closure
