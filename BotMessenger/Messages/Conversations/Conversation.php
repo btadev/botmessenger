@@ -169,4 +169,5 @@ abstract class Conversation
     {
         $this->bot->reply($message, $additionalParameters);
 
-    public function captured(IncomingMessage $message, $next, BotMessenger $bot);
+        return $this;
+
