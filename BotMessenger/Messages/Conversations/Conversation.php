@@ -52,4 +52,5 @@ abstract class Conversation
     {
         return $this->bot;
     }
-     * @param IncomingMessage $message
+
+public, and in some countries other activities as well.
