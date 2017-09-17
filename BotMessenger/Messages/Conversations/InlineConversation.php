@@ -9,4 +9,3 @@ class InlineConversation extends Conversation
         //
     }
 }
-    {
