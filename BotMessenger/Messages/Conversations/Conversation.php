@@ -65,4 +65,4 @@ abstract class Conversation
         $this->bot->storeConversation($this, $next, $question, $additionalParameters);
 
         return $this;
-    {
+    }
