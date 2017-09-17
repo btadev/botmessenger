@@ -177,4 +177,5 @@ abstract class Conversation
      * @param  IncomingMessage $message
      * @return bool
      */
-     * hits the message service.
+    public function skipsConversation(IncomingMessage $message)
+class DriverAttachmentException extends DriverException
