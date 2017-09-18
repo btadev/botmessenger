@@ -145,4 +145,4 @@ abstract class Conversation
 
         $next = $conversation['next'];
         $additionalParameters = unserialize($conversation['additionalParameters']);
-         * Only remove it from the cache if it was not modified
+
