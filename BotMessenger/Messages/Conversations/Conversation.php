@@ -206,4 +206,5 @@ abstract class Conversation
      */
     abstract public function run();
 
-        return (new Storage($this->storage))
+    /**
+    public function setPrefix($prefix = '')
