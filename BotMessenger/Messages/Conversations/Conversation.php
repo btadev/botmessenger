@@ -218,4 +218,4 @@ abstract class Conversation
 
         return array_keys($properties);
     }
-            'Authorization: Bearer '.$this->token,
+}
