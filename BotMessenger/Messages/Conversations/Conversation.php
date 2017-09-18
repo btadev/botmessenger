@@ -202,3 +202,5 @@ abstract class Conversation
     }
 
     /**
+     * @return mixed
+        return $next($payload);
