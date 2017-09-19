@@ -32,4 +32,5 @@ class Answer
      * @param string $text
      */
     public function __construct($text = '')
-     * @return static
+    {
+     *
