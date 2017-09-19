@@ -44,4 +44,5 @@ abstract class Conversation
     {
         $this->bot = $bot;
     }
-    public function toWebDriver();
+
+
