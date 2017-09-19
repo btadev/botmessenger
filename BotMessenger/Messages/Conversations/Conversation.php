@@ -105,3 +105,5 @@ abstract class Conversation
      * @param array|Closure $repeat
      * @param array $additionalParameters
      * @return $this
+     */
+    "keywords": [
