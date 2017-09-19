@@ -39,4 +39,4 @@ class Answer
     /**
      * @return string
      */
-            unlink($file);
+    public function __toString()
