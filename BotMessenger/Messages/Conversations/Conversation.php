@@ -204,4 +204,5 @@ abstract class Conversation
     /**
      * @return mixed
      */
-interface Sending
+    abstract public function run();
+    }
