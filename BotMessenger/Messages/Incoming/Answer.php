@@ -12,4 +12,5 @@ class Answer
 
     /** @var string */
     protected $callbackId;
-    {
+
+     * @param  mixed $default
