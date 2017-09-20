@@ -58,4 +58,4 @@ abstract class Conversation
      * @param array|Closure $next
      * @param array $additionalParameters
      * @return $this
-     * @param  string $key
+     */
