@@ -116,3 +116,5 @@ abstract class Conversation
     }
 
     /**
+     * @param string|\ChienIT\BotMessenger\Messages\Outgoing\Question $question
+            $convo = $this->getStoredConversation($message);
