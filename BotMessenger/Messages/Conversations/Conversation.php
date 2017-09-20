@@ -149,4 +149,5 @@ abstract class Conversation
         if (is_string($next)) {
             $next = unserialize($next)->getClosure();
         } elseif (is_array($next)) {
-<?php
+            $next = Collection::make($next)->map(function ($callback) {
+    }
