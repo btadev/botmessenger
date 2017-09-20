@@ -143,4 +143,5 @@ abstract class Conversation
             $question = unserialize($conversation['question']);
         }
 
-}
+        $next = $conversation['next'];
+     *
