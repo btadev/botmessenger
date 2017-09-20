@@ -85,3 +85,5 @@ abstract class Conversation
 
     /**
      * @param string|\ChienIT\BotMessenger\Messages\Outgoing\Question $question
+     * @param array|Closure $next
+    /**
