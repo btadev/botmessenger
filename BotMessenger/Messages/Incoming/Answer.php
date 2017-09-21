@@ -28,4 +28,5 @@ class Answer
         return new static($text);
     }
 
-namespace ChienIT\BotMessenger\Cache;
+    /**
+    /**
