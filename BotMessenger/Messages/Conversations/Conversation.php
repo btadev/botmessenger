@@ -214,4 +214,5 @@ abstract class Conversation
         $properties = get_object_vars($this);
         if (! $this instanceof ShouldQueue) {
             unset($properties['bot']);
-    /**
+        }
+interface QuestionActionInterface
