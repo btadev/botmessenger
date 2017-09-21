@@ -8,3 +8,5 @@ class InlineConversation extends Conversation
     {
         //
     }
+}
+    {
