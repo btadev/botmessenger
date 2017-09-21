@@ -78,4 +78,5 @@ abstract class Conversation
     {
         $additionalParameters['__getter'] = 'getImages';
         $additionalParameters['__pattern'] = Image::PATTERN;
-
+        $additionalParameters['__repeat'] = ! is_null($repeat) ? $this->bot->serializeClosure($repeat) : $repeat;
+     * @param Attachment $attachment
