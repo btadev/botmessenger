@@ -55,3 +55,5 @@ class Answer
     /**
      * @return string
      */
+    public function getValue()
+     * Number of minutes this specific conversation should be cached.
