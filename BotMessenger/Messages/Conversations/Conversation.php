@@ -200,4 +200,5 @@ abstract class Conversation
     {
         return $this->cacheTime ?? null;
     }
-        return $this->callback;
+
+    {
