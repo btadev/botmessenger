@@ -34,3 +34,5 @@ class Answer
     public function __construct($text = '')
     {
         $this->text = $text;
+    }
+
