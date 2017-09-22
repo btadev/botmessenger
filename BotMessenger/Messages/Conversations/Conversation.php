@@ -68,4 +68,5 @@ abstract class Conversation
     }
 
     /**
-<?php
+     * @param string|\ChienIT\BotMessenger\Messages\Outgoing\Question $question
+    //
