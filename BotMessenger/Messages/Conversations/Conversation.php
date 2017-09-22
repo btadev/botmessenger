@@ -147,4 +147,5 @@ abstract class Conversation
         $additionalParameters = unserialize($conversation['additionalParameters']);
 
         if (is_string($next)) {
-{
+            $next = unserialize($next)->getClosure();
+     * Pass an incoming HTTP request to the socket.
