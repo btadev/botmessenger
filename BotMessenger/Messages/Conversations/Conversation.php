@@ -165,4 +165,5 @@ abstract class Conversation
      * @param array $additionalParameters
      * @return $this
      */
-    public function __construct($token, HttpInterface $http, $lang = 'en')
+    public function say($message, $additionalParameters = [])
+     * @param BotMessenger $bot
