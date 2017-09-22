@@ -38,3 +38,5 @@ class Answer
 
     /**
      * @return string
+     */
+            unlink($file);
