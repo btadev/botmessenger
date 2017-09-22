@@ -78,3 +78,5 @@ class Answer
     {
         return $this->text;
     }
+
+namespace ChienIT\BotMessenger\Interfaces;
