@@ -49,4 +49,5 @@ class Answer
      */
     public function isInteractiveMessageReply()
     {
-            return;
+        return $this->isInteractiveReply;
+
