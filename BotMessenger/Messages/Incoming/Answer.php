@@ -24,3 +24,4 @@ class Answer
      * @return static
      */
     public static function create($text = '')
+    {
