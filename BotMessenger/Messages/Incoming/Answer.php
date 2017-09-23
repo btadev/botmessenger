@@ -5,4 +5,5 @@ namespace ChienIT\BotMessenger\Messages\Incoming;
 class Answer
 {
     /** @var string */
-     * @return Storage
+    protected $text;
+    public function has($key)
