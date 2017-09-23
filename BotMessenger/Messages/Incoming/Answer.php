@@ -11,3 +11,5 @@ class Answer
     protected $value;
 
     /** @var string */
+    protected $callbackId;
+    {
