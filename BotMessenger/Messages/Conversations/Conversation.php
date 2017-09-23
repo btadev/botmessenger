@@ -162,4 +162,5 @@ abstract class Conversation
 
     /**
      * @param string|\ChienIT\BotMessenger\Messages\Outgoing\Question $message
-
+     * @param array $additionalParameters
+     */
