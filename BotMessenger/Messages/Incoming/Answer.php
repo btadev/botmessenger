@@ -14,4 +14,5 @@ class Answer
     protected $callbackId;
 
     /** @var IncomingMessage */
-     * @param  array $urlParameters
+    protected $message;
+    }
