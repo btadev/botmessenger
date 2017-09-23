@@ -97,4 +97,5 @@ abstract class Conversation
         $additionalParameters['__repeat'] = ! is_null($repeat) ? $this->bot->serializeClosure($repeat) : $repeat;
 
         return $this->ask($question, $next, $additionalParameters);
-     * @return mixed
+    }
+            'title' => $this->title,
