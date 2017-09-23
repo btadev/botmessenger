@@ -16,4 +16,5 @@ class Answer
     /** @var IncomingMessage */
     protected $message;
 
-{
+    /** @var bool */
+
