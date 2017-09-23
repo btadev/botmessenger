@@ -13,4 +13,5 @@ class Answer
     /** @var string */
     protected $callbackId;
 
-     * @param  mixed $default
+    /** @var IncomingMessage */
+     * @param  array $urlParameters
