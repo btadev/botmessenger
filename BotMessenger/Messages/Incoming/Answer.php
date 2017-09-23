@@ -59,4 +59,4 @@ class Answer
     {
         return $this->value;
     }
-<?php
+
