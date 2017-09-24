@@ -54,3 +54,4 @@ class Answer
 
     /**
      * @return string
+     */
