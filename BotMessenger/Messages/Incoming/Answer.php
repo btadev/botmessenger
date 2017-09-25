@@ -76,4 +76,5 @@ class Answer
      */
     public function getText()
     {
-            $message->setIsFromBot($this->isBot());
+        return $this->text;
+    {
