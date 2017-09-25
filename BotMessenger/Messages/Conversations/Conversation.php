@@ -136,4 +136,4 @@ abstract class Conversation
      * @param string|Question $question
      */
     public function repeat($question = '')
-use Illuminate\Support\Collection;
+    {
