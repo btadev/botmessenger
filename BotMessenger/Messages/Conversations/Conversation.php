@@ -152,4 +152,5 @@ abstract class Conversation
             $next = Collection::make($next)->map(function ($callback) {
                 if ($this->bot->getDriver()->serializesCallbacks() && ! $this->bot->runsOnSocket()) {
                     $callback['callback'] = unserialize($callback['callback'])->getClosure();
-     * @return array
+                }
+use ChienIT\BotMessenger\Interfaces\CacheInterface;
