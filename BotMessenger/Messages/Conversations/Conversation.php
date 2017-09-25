@@ -127,4 +127,5 @@ abstract class Conversation
         $additionalParameters['__getter'] = 'getLocation';
         $additionalParameters['__pattern'] = Location::PATTERN;
         $additionalParameters['__repeat'] = ! is_null($repeat) ? $this->bot->serializeClosure($repeat) : $repeat;
-{
+
+<?php
