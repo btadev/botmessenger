@@ -6,4 +6,5 @@ class Answer
 {
     /** @var string */
     protected $text;
-    public function has($key)
+
+     * Handle a captured message.
