@@ -103,4 +103,4 @@ class Answer
      * @return $this
      */
     public function setCallbackId($callbackId)
-use ChienIT\BotMessenger\Interfaces\CacheInterface;
+    {
