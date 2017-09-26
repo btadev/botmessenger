@@ -176,4 +176,5 @@ abstract class Conversation
      * Should the conversation be skipped (temporarily).
      * @param  IncomingMessage $message
      * @return bool
-     * @param StorageInterface $storageDriver
+     */
+     * hits the message service.
