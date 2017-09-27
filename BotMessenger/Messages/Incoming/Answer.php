@@ -116,3 +116,4 @@ class Answer
     public function setInteractiveReply($interactiveReply)
     {
         $this->isInteractiveReply = $interactiveReply;
+
