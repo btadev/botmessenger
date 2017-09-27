@@ -92,4 +92,5 @@ class Answer
 
     /**
      * @return string
-    {
+     */
+        $this->name = $name;
