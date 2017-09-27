@@ -108,4 +108,4 @@ class Answer
 
         return $this;
     }
-        if ($messageText === Image::PATTERN) {
+
