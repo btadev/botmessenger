@@ -121,3 +121,4 @@ class Answer
     }
 
     /**
+     * @return IncomingMessage
