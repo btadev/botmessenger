@@ -142,3 +142,5 @@ abstract class Conversation
         if (! $question instanceof Question && ! $question) {
             $question = unserialize($conversation['question']);
         }
+
+}
