@@ -194,3 +194,5 @@ abstract class Conversation
 
     /**
      * Override default conversation cache time (only for this conversation).
+     * @return mixed
+     */
