@@ -207,4 +207,5 @@ abstract class Conversation
     abstract public function run();
 
     /**
-    public function setPrefix($prefix = '')
+     * @return array
+    public function isConfigured()
