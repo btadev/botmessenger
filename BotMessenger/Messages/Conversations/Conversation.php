@@ -215,4 +215,5 @@ abstract class Conversation
         if (! $this instanceof ShouldQueue) {
             unset($properties['bot']);
         }
-interface QuestionActionInterface
+
+
