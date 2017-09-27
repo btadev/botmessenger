@@ -212,4 +212,4 @@ abstract class Conversation
     public function __sleep()
     {
         $properties = get_object_vars($this);
-namespace ChienIT\BotMessenger\Interfaces;
+        if (! $this instanceof ShouldQueue) {
