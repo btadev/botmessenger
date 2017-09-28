@@ -164,4 +164,5 @@ abstract class Conversation
      * @param string|\ChienIT\BotMessenger\Messages\Outgoing\Question $message
      * @param array $additionalParameters
      * @return $this
-
+     */
+    public function __construct($token, HttpInterface $http, $lang = 'en')
