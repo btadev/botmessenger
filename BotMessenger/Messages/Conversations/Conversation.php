@@ -170,4 +170,5 @@ abstract class Conversation
         $this->bot->reply($message, $additionalParameters);
 
         return $this;
-
+    }
+    public function toArray();
