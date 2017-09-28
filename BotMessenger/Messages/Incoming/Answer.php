@@ -1,3 +1,3 @@
 <?php
 
-    /** @var string */
+namespace ChienIT\BotMessenger\Messages\Incoming;
