@@ -84,4 +84,4 @@ class Answer
      * @return $this
      */
     public function setText($text)
-
+    {
