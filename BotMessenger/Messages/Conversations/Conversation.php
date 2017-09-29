@@ -198,3 +198,4 @@ abstract class Conversation
      */
     public function getConversationCacheTime()
     {
+        return $this->cacheTime ?? null;
