@@ -58,3 +58,5 @@ class Answer
     public function getValue()
     {
         return $this->value;
+    }
+<?php
