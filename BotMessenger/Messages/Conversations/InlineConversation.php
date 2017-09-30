@@ -1,3 +1,4 @@
 <?php
 
- * Duplicate of ApiAi, but the product got renamed.
+namespace ChienIT\BotMessenger\Messages\Conversations;
+     * @param  string $key
