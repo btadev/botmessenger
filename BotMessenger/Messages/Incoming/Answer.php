@@ -118,3 +118,4 @@ class Answer
         $this->isInteractiveReply = $interactiveReply;
 
         return $this;
+    }
