@@ -190,4 +190,5 @@ abstract class Conversation
     public function stopsConversation(IncomingMessage $message)
     {
         //
-     *
+    }
+<?php
