@@ -205,4 +205,5 @@ abstract class Conversation
      * @return mixed
      */
     abstract public function run();
-    }
+
+        return (new Storage($this->storage))
