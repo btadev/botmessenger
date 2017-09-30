@@ -171,4 +171,4 @@ abstract class Conversation
 
         return $this;
     }
-    public function toArray();
+
