@@ -180,4 +180,5 @@ abstract class Conversation
     public function skipsConversation(IncomingMessage $message)
     {
         //
-
+    }
+use ChienIT\BotMessenger\Interfaces\Middleware\Sending;
