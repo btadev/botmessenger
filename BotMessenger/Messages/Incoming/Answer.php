@@ -47,4 +47,5 @@ class Answer
     /**
      * @return bool
      */
-
+    public function isInteractiveMessageReply()
+}
