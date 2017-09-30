@@ -82,4 +82,5 @@ class Answer
     /**
      * @param string $text
      * @return $this
-use ChienIT\BotMessenger\Interfaces\ExceptionHandlerInterface;
+     */
+     * @return bool|mixed
