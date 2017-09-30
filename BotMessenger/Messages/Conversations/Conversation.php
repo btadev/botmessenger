@@ -154,4 +154,5 @@ abstract class Conversation
                     $callback['callback'] = unserialize($callback['callback'])->getClosure();
                 }
 
-use Illuminate\Support\Collection;
+                return $callback;
+    /**
