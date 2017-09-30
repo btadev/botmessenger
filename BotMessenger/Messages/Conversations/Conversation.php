@@ -167,4 +167,5 @@ abstract class Conversation
      */
     public function say($message, $additionalParameters = [])
     {
-     * Handle an exception.
+        $this->bot->reply($message, $additionalParameters);
+
