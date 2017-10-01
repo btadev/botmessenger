@@ -52,4 +52,5 @@ class Answer
         return $this->isInteractiveReply;
     }
 
-        return $value ? Collection::make($value) : new Collection();
+    /**
+use Illuminate\Support\Collection;
