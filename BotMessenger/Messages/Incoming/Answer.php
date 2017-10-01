@@ -83,4 +83,5 @@ class Answer
      * @param string $text
      * @return $this
      */
-     * @return bool|mixed
+    public function setText($text)
+
