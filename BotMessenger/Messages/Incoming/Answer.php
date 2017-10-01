@@ -19,4 +19,5 @@ class Answer
     /** @var bool */
     protected $isInteractiveReply = false;
 
-{
+    /**
+        return $next($payload);
