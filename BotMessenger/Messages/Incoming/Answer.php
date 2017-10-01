@@ -67,4 +67,5 @@ class Answer
     public function setValue($value)
     {
         $this->value = $value;
-     * @param callable $closure
+
+    public function addExtras($key, $value)
