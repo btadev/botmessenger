@@ -173,3 +173,5 @@ abstract class Conversation
     }
 
     /**
+     * Should the conversation be skipped (temporarily).
+    /**
