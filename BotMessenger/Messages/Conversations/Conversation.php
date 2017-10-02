@@ -188,4 +188,5 @@ abstract class Conversation
      * @return bool
      */
     public function stopsConversation(IncomingMessage $message)
-    "license": "LGPL-3.0-or-later",
+    {
+     * Store an item in the cache.
