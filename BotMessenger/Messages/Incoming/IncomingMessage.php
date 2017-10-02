@@ -22,3 +22,5 @@ class IncomingMessage
     /** @var array */
     protected $videos = [];
 
+    /** @var mixed */
+        $this->auth = $auth;
