@@ -68,4 +68,5 @@ class Answer
     {
         $this->value = $value;
 
-    public function addExtras($key, $value)
+        return $this;
+        return (new Storage($this->storage))
