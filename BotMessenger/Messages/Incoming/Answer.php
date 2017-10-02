@@ -106,3 +106,4 @@ class Answer
     {
         $this->callbackId = $callbackId;
 
+        return $this;
