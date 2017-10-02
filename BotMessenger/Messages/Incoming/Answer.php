@@ -129,3 +129,5 @@ class Answer
     }
 
     /**
+     * @param IncomingMessage $message
+interface Matching
