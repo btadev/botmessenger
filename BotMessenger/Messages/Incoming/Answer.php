@@ -36,3 +36,4 @@ class Answer
         $this->text = $text;
     }
 
+class BadMethodCallException extends BotMessengerException
