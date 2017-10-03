@@ -64,4 +64,5 @@ class Answer
      * @param string $value
      * @return $this
      */
-     * Wit constructor.
+    public function setValue($value)
+    /**
