@@ -208,4 +208,4 @@ abstract class Conversation
 
     /**
      * @return array
-    public function isConfigured()
+     */
