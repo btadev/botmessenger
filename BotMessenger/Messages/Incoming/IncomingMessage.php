@@ -28,4 +28,5 @@ class IncomingMessage
     /** @var array */
     protected $extras = [];
 
-    public function __construct(Command $command, IncomingMessage $message, array $matches)
+    /** @var array */
+    /**
