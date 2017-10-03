@@ -10,4 +10,4 @@ class Answer
     /** @var string */
     protected $value;
 
-        return $this->stopsConversation;
+    /** @var string */
