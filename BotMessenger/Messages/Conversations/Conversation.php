@@ -201,4 +201,4 @@ abstract class Conversation
         return $this->cacheTime ?? null;
     }
 
-    {
+    /**
