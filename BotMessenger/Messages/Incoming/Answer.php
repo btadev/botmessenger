@@ -136,4 +136,5 @@ class Answer
     {
         $this->message = $message;
 
-    /**
+        return $this;
+
