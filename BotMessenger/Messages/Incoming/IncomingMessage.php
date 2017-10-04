@@ -15,3 +15,5 @@ class IncomingMessage
 
     /** @var string */
     protected $recipient;
+
+            $parameters[] = $message->getImages();
