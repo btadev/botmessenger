@@ -115,4 +115,4 @@ class Answer
      */
     public function setInteractiveReply($interactiveReply)
     {
-     * @return bool
+        $this->isInteractiveReply = $interactiveReply;
