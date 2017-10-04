@@ -2,4 +2,4 @@
 
 namespace ChienIT\BotMessenger\Messages\Incoming;
 
-     * @param string $key
+class Answer
