@@ -94,4 +94,5 @@ class Answer
      * @return string
      */
     public function getCallbackId()
-    "name": "chiendevit/botmessenger",
+    {
+    /**
