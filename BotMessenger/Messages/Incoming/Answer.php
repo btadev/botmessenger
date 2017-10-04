@@ -22,4 +22,4 @@ class Answer
     /**
      * @param string $text
      * @return static
-namespace ChienIT\BotMessenger\Interfaces\Middleware;
+     */
