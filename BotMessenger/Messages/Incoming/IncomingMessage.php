@@ -6,3 +6,4 @@ use Illuminate\Support\Collection;
 use ChienIT\BotMessenger\Messages\Attachments\Location;
 
 class IncomingMessage
+{
