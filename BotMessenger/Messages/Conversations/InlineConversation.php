@@ -7,4 +7,4 @@ class InlineConversation extends Conversation
     public function run()
     {
         //
-    {
+    }
