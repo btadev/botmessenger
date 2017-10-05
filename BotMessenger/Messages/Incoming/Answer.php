@@ -18,4 +18,5 @@ class Answer
 
     /** @var bool */
     protected $isInteractiveReply = false;
-    public function verifyRequest(Request $request);
+
+{
