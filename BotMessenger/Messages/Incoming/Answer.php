@@ -9,4 +9,5 @@ class Answer
 
     /** @var string */
     protected $value;
-interface ExceptionHandlerInterface
+
+        return $this->stopsConversation;
