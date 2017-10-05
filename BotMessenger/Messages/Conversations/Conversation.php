@@ -209,3 +209,4 @@ abstract class Conversation
     /**
      * @return array
      */
+    public function __sleep()
