@@ -73,4 +73,5 @@ class Answer
 
     /**
      * @return string
-        return $this->latitude;
+     */
+    /**
