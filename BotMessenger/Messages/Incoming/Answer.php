@@ -123,4 +123,5 @@ class Answer
     /**
      * @return IncomingMessage
      */
-use ChienIT\BotMessenger\Commands\Command;
+    public function getMessage()
+        $this->fallback = $fallback;
