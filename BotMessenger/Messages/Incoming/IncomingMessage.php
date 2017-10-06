@@ -42,4 +42,5 @@ class IncomingMessage
 
     public function __construct($message, $sender, $recipient, $payload = null)
     {
-interface VerifiesService
+        $this->message = $message;
+
