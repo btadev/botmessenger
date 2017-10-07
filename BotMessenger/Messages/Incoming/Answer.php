@@ -132,3 +132,5 @@ class Answer
      * @param IncomingMessage $message
      * @return $this
      */
+    public function setMessage(IncomingMessage $message)
+
