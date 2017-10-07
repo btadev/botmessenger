@@ -10,4 +10,5 @@ class IncomingMessage
     /** @var string */
     protected $message;
 
-class UnexpectedValueException extends BotMessengerException
+    /** @var string */
+     * @param \ChienIT\BotMessenger\Messages\Attachments\Attachment $attachment
