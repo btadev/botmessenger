@@ -7,4 +7,5 @@ class Answer
     /** @var string */
     protected $text;
 
-     * Handle a captured message.
+    /** @var string */
+     *
