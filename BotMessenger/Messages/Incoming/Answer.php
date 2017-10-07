@@ -122,3 +122,5 @@ class Answer
 
     /**
      * @return IncomingMessage
+     */
+use ChienIT\BotMessenger\Commands\Command;
