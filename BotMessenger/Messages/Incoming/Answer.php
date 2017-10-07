@@ -85,3 +85,5 @@ class Answer
      */
     public function setText($text)
     {
+        $this->text = $text;
+    /**
