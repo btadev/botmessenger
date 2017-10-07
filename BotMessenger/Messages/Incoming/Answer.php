@@ -93,4 +93,5 @@ class Answer
     /**
      * @return string
      */
-        $this->name = $name;
+    public function getCallbackId()
+    "name": "chiendevit/botmessenger",
