@@ -44,3 +44,5 @@ class Answer
         return $this->text;
     }
 
+    /**
+    public function getExtras($key = null)
