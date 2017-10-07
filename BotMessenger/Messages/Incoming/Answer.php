@@ -21,4 +21,5 @@ class Answer
 
     /**
      * @param string $text
-    public function fallback($callback)
+     * @return static
+namespace ChienIT\BotMessenger\Interfaces\Middleware;
