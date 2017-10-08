@@ -48,4 +48,5 @@ class IncomingMessage
         $this->payload = $payload;
     }
 
+    /**
 
