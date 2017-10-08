@@ -139,4 +139,3 @@ class Answer
         return $this;
     }
 }
-namespace ChienIT\BotMessenger\Messages\Attachments;
