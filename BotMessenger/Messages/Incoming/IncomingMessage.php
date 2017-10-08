@@ -85,4 +85,4 @@ class IncomingMessage
      */
     public function getConversationIdentifier()
     {
-use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
+        return 'conversation-'.sha1($this->getSender()).'-'.sha1($this->getRecipient());
