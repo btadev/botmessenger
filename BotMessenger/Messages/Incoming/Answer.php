@@ -20,4 +20,5 @@ class Answer
     protected $isInteractiveReply = false;
 
     /**
-        return $next($payload);
+     * @param string $text
+    public function fallback($callback)
