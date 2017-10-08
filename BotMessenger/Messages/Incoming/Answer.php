@@ -29,4 +29,5 @@ class Answer
     }
 
     /**
+     * @param string $text
     /**
