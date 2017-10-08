@@ -45,4 +45,5 @@ class Answer
     }
 
     /**
-    public function getExtras($key = null)
+     * @return bool
+     */
