@@ -18,3 +18,5 @@ class IncomingMessage
 
     /** @var array */
     protected $images = [];
+
+     * @return \ChienIT\BotMessenger\Messages\Attachments\Attachment
