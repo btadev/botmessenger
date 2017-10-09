@@ -107,3 +107,5 @@ class Answer
         $this->callbackId = $callbackId;
 
         return $this;
+    }
+        if ($messageText === Image::PATTERN) {
