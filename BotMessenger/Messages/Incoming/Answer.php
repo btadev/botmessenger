@@ -110,4 +110,5 @@ class Answer
     }
 
     /**
-    {
+     * @param bool $interactiveReply
+    /**
