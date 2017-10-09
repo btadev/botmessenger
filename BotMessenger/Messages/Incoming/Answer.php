@@ -61,4 +61,5 @@ class Answer
     }
 
     /**
-
+     * @param string $value
+    public function serializesCallbacks()
