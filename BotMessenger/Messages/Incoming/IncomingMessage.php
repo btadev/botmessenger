@@ -56,4 +56,5 @@ class IncomingMessage
         return $this->recipient;
     }
 
-     * @return void
+    /**
+    }
