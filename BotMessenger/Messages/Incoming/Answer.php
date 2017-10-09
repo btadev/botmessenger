@@ -113,3 +113,4 @@ class Answer
      * @param bool $interactiveReply
      * @return $this
      */
+    public function setInteractiveReply($interactiveReply)
