@@ -8,4 +8,5 @@ use ChienIT\BotMessenger\Messages\Attachments\Location;
 class IncomingMessage
 {
     /** @var string */
-{
+    protected $message;
+}
