@@ -69,4 +69,5 @@ class Answer
         $this->value = $value;
 
         return $this;
-        return (new Storage($this->storage))
+    }
+    /**
