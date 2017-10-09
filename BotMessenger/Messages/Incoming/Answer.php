@@ -105,4 +105,4 @@ class Answer
     public function setCallbackId($callbackId)
     {
         $this->callbackId = $callbackId;
-        if (method_exists($driver, 'additionalDrivers') && $explicit === false) {
+
