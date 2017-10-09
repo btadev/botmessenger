@@ -25,3 +25,5 @@ class Answer
      */
     public static function create($text = '')
     {
+        return new static($text);
+use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
