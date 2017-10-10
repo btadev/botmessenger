@@ -63,3 +63,5 @@ class IncomingMessage
     {
         return $this->sender;
     }
+
+    }
