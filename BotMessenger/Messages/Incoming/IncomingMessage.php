@@ -37,4 +37,5 @@ class IncomingMessage
     /** @var \ChienIT\BotMessenger\Messages\Attachments\Location */
     private $location;
 
-use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
+    /** @var bool */
+        "symfony/http-foundation": "2.8.*|3.0.*|3.1.*|3.2.*|3.3.*|3.4.*|4.0.*",
