@@ -134,4 +134,5 @@ class Answer
      */
     public function setMessage(IncomingMessage $message)
     {
-            echo str_replace(' driver for ChienIT Bot Messenger', '', $drive['description']);
+        $this->message = $message;
+
