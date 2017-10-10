@@ -20,4 +20,4 @@ class IncomingMessage
     protected $images = [];
 
     /** @var array */
-    public function receivesFiles($callback)
+    protected $videos = [];
