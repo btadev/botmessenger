@@ -65,4 +65,5 @@ class IncomingMessage
     }
 
     /**
-    {
+     * @return mixed
+     * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
