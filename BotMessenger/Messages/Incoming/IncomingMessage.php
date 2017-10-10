@@ -44,4 +44,5 @@ class IncomingMessage
     {
         $this->message = $message;
         $this->sender = $sender;
-{
+        $this->recipient = $recipient;
+    {
