@@ -131,4 +131,4 @@ class Answer
     /**
      * @param IncomingMessage $message
      * @return $this
-     * @param string $pattern
+     */
