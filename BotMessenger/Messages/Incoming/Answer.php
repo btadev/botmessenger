@@ -50,4 +50,4 @@ class Answer
     public function isInteractiveMessageReply()
     {
         return $this->isInteractiveReply;
-
+    }
