@@ -38,4 +38,4 @@ class IncomingMessage
     private $location;
 
     /** @var bool */
-        "symfony/http-foundation": "2.8.*|3.0.*|3.1.*|3.2.*|3.3.*|3.4.*|4.0.*",
+    protected $isFromBot = false;
