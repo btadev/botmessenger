@@ -125,3 +125,5 @@ class Answer
      */
     public function getMessage()
     {
+        return $this->message;
+     * Pattern that messages use to identify audio uploads.
