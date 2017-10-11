@@ -33,4 +33,5 @@ class IncomingMessage
 
     /** @var array */
     private $files = [];
-    /**
+
+     */
