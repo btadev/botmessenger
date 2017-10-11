@@ -41,3 +41,5 @@ class Answer
      */
     public function __toString()
     {
+        return $this->text;
+use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
