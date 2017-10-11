@@ -98,4 +98,5 @@ class IncomingMessage
         return 'conversation-'.sha1($this->getSender()).'-'.sha1('');
     }
 
-     * @param callable $closure
+    /**
+        if (is_null($key)) {
