@@ -88,4 +88,4 @@ class Answer
         $this->text = $text;
 
         return $this;
-     */
+    }
