@@ -91,4 +91,5 @@ class Answer
     }
 
     /**
-
+     * @return string
+    {
