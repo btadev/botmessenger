@@ -32,3 +32,5 @@ class IncomingMessage
     private $audio = [];
 
     /** @var array */
+    private $files = [];
+    /**
