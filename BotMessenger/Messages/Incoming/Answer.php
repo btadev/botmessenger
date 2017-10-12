@@ -65,4 +65,4 @@ class Answer
      * @return $this
      */
     public function setValue($value)
-    /**
+    {
