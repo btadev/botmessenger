@@ -81,4 +81,5 @@ class IncomingMessage
     }
 
     /**
-     * @param callable $next
+     * @return string
+     */
