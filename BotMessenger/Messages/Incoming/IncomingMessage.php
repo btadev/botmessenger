@@ -29,4 +29,4 @@ class IncomingMessage
     protected $extras = [];
 
     /** @var array */
-    /**
+    private $audio = [];
