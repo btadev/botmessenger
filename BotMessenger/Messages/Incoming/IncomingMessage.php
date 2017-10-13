@@ -41,4 +41,5 @@ class IncomingMessage
     protected $isFromBot = false;
 
     public function __construct($message, $sender, $recipient, $payload = null)
-        }
+    {
+interface VerifiesService
