@@ -14,4 +14,4 @@ class IncomingMessage
     protected $sender;
 
     /** @var string */
-     */
+    protected $recipient;
