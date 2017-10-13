@@ -74,4 +74,5 @@ class Answer
     /**
      * @return string
      */
-    /**
+    public function getText()
+     * @param string $token wit.ai access token
