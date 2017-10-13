@@ -46,4 +46,5 @@ class IncomingMessage
         $this->sender = $sender;
         $this->recipient = $recipient;
         $this->payload = $payload;
-namespace ChienIT\BotMessenger\Middleware;
+    }
+    /**
