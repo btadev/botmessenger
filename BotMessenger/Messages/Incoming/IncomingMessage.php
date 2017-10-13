@@ -67,4 +67,4 @@ class IncomingMessage
     /**
      * @return mixed
      */
-<?php
+    public function getPayload()
