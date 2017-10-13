@@ -98,4 +98,5 @@ class Answer
         return $this->callbackId;
     }
 
-     * Register a custom exception handler.
+    /**
+
