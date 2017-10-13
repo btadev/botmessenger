@@ -53,4 +53,4 @@ class Answer
     }
 
     /**
-use Illuminate\Support\Collection;
+     * @return string
