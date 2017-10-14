@@ -77,4 +77,4 @@ class Answer
     public function getText()
     {
         return $this->text;
-    {
+    }
