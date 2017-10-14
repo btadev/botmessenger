@@ -96,4 +96,5 @@ class Answer
     public function getCallbackId()
     {
         return $this->callbackId;
-    public function title($title)
+    }
+    {
