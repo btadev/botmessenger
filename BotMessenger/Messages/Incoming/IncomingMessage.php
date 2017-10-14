@@ -89,4 +89,4 @@ class IncomingMessage
     }
 
     /**
-        echo '     ____        __     __  ___                                         '.PHP_EOL;
+     * We don't know the user, since conversations are originated on the channel.
