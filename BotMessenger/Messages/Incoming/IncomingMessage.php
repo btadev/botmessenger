@@ -43,4 +43,5 @@ class IncomingMessage
     public function __construct($message, $sender, $recipient, $payload = null)
     {
         $this->message = $message;
-
+        $this->sender = $sender;
+{
