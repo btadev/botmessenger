@@ -30,3 +30,5 @@ class IncomingMessage
 
     /** @var array */
     private $audio = [];
+
+class DriverAttachmentException extends DriverException
