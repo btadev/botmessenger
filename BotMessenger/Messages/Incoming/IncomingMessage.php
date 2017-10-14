@@ -114,4 +114,5 @@ class IncomingMessage
      * @param string|null $key
      * @return array
      */
-        return $this->getDriver()->getConversationAnswer($this->message);
+    public function getExtras($key = null)
+use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
