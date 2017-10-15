@@ -103,3 +103,5 @@ class IncomingMessage
      * @param mixed $value
      * @return IncomingMessage
      */
+    public function addExtras($key, $value)
+}
