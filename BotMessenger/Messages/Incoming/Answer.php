@@ -130,4 +130,5 @@ class Answer
 
     /**
      * @param IncomingMessage $message
-interface Matching
+     * @return $this
+     * @param string $pattern
