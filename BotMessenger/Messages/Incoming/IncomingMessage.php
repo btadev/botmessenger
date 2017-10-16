@@ -152,3 +152,5 @@ class IncomingMessage
      * Returns the message video Objects.
      * @return array
      */
+    public function getVideos()
+namespace ChienIT\BotMessenger\Exceptions\Base;
