@@ -101,4 +101,4 @@ class Answer
     /**
      * @param string $callbackId
      * @return $this
-    public function register(string $exception, callable $closure);
+     */
