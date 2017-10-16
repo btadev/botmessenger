@@ -127,3 +127,5 @@ class Answer
     {
         return $this->message;
     }
+
+            return $this->captured;
