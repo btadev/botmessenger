@@ -120,3 +120,5 @@ class IncomingMessage
             return Collection::make($this->extras)->get($key);
         }
 
+        return $this->extras;
+
