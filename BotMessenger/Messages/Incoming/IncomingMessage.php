@@ -108,4 +108,5 @@ class IncomingMessage
         $this->extras[$key] = $value;
 
         return $this;
-     */
+    }
+
