@@ -59,4 +59,4 @@ class IncomingMessage
     /**
      * @return string
      */
-    /** @var Received[] */
+    public function getSender()
