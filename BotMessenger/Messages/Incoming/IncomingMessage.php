@@ -23,4 +23,5 @@ class IncomingMessage
     protected $videos = [];
 
     /** @var mixed */
-        $this->auth = $auth;
+    protected $payload;
+
