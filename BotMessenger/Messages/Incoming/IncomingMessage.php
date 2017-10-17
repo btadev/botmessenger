@@ -70,4 +70,4 @@ class IncomingMessage
     public function getPayload()
     {
         return $this->payload;
-     * @param StorageInterface $storageDriver
+    }
