@@ -170,4 +170,5 @@ class IncomingMessage
      * @return array
      */
     public function getAudio()
-     */
+    {
+     * @param null|IncomingMessage $message
