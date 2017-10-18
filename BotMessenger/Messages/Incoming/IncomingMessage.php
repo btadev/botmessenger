@@ -88,3 +88,5 @@ class IncomingMessage
         return 'conversation-'.sha1($this->getSender()).'-'.sha1($this->getRecipient());
     }
 
+    /**
+        echo '     ____        __     __  ___                                         '.PHP_EOL;
