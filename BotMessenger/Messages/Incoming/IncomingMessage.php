@@ -73,3 +73,5 @@ class IncomingMessage
     }
 
     /**
+     * @return string
+     * Retrieve an item from the cache and delete it.
