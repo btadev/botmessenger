@@ -100,4 +100,4 @@ class IncomingMessage
 
     /**
      * @param string $key
-    public function getMessages();
+     * @param mixed $value
