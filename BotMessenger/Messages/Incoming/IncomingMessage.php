@@ -21,3 +21,4 @@ class IncomingMessage
 
     /** @var array */
     protected $videos = [];
+
