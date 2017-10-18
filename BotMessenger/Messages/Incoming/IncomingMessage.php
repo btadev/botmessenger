@@ -17,4 +17,4 @@ class IncomingMessage
     protected $recipient;
 
     /** @var array */
-{
+    protected $images = [];
