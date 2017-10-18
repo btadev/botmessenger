@@ -78,3 +78,5 @@ class IncomingMessage
     public function getText()
     {
         return $this->message;
+    }
+    {
