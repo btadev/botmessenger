@@ -39,3 +39,5 @@ class IncomingMessage
 
     /** @var bool */
     protected $isFromBot = false;
+
+
