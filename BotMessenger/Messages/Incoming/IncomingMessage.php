@@ -3,4 +3,4 @@
 namespace ChienIT\BotMessenger\Messages\Incoming;
 
 use Illuminate\Support\Collection;
-    public function run()
+use ChienIT\BotMessenger\Messages\Attachments\Location;
