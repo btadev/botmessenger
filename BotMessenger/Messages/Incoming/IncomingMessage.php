@@ -191,4 +191,5 @@ class IncomingMessage
     }
 
     /**
-    }
+     * @param \ChienIT\BotMessenger\Messages\Attachments\Location $location
+class SymfonyCache extends Psr6Cache
