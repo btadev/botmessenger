@@ -102,4 +102,4 @@ class IncomingMessage
      * @param string $key
      * @param mixed $value
      * @return IncomingMessage
-}
+     */
