@@ -84,4 +84,5 @@ class IncomingMessage
      * @return string
      */
     public function getConversationIdentifier()
-    /** @var IncomingMessage */
+    {
+use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
