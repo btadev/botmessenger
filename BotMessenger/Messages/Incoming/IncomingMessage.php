@@ -160,3 +160,5 @@ class IncomingMessage
     /**
      * @param array $audio
      */
+    public function setAudio(array $audio)
+     *
