@@ -26,4 +26,5 @@ class IncomingMessage
     protected $payload;
 
     /** @var array */
-     * @return bool
+    protected $extras = [];
+    {
