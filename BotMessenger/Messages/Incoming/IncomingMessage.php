@@ -126,4 +126,5 @@ class IncomingMessage
     /**
      * @param array $images
      */
-
+    public function setImages(array $images)
+    {
