@@ -182,4 +182,5 @@ class IncomingMessage
         $this->files = $files;
     }
 
-use RuntimeException;
+    /**
+     * @return mixed
