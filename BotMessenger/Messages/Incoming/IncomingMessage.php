@@ -149,4 +149,5 @@ class IncomingMessage
     }
 
     /**
-     *
+     * Returns the message video Objects.
+use ChienIT\BotMessenger\Interfaces\Middleware\Received;
