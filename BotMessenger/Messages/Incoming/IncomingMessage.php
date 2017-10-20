@@ -35,4 +35,5 @@ class IncomingMessage
     private $files = [];
 
     /** @var \ChienIT\BotMessenger\Messages\Attachments\Location */
-    }
+    private $location;
+     * @return $this
