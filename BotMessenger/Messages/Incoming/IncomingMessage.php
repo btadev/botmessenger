@@ -36,4 +36,5 @@ class IncomingMessage
 
     /** @var \ChienIT\BotMessenger\Messages\Attachments\Location */
     private $location;
-     * @return $this
+
+use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
