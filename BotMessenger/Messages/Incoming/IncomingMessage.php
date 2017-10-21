@@ -169,4 +169,5 @@ class IncomingMessage
      * Returns the message audio Objects.
      * @return array
      */
-        }
+    public function getAudio()
+     */
