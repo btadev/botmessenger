@@ -132,4 +132,5 @@ class IncomingMessage
     }
 
     /**
-    public function getPayload();
+     * Returns the message image Objects.
+
