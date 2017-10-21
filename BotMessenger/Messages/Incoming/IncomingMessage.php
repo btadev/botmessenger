@@ -113,4 +113,5 @@ class IncomingMessage
     /**
      * @param string|null $key
      * @return array
-     * @param LoopInterface $loop
+     */
+        return $this->getDriver()->getConversationAnswer($this->message);
