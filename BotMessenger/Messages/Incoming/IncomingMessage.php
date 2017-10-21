@@ -201,4 +201,5 @@ class IncomingMessage
     /**
      * @return \ChienIT\BotMessenger\Messages\Attachments\Location
      */
-    /**
+    public function getLocation() : Location
+     * @param IncomingMessage $matchingMessage
