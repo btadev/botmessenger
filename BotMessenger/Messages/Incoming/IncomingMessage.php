@@ -196,4 +196,5 @@ class IncomingMessage
     public function setLocation(Location $location)
     {
         $this->location = $location;
-
+    }
+namespace ChienIT\BotMessenger\Interfaces;
