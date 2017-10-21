@@ -124,4 +124,4 @@ class Answer
      * @return IncomingMessage
      */
     public function getMessage()
-        $this->fallback = $fallback;
+    {
