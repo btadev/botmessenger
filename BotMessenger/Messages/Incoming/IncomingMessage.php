@@ -11,4 +11,5 @@ class IncomingMessage
     protected $message;
 
     /** @var string */
-     * @param \ChienIT\BotMessenger\Messages\Attachments\Attachment $attachment
+    protected $sender;
+     *
