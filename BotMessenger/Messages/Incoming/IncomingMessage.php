@@ -104,4 +104,5 @@ class IncomingMessage
      * @return IncomingMessage
      */
     public function addExtras($key, $value)
-}
+    {
+
