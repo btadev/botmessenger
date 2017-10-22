@@ -119,4 +119,4 @@ class IncomingMessage
         if (! is_null($key)) {
             return Collection::make($this->extras)->get($key);
         }
-<?php
+
