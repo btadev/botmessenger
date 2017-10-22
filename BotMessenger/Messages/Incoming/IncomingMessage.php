@@ -58,3 +58,5 @@ class IncomingMessage
 
     /**
      * @return string
+     */
+    /** @var Received[] */
