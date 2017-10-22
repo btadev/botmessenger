@@ -106,4 +106,5 @@ class IncomingMessage
     public function addExtras($key, $value)
     {
         $this->extras[$key] = $value;
-            return Collection::make($this->extras)->get($key);
+
+        }
