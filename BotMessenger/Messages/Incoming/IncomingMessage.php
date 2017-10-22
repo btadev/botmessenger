@@ -86,3 +86,4 @@ class IncomingMessage
     public function getConversationIdentifier()
     {
         return 'conversation-'.sha1($this->getSender()).'-'.sha1($this->getRecipient());
+    }
