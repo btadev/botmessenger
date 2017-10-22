@@ -224,3 +224,5 @@ class IncomingMessage
 
     /**
      * @param string $message
+     */
+     */
