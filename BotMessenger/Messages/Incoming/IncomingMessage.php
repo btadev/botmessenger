@@ -99,4 +99,5 @@ class IncomingMessage
     }
 
     /**
-        if (is_null($key)) {
+     * @param string $key
+    public function getMessages();
