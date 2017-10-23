@@ -151,4 +151,4 @@ class IncomingMessage
     /**
      * Returns the message video Objects.
      * @return array
-     *
+     */
