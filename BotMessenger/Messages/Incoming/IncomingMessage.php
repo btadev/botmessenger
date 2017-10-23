@@ -51,4 +51,5 @@ class IncomingMessage
     /**
      * @return string
      */
-     * @param string|null $driver
+    public function getRecipient()
+    {
