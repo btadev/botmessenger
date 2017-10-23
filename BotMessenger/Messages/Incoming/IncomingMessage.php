@@ -80,4 +80,5 @@ class IncomingMessage
         return $this->message;
     }
 
-
+    /**
+     * @param callable $next
