@@ -54,3 +54,5 @@ class IncomingMessage
     public function getRecipient()
     {
         return $this->recipient;
+    }
+
