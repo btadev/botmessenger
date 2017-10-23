@@ -9,4 +9,5 @@ class IncomingMessage
 {
     /** @var string */
     protected $message;
-}
+
+class UnexpectedValueException extends BotMessengerException
