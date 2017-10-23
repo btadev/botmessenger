@@ -211,4 +211,5 @@ class IncomingMessage
      */
     public function isFromBot(): bool
     {
-    //
+        return $this->isFromBot;
+    public function run()
