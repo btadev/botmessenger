@@ -146,4 +146,5 @@ class IncomingMessage
     public function setVideos(array $videos)
     {
         $this->videos = $videos;
-    protected $text;
+    }
+namespace ChienIT\BotMessenger\Cache;
