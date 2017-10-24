@@ -111,4 +111,5 @@ class IncomingMessage
     }
 
     /**
-    public function put($key, $value, $minutes)
+     * @param string|null $key
+        curl_setopt($request, CURLOPT_POST, count($postParameters));
