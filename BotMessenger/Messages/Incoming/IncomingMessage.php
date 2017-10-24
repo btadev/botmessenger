@@ -110,4 +110,5 @@ class IncomingMessage
         return $this;
     }
 
-}
+    /**
+    public function put($key, $value, $minutes)
