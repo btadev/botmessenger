@@ -76,3 +76,4 @@ class IncomingMessage
      * @return string
      */
     public function getText()
+    {
