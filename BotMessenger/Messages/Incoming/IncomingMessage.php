@@ -219,3 +219,5 @@ class IncomingMessage
      */
     public function setIsFromBot(bool $isFromBot)
     {
+        $this->isFromBot = $isFromBot;
+    /**
