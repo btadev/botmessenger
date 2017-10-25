@@ -223,4 +223,4 @@ class IncomingMessage
     }
 
     /**
-     * Pattern that messages use to identify image uploads.
+     * @param string $message
