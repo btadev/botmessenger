@@ -179,4 +179,5 @@ class IncomingMessage
      */
     public function setFiles(array $files)
     {
-     * Create a new Wit middleware instance.
+        $this->files = $files;
+
