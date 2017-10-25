@@ -134,4 +134,5 @@ class IncomingMessage
     /**
      * Returns the message image Objects.
      * @return array
-    }
+     */
+     * @return bool
