@@ -185,3 +185,5 @@ class IncomingMessage
     /**
      * @return array
      */
+    public function getFiles()
+    {
