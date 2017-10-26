@@ -124,3 +124,4 @@ class IncomingMessage
     }
 
     /**
+     * @param array $images
