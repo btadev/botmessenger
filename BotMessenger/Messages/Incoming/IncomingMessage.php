@@ -148,3 +148,5 @@ class IncomingMessage
         $this->videos = $videos;
     }
 
+    /**
+     *
