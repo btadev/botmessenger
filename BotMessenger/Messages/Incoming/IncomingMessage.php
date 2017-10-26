@@ -140,3 +140,5 @@ class IncomingMessage
         return $this->images;
     }
 
+    /**
+class DriverException extends BotMessengerException
