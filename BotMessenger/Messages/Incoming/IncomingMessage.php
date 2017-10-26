@@ -62,4 +62,4 @@ class IncomingMessage
     public function getSender()
     {
         return $this->sender;
-{
+    }
