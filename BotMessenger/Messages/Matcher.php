@@ -35,3 +35,5 @@ class Matcher
             $this->isPatternValid($message, $answer, $command->getPattern(), $command->getMiddleware() + $middleware);
     }
 
+    /**
+    }
