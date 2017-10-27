@@ -177,4 +177,5 @@ class IncomingMessage
     /**
      * @param array $files
      */
-    public function matchesRequest()
+    public function setFiles(array $files)
+  The "Corresponding Source" for a work in object code form means all
