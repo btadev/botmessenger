@@ -195,4 +195,5 @@ class IncomingMessage
      */
     public function setLocation(Location $location)
     {
-     * @return array
+        $this->location = $location;
+
