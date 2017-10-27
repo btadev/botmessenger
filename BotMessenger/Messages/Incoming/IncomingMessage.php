@@ -83,3 +83,4 @@ class IncomingMessage
     /**
      * @return string
      */
+    }
