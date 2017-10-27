@@ -210,4 +210,5 @@ class IncomingMessage
      * @return bool
      */
     public function isFromBot(): bool
-    public function get($key, $default = null)
+    {
+    //
