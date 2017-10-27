@@ -91,3 +91,5 @@ class IncomingMessage
     /**
      * We don't know the user, since conversations are originated on the channel.
      *
+     * @return string
+     * @return array
