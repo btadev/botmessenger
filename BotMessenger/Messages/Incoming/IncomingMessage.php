@@ -220,4 +220,5 @@ class IncomingMessage
     public function setIsFromBot(bool $isFromBot)
     {
         $this->isFromBot = $isFromBot;
-    /**
+    }
+        return $value ? Collection::make($value) : new Collection();
