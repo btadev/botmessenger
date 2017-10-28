@@ -153,4 +153,5 @@ class IncomingMessage
      * @return array
      */
     public function getVideos()
-namespace ChienIT\BotMessenger\Exceptions\Base;
+    {
+
