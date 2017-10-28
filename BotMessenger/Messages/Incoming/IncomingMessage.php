@@ -57,4 +57,4 @@ class IncomingMessage
     }
 
     /**
-    }
+     * @return string
