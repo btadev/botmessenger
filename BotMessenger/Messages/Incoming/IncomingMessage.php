@@ -172,3 +172,4 @@ class IncomingMessage
     public function getAudio()
     {
         return $this->audio;
+    }
