@@ -188,4 +188,5 @@ class IncomingMessage
     public function getFiles()
     {
         return $this->files;
+    }
     /**
