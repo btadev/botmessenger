@@ -175,3 +175,4 @@ class IncomingMessage
     }
 
     /**
+     * @param array $files
