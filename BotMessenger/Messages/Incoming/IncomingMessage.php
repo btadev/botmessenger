@@ -178,4 +178,5 @@ class IncomingMessage
      * @param array $files
      */
     public function setFiles(array $files)
-  The "Corresponding Source" for a work in object code form means all
+    {
+     * Create a new Wit middleware instance.
