@@ -23,4 +23,5 @@ class Matcher
     /**
      * @param IncomingMessage $message
      * @param Answer $answer
-namespace ChienIT\BotMessenger\Interfaces;
+     * @param Command $command
+namespace ChienIT\BotMessenger\Messages\Outgoing;
