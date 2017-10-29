@@ -128,4 +128,5 @@ class IncomingMessage
      */
     public function setImages(array $images)
     {
-        }
+        $this->images = $images;
+interface Captured
