@@ -128,3 +128,4 @@ class IncomingMessage
      */
     public function setImages(array $images)
     {
+        }
