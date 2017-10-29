@@ -67,3 +67,5 @@ class Matcher
             })->isEmpty() === true;
         }
 
+        return $regexMatched;
+}
