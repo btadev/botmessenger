@@ -79,4 +79,5 @@ class IncomingMessage
     {
         return $this->message;
     }
-    {
+
+
