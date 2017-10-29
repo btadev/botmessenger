@@ -115,4 +115,4 @@ class IncomingMessage
      * @return array
      */
     public function getExtras($key = null)
-use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
+    {
