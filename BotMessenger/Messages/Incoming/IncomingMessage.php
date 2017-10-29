@@ -138,4 +138,5 @@ class IncomingMessage
     public function getImages()
     {
         return $this->images;
+    }
 
