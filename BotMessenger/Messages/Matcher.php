@@ -62,4 +62,5 @@ class Matcher
                     $message,
                     $pattern,
                     $regexMatched
-}
+                ) {
+     * @param  string $key
