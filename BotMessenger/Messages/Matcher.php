@@ -13,4 +13,5 @@ class Matcher
 {
     /**
      * regular expression to capture named parameters but not quantifiers
-     * @param  \Throwable $e
+     * captures {name}, but not {1}, {1,}, or {1,2}.
+    public function fallback($callback)
