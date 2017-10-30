@@ -131,4 +131,5 @@ class IncomingMessage
         $this->images = $images;
     }
 
-     *
+    /**
+    public function getPayload();
