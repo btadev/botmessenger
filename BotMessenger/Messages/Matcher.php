@@ -45,4 +45,5 @@ class Matcher
     public function isPatternValid(IncomingMessage $message, Answer $answer, $pattern, $middleware = [])
     {
         $this->matches = [];
-     */
+
+
