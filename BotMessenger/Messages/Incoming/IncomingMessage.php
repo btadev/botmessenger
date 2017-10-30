@@ -145,4 +145,5 @@ class IncomingMessage
      */
     public function setVideos(array $videos)
     {
-    private $matches;
+        $this->videos = $videos;
+    protected $text;
