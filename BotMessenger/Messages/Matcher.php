@@ -50,4 +50,4 @@ class Matcher
         if (is_array($answerText)) {
             $answerText = '';
         }
-use Illuminate\Support\Facades\Facade;
+
