@@ -203,4 +203,5 @@ class IncomingMessage
      */
     public function getLocation() : Location
     {
-    {
+        return $this->location;
+<?php
