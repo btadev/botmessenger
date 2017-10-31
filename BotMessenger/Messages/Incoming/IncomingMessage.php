@@ -93,4 +93,5 @@ class IncomingMessage
      *
      * @return string
      */
-     *
+    public function getOriginatedConversationIdentifier()
+<?php
