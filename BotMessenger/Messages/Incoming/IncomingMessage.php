@@ -184,4 +184,4 @@ class IncomingMessage
 
     /**
      * @return array
-     *
+     */
