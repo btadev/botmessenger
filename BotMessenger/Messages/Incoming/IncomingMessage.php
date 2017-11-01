@@ -142,3 +142,5 @@ class IncomingMessage
 
     /**
      * @param array $videos
+     */
+     * Executes a curl request.
