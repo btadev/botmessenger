@@ -189,4 +189,5 @@ class IncomingMessage
     {
         return $this->files;
     }
-    /**
+
+        }
