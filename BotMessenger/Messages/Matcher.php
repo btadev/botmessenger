@@ -65,4 +65,5 @@ class Matcher
                 ) {
                 return $middleware->matching($message, $pattern, $regexMatched);
             })->isEmpty() === true;
-        return $this;
+        }
+
