@@ -229,4 +229,4 @@ class IncomingMessage
     {
         $this->message = $message;
     }
-
+}
