@@ -12,4 +12,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 class Matcher
 {
     /**
-}
+     * regular expression to capture named parameters but not quantifiers
+     * @param  \Throwable $e
