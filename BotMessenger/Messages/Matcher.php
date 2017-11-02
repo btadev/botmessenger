@@ -88,4 +88,5 @@ class Matcher
      * @param $givenRecipient
      * @param $allowedRecipients
      * @return bool
-
+     */
+```sh
