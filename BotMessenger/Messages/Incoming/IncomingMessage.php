@@ -199,3 +199,5 @@ class IncomingMessage
     }
 
     /**
+     * @return \ChienIT\BotMessenger\Messages\Attachments\Location
+<?php
