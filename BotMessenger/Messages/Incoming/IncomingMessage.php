@@ -171,4 +171,4 @@ class IncomingMessage
      */
     public function getAudio()
     {
-     * @param null|IncomingMessage $message
+        return $this->audio;
