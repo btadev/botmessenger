@@ -112,4 +112,5 @@ class IncomingMessage
 
     /**
      * @param string|null $key
-        curl_setopt($request, CURLOPT_POST, count($postParameters));
+     * @return array
+     * @param LoopInterface $loop
