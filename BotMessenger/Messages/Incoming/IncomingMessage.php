@@ -180,4 +180,5 @@ class IncomingMessage
     public function setFiles(array $files)
     {
         $this->files = $files;
-
+    }
+{
