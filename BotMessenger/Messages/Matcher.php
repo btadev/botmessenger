@@ -29,4 +29,5 @@ class Matcher
      * @return bool
      */
     public function isMessageMatching(IncomingMessage $message, Answer $answer, Command $command, DriverInterface $driver, $middleware = [])
-use Symfony\Component\HttpFoundation\Request;
+    {
+
