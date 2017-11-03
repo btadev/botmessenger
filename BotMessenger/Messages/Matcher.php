@@ -17,4 +17,5 @@ class Matcher
      */
     const PARAM_NAME_REGEX = '/\{((?:(?!\d+,?\d+?)\w)+?)\}/';
 
-     * @return Location
+    /** @var array */
+
