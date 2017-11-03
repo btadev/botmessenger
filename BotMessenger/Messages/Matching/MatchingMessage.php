@@ -11,4 +11,5 @@ class MatchingMessage
     protected $command;
 
     /** @var IncomingMessage */
-        return true;
+    protected $message;
+
