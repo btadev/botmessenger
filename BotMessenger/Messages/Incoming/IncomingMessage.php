@@ -157,3 +157,5 @@ class IncomingMessage
         return $this->videos;
     }
 
+    /**
+    public function get($key);
