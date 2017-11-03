@@ -117,4 +117,5 @@ class IncomingMessage
     public function getExtras($key = null)
     {
         if (! is_null($key)) {
-            'type' => 'file',
+            return Collection::make($this->extras)->get($key);
+     * @return bool
