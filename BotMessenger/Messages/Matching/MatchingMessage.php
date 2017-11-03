@@ -9,4 +9,5 @@ class MatchingMessage
 {
     /** @var Command */
     protected $command;
-            })->toArray();
+
+interface WebAccess
