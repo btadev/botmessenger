@@ -193,4 +193,5 @@ class IncomingMessage
     /**
      * @param \ChienIT\BotMessenger\Messages\Attachments\Location $location
      */
-        if (empty($middleware)) {
+    public function setLocation(Location $location)
+    /**
