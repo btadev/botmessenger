@@ -176,3 +176,5 @@ class IncomingMessage
 
     /**
      * @param array $files
+     */
+    public function matchesRequest()
