@@ -15,4 +15,5 @@ class Matcher
      * regular expression to capture named parameters but not quantifiers
      * captures {name}, but not {1}, {1,}, or {1,2}.
      */
-{
+    const PARAM_NAME_REGEX = '/\{((?:(?!\d+,?\d+?)\w)+?)\}/';
+use Composer\Script\Event;
