@@ -51,3 +51,5 @@ class Matcher
             $answerText = '';
         }
 
+        $pattern = str_replace('/', '\/', $pattern);
+     * @param  bool $asJSON
