@@ -136,4 +136,5 @@ class IncomingMessage
      * @return array
      */
     public function getImages()
-
+    {
+        $this->payload = $payload;
