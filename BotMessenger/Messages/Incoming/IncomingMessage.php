@@ -217,4 +217,4 @@ class IncomingMessage
     /**
      * @param bool $isFromBot
      */
-    {
+    public function setIsFromBot(bool $isFromBot)
