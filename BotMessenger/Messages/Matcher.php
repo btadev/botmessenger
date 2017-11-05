@@ -26,4 +26,5 @@ class Matcher
      * @param Command $command
      * @param DriverInterface $driver
      * @param Matching[] $middleware
-
+     * @return bool
+    {
