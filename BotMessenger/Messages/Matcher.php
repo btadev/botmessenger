@@ -83,4 +83,5 @@ class Matcher
 
         return true;
     }
-        "tightenco/collect": "~5.0",
+
+    public function pull($key, $default = null)
