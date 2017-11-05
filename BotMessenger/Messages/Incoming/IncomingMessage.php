@@ -228,3 +228,5 @@ class IncomingMessage
     public function setText(string $message)
     {
         $this->message = $message;
+    }
+
