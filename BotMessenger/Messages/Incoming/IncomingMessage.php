@@ -158,4 +158,5 @@ class IncomingMessage
     }
 
     /**
-    public function get($key);
+     * @param array $audio
+     */
