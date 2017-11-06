@@ -103,4 +103,4 @@ class Matcher
      */
     public function getMatches()
     {
-    public function save(array $data, $key)
+        return array_slice($this->matches, 1);
