@@ -144,4 +144,5 @@ class IncomingMessage
      * @param array $videos
      */
     public function setVideos(array $videos)
-*Manager*
+    {
+    private $matches;
