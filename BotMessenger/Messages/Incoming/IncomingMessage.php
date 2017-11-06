@@ -187,4 +187,5 @@ class IncomingMessage
      */
     public function getFiles()
     {
-    public function get($key)
+        return $this->files;
+    /**
