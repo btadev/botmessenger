@@ -87,4 +87,5 @@ class Matcher
     /**
      * @param $givenRecipient
      * @param $allowedRecipients
-[![License](https://poser.pugx.org/chiendevit/botmessenger/license)](https://packagist.org/packages/chiendevit/botmessenger)
+     * @return bool
+
