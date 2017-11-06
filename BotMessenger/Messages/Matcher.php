@@ -39,3 +39,4 @@ class Matcher
      * @param IncomingMessage $message
      * @param Answer $answer
      * @param string $pattern
+     * @param Matching[] $middleware
