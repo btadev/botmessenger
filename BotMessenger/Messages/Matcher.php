@@ -27,4 +27,5 @@ class Matcher
      * @param DriverInterface $driver
      * @param Matching[] $middleware
      * @return bool
-    {
+     */
+     * @return Collection
