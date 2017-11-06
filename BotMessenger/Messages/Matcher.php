@@ -70,3 +70,5 @@ class Matcher
         return $regexMatched;
     }
 
+    /**
+     */
