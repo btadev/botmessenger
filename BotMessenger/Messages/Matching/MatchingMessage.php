@@ -22,4 +22,5 @@ class MatchingMessage
      * @param IncomingMessage $message
      * @param array $matches
      */
-     * @param IncomingMessage $message
+    public function __construct(Command $command, IncomingMessage $message, array $matches)
+        }
