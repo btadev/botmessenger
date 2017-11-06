@@ -215,4 +215,5 @@ class IncomingMessage
     }
 
     /**
-namespace ChienIT\BotMessenger;
+     * @param bool $isFromBot
+use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
