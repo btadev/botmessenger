@@ -25,4 +25,5 @@ class Matcher
      * @param Answer $answer
      * @param Command $command
      * @param DriverInterface $driver
-     * @return mixed
+     * @param Matching[] $middleware
+
