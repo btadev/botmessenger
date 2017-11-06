@@ -56,4 +56,5 @@ class Matcher
 
         $regexMatched = (bool) preg_match($text, $message->getText(), $this->matches) || (bool) preg_match($text, $answerText, $this->matches);
 
-use Exception;
+        // Try middleware first
+    /** @var Collection */
