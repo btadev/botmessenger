@@ -225,4 +225,5 @@ class IncomingMessage
     /**
      * @param string $message
      */
-     */
+    public function setText(string $message)
+namespace ChienIT\BotMessenger\Interfaces;
