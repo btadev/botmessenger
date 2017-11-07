@@ -14,4 +14,5 @@ class MatchingMessage
     protected $message;
 
     /** @var array */
-     * @return Answer
+    private $matches;
+
