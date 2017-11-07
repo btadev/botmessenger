@@ -46,4 +46,5 @@ class Matcher
     {
         $this->matches = [];
 
-
+        $answerText = $answer->getValue();
+    /**
