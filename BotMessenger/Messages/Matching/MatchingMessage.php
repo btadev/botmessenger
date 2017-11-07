@@ -34,3 +34,4 @@ class MatchingMessage
      */
     public function getCommand(): Command
     {
+        return $this->command;
