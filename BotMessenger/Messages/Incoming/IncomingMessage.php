@@ -155,4 +155,4 @@ class IncomingMessage
     public function getVideos()
     {
         return $this->videos;
-    /**
+    }
