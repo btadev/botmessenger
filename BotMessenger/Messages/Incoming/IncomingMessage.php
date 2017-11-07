@@ -194,4 +194,5 @@ class IncomingMessage
      * @param \ChienIT\BotMessenger\Messages\Attachments\Location $location
      */
     public function setLocation(Location $location)
-    /**
+    {
+     * @return array
