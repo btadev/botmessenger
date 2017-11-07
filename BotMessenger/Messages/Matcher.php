@@ -92,3 +92,5 @@ class Matcher
     protected function isRecipientValid($givenRecipient, $allowedRecipients)
     {
         if (null === $allowedRecipients) {
+            return true;
+        return 'chienit_botmessenger';
