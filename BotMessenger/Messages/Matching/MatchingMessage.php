@@ -50,4 +50,4 @@ class MatchingMessage
      */
     public function getMatches(): array
     {
-{
+        return $this->matches;
