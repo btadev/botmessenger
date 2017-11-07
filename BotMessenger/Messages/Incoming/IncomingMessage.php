@@ -183,4 +183,5 @@ class IncomingMessage
     }
 
     /**
-     * @return mixed
+     * @return array
+     *
