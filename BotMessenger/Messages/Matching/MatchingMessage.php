@@ -10,4 +10,5 @@ class MatchingMessage
     /** @var Command */
     protected $command;
 
-interface WebAccess
+    /** @var IncomingMessage */
+        return true;
