@@ -41,4 +41,4 @@ class MatchingMessage
      * @return \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage
      */
     public function getMessage(): IncomingMessage
-        if (empty($storageDriver)) {
+    {
