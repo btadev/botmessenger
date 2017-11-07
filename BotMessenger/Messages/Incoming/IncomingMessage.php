@@ -167,4 +167,5 @@ class IncomingMessage
 
     /**
      * Returns the message audio Objects.
-     * @return Command
+     * @return array
+    /**
