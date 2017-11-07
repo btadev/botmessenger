@@ -90,4 +90,4 @@ class Matcher
      * @return bool
      */
     protected function isRecipientValid($givenRecipient, $allowedRecipients)
-
+    {
