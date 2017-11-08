@@ -18,4 +18,4 @@ class Matcher
     const PARAM_NAME_REGEX = '/\{((?:(?!\d+,?\d+?)\w)+?)\}/';
 
     /** @var array */
-
+    protected $matches;
