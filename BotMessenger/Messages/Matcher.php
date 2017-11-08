@@ -60,3 +60,5 @@ class Matcher
         if (count($middleware)) {
             return Collection::make($middleware)->reject(function (Matching $middleware) use (
                     $message,
+                    $pattern,
+        if (isset($attributes['middleware'])) {
