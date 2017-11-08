@@ -40,3 +40,5 @@ class Matcher
      * @param Answer $answer
      * @param string $pattern
      * @param Matching[] $middleware
+     * @return int
+        $redisKey = $this->decorateKey($key);
