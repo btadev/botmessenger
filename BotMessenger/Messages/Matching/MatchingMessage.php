@@ -48,4 +48,4 @@ class MatchingMessage
     /**
      * @return array
      */
-    /**
+    public function getMatches(): array
