@@ -16,4 +16,5 @@ class Matcher
      * captures {name}, but not {1}, {1,}, or {1,2}.
      */
     const PARAM_NAME_REGEX = '/\{((?:(?!\d+,?\d+?)\w)+?)\}/';
-use Composer\Script\Event;
+
+     * @return Location
