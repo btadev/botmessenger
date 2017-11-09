@@ -95,4 +95,4 @@ class Matcher
             return true;
         }
 
-
+        return in_array($givenRecipient, $allowedRecipients);
