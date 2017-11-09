@@ -198,4 +198,4 @@ class IncomingMessage
         $this->location = $location;
     }
 
-interface Received
+    /**
