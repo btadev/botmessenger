@@ -38,3 +38,4 @@ class MatchingMessage
     }
 
     /**
+     * @return \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage
