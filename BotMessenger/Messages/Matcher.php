@@ -32,4 +32,5 @@ class Matcher
     {
         return $this->isDriverValid($driver->getName(), $command->getDriver()) &&
             $this->isRecipientValid($message->getRecipient(), $command->getRecipients()) &&
-    public function exception(string $exception, $closure)
+            $this->isPatternValid($message, $answer, $command->getPattern(), $command->getMiddleware() + $middleware);
+     * @param  string $url
