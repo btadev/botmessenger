@@ -7,4 +7,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 class MatchingMessage
 {
-     */
+    /** @var Command */
+}
