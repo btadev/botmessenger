@@ -84,4 +84,5 @@ class Matcher
         return true;
     }
 
-    public function pull($key, $default = null)
+    /**
+
