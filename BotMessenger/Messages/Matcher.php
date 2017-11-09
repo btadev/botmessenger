@@ -20,4 +20,5 @@ class Matcher
     /** @var array */
     protected $matches;
 
-
+    /**
+        }
