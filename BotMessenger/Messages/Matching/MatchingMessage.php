@@ -29,4 +29,4 @@ class MatchingMessage
         $this->matches = $matches;
     }
 
-
+    /**
