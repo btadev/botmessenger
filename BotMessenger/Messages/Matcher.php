@@ -34,4 +34,4 @@ class Matcher
             $this->isRecipientValid($message->getRecipient(), $command->getRecipients()) &&
             $this->isPatternValid($message, $answer, $command->getPattern(), $command->getMiddleware() + $middleware);
     }
-    /**
+
