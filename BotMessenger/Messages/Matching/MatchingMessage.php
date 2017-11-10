@@ -25,3 +25,5 @@ class MatchingMessage
     public function __construct(Command $command, IncomingMessage $message, array $matches)
     {
         $this->command = $command;
+        $this->message = $message;
+
