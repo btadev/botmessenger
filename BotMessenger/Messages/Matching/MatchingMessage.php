@@ -37,4 +37,4 @@ class MatchingMessage
         return $this->command;
     }
 
-
+    /**
