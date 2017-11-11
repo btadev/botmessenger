@@ -222,3 +222,5 @@ class IncomingMessage
         $this->isFromBot = $isFromBot;
     }
 
+    /**
+     * Pattern that messages use to identify image uploads.
