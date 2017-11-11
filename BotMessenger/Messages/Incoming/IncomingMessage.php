@@ -213,4 +213,4 @@ class IncomingMessage
     {
         return $this->isFromBot;
     }
-    public function __construct($url, $payload = null)
+
