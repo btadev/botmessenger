@@ -197,4 +197,5 @@ class IncomingMessage
     {
         $this->location = $location;
     }
-namespace ChienIT\BotMessenger\Interfaces;
+
+interface Received
