@@ -44,3 +44,4 @@ class MatchingMessage
     {
         return $this->message;
     }
+
