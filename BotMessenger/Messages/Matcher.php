@@ -21,4 +21,5 @@ class Matcher
     protected $matches;
 
     /**
-        }
+     * @param IncomingMessage $message
+     */
