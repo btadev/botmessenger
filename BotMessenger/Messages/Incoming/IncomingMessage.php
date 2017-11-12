@@ -207,4 +207,5 @@ class IncomingMessage
     }
 
     /**
+     * @return bool
 }
