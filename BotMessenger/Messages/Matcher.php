@@ -102,4 +102,5 @@ class Matcher
      * @return array
      */
     public function getMatches()
-            ->setPrefix('channel_')
+    {
+    public function save(array $data, $key)
