@@ -63,4 +63,5 @@ class Matcher
                     $pattern,
                     $regexMatched
                 ) {
-     * @param  string $key
+                return $middleware->matching($message, $pattern, $regexMatched);
+        return $this->url;
