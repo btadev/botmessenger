@@ -28,4 +28,5 @@ class Button implements JsonSerializable, QuestionActionInterface
      * @return static
      */
     public static function create($text)
-interface ExceptionHandlerInterface
+    {
+
