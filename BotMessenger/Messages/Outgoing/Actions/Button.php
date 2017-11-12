@@ -10,4 +10,4 @@ class Button implements JsonSerializable, QuestionActionInterface
     /** @var string */
     protected $text;
 
-
+    /** @var string */
