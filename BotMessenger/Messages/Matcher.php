@@ -47,4 +47,4 @@ class Matcher
         $this->matches = [];
 
         $answerText = $answer->getValue();
-    /**
+        if (is_array($answerText)) {
