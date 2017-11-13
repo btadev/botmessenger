@@ -21,4 +21,5 @@ class MatchingMessage
      * @param Command $command
      * @param IncomingMessage $message
      * @param array $matches
-<?php
+     */
+     * @param IncomingMessage $message
