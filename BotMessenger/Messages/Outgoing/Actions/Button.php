@@ -9,4 +9,5 @@ class Button implements JsonSerializable, QuestionActionInterface
 {
     /** @var string */
     protected $text;
-namespace ChienIT\BotMessenger\Exceptions\Base;
+
+
