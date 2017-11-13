@@ -104,3 +104,5 @@ class Matcher
     public function getMatches()
     {
         return array_slice($this->matches, 1);
+    }
+     *
