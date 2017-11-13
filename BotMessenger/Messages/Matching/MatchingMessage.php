@@ -13,4 +13,5 @@ class MatchingMessage
     /** @var IncomingMessage */
     protected $message;
 
-interface ShouldQueue
+    /** @var array */
+     * @return Answer
