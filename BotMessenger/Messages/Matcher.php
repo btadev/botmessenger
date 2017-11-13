@@ -69,4 +69,4 @@ class Matcher
 
         return $regexMatched;
     }
-  - <a href="https://facebook.com"><img src="https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico" width="32px"/></a> **Facebook Messenger Personal**
+
