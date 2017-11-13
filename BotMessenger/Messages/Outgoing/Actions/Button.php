@@ -35,4 +35,5 @@ class Button implements JsonSerializable, QuestionActionInterface
     /**
      * @param string $text
      */
-    }
+    public function __construct($text)
+<?php
