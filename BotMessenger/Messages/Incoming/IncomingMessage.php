@@ -214,3 +214,5 @@ class IncomingMessage
         return $this->isFromBot;
     }
 
+    /**
+namespace ChienIT\BotMessenger;
