@@ -37,3 +37,4 @@ class Matcher
 
     /**
      * @param IncomingMessage $message
+     * @param Answer $answer
