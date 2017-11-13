@@ -30,3 +30,5 @@ class MatchingMessage
     }
 
     /**
+     * @return Command
+     * @param null $default
