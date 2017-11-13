@@ -36,4 +36,4 @@ class Matcher
     }
 
     /**
-    }
+     * @param IncomingMessage $message
