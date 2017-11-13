@@ -33,4 +33,5 @@ class Matcher
         return $this->isDriverValid($driver->getName(), $command->getDriver()) &&
             $this->isRecipientValid($message->getRecipient(), $command->getRecipients()) &&
             $this->isPatternValid($message, $answer, $command->getPattern(), $command->getMiddleware() + $middleware);
-     * @param  string $url
+    }
+    /**
