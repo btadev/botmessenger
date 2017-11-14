@@ -50,3 +50,5 @@ class Button implements JsonSerializable, QuestionActionInterface
     {
         $this->value = $value;
 
+        return $this;
+    {
