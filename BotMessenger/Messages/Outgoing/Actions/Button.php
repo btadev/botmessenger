@@ -48,4 +48,4 @@ class Button implements JsonSerializable, QuestionActionInterface
      */
     public function value($value)
     {
-     * @param mixed $payload
+        $this->value = $value;
