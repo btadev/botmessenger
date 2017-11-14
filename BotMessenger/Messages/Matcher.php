@@ -43,4 +43,5 @@ class Matcher
      * @return int
      */
     public function isPatternValid(IncomingMessage $message, Answer $answer, $pattern, $middleware = [])
-use ChienIT\BotMessenger\Messages\Attachments\Location;
+    {
+     *
