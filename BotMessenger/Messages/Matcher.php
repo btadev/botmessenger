@@ -49,4 +49,5 @@ class Matcher
         $answerText = $answer->getValue();
         if (is_array($answerText)) {
             $answerText = '';
-     * @param BotMessenger $bot
+        }
+use Illuminate\Support\Facades\Facade;
