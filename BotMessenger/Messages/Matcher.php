@@ -24,4 +24,5 @@ class Matcher
      * @param IncomingMessage $message
      * @param Answer $answer
      * @param Command $command
-namespace ChienIT\BotMessenger\Messages\Outgoing;
+     * @param DriverInterface $driver
+     * @return mixed
