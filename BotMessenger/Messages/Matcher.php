@@ -64,4 +64,5 @@ class Matcher
                     $regexMatched
                 ) {
                 return $middleware->matching($message, $pattern, $regexMatched);
-        return $this->url;
+            })->isEmpty() === true;
+        return $this;
