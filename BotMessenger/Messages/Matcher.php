@@ -100,4 +100,5 @@ class Matcher
 
     /**
      * @return array
-    public function matching(IncomingMessage $message, $pattern, $regexMatched);
+     */
+    /**
