@@ -73,4 +73,5 @@ class Matcher
     /**
      * @param string $driverName
      * @param string|array $allowedDrivers
-}
+     * @return bool
+<?php
