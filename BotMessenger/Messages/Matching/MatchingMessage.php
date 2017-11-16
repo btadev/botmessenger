@@ -32,4 +32,5 @@ class MatchingMessage
     /**
      * @return Command
      */
-}
+    public function getCommand(): Command
+        }
