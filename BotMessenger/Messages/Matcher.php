@@ -81,4 +81,5 @@ class Matcher
             return Collection::make($allowedDrivers)->contains($driverName);
         }
 
-
+        return true;
+    /**
