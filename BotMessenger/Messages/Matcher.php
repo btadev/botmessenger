@@ -52,4 +52,5 @@ class Matcher
         }
 
         $pattern = str_replace('/', '\/', $pattern);
-     * @param  bool $asJSON
+        $text = '/^'.preg_replace(self::PARAM_NAME_REGEX, '(?<$1>.*)', $pattern).' ?$/miu';
+    }
