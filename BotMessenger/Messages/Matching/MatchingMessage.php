@@ -20,3 +20,5 @@ class MatchingMessage
      * MatchingMessage constructor.
      * @param Command $command
      * @param IncomingMessage $message
+     * @param array $matches
+<?php
