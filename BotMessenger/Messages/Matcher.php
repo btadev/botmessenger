@@ -31,3 +31,5 @@ class Matcher
     public function isMessageMatching(IncomingMessage $message, Answer $answer, Command $command, DriverInterface $driver, $middleware = [])
     {
         return $this->isDriverValid($driver->getName(), $command->getDriver()) &&
+            $this->isRecipientValid($message->getRecipient(), $command->getRecipients()) &&
+    public function exception(string $exception, $closure)
