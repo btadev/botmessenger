@@ -86,4 +86,5 @@ class Button implements JsonSerializable, QuestionActionInterface
      * @return $this
      */
     public function image($imageUrl)
-{
+    {
+$ composer require chienit/botmessenger
