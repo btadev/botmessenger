@@ -35,3 +35,5 @@ class MatchingMessage
     public function getCommand(): Command
     {
         return $this->command;
+    }
+        } elseif ($messageText === Audio::PATTERN) {
