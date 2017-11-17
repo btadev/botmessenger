@@ -16,3 +16,4 @@ class MatchingMessage
     /** @var array */
     private $matches;
 
+     * @return string
