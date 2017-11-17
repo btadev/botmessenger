@@ -27,4 +27,4 @@ class MatchingMessage
         $this->command = $command;
         $this->message = $message;
         $this->matches = $matches;
-class DriverException extends BotMessengerException
+    }
