@@ -80,4 +80,5 @@ class Matcher
         if (! is_null($allowedDrivers)) {
             return Collection::make($allowedDrivers)->contains($driverName);
         }
-    public function hasMatchingEvent()
+
+
