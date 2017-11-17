@@ -89,4 +89,5 @@ class Button implements JsonSerializable, QuestionActionInterface
     {
         $this->imageUrl = $imageUrl;
 
-     * Delete a stored item by its key.
+        return $this;
+                $pkg = $pkg['packages'][$package];
