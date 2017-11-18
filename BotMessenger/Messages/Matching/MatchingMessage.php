@@ -18,4 +18,5 @@ class MatchingMessage
 
     /**
      * MatchingMessage constructor.
-        return [
+     * @param Command $command
+         */
