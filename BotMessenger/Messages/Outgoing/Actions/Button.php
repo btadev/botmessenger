@@ -82,3 +82,5 @@ class Button implements JsonSerializable, QuestionActionInterface
     /**
      * Set the button image (Facebook only).
      *
+     * @param string $imageUrl
+}
