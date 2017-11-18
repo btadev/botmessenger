@@ -41,4 +41,4 @@ class Matcher
      * @param string $pattern
      * @param Matching[] $middleware
      * @return int
-        $redisKey = $this->decorateKey($key);
+     */
