@@ -23,4 +23,5 @@ class MatchingMessage
      * @param array $matches
      */
     public function __construct(Command $command, IncomingMessage $message, array $matches)
-        }
+    {
+    public function getText()
