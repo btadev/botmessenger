@@ -40,3 +40,5 @@ class Button implements JsonSerializable, QuestionActionInterface
         $this->text = $text;
     }
 
+    /**
+use Exception;
