@@ -57,4 +57,5 @@ class Matcher
         $regexMatched = (bool) preg_match($text, $message->getText(), $this->matches) || (bool) preg_match($text, $answerText, $this->matches);
 
         // Try middleware first
-    /** @var Collection */
+        if (count($middleware)) {
+    protected $message;
