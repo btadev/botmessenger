@@ -91,3 +91,4 @@ class Matcher
      */
     protected function isRecipientValid($givenRecipient, $allowedRecipients)
     {
+        if (null === $allowedRecipients) {
