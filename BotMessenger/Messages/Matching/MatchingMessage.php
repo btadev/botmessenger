@@ -36,4 +36,5 @@ class MatchingMessage
     {
         return $this->command;
     }
-        } elseif ($messageText === Audio::PATTERN) {
+
+
