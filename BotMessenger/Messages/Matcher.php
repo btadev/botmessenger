@@ -101,4 +101,5 @@ class Matcher
     /**
      * @return array
      */
-    /**
+    public function getMatches()
+            ->setPrefix('channel_')
