@@ -58,4 +58,5 @@ class Matcher
 
         // Try middleware first
         if (count($middleware)) {
-    protected $message;
+            return Collection::make($middleware)->reject(function (Matching $middleware) use (
+namespace ChienIT\BotMessenger\Messages\Attachments;
