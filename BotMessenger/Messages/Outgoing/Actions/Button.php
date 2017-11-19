@@ -17,4 +17,5 @@ class Button implements JsonSerializable, QuestionActionInterface
     protected $name;
 
     /** @var array */
-     */
+    protected $additional = [];
+use ChienIT\BotMessenger\Interfaces\DriverInterface;
