@@ -23,3 +23,4 @@ class Button implements JsonSerializable, QuestionActionInterface
     protected $imageUrl;
 
     /**
+     * @param string $text
