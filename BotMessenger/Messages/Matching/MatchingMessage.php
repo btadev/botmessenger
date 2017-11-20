@@ -17,3 +17,5 @@ class MatchingMessage
     private $matches;
 
     /**
+     * MatchingMessage constructor.
+        return [
