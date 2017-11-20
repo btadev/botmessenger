@@ -94,4 +94,5 @@ class Matcher
         if (null === $allowedRecipients) {
             return true;
         }
-        return $this->cache->get($key) !== false;
+
+
