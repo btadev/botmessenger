@@ -19,4 +19,5 @@ class OutgoingMessage
      */
     public function __construct($message = null, Attachment $attachment = null)
     {
-use ChienIT\BotMessenger\Messages\Attachments\Video;
+        $this->message = $message;
+
