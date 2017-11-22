@@ -78,3 +78,5 @@ class Matcher
     protected function isDriverValid($driverName, $allowedDrivers)
     {
         if (! is_null($allowedDrivers)) {
+            return Collection::make($allowedDrivers)->contains($driverName);
+        return $default;
