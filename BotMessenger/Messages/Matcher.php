@@ -93,4 +93,5 @@ class Matcher
     {
         if (null === $allowedRecipients) {
             return true;
-        return 'chienit_botmessenger';
+        }
+        return $this->cache->get($key) !== false;
