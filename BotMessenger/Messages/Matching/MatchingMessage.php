@@ -46,4 +46,5 @@ class MatchingMessage
     }
 
     /**
-            if ($this->exceptions->has($exceptionClass)) {
+     * @return array
+    public function post(
