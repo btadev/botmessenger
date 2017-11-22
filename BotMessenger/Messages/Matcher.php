@@ -77,3 +77,4 @@ class Matcher
      */
     protected function isDriverValid($driverName, $allowedDrivers)
     {
+        if (! is_null($allowedDrivers)) {
