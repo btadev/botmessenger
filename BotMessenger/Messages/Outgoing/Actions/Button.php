@@ -75,4 +75,4 @@ class Button implements JsonSerializable, QuestionActionInterface
     public function additionalParameters(array $additional)
     {
         $this->additional = $additional;
-    {
+
