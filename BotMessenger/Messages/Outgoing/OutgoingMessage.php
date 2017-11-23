@@ -22,3 +22,5 @@ class OutgoingMessage
         $this->message = $message;
         $this->attachment = $attachment;
     }
+
+protecting users' freedom to change the software.  The systematic
