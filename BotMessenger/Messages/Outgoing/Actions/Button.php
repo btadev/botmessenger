@@ -84,4 +84,5 @@ class Button implements JsonSerializable, QuestionActionInterface
      *
      * @param string $imageUrl
      * @return $this
-use ChienIT\BotMessenger\Http\Curl;
+     */
+}
