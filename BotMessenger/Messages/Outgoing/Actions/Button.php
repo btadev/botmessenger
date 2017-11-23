@@ -27,4 +27,5 @@ class Button implements JsonSerializable, QuestionActionInterface
      *
      * @return static
      */
-            return call_user_func_array(self::$extensions[$name], $arguments);
+    public static function create($text)
+interface ExceptionHandlerInterface
