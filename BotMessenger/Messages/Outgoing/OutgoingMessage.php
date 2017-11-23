@@ -9,4 +9,5 @@ class OutgoingMessage
     /** @var string */
     protected $message;
 
-     *
+    /** @var \ChienIT\BotMessenger\Messages\Attachments\Attachment */
+     * @param mixed $payload
