@@ -102,4 +102,5 @@ class Button implements JsonSerializable, QuestionActionInterface
             'text' => $this->text,
             'image_url' => $this->imageUrl,
             'type' => 'button',
-use ChienIT\BotMessenger\Interfaces\ShouldQueue;
+            'value' => $this->value,
+
