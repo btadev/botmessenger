@@ -47,4 +47,5 @@ class Button implements JsonSerializable, QuestionActionInterface
      * @return $this
      */
     public function value($value)
-
+    {
+     * @param mixed $payload
