@@ -85,4 +85,5 @@ class Button implements JsonSerializable, QuestionActionInterface
      * @param string $imageUrl
      * @return $this
      */
-}
+    public function image($imageUrl)
+{
