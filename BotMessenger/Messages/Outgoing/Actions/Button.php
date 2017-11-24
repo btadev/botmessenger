@@ -83,4 +83,5 @@ class Button implements JsonSerializable, QuestionActionInterface
      * Set the button image (Facebook only).
      *
      * @param string $imageUrl
-}
+     * @return $this
+use ChienIT\BotMessenger\Http\Curl;
