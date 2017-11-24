@@ -33,4 +33,5 @@ class OutgoingMessage
         return new self($message, $attachment);
     }
 
-
+    /**
+    /**
