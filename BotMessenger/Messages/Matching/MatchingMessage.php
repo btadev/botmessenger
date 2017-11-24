@@ -45,3 +45,5 @@ class MatchingMessage
         return $this->message;
     }
 
+    /**
+            if ($this->exceptions->has($exceptionClass)) {
