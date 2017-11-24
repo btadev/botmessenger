@@ -43,4 +43,4 @@ class MatchingMessage
     public function getMessage(): IncomingMessage
     {
         return $this->message;
-        ];
+    }
