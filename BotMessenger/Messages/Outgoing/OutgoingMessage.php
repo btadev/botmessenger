@@ -42,4 +42,5 @@ class OutgoingMessage
         $this->message = $message;
 
         return $this;
-            'type' => 'audio',
+    }
+     * @return void
