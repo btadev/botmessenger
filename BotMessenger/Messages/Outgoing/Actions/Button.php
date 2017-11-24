@@ -34,3 +34,5 @@ class Button implements JsonSerializable, QuestionActionInterface
 
     /**
      * @param string $text
+     */
+    }
