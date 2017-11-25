@@ -30,4 +30,5 @@ class Button implements JsonSerializable, QuestionActionInterface
     public static function create($text)
     {
         return new static($text);
-class InlineConversation extends Conversation
+    }
+
