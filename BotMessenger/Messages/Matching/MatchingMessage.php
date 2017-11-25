@@ -47,4 +47,5 @@ class MatchingMessage
 
     /**
      * @return array
-    public function post(
+     */
+    /**
