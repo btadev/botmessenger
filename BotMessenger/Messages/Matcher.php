@@ -105,4 +105,5 @@ class Matcher
     {
         return array_slice($this->matches, 1);
     }
-     *
+}
+     * Return the event name to match.
