@@ -53,4 +53,3 @@ class MatchingMessage
         return $this->matches;
     }
 }
-<?php
