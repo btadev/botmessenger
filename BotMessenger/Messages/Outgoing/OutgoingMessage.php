@@ -13,3 +13,5 @@ class OutgoingMessage
     protected $attachment;
 
     /**
+     * IncomingMessage constructor.
+     */
