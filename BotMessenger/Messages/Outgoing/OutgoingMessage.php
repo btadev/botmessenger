@@ -65,4 +65,4 @@ class OutgoingMessage
 
     /**
      * @return string
-    {
+     */
