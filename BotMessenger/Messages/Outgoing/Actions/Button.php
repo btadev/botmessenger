@@ -67,4 +67,5 @@ class Button implements JsonSerializable, QuestionActionInterface
     }
 
     /**
-        switch(readline()) {
+     * Set the button additional parameters to pass to the service.
+        return self::KEY_PREFIX.$key;
