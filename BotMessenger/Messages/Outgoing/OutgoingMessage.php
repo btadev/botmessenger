@@ -60,4 +60,4 @@ class OutgoingMessage
      */
     public function getAttachment()
     {
-     */
+        return $this->attachment;
