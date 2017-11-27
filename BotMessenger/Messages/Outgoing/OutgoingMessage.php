@@ -21,3 +21,4 @@ class OutgoingMessage
     {
         $this->message = $message;
         $this->attachment = $attachment;
+    }
