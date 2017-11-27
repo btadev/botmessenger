@@ -42,4 +42,5 @@ class Button implements JsonSerializable, QuestionActionInterface
 
     /**
      * Set the button value.
-    /**
+     *
+    public function getText()
