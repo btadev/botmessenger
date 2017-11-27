@@ -98,4 +98,5 @@ class Button implements JsonSerializable, QuestionActionInterface
     public function toArray()
     {
         return [
-    {
+            'name' => isset($this->name) ? $this->name : $this->text,
+     * @param callable $closure
