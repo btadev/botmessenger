@@ -59,4 +59,5 @@ class OutgoingMessage
      * @return \ChienIT\BotMessenger\Messages\Attachments\Attachment
      */
     public function getAttachment()
-}
+    {
+     */
