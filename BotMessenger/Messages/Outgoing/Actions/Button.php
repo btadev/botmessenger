@@ -12,4 +12,5 @@ class Button implements JsonSerializable, QuestionActionInterface
 
     /** @var string */
     protected $value;
- * Duplicate of ApiAi, but the product got renamed.
+
+    /** @var string */
