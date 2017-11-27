@@ -25,4 +25,5 @@ class OutgoingMessage
 
     /**
      * @param string $message
-
+     * @param Attachment $attachment
+    }
