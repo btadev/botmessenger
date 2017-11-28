@@ -1,3 +1,4 @@
 <?php
 
-class GenericEvent implements DriverEventInterface
+namespace ChienIT\BotMessenger\Messages\Outgoing;
+{
