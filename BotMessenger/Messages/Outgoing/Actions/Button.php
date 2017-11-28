@@ -99,4 +99,5 @@ class Button implements JsonSerializable, QuestionActionInterface
     {
         return [
             'name' => isset($this->name) ? $this->name : $this->text,
-     * @param callable $closure
+            'text' => $this->text,
+    //
