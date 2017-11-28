@@ -17,4 +17,4 @@ class OutgoingMessage
      * @param string $message
      * @param Attachment $attachment
      */
-    /**
+    public function __construct($message = null, Attachment $attachment = null)
