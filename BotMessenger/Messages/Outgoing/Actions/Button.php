@@ -51,4 +51,5 @@ class Button implements JsonSerializable, QuestionActionInterface
         $this->value = $value;
 
         return $this;
-    {
+    }
+     * Tells if the stored conversation callbacks are serialized.
