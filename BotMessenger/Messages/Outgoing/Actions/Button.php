@@ -65,4 +65,5 @@ class Button implements JsonSerializable, QuestionActionInterface
 
         return $this;
     }
-namespace ChienIT\BotMessenger\Exceptions\Base;
+
+    {
