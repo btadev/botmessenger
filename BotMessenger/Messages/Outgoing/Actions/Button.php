@@ -8,3 +8,5 @@ use ChienIT\BotMessenger\Interfaces\QuestionActionInterface;
 class Button implements JsonSerializable, QuestionActionInterface
 {
     /** @var string */
+    protected $text;
+namespace ChienIT\BotMessenger\Exceptions\Base;
