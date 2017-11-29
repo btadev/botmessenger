@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Messages\Outgoing\Actions;
 
-    /** @var string */
+use JsonSerializable;
+    {
