@@ -13,3 +13,5 @@ class Question implements JsonSerializable, WebAccess
     protected $actions;
 
     /** @var string */
+    protected $text;
+        return 'chienit_botmessenger';
