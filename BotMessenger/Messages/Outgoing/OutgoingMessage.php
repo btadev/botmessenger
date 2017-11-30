@@ -27,4 +27,5 @@ class OutgoingMessage
      * @param string $message
      * @param Attachment $attachment
      * @return OutgoingMessage
-use ChienIT\BotMessenger\BotMessenger;
+     */
+     * @param string $exception
