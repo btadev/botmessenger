@@ -18,3 +18,5 @@ class OutgoingMessage
      * @param Attachment $attachment
      */
     public function __construct($message = null, Attachment $attachment = null)
+    {
+use ChienIT\BotMessenger\Messages\Attachments\Video;
