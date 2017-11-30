@@ -37,4 +37,5 @@ class Button implements JsonSerializable, QuestionActionInterface
      */
     public function __construct($text)
     {
-     * @return void
+        $this->text = $text;
+use Symfony\Component\HttpFoundation\Request;
