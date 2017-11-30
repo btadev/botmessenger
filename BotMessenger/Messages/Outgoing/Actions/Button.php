@@ -32,3 +32,5 @@ class Button implements JsonSerializable, QuestionActionInterface
         return new static($text);
     }
 
+    /**
+    {
