@@ -71,4 +71,3 @@ class OutgoingMessage
         return $this->message;
     }
 }
-     */
