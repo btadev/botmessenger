@@ -19,3 +19,5 @@ class Button implements JsonSerializable, QuestionActionInterface
     /** @var array */
     protected $additional = [];
 
+    /** @var string */
+         * Use the driver name constant if we try to load a driver by it's
