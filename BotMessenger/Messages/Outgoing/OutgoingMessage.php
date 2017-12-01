@@ -29,3 +29,4 @@ class OutgoingMessage
      * @return OutgoingMessage
      */
     public static function create($message = null, Attachment $attachment = null)
+    {
