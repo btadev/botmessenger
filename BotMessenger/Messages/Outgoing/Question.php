@@ -16,3 +16,4 @@ class Question implements JsonSerializable, WebAccess
     protected $text;
 
     /** @var string */
+    protected $callback_id;
