@@ -100,4 +100,4 @@ class Button implements JsonSerializable, QuestionActionInterface
         return [
             'name' => isset($this->name) ? $this->name : $this->text,
             'text' => $this->text,
-    //
+            'image_url' => $this->imageUrl,
