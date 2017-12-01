@@ -3,4 +3,5 @@
 namespace ChienIT\BotMessenger\Messages\Outgoing;
 
 use JsonSerializable;
-use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+use ChienIT\BotMessenger\Interfaces\WebAccess;
+        return $this->user_info;
