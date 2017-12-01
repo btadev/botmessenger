@@ -28,4 +28,4 @@ class OutgoingMessage
      * @param Attachment $attachment
      * @return OutgoingMessage
      */
-     * @param string $exception
+    public static function create($message = null, Attachment $attachment = null)
