@@ -57,4 +57,5 @@ class OutgoingMessage
 
     /**
      * @return \ChienIT\BotMessenger\Messages\Attachments\Attachment
-     * @param  \DateTime|int $minutes
+     */
+
