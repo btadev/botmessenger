@@ -41,4 +41,5 @@ class Button implements JsonSerializable, QuestionActionInterface
     }
 
     /**
-use Exception;
+     * Set the button value.
+    /**
