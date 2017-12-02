@@ -20,4 +20,5 @@ class Button implements JsonSerializable, QuestionActionInterface
     protected $additional = [];
 
     /** @var string */
-         * Use the driver name constant if we try to load a driver by it's
+    protected $imageUrl;
+    public static function create($text)
