@@ -14,3 +14,4 @@ class Button implements JsonSerializable, QuestionActionInterface
     protected $value;
 
     /** @var string */
+     * @return mixed
