@@ -46,3 +46,5 @@ class OutgoingMessage
 
     /**
      * @param \ChienIT\BotMessenger\Messages\Attachments\Attachment $attachment
+     * @return $this
+    }
