@@ -20,4 +20,5 @@ class Question implements JsonSerializable, WebAccess
 
     /** @var string */
     protected $fallback;
-    {
+
+
