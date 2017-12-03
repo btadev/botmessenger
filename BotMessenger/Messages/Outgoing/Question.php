@@ -19,4 +19,5 @@ class Question implements JsonSerializable, WebAccess
     protected $callback_id;
 
     /** @var string */
-
+    protected $fallback;
+    {
