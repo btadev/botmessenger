@@ -6,4 +6,5 @@ use ChienIT\BotMessenger\Messages\Attachments\Attachment;
 
 class OutgoingMessage
 {
-     * @return array
+    /** @var string */
+class DriverException extends BotMessengerException
