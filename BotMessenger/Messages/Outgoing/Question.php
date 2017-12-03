@@ -1,3 +1,4 @@
 <?php
 
-        if (! is_null($this->currentConversationData)) {
+namespace ChienIT\BotMessenger\Messages\Outgoing;
+namespace ChienIT\BotMessenger\Messages\Attachments;
