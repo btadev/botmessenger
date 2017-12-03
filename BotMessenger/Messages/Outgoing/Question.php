@@ -22,4 +22,5 @@ class Question implements JsonSerializable, WebAccess
     protected $fallback;
 
     /**
-    public function run()
+     * @param string $text
+         * fully qualified class name.
