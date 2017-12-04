@@ -20,4 +20,4 @@ class OutgoingMessage
     public function __construct($message = null, Attachment $attachment = null)
     {
         $this->message = $message;
-
+        $this->attachment = $attachment;
