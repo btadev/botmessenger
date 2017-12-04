@@ -49,4 +49,4 @@ class OutgoingMessage
      * @return $this
      */
     public function withAttachment(Attachment $attachment)
-}
+    {
