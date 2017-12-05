@@ -93,4 +93,5 @@ class Button implements JsonSerializable, QuestionActionInterface
     }
 
     /**
-     * @return mixed
+     * @return array
+<?php
