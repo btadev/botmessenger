@@ -67,4 +67,5 @@ class OutgoingMessage
      * @return string
      */
     public function getText()
-     * @param StorageInterface $storageDriver
+    {
+option of following the terms and conditions either of that numbered
