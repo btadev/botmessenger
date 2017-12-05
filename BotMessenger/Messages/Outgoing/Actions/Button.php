@@ -61,4 +61,5 @@ class Button implements JsonSerializable, QuestionActionInterface
      */
     public function name($name)
     {
-    /**
+        $this->name = $name;
+
