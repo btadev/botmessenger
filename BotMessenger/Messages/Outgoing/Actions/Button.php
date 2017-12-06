@@ -56,4 +56,5 @@ class Button implements JsonSerializable, QuestionActionInterface
     /**
      * Set the button name (defaults to button text).
      *
-    /**
+     * @param string $name
+interface DriverInterface
