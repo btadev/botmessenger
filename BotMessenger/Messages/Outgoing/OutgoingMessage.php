@@ -43,4 +43,5 @@ class OutgoingMessage
 
         return $this;
     }
-     * @return void
+
+     */
