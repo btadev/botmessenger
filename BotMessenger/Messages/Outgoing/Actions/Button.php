@@ -70,3 +70,5 @@ class Button implements JsonSerializable, QuestionActionInterface
      * Set the button additional parameters to pass to the service.
      *
      * @param array $additional
+     * @return $this
+
