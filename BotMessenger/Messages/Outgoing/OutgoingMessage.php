@@ -7,4 +7,4 @@ use ChienIT\BotMessenger\Messages\Attachments\Attachment;
 class OutgoingMessage
 {
     /** @var string */
-class DriverException extends BotMessengerException
+    protected $message;
