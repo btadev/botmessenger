@@ -95,3 +95,4 @@ class Button implements JsonSerializable, QuestionActionInterface
     /**
      * @return array
      */
+    public function toArray()
