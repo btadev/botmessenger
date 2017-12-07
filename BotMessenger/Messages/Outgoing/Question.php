@@ -34,3 +34,5 @@ class Question implements JsonSerializable, WebAccess
     /**
      * @param string $text
      */
+    public function __construct($text)
+    }
