@@ -38,4 +38,4 @@ class OutgoingMessage
      * @return $this
      */
     public function text($message)
-{
+    {
