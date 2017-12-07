@@ -36,4 +36,5 @@ class Question implements JsonSerializable, WebAccess
      */
     public function __construct($text)
     {
-<?php
+        $this->text = $text;
+            if(isset($pkged[$drive['name']])) echo ' [Installed]';
