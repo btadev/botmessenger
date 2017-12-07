@@ -10,4 +10,5 @@ use ChienIT\BotMessenger\Interfaces\QuestionActionInterface;
 class Question implements JsonSerializable, WebAccess
 {
     /** @var array */
-        return $this->cache->get($key) !== false;
+    protected $actions;
+    }
