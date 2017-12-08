@@ -14,4 +14,4 @@ class OutgoingMessage
 
     /**
      * IncomingMessage constructor.
-     */
+     * @param string $message
