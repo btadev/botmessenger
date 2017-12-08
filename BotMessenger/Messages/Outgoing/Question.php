@@ -61,4 +61,4 @@ class Question implements JsonSerializable, WebAccess
      */
     public function callbackId($callback_id)
     {
-        }
+        $this->callback_id = $callback_id;
