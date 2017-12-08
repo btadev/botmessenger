@@ -12,4 +12,4 @@ class OutgoingMessage
     /** @var \ChienIT\BotMessenger\Messages\Attachments\Attachment */
     protected $attachment;
 
-            'text' => $this->text,
+    /**
