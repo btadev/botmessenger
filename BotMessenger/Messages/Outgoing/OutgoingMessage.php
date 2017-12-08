@@ -50,3 +50,5 @@ class OutgoingMessage
      */
     public function withAttachment(Attachment $attachment)
     {
+        $this->attachment = $attachment;
+     * Call matching message callbacks.
