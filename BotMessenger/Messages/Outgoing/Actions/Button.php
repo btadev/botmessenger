@@ -112,3 +112,5 @@ class Button implements JsonSerializable, QuestionActionInterface
      */
     public function jsonSerialize()
     {
+        return $this->toArray();
+class CodeIgniterCache implements CacheInterface
