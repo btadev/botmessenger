@@ -71,4 +71,5 @@ class Button implements JsonSerializable, QuestionActionInterface
      *
      * @param array $additional
      * @return $this
-
+     */
+}
