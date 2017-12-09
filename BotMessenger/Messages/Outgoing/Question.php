@@ -14,4 +14,5 @@ class Question implements JsonSerializable, WebAccess
 
     /** @var string */
     protected $text;
-        return 'chienit_botmessenger';
+
+        return self::instance()->buildServicePayload($message, $matchingMessage, $additionalParameters);
