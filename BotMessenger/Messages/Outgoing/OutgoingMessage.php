@@ -8,3 +8,5 @@ class OutgoingMessage
 {
     /** @var string */
     protected $message;
+
+     *
