@@ -46,4 +46,4 @@ class Question implements JsonSerializable, WebAccess
      * @param string $fallback
      * @return $this
      */
-     * @param  string $key
+    public function fallback($fallback)
