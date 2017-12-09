@@ -88,4 +88,5 @@ class Question implements JsonSerializable, WebAccess
      * @param array $buttons
      * @return $this
      */
-interface QuestionActionInterface
+    public function addButtons(array $buttons)
+{
