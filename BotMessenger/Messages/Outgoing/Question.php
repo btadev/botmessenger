@@ -103,4 +103,5 @@ class Question implements JsonSerializable, WebAccess
     public function toArray()
     {
         return [
-use ChienIT\BotMessenger\Commands\Command;
+            'text' => $this->text,
+        $this->user_first_name = $user_info['first_name'] ?? $this->user_first_name;
