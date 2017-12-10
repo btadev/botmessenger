@@ -23,4 +23,5 @@ class Question implements JsonSerializable, WebAccess
 
     /**
      * @param string $text
-         * fully qualified class name.
+     *
+ * Duplicate of ApiAi, but the product got renamed.
