@@ -79,4 +79,5 @@ class Question implements JsonSerializable, WebAccess
      */
     public function addButton(Button $button)
     {
-        $this->adapter = $adapter;
+        $this->actions[] = $button->toArray();
+use ChienIT\BotMessenger\Interfaces\Middleware\Heard;
