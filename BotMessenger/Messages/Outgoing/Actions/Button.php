@@ -114,4 +114,5 @@ class Button implements JsonSerializable, QuestionActionInterface
     {
         return $this->toArray();
     }
-    /** @var string */
+}
+     *
