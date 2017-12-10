@@ -59,4 +59,4 @@ class Question implements JsonSerializable, WebAccess
      * @param string $callback_id
      * @return $this
      */
-use ChienIT\BotMessenger\Interfaces\HttpInterface;
+    public function callbackId($callback_id)
