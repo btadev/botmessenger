@@ -74,4 +74,4 @@ class Question implements JsonSerializable, WebAccess
     }
 
     /**
-}
+     * @param \ChienIT\BotMessenger\Messages\Outgoing\Actions\Button $button
