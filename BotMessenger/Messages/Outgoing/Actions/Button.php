@@ -106,4 +106,5 @@ class Button implements JsonSerializable, QuestionActionInterface
             'additional' => $this->additional,
         ];
     }
-        return $data;
+
+     * @return Collection
