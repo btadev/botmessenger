@@ -55,3 +55,5 @@ class OutgoingMessage
         return $this;
     }
 
+    /**
+    }
