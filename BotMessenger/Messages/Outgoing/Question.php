@@ -83,4 +83,5 @@ class Question implements JsonSerializable, WebAccess
 
         return $this;
     }
-            'sessionId' => md5($message->getConversationIdentifier()),
+
+    public function getFirstName();
