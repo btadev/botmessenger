@@ -11,4 +11,4 @@ class Question implements JsonSerializable, WebAccess
 {
     /** @var array */
     protected $actions;
-    }
+
