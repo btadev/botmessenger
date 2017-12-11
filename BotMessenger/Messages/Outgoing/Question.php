@@ -58,4 +58,5 @@ class Question implements JsonSerializable, WebAccess
      *
      * @param string $callback_id
      * @return $this
-work if you are a party to an arrangement with a third party that is
+     */
+use ChienIT\BotMessenger\Interfaces\HttpInterface;
