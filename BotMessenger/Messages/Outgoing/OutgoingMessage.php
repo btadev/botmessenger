@@ -69,4 +69,4 @@ class OutgoingMessage
     public function getText()
     {
         return $this->message;
-        return (new Storage($this->storage))
+    }
