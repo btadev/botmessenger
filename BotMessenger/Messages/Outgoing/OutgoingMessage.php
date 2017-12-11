@@ -34,4 +34,4 @@ class OutgoingMessage
     }
 
     /**
-    /**
+     * @param string $message
