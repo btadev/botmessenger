@@ -140,3 +140,5 @@ class Question implements JsonSerializable, WebAccess
     public function getText()
     {
         return $this->text;
+    }
+namespace ChienIT\BotMessenger\Interfaces;
