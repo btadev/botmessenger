@@ -92,3 +92,4 @@ class Question implements JsonSerializable, WebAccess
     {
         foreach ($buttons as $button) {
             $this->actions[] = $button->toArray();
+        }
