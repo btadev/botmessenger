@@ -40,4 +40,4 @@ class OutgoingMessage
     public function text($message)
     {
         $this->message = $message;
-    public function addButton(Button $button)
+
