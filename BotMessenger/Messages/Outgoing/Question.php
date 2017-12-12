@@ -84,4 +84,5 @@ class Question implements JsonSerializable, WebAccess
         return $this;
     }
 
-    public function getFirstName();
+    /**
+    /** @var Received[] */
