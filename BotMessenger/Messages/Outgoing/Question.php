@@ -27,4 +27,4 @@ class Question implements JsonSerializable, WebAccess
      * @return static
      */
     public static function create($text)
-        if (isset($attributes['recipient'])) {
+    {
