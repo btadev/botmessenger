@@ -37,4 +37,5 @@ class OutgoingMessage
      * @param string $message
      * @return $this
      */
-    /** @var string */
+    public function text($message)
+{
