@@ -52,3 +52,5 @@ class OutgoingMessage
     {
         $this->attachment = $attachment;
 
+        return $this;
+    }
