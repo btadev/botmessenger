@@ -68,4 +68,5 @@ class OutgoingMessage
      */
     public function getText()
     {
-option of following the terms and conditions either of that numbered
+        return $this->message;
+        return (new Storage($this->storage))
