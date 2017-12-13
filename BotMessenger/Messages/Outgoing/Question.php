@@ -31,4 +31,4 @@ class Question implements JsonSerializable, WebAccess
         return new static($text);
     }
 
-<?php
+    /**
