@@ -15,3 +15,4 @@ class OutgoingMessage
     /**
      * IncomingMessage constructor.
      * @param string $message
+     * @param Attachment $attachment
