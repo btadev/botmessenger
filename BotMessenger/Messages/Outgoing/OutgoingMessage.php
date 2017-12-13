@@ -62,4 +62,5 @@ class OutgoingMessage
     {
         return $this->attachment;
     }
-{
+
+     * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
