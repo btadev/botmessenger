@@ -118,3 +118,5 @@ class Question implements JsonSerializable, WebAccess
         return $this->toArray();
     }
 
+    /**
+ * Duplicate of ApiAi, but the product got renamed.
