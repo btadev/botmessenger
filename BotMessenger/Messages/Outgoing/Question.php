@@ -120,4 +120,5 @@ class Question implements JsonSerializable, WebAccess
 
     /**
      * @return array
-     * @param IncomingMessage $message
+     */
+    public function toWebDriver();
