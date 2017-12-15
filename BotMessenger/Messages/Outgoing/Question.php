@@ -141,4 +141,5 @@ class Question implements JsonSerializable, WebAccess
     {
         return $this->text;
     }
-namespace ChienIT\BotMessenger\Interfaces;
+
+    protected $latitude;
