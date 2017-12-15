@@ -158,4 +158,5 @@ class Question implements JsonSerializable, WebAccess
             'actions' => $this->actions,
         ];
     }
-     * @return mixed
+}
+use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
