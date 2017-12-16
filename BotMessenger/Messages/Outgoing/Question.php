@@ -24,4 +24,5 @@ class Question implements JsonSerializable, WebAccess
     /**
      * @param string $text
      *
- * Duplicate of ApiAi, but the product got renamed.
+     * @return static
+                    array_filter(
