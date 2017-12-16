@@ -38,4 +38,5 @@ class Question implements JsonSerializable, WebAccess
     {
         $this->text = $text;
         $this->actions = [];
-use ChienIT\BotMessenger\Interfaces\DriverInterface;
+    }
+        } else {
