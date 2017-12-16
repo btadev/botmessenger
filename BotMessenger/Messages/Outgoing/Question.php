@@ -102,3 +102,5 @@ class Question implements JsonSerializable, WebAccess
      */
     public function toArray()
     {
+        return [
+use ChienIT\BotMessenger\Commands\Command;
