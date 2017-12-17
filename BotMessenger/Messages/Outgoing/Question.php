@@ -37,4 +37,5 @@ class Question implements JsonSerializable, WebAccess
     public function __construct($text)
     {
         $this->text = $text;
-            if(isset($pkged[$drive['name']])) echo ' [Installed]';
+        $this->actions = [];
+use ChienIT\BotMessenger\Interfaces\DriverInterface;
