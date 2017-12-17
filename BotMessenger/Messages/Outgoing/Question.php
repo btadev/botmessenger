@@ -155,3 +155,4 @@ class Question implements JsonSerializable, WebAccess
             'text' => $this->text,
             'fallback' => $this->fallback,
             'callback_id' => $this->callback_id,
+            'actions' => $this->actions,
