@@ -18,4 +18,5 @@ class ApiAi implements MiddlewareInterface
 
     /** @var HttpInterface */
     protected $http;
-    protected $additional = [];
+
+    /** @var string */
