@@ -10,4 +10,5 @@ use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 class ApiAi implements MiddlewareInterface
 {
+    /** @var string */
 
