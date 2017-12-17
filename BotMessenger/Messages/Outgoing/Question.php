@@ -70,4 +70,5 @@ class Question implements JsonSerializable, WebAccess
     {
         $this->actions[] = $action->toArray();
 
-{
+        return $this;
+<?php
