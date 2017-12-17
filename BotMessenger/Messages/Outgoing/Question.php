@@ -78,4 +78,5 @@ class Question implements JsonSerializable, WebAccess
      * @return $this
      */
     public function addButton(Button $button)
-
+    {
+        $this->adapter = $adapter;
