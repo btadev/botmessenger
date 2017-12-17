@@ -39,4 +39,4 @@ class Question implements JsonSerializable, WebAccess
         $this->text = $text;
         $this->actions = [];
     }
-        } else {
+
