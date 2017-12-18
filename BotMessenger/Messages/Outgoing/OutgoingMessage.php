@@ -66,3 +66,5 @@ class OutgoingMessage
     /**
      * @return string
      */
+    public function getText()
+     * @param StorageInterface $storageDriver
