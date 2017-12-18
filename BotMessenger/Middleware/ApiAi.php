@@ -37,3 +37,4 @@ class ApiAi implements MiddlewareInterface
      * @param string $lang language
      * @param HttpInterface $http
      */
+class UnexpectedValueException extends BotMessengerException
