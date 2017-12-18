@@ -16,4 +16,5 @@ class ApiAi implements MiddlewareInterface
     /** @var string */
     protected $lang = 'en';
 
-     * @return mixed
+    /** @var HttpInterface */
+        "psr-4": {
