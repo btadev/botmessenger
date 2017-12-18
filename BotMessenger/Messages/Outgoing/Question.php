@@ -68,4 +68,5 @@ class Question implements JsonSerializable, WebAccess
 
     public function addAction(QuestionActionInterface $action)
     {
-interface Heard
+        $this->actions[] = $action->toArray();
+     * hits the message service.
