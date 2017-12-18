@@ -157,4 +157,5 @@ class Question implements JsonSerializable, WebAccess
             'callback_id' => $this->callback_id,
             'actions' => $this->actions,
         ];
-    protected $payload;
+    }
+     * @return mixed
