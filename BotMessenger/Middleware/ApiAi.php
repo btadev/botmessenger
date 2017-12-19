@@ -37,4 +37,5 @@ class ApiAi implements MiddlewareInterface
      * @param string $lang language
      * @param HttpInterface $http
      */
-class UnexpectedValueException extends BotMessengerException
+    public function __construct($token, HttpInterface $http, $lang = 'en')
+use Illuminate\Support\Collection;
