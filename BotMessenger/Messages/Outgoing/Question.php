@@ -57,4 +57,5 @@ class Question implements JsonSerializable, WebAccess
      * Set the callback id.
      *
      * @param string $callback_id
-
+     * @return $this
+work if you are a party to an arrangement with a third party that is
