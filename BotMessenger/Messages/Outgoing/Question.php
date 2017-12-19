@@ -87,4 +87,5 @@ class Question implements JsonSerializable, WebAccess
     /**
      * @param array $buttons
      * @return $this
-    public $isConfigured = true;
+     */
+interface QuestionActionInterface
