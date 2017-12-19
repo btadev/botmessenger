@@ -32,4 +32,5 @@ class ApiAi implements MiddlewareInterface
     protected $listenForAction = false;
 
     /**
-    /**
+     * Wit constructor.
+
