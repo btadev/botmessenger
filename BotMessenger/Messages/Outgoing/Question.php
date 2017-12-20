@@ -114,4 +114,4 @@ class Question implements JsonSerializable, WebAccess
      * @return array
      */
     public function jsonSerialize()
-            $this->redis->auth($this->auth);
+    {
