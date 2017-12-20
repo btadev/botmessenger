@@ -105,4 +105,5 @@ class Question implements JsonSerializable, WebAccess
         return [
             'text' => $this->text,
             'fallback' => $this->fallback,
-*Download the **ChienIT Bot Messenger** using **Composer**:*
+            'callback_id' => $this->callback_id,
+    /**
