@@ -106,4 +106,5 @@ class Question implements JsonSerializable, WebAccess
             'text' => $this->text,
             'fallback' => $this->fallback,
             'callback_id' => $this->callback_id,
-    /**
+            'actions' => $this->actions,
+  - <a href="https://www.wechat.com"><img src="https://res.wx.qq.com/a/wx_fed/wechat_portal/res/static/img/3wOU-7F.ico" width="32px"/></a> **WeChat**
