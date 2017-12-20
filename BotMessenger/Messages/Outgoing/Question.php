@@ -135,4 +135,5 @@ class Question implements JsonSerializable, WebAccess
     }
 
     /**
-<?php
+     * @return string
+
