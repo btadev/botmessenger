@@ -25,4 +25,4 @@ class Question implements JsonSerializable, WebAccess
      * @param string $text
      *
      * @return static
-                    array_filter(
+     */
