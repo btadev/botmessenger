@@ -77,4 +77,5 @@ class Question implements JsonSerializable, WebAccess
      * @param \ChienIT\BotMessenger\Messages\Outgoing\Actions\Button $button
      * @return $this
      */
-use ChienIT\BotMessenger\Interfaces\Middleware\Heard;
+    public function addButton(Button $button)
+
