@@ -83,4 +83,4 @@ class ApiAi implements MiddlewareInterface
             'Content-Type: application/json; charset=utf-8',
         ], true);
 
-}
+        $this->response = json_decode($response->getContent());
