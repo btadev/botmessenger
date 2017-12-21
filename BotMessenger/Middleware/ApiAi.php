@@ -44,3 +44,5 @@ class ApiAi implements MiddlewareInterface
         $this->http = $http;
     }
 
+    /**
+
