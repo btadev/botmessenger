@@ -40,3 +40,5 @@ class ApiAi implements MiddlewareInterface
     public function __construct($token, HttpInterface $http, $lang = 'en')
     {
         $this->token = $token;
+        $this->lang = $lang;
+     * @return mixed
