@@ -15,4 +15,4 @@ class Question implements JsonSerializable, WebAccess
     /** @var string */
     protected $text;
 
-        return self::instance()->buildServicePayload($message, $matchingMessage, $additionalParameters);
+    /** @var string */
