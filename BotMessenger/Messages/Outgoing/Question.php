@@ -42,3 +42,5 @@ class Question implements JsonSerializable, WebAccess
 
     /**
      * Set the question fallback value.
+     *
+     * Save an item in the storage with a specific key and data.
