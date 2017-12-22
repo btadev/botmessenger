@@ -81,4 +81,5 @@ class Question implements JsonSerializable, WebAccess
     {
         $this->actions[] = $button->toArray();
 
-namespace ChienIT\BotMessenger\Messages\Attachments;
+        return $this;
+        }
