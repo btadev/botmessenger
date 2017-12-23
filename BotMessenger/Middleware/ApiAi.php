@@ -59,4 +59,5 @@ class ApiAi implements MiddlewareInterface
      * Restrict the middleware to only listen for API.ai actions.
      * @param  bool $listen
      * @return $this
-     * @return Storage
+     */
+class DriverException extends BotMessengerException
