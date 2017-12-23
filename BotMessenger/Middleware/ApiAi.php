@@ -67,3 +67,5 @@ class ApiAi implements MiddlewareInterface
         return $this;
     }
 
+    /**
+    protected $url;
