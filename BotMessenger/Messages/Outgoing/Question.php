@@ -85,4 +85,5 @@ class Question implements JsonSerializable, WebAccess
     }
 
     /**
-    /** @var Received[] */
+     * @param array $buttons
+     * @return string
