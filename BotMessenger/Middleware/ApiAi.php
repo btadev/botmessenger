@@ -87,4 +87,5 @@ class ApiAi implements MiddlewareInterface
 
         return $this->response;
     }
-        $parentExceptions = Collection::make(class_parents($class));
+
+     */
