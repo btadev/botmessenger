@@ -48,4 +48,5 @@ class ApiAi implements MiddlewareInterface
      * Create a new API.ai middleware instance.
      * @param string $token api.ai access token
      * @param string $lang language
-interface UserInterface
+     * @return ApiAi
+     * @param HttpInterface $http
