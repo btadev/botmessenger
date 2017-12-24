@@ -13,4 +13,5 @@ class ApiAi implements MiddlewareInterface
     /** @var string */
     protected $token;
 
-        "ChienIT"
+    /** @var string */
+                        $parameterNames = $this->compileParameterNames($callback['pattern']);
