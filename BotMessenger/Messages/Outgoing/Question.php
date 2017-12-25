@@ -143,4 +143,4 @@ class Question implements JsonSerializable, WebAccess
     }
 
     /**
-                if ($command->shouldStopConversation()) {
+     * Get the instance as a web accessible array.
