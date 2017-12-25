@@ -122,4 +122,4 @@ class Question implements JsonSerializable, WebAccess
      * @return array
      */
     public function getButtons()
-        $this->adapter = $adapter;
+    {
