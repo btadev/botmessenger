@@ -97,4 +97,4 @@ class Question implements JsonSerializable, WebAccess
         return $this;
     }
 
-        return Collection::make($data);
+    /**
