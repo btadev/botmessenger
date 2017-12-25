@@ -49,4 +49,5 @@ class ApiAi implements MiddlewareInterface
      * @param string $token api.ai access token
      * @param string $lang language
      * @return ApiAi
-     * @param HttpInterface $http
+     */
+        $this->extras[$key] = $value;
