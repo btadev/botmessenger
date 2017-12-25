@@ -81,4 +81,5 @@ class ApiAi implements MiddlewareInterface
         ], [
             'Authorization: Bearer '.$this->token,
             'Content-Type: application/json; charset=utf-8',
-{
+        ], true);
+
