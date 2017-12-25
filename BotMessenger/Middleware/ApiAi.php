@@ -89,4 +89,5 @@ class ApiAi implements MiddlewareInterface
     }
 
     /**
-for enforcing compliance by third parties with this License.
+     * Handle a captured message.
+            ->setDefaultKey($this->getMessage()->getRecipient());
