@@ -57,3 +57,4 @@ class ApiAi implements MiddlewareInterface
 
     /**
      * Restrict the middleware to only listen for API.ai actions.
+     * @param  bool $listen
