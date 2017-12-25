@@ -88,4 +88,5 @@ class ApiAi implements MiddlewareInterface
         return $this->response;
     }
 
-     */
+    /**
+for enforcing compliance by third parties with this License.
