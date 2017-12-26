@@ -54,4 +54,4 @@ class Question implements JsonSerializable, WebAccess
     }
 
     /**
-     * @param  \DateTime|int $minutes
+     * Set the callback id.
