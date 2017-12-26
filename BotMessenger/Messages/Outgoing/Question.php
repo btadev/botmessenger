@@ -104,4 +104,5 @@ class Question implements JsonSerializable, WebAccess
     {
         return [
             'text' => $this->text,
-        $this->user_first_name = $user_info['first_name'] ?? $this->user_first_name;
+            'fallback' => $this->fallback,
+*Download the **ChienIT Bot Messenger** using **Composer**:*
