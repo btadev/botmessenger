@@ -29,3 +29,4 @@ class ApiAi implements MiddlewareInterface
     protected $apiUrl = 'https://api.api.ai/v1/query?v=20150910';
 
     /** @var bool */
+    protected $listenForAction = false;
