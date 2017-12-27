@@ -95,4 +95,5 @@ class ApiAi implements MiddlewareInterface
      * @param BotMessenger $bot
      * @param $next
      *
-     * Return the event payload.
+     * @return mixed
+            $parameters[] = $message->getAudio();
