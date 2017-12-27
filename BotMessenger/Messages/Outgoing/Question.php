@@ -67,3 +67,5 @@ class Question implements JsonSerializable, WebAccess
     }
 
     public function addAction(QuestionActionInterface $action)
+    {
+interface Heard
