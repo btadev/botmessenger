@@ -154,4 +154,4 @@ class Question implements JsonSerializable, WebAccess
             'type' => (count($this->actions) > 0) ? 'actions' : 'text',
             'text' => $this->text,
             'fallback' => $this->fallback,
-{
+            'callback_id' => $this->callback_id,
