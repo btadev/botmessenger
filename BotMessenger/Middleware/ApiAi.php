@@ -45,4 +45,5 @@ class ApiAi implements MiddlewareInterface
     }
 
     /**
-
+     * Create a new API.ai middleware instance.
+ * Example to set it up in a unit test:
