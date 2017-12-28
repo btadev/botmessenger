@@ -115,4 +115,5 @@ class ApiAi implements MiddlewareInterface
     {
         $response = $this->getResponse($message);
 
-     * @return Video
+        $reply = isset($response->result->fulfillment->speech) ? $response->result->fulfillment->speech : '';
+namespace ChienIT\BotMessenger\Cache;
