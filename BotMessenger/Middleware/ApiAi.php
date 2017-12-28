@@ -114,4 +114,5 @@ class ApiAi implements MiddlewareInterface
     public function received(IncomingMessage $message, $next, BotMessenger $bot)
     {
         $response = $this->getResponse($message);
-{
+
+     * @return Video
