@@ -50,4 +50,5 @@ class ApiAi implements MiddlewareInterface
      * @param string $lang language
      * @return ApiAi
      */
-        $this->extras[$key] = $value;
+    public static function create($token, $lang = 'en')
+
