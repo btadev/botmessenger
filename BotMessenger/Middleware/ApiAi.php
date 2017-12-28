@@ -150,4 +150,4 @@ class ApiAi implements MiddlewareInterface
     /**
      * Handle a message that was successfully heard, but not processed yet.
      *
-    public function getUser(IncomingMessage $matchingMessage);
+     * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
