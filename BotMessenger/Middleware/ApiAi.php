@@ -77,4 +77,4 @@ class ApiAi implements MiddlewareInterface
         $response = $this->http->post($this->apiUrl, [], [
             'query' => [$message->getText()],
             'sessionId' => md5($message->getConversationIdentifier()),
-     * @return string
+            'lang' => $this->lang,
