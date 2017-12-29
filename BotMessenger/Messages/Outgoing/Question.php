@@ -82,4 +82,5 @@ class Question implements JsonSerializable, WebAccess
         $this->actions[] = $button->toArray();
 
         return $this;
-        }
+    }
+            'sessionId' => md5($message->getConversationIdentifier()),
