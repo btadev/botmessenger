@@ -111,4 +111,5 @@ class ApiAi implements MiddlewareInterface
      *
      * @return mixed
      */
-class DriverAttachmentException extends DriverException
+    public function received(IncomingMessage $message, $next, BotMessenger $bot)
+    {
