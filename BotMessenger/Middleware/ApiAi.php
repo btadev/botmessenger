@@ -137,4 +137,5 @@ class ApiAi implements MiddlewareInterface
      * @return bool
      */
     public function matching(IncomingMessage $message, $pattern, $regexMatched)
+    {
 
