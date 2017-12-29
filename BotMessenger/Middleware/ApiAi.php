@@ -38,4 +38,5 @@ class ApiAi implements MiddlewareInterface
      * @param HttpInterface $http
      */
     public function __construct($token, HttpInterface $http, $lang = 'en')
-use Illuminate\Support\Collection;
+    {
+    {
