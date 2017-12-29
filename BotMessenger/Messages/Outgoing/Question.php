@@ -121,4 +121,5 @@ class Question implements JsonSerializable, WebAccess
     /**
      * @return array
      */
-    public function toWebDriver();
+    public function getButtons()
+        $this->adapter = $adapter;
