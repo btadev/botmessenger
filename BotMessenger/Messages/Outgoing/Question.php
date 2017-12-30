@@ -119,4 +119,5 @@ class Question implements JsonSerializable, WebAccess
     }
 
     /**
- * Duplicate of ApiAi, but the product got renamed.
+     * @return array
+     * @param IncomingMessage $message
