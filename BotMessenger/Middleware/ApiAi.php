@@ -43,4 +43,4 @@ class ApiAi implements MiddlewareInterface
         $this->lang = $lang;
         $this->http = $http;
     }
-    /**
+
