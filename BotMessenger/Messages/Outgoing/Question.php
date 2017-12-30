@@ -128,4 +128,5 @@ class Question implements JsonSerializable, WebAccess
 
     /**
      * @return array
-namespace ChienIT\BotMessenger\Cache;
+     */
+     * Attachment constructor.
