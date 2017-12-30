@@ -73,3 +73,5 @@ class ApiAi implements MiddlewareInterface
      * @return stdClass
      */
     protected function getResponse(IncomingMessage $message)
+    {
+}
