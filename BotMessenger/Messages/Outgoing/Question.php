@@ -138,4 +138,5 @@ class Question implements JsonSerializable, WebAccess
      * @return string
      */
     public function getText()
-     * @return string
+    {
+
