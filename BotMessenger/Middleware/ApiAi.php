@@ -128,4 +128,5 @@ class ApiAi implements MiddlewareInterface
         $message->addExtras('apiParameters', $parameters);
 
         return $next($message);
-     */
+    }
+        return Answer::create('')->setMessage($message);
