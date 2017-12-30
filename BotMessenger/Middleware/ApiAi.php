@@ -167,4 +167,5 @@ class ApiAi implements MiddlewareInterface
      *
      * @param mixed $payload
      * @param BotMessenger $bot
-<?php
+     * @param $next
+{
