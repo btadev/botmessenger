@@ -102,3 +102,4 @@ class ApiAi implements MiddlewareInterface
         return $next($message);
     }
 
+    /**
