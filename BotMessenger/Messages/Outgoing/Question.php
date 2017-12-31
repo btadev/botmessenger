@@ -142,4 +142,5 @@ class Question implements JsonSerializable, WebAccess
         return $this->text;
     }
 
-    protected $latitude;
+    /**
+                if ($command->shouldStopConversation()) {
