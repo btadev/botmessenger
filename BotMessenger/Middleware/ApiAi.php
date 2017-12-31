@@ -25,4 +25,5 @@ class ApiAi implements MiddlewareInterface
     /** @var string */
     protected $lastResponseHash;
 
-    /**
+    /** @var string */
+
