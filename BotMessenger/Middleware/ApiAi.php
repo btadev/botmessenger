@@ -62,3 +62,5 @@ class ApiAi implements MiddlewareInterface
      */
     public function listenForAction($listen = true)
     {
+        $this->listenForAction = $listen;
+    {
