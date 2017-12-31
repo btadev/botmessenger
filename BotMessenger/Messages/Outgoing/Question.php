@@ -124,3 +124,5 @@ class Question implements JsonSerializable, WebAccess
     public function getButtons()
     {
         return $this->actions;
+    }
+
