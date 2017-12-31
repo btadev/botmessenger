@@ -41,4 +41,5 @@ class ApiAi implements MiddlewareInterface
     {
         $this->token = $token;
         $this->lang = $lang;
-     * @return mixed
+        $this->http = $http;
+     * @return $this
