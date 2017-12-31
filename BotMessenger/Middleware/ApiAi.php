@@ -159,4 +159,5 @@ class ApiAi implements MiddlewareInterface
     public function heard(IncomingMessage $message, $next, BotMessenger $bot)
     {
         return $next($message);
-    /**
+    }
+     * @return mixed
