@@ -151,4 +151,5 @@ class Question implements JsonSerializable, WebAccess
     public function toWebDriver()
     {
         return [
-
+            'type' => (count($this->actions) > 0) ? 'actions' : 'text',
+     *
