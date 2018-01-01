@@ -33,4 +33,4 @@ class ApiAi implements MiddlewareInterface
 
     /**
      * Wit constructor.
-
+     * @param string $token api.ai access token
