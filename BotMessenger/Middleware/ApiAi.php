@@ -90,4 +90,4 @@ class ApiAi implements MiddlewareInterface
 
     /**
      * Handle a captured message.
-            ->setDefaultKey($this->getMessage()->getRecipient());
+     *
