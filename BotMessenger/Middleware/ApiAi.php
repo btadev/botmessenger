@@ -121,4 +121,5 @@ class ApiAi implements MiddlewareInterface
         $intent = isset($response->result->metadata->intentName) ? $response->result->metadata->intentName : '';
         $parameters = isset($response->result->parameters) ? (array) $response->result->parameters : [];
 
-}
+        $message->addExtras('apiReply', $reply);
+            'type' => (count($this->actions) > 0) ? 'actions' : 'text',
