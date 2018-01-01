@@ -60,4 +60,5 @@ class ApiAi implements MiddlewareInterface
      * @param  bool $listen
      * @return $this
      */
-class DriverException extends BotMessengerException
+    public function listenForAction($listen = true)
+{
