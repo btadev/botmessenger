@@ -135,3 +135,4 @@ class ApiAi implements MiddlewareInterface
      * @param string $pattern
      * @param bool $regexMatched Indicator if the regular expression was matched too
      * @return bool
+     */
