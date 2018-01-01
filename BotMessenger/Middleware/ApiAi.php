@@ -153,3 +153,5 @@ class ApiAi implements MiddlewareInterface
      * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
      * @param BotMessenger $bot
      * @param $next
+     *
+    public static function extend($methodName, $callable)
