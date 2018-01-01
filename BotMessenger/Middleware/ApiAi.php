@@ -125,4 +125,5 @@ class ApiAi implements MiddlewareInterface
         $message->addExtras('apiAction', $action);
         $message->addExtras('apiActionIncomplete', $actionIncomplete);
         $message->addExtras('apiIntent', $intent);
-{
+        $message->addExtras('apiParameters', $parameters);
+
