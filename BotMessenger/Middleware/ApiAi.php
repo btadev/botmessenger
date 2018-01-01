@@ -9,4 +9,5 @@ use ChienIT\BotMessenger\Interfaces\MiddlewareInterface;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 class ApiAi implements MiddlewareInterface
-     * @param IncomingMessage $message
+{
+
