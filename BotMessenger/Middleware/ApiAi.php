@@ -79,4 +79,5 @@ class ApiAi implements MiddlewareInterface
             'sessionId' => md5($message->getConversationIdentifier()),
             'lang' => $this->lang,
         ], [
-        }
+            'Authorization: Bearer '.$this->token,
+use ChienIT\BotMessenger\BotMessenger;
