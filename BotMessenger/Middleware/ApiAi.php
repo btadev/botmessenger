@@ -14,4 +14,5 @@ class ApiAi implements MiddlewareInterface
     protected $token;
 
     /** @var string */
-                        $parameterNames = $this->compileParameterNames($callback['pattern']);
+    protected $lang = 'en';
+
