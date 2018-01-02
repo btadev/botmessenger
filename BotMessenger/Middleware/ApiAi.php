@@ -63,4 +63,5 @@ class ApiAi implements MiddlewareInterface
     public function listenForAction($listen = true)
     {
         $this->listenForAction = $listen;
-    {
+
+        } elseif ($messageText === File::PATTERN) {
