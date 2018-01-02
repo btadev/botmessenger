@@ -148,4 +148,5 @@ class ApiAi implements MiddlewareInterface
     }
 
     /**
-     */
+     * Handle a message that was successfully heard, but not processed yet.
+     * @return FakeDriver
