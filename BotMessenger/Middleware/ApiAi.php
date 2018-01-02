@@ -46,4 +46,5 @@ class ApiAi implements MiddlewareInterface
 
     /**
      * Create a new API.ai middleware instance.
- * Example to set it up in a unit test:
+     * @param string $token api.ai access token
+[![Latest Stable Version](https://poser.pugx.org/chiendevit/botmessenger/v/stable)](https://packagist.org/packages/chiendevit/botmessenger)
