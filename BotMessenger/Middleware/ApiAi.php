@@ -110,4 +110,5 @@ class ApiAi implements MiddlewareInterface
      * @param $next
      *
      * @return mixed
-     * @param BotMessenger $bot
+     */
+class DriverAttachmentException extends DriverException
