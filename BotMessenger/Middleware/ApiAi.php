@@ -129,4 +129,5 @@ class ApiAi implements MiddlewareInterface
 
         return $next($message);
     }
-        return Answer::create('')->setMessage($message);
+
+     */
