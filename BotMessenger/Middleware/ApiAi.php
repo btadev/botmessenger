@@ -132,4 +132,4 @@ class ApiAi implements MiddlewareInterface
 
     /**
      * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
-
+     * @param string $pattern
