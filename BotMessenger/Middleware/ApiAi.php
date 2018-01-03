@@ -51,4 +51,5 @@ class ApiAi implements MiddlewareInterface
      * @return ApiAi
      */
     public static function create($token, $lang = 'en')
-
+    {
+     */
