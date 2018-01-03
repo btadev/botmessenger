@@ -117,4 +117,5 @@ class ApiAi implements MiddlewareInterface
 
         $reply = isset($response->result->fulfillment->speech) ? $response->result->fulfillment->speech : '';
         $action = isset($response->result->action) ? $response->result->action : '';
-     * @param string $pattern
+        $actionIncomplete = isset($response->result->actionIncomplete) ? (bool) $response->result->actionIncomplete : false;
+<?php
