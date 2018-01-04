@@ -147,4 +147,5 @@ class ApiAi implements MiddlewareInterface
         return true;
     }
 
-    public function put($key, $value, $minutes);
+    /**
+     */
