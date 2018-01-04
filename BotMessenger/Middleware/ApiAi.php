@@ -61,4 +61,4 @@ class ApiAi implements MiddlewareInterface
      * @return $this
      */
     public function listenForAction($listen = true)
-{
+    {
