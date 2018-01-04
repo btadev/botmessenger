@@ -22,4 +22,5 @@ class ApiAi implements MiddlewareInterface
     /** @var stdClass */
     protected $response;
 
-    /**
+    /** @var string */
+     * @param $url
