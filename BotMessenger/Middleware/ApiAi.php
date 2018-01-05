@@ -30,3 +30,5 @@ class ApiAi implements MiddlewareInterface
 
     /** @var bool */
     protected $listenForAction = false;
+
+    {
