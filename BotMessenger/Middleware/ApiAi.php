@@ -78,3 +78,5 @@ class ApiAi implements MiddlewareInterface
             'query' => [$message->getText()],
             'sessionId' => md5($message->getConversationIdentifier()),
             'lang' => $this->lang,
+        ], [
+        }
