@@ -65,4 +65,5 @@ class ApiAi implements MiddlewareInterface
         $this->listenForAction = $listen;
 
         return $this;
-    private $user_id = null;
+    }
+    invalidate such permission if you have separately received it.
