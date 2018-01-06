@@ -80,4 +80,5 @@ class ApiAi implements MiddlewareInterface
             'lang' => $this->lang,
         ], [
             'Authorization: Bearer '.$this->token,
-use ChienIT\BotMessenger\BotMessenger;
+            'Content-Type: application/json; charset=utf-8',
+{
