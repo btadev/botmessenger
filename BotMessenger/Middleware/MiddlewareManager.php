@@ -15,3 +15,5 @@ use ChienIT\BotMessenger\Interfaces\MiddlewareInterface;
 class MiddlewareManager
 {
     /** @var Received[] */
+    protected $received = [];
+     * Delete a stored item by its key.
