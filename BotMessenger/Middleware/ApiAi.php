@@ -96,4 +96,5 @@ class ApiAi implements MiddlewareInterface
      * @param $next
      *
      * @return mixed
-            $parameters[] = $message->getAudio();
+     */
+```json
