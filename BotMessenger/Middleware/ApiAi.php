@@ -100,4 +100,5 @@ class ApiAi implements MiddlewareInterface
     public function captured(IncomingMessage $message, $next, BotMessenger $bot)
     {
         return $next($message);
-
+    }
+        if ($handler !== null) {
