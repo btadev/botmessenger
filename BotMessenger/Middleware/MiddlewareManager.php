@@ -44,4 +44,5 @@ class MiddlewareManager
         $this->received = array_merge($this->received, $middleware);
 
         return $this;
-     * @param array $additionalParameters
+    }
+    {
