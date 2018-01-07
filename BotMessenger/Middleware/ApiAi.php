@@ -103,3 +103,4 @@ class ApiAi implements MiddlewareInterface
     }
 
     /**
+     * Handle an incoming message.
