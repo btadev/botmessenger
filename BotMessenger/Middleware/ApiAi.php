@@ -72,3 +72,4 @@ class ApiAi implements MiddlewareInterface
      * @param  \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
      * @return stdClass
      */
+    protected function getResponse(IncomingMessage $message)
