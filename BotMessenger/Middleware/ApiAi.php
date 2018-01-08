@@ -52,4 +52,5 @@ class ApiAi implements MiddlewareInterface
      */
     public static function create($token, $lang = 'en')
     {
-     */
+        return new static($token, new Curl(), $lang);
+class RedisStorage implements StorageInterface
