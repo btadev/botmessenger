@@ -26,4 +26,4 @@ class MiddlewareManager
     protected $sending = [];
     /** @var BotMessenger */
     protected $chienit_botmessenger;
-        $value = $this->driver->fetch($key);
+
