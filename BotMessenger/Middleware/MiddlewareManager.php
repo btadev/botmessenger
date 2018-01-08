@@ -67,4 +67,5 @@ class MiddlewareManager
     public function matching(Matching ...$middleware)
     {
         if (empty($middleware)) {
-        }
+            return $this->matching;
+        foreach ($messages as $message) {
