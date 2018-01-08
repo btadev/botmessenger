@@ -154,4 +154,4 @@ class ApiAi implements MiddlewareInterface
      * @param BotMessenger $bot
      * @param $next
      *
-    public static function extend($methodName, $callable)
+     * @return mixed
