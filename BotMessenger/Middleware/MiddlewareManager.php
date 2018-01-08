@@ -27,3 +27,5 @@ class MiddlewareManager
     /** @var BotMessenger */
     protected $chienit_botmessenger;
 
+    public function __construct(BotMessenger $chienit_botmessenger)
+
