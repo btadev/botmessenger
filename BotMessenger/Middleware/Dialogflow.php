@@ -8,4 +8,3 @@ namespace ChienIT\BotMessenger\Middleware;
 class Dialogflow extends ApiAi
 {
 }
-}
