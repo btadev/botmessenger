@@ -131,4 +131,5 @@ class ApiAi implements MiddlewareInterface
     }
 
     /**
-    e) Declining to grant rights under trademark law for use of some
+     * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
+
