@@ -55,4 +55,5 @@ class ApiAi implements MiddlewareInterface
         return new static($token, new Curl(), $lang);
     }
 
-        $this->matches = [];
+    /**
+
