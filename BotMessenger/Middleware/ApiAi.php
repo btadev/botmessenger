@@ -91,3 +91,5 @@ class ApiAi implements MiddlewareInterface
     /**
      * Handle a captured message.
      *
+     * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
+
