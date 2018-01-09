@@ -59,4 +59,5 @@ class MiddlewareManager
 
         return $this;
     }
-        echo '1. Drive'.PHP_EOL;
+
+    {
