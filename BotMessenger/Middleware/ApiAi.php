@@ -74,4 +74,5 @@ class ApiAi implements MiddlewareInterface
      */
     protected function getResponse(IncomingMessage $message)
     {
-}
+        $response = $this->http->post($this->apiUrl, [], [
+namespace ChienIT\BotMessenger\Interfaces;
