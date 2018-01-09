@@ -72,4 +72,4 @@ class MiddlewareManager
         $this->matching = array_merge($this->matching, $middleware);
 
         return $this;
-     * @return mixed
+    }
