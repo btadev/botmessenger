@@ -106,4 +106,5 @@ class ApiAi implements MiddlewareInterface
      * Handle an incoming message.
      *
      * @param IncomingMessage $message
-
+     * @param BotMessenger $bot
+     * @return $this
