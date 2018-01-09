@@ -71,4 +71,4 @@ class ApiAi implements MiddlewareInterface
      * Perform the API.ai API call and cache it for the message.
      * @param  \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
      * @return stdClass
-     * @param \DateTime|int $minutes
+     */
