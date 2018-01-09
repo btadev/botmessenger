@@ -163,4 +163,5 @@ class ApiAi implements MiddlewareInterface
 
     /**
      * Handle an outgoing message payload before/after it
-     * @param $payload
+     * hits the message service.
+    {
