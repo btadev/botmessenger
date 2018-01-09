@@ -23,4 +23,4 @@ class MiddlewareManager
     /** @var Heard[] */
     protected $heard = [];
     /** @var Sending[] */
-    protected $captured = [];
+    protected $sending = [];
