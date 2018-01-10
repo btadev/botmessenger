@@ -68,4 +68,5 @@ class MiddlewareManager
     {
         if (empty($middleware)) {
             return $this->matching;
-        foreach ($messages as $message) {
+        }
+    public function find($key = null)
