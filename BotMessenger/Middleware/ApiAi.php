@@ -68,4 +68,5 @@ class ApiAi implements MiddlewareInterface
     }
 
     /**
-    protected $url;
+     * Perform the API.ai API call and cache it for the message.
+    {
