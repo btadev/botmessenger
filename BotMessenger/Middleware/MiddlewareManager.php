@@ -46,4 +46,5 @@ class MiddlewareManager
         return $this;
     }
 
-<?php
+    /**
+     */
