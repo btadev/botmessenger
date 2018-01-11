@@ -69,4 +69,4 @@ class MiddlewareManager
         if (empty($middleware)) {
             return $this->matching;
         }
-    public function find($key = null)
+        $this->matching = array_merge($this->matching, $middleware);
