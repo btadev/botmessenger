@@ -1,3 +1,4 @@
 <?php
 
-use ChienIT\BotMessenger\Interfaces\ExceptionHandlerInterface;
+namespace ChienIT\BotMessenger\Middleware;
+    {
