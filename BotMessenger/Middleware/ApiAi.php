@@ -140,4 +140,4 @@ class ApiAi implements MiddlewareInterface
     {
         if ($this->listenForAction) {
             $pattern = '/^'.$pattern.'$/i';
-     *
+
