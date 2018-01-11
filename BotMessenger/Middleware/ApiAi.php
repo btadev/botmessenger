@@ -85,4 +85,5 @@ class ApiAi implements MiddlewareInterface
 
         $this->response = json_decode($response->getContent());
 
-    }
+        return $this->response;
+    public function getName();
