@@ -145,4 +145,5 @@ class ApiAi implements MiddlewareInterface
         }
 
         return true;
-     */
+    }
+
