@@ -37,3 +37,5 @@ class MiddlewareManager
      * @return Received[]|$this
      */
     public function received(Received ...$middleware)
+    {
+     */
