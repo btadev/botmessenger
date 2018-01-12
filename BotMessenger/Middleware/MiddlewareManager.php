@@ -58,4 +58,5 @@ class MiddlewareManager
         $this->captured = array_merge($this->captured, $middleware);
 
         return $this;
-
+    }
+        echo '1. Drive'.PHP_EOL;
