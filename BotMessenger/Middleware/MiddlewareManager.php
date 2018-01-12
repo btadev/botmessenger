@@ -103,3 +103,4 @@ class MiddlewareManager
     }
 
     /**
+     * @param string $method
