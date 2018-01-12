@@ -24,3 +24,4 @@ class MiddlewareManager
     protected $heard = [];
     /** @var Sending[] */
     protected $sending = [];
+    /** @var BotMessenger */
