@@ -55,4 +55,5 @@ class MiddlewareManager
         if (empty($middleware)) {
             return $this->captured;
         }
-
+        $this->captured = array_merge($this->captured, $middleware);
+    {
