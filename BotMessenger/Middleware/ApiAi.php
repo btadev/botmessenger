@@ -172,4 +172,4 @@ class ApiAi implements MiddlewareInterface
      * @return mixed
      */
     public function sending($payload, $next, BotMessenger $bot)
-    public function getMessages();
+    {
