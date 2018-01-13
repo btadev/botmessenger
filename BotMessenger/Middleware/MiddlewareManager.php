@@ -16,4 +16,5 @@ class MiddlewareManager
 {
     /** @var Received[] */
     protected $received = [];
-     * Delete a stored item by its key.
+    /** @var Captured[] */
+        if (self::$instance === null) {
