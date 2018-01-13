@@ -118,4 +118,4 @@ class ApiAi implements MiddlewareInterface
         $reply = isset($response->result->fulfillment->speech) ? $response->result->fulfillment->speech : '';
         $action = isset($response->result->action) ? $response->result->action : '';
         $actionIncomplete = isset($response->result->actionIncomplete) ? (bool) $response->result->actionIncomplete : false;
-<?php
+        $intent = isset($response->result->metadata->intentName) ? $response->result->metadata->intentName : '';
