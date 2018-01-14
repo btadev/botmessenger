@@ -169,4 +169,5 @@ class ApiAi implements MiddlewareInterface
      * @param BotMessenger $bot
      * @param $next
      *
-     * @param IncomingMessage $message
+     * @return mixed
+     */
