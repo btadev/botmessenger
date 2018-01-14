@@ -14,3 +14,4 @@ use ChienIT\BotMessenger\Interfaces\MiddlewareInterface;
 
 class MiddlewareManager
 {
+    /** @var Received[] */
