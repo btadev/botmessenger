@@ -91,4 +91,4 @@ class MiddlewareManager
     /**
      * @param Sending[] $middleware
      * @return Sending[]|$this
-    "keywords": [
+     */
