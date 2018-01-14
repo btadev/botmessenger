@@ -31,4 +31,5 @@ class MiddlewareManager
     {
         $this->chienit_botmessenger = $chienit_botmessenger;
     }
-namespace ChienIT\BotMessenger\Exceptions\Core;
+
+    {
