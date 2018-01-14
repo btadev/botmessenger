@@ -116,4 +116,5 @@ class ApiAi implements MiddlewareInterface
         $response = $this->getResponse($message);
 
         $reply = isset($response->result->fulfillment->speech) ? $response->result->fulfillment->speech : '';
-namespace ChienIT\BotMessenger\Cache;
+        $action = isset($response->result->action) ? $response->result->action : '';
+     * @param string $pattern
