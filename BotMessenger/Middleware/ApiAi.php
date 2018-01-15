@@ -130,4 +130,5 @@ class ApiAi implements MiddlewareInterface
         return $next($message);
     }
 
-     */
+    /**
+    e) Declining to grant rights under trademark law for use of some
