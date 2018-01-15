@@ -66,4 +66,5 @@ class MiddlewareManager
      */
     public function matching(Matching ...$middleware)
     {
-    /**
+        if (empty($middleware)) {
+        }
