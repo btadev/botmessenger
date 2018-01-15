@@ -28,4 +28,4 @@ class MiddlewareManager
     protected $chienit_botmessenger;
 
     public function __construct(BotMessenger $chienit_botmessenger)
-
+    {
