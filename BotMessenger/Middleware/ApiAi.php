@@ -138,4 +138,5 @@ class ApiAi implements MiddlewareInterface
      */
     public function matching(IncomingMessage $message, $pattern, $regexMatched)
     {
+        if ($this->listenForAction) {
 
