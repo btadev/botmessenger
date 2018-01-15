@@ -98,4 +98,5 @@ class ApiAi implements MiddlewareInterface
      * @return mixed
      */
     public function captured(IncomingMessage $message, $next, BotMessenger $bot)
-namespace ChienIT\BotMessenger\Exceptions\Base;
+    {
+{
