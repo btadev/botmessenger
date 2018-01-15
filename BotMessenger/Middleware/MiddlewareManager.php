@@ -43,4 +43,5 @@ class MiddlewareManager
         }
         $this->received = array_merge($this->received, $middleware);
 
-    public function exception(string $exception, $closure)
+        return $this;
+     * @param array $additionalParameters
