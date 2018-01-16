@@ -95,4 +95,5 @@ class MiddlewareManager
     public function sending(Sending ...$middleware)
     {
         if (empty($middleware)) {
-use ChienIT\BotMessenger\Interfaces\Middleware\Matching;
+            return $this->sending;
+    /**
