@@ -75,3 +75,5 @@ class MiddlewareManager
     }
 
     /**
+     * @param Heard[] $middleware
+    {
