@@ -17,4 +17,5 @@ class MiddlewareManager
     /** @var Received[] */
     protected $received = [];
     /** @var Captured[] */
-        if (self::$instance === null) {
+    protected $captured = [];
+     * @return void
