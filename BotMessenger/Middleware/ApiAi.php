@@ -141,3 +141,4 @@ class ApiAi implements MiddlewareInterface
         if ($this->listenForAction) {
             $pattern = '/^'.$pattern.'$/i';
 
+            return (bool) preg_match($pattern, $message->getExtras()['apiAction']);
