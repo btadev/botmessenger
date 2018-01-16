@@ -38,4 +38,5 @@ class MiddlewareManager
      */
     public function received(Received ...$middleware)
     {
-     */
+        if (empty($middleware)) {
+
