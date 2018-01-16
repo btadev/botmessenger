@@ -106,3 +106,5 @@ class MiddlewareManager
      * @param string $method
      * @param mixed $payload
      * @param MiddlewareInterface[] $additionalMiddleware
+     * @param Closure|null $destination
+     * @param StorageInterface $driver
