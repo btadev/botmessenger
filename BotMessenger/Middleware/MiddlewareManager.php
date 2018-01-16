@@ -21,4 +21,4 @@ class MiddlewareManager
     /** @var Matching[] */
     protected $matching = [];
     /** @var Heard[] */
-        // No matching parent exception, throw the exception away
+    protected $heard = [];
