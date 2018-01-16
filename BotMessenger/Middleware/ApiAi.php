@@ -171,3 +171,4 @@ class ApiAi implements MiddlewareInterface
      *
      * @return mixed
      */
+     *
