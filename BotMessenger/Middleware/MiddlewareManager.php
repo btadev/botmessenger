@@ -48,4 +48,5 @@ class MiddlewareManager
 
     /**
      * @param Captured[] ...$middleware
-interface QuestionActionInterface
+     * @return Captured[]|$this
+     */
