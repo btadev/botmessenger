@@ -89,3 +89,5 @@ class MiddlewareManager
     }
 
     /**
+     * @param Sending[] $middleware
+                    $pattern,
