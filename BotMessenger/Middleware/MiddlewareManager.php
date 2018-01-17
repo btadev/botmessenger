@@ -19,3 +19,5 @@ class MiddlewareManager
     /** @var Captured[] */
     protected $captured = [];
     /** @var Matching[] */
+    protected $matching = [];
+    /**
