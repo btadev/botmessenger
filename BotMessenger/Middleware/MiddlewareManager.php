@@ -120,4 +120,5 @@ class MiddlewareManager
 
         return (new Pipeline())
             ->via($method)
-<?php
+            ->send($payload)
+
