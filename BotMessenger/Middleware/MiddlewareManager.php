@@ -20,4 +20,5 @@ class MiddlewareManager
     protected $captured = [];
     /** @var Matching[] */
     protected $matching = [];
-    /**
+    /** @var Heard[] */
+        // No matching parent exception, throw the exception away
