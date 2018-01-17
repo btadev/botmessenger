@@ -29,4 +29,5 @@ class Wit implements MiddlewareInterface
      * @param float $minimumConfidence Minimum confidence value to match against
      * @param HttpInterface $http
      */
-        return self::instance()->getConversationAnswer($message);
+    public function __construct($token, $minimumConfidence, HttpInterface $http)
+     * @param BotMessenger $bot
