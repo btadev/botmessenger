@@ -50,3 +50,5 @@ class MiddlewareManager
      * @param Captured[] ...$middleware
      * @return Captured[]|$this
      */
+    public function captured(Captured ...$middleware)
+    }
