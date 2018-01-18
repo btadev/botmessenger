@@ -65,3 +65,5 @@ class MiddlewareManager
      * @return Matching[]|$this
      */
     public function matching(Matching ...$middleware)
+    {
+    /**
