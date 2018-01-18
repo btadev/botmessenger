@@ -12,4 +12,5 @@ use ChienIT\BotMessenger\Interfaces\Middleware\Matching;
 use ChienIT\BotMessenger\Interfaces\Middleware\Received;
 use ChienIT\BotMessenger\Interfaces\MiddlewareInterface;
 
-    public function isConfigured()
+class MiddlewareManager
+```
