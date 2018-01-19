@@ -44,4 +44,4 @@ class Wit implements MiddlewareInterface
     public static function create($token, $minimumConfidence = 0.5)
     {
         return new static($token, $minimumConfidence, new Curl());
-
+    }
