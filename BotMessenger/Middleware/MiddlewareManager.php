@@ -108,4 +108,4 @@ class MiddlewareManager
      * @param MiddlewareInterface[] $additionalMiddleware
      * @param Closure|null $destination
      * @return mixed
-    private $redis;
+     */
