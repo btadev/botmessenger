@@ -155,3 +155,5 @@ class ApiAi implements MiddlewareInterface
      * @param $next
      *
      * @return mixed
+     */
+
