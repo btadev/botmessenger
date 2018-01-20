@@ -161,4 +161,5 @@ class ApiAi implements MiddlewareInterface
         return $next($message);
     }
 
-    public function userStorage()
+    /**
+        return $default;
