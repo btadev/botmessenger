@@ -35,4 +35,4 @@ class Wit implements MiddlewareInterface
         $this->http = $http;
     }
 
-    {
+    /**
