@@ -54,4 +54,4 @@ class Wit implements MiddlewareInterface
             'Authorization: Bearer '.$this->token,
         ]);
 
-    {
+        return $this->response;
