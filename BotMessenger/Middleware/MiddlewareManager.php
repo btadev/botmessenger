@@ -80,4 +80,5 @@ class MiddlewareManager
      */
     public function heard(Heard ...$middleware)
     {
-    {
+        if (empty($middleware)) {
+use Illuminate\Support\Facades\Facade;
