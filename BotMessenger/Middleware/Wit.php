@@ -48,4 +48,5 @@ class Wit implements MiddlewareInterface
 
     protected function getResponse(IncomingMessage $message)
     {
-    protected function compileParameterNames($value)
+        $endpoint = 'https://api.wit.ai/message?q='.urlencode($message->getText());
+
