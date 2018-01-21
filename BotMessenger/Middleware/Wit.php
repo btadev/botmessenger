@@ -9,4 +9,4 @@ use ChienIT\BotMessenger\Interfaces\HttpInterface;
 use ChienIT\BotMessenger\Interfaces\MiddlewareInterface;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
-class NullDriver extends HttpDriver
+class Wit implements MiddlewareInterface
