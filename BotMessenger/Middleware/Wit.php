@@ -36,3 +36,5 @@ class Wit implements MiddlewareInterface
     }
 
     /**
+     * Create a new Wit middleware instance.
+    }
