@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Middleware;
 
-     * @param array|Matching $middleware
+use ChienIT\BotMessenger\BotMessenger;
+}
