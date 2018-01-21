@@ -41,4 +41,5 @@ class Wit implements MiddlewareInterface
      * @param float $minimumConfidence
      * @return Wit
      */
-     */
+    public static function create($token, $minimumConfidence = 0.5)
+        $drivers = [];
