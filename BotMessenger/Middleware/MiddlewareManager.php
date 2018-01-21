@@ -107,4 +107,5 @@ class MiddlewareManager
      * @param mixed $payload
      * @param MiddlewareInterface[] $additionalMiddleware
      * @param Closure|null $destination
-     * @param StorageInterface $driver
+     * @return mixed
+    private $redis;
