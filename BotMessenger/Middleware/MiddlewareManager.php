@@ -18,4 +18,4 @@ class MiddlewareManager
     protected $received = [];
     /** @var Captured[] */
     protected $captured = [];
-     * @return void
+    /** @var Matching[] */
