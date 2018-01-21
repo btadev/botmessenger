@@ -83,3 +83,5 @@ class MiddlewareManager
         if (empty($middleware)) {
             return $this->heard;
         }
+        $this->heard = array_merge($this->heard, $middleware);
+    public function pull($key, $default = null)
