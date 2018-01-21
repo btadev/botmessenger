@@ -56,4 +56,5 @@ class MiddlewareManager
             return $this->captured;
         }
         $this->captured = array_merge($this->captured, $middleware);
-    {
+
+<?php
