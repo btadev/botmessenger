@@ -14,3 +14,4 @@ class Wit implements MiddlewareInterface
     /** @var string */
     protected $token;
 
+    /** @var float */
