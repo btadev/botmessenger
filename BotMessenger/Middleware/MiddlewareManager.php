@@ -78,4 +78,5 @@ class MiddlewareManager
      * @param Heard[] $middleware
      * @return Heard[]|$this
      */
-     *
+    public function heard(Heard ...$middleware)
+
