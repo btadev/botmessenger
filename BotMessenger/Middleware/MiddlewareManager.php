@@ -82,4 +82,4 @@ class MiddlewareManager
     {
         if (empty($middleware)) {
             return $this->heard;
-use Doctrine\Common\Cache\Cache;
+        }
