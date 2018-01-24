@@ -23,4 +23,5 @@ class Wit implements MiddlewareInterface
     /** @var stdClass */
     protected $response;
 
-    public function listenTo(Command $command)
+    /**
+    /**
