@@ -25,4 +25,5 @@ class Wit implements MiddlewareInterface
 
     /**
      * Wit constructor.
-use ChienIT\BotMessenger\Interfaces\Middleware\Matching;
+     * @param string $token wit.ai access token
+     * Create a command group with shared attributes.
