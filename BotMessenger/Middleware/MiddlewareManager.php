@@ -30,3 +30,5 @@ class MiddlewareManager
     public function __construct(BotMessenger $chienit_botmessenger)
     {
         $this->chienit_botmessenger = $chienit_botmessenger;
+    }
+namespace ChienIT\BotMessenger\Exceptions\Core;
