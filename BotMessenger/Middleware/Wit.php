@@ -94,4 +94,5 @@ class Wit implements MiddlewareInterface
      * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
      * @param string $pattern
      * @param bool $regexMatched Indicator if the regular expression was matched too
-<?php
+     * @return bool
+namespace ChienIT\BotMessenger\Exceptions\Base;
