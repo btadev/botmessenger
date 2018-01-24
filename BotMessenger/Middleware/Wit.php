@@ -26,4 +26,5 @@ class Wit implements MiddlewareInterface
     /**
      * Wit constructor.
      * @param string $token wit.ai access token
-     * Create a command group with shared attributes.
+     * @param float $minimumConfidence Minimum confidence value to match against
+     * Return the event name to match.
