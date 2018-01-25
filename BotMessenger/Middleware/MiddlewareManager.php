@@ -60,4 +60,5 @@ class MiddlewareManager
         return $this;
     }
 
-    {
+    /**
+{
