@@ -97,4 +97,5 @@ class MiddlewareManager
         if (empty($middleware)) {
             return $this->sending;
         }
-        if ($minutes instanceof \Datetime) {
+        $this->sending = array_merge($this->sending, $middleware);
+    {
