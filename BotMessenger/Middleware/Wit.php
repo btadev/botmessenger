@@ -83,4 +83,5 @@ class Wit implements MiddlewareInterface
     public function received(IncomingMessage $message, $next, BotMessenger $bot)
     {
         $response = $this->getResponse($message);
-        } else {
+
+  - <a href="https://www.twilio.com"><img src="https://www.twilio.com/marketing/bundles/marketing/img/favicons/favicon.ico" width="32px"/></a> **Twilio**
