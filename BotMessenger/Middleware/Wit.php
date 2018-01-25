@@ -51,4 +51,4 @@ class Wit implements MiddlewareInterface
         $endpoint = 'https://api.wit.ai/message?q='.urlencode($message->getText());
 
         $this->response = $this->http->post($endpoint, [], [], [
-
+            'Authorization: Bearer '.$this->token,
