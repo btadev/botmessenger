@@ -73,3 +73,4 @@ class MiddlewareManager
 
         return $this;
     }
+
