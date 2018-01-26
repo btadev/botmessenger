@@ -10,3 +10,5 @@ use ChienIT\BotMessenger\Interfaces\MiddlewareInterface;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 
 class Wit implements MiddlewareInterface
+{
+
