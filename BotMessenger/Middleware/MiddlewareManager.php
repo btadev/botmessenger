@@ -13,4 +13,4 @@ use ChienIT\BotMessenger\Interfaces\Middleware\Received;
 use ChienIT\BotMessenger\Interfaces\MiddlewareInterface;
 
 class MiddlewareManager
-```
+{
