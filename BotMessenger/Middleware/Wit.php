@@ -119,4 +119,5 @@ class Wit implements MiddlewareInterface
      * Handle a message that was successfully heard, but not processed yet.
      *
      * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
-    /**
+     * @param BotMessenger $bot
+        if (! $question instanceof Question && ! $question) {
