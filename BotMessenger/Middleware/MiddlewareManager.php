@@ -118,4 +118,5 @@ class MiddlewareManager
 
         $middleware = $this->$method + $additionalMiddleware;
 
-                $driver = $driverManager->getMatchingDriver($request);
+        return (new Pipeline())
+     * @var DriverInterface
