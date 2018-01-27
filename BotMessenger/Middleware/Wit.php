@@ -18,4 +18,4 @@ class Wit implements MiddlewareInterface
     protected $minimumConfidence = 0.5;
 
     /** @var HttpInterface */
-}
+    protected $http;
