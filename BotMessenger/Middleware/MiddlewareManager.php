@@ -52,4 +52,4 @@ class MiddlewareManager
      */
     public function captured(Captured ...$middleware)
     {
-}
+        if (empty($middleware)) {
