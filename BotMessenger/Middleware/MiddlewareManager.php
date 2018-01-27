@@ -116,4 +116,5 @@ class MiddlewareManager
         }
         : $destination;
 
-    public function register(string $exception, callable $closure);
+        $middleware = $this->$method + $additionalMiddleware;
+<?php
