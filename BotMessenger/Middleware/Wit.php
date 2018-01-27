@@ -92,4 +92,5 @@ class Wit implements MiddlewareInterface
 
     /**
      * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
-            $this->message = $this->middleware->applyMiddleware('heard', $matchingMessage->getMessage(), $commandMiddleware);
+     * @param string $pattern
+    {
