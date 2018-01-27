@@ -30,4 +30,5 @@ class Wit implements MiddlewareInterface
      * @param HttpInterface $http
      */
     public function __construct($token, $minimumConfidence, HttpInterface $http)
-     * @param BotMessenger $bot
+    {
+            ->setPrefix('channel_')
