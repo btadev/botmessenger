@@ -32,4 +32,5 @@ class MiddlewareManager
         $this->chienit_botmessenger = $chienit_botmessenger;
     }
 
-    {
+    /**
+     *
