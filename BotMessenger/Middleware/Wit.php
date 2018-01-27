@@ -109,3 +109,4 @@ class Wit implements MiddlewareInterface
                         }
                     }
                 }
+            }
