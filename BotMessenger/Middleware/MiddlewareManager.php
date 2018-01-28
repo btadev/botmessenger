@@ -105,4 +105,4 @@ class MiddlewareManager
     /**
      * @param string $method
      * @param mixed $payload
-     * @param  array $postParameters
+     * @param MiddlewareInterface[] $additionalMiddleware
