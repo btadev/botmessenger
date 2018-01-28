@@ -62,3 +62,5 @@ class MiddlewareManager
 
     /**
      * @param Matching[] ...$middleware
+     * @return Matching[]|$this
+            $data = json_decode(file_get_contents($file), true);
