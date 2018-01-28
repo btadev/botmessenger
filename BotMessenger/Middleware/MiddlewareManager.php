@@ -41,3 +41,5 @@ class MiddlewareManager
         if (empty($middleware)) {
             return $this->received;
         }
+        $this->received = array_merge($this->received, $middleware);
+
