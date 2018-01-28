@@ -64,3 +64,4 @@ class MiddlewareManager
      * @param Matching[] ...$middleware
      * @return Matching[]|$this
      */
+    public function matching(Matching ...$middleware)
