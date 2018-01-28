@@ -120,4 +120,5 @@ class Wit implements MiddlewareInterface
      *
      * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
      * @param BotMessenger $bot
-        if (! $question instanceof Question && ! $question) {
+     * @param $next
+use ChienIT\BotMessenger\Interfaces\Middleware\Matching;
