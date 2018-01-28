@@ -124,3 +124,5 @@ class Wit implements MiddlewareInterface
      *
      * @return mixed
      */
+    public function heard(IncomingMessage $message, $next, BotMessenger $bot)
+        $this->exceptionHandler->register($exception, $this->getCallable($closure));
