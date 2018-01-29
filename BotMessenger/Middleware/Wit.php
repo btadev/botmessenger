@@ -122,4 +122,4 @@ class Wit implements MiddlewareInterface
      * @param BotMessenger $bot
      * @param $next
      *
-    public function run()
+     * @return mixed
