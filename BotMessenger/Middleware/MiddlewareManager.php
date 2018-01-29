@@ -110,4 +110,4 @@ class MiddlewareManager
      * @return mixed
      */
     public function applyMiddleware($method, $payload, array $additionalMiddleware = [], Closure $destination = null)
-use Symfony\Component\HttpFoundation\Request;
+    {
