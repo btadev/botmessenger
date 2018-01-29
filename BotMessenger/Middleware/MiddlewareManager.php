@@ -114,3 +114,4 @@ class MiddlewareManager
         $destination = is_null($destination) ? function ($payload) {
             return $payload;
         }
+        : $destination;
