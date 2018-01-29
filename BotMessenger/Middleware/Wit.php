@@ -91,4 +91,5 @@ class Wit implements MiddlewareInterface
     }
 
     /**
-        $this->port = $port;
+     * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
+            $this->message = $this->middleware->applyMiddleware('heard', $matchingMessage->getMessage(), $commandMiddleware);
