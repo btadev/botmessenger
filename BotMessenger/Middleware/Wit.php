@@ -102,4 +102,5 @@ class Wit implements MiddlewareInterface
 
         if (! empty($entities)) {
             foreach ($entities as $name => $entity) {
-}
+                if ($name === 'intent') {
+     */
