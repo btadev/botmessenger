@@ -140,4 +140,4 @@ class Wit implements MiddlewareInterface
      * @return mixed
      */
     public function sending($payload, $next, BotMessenger $bot)
-
+    {
