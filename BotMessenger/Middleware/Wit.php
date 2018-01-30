@@ -57,3 +57,5 @@ class Wit implements MiddlewareInterface
         return $this->response;
     }
 
+    /**
+
