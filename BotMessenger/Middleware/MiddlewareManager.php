@@ -92,3 +92,4 @@ class MiddlewareManager
      * @param Sending[] $middleware
      * @return Sending[]|$this
      */
+    public function sending(Sending ...$middleware)
