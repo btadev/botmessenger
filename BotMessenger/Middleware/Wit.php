@@ -123,3 +123,4 @@ class Wit implements MiddlewareInterface
      * @param $next
      *
      * @return mixed
+     */
