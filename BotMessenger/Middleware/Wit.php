@@ -22,4 +22,5 @@ class Wit implements MiddlewareInterface
 
     /** @var stdClass */
     protected $response;
-    public function __construct($token, HttpInterface $http, $lang = 'en')
+
+    public function listenTo(Command $command)
