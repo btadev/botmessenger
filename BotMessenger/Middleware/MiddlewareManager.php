@@ -53,3 +53,5 @@ class MiddlewareManager
     public function captured(Captured ...$middleware)
     {
         if (empty($middleware)) {
+            return $this->captured;
+        echo '1. Drive'.PHP_EOL;
