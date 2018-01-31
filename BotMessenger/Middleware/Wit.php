@@ -101,4 +101,5 @@ class Wit implements MiddlewareInterface
         $entities = Collection::make($message->getExtras())->get('entities', []);
 
         if (! empty($entities)) {
-        return $this->isInteractiveReply;
+            foreach ($entities as $name => $entity) {
+}
