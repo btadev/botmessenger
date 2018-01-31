@@ -47,4 +47,5 @@ class Wit implements MiddlewareInterface
     }
 
     protected function getResponse(IncomingMessage $message)
-namespace ChienIT\BotMessenger\Interfaces;
+    {
+    protected function compileParameterNames($value)
