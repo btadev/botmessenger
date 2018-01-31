@@ -70,3 +70,5 @@ class MiddlewareManager
             return $this->matching;
         }
         $this->matching = array_merge($this->matching, $middleware);
+
+}
