@@ -34,4 +34,5 @@ class Wit implements MiddlewareInterface
         $this->token = $token;
         $this->http = $http;
     }
-    public function getName();
+
+    {
