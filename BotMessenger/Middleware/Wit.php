@@ -70,4 +70,5 @@ class Wit implements MiddlewareInterface
     {
         return $next($message);
     }
-     */
+
+    /**
