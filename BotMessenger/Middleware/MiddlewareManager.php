@@ -85,3 +85,4 @@ class MiddlewareManager
         }
         $this->heard = array_merge($this->heard, $middleware);
 
+        return $this;
