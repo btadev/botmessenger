@@ -99,4 +99,5 @@ class Wit implements MiddlewareInterface
     public function matching(IncomingMessage $message, $pattern, $regexMatched)
     {
         $entities = Collection::make($message->getExtras())->get('entities', []);
-}
+
+{
