@@ -87,4 +87,5 @@ class Wit implements MiddlewareInterface
         $responseData = Collection::make(json_decode($response->getContent(), true));
         $message->addExtras('entities', $responseData->get('entities'));
 
-        }
+        return $next($message);
+}
