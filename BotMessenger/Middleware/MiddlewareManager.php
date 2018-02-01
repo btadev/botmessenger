@@ -117,4 +117,5 @@ class MiddlewareManager
         : $destination;
 
         $middleware = $this->$method + $additionalMiddleware;
-<?php
+
+                $driver = $driverManager->getMatchingDriver($request);
