@@ -85,4 +85,4 @@ class Wit implements MiddlewareInterface
         $response = $this->getResponse($message);
 
         $responseData = Collection::make(json_decode($response->getContent(), true));
-namespace ChienIT\BotMessenger\Interfaces;
+        $message->addExtras('entities', $responseData->get('entities'));
