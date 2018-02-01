@@ -133,4 +133,5 @@ class Wit implements MiddlewareInterface
      * Handle an outgoing message payload before/after it
      * hits the message service.
      *
-     * @return array
+     * @param mixed $payload
+        $message->addExtras('apiActionIncomplete', $actionIncomplete);
