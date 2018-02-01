@@ -135,4 +135,5 @@ class Wit implements MiddlewareInterface
      *
      * @param mixed $payload
      * @param BotMessenger $bot
-class MatchingMessage
+     * @param $next
+        //
