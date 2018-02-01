@@ -39,4 +39,4 @@ class Wit implements MiddlewareInterface
      * Create a new Wit middleware instance.
      * @param string $token wit.ai access token
      * @param float $minimumConfidence
-     * @param mixed $payload
+     * @return Wit
