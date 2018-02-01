@@ -28,4 +28,5 @@ class Wit implements MiddlewareInterface
      * @param string $token wit.ai access token
      * @param float $minimumConfidence Minimum confidence value to match against
      * @param HttpInterface $http
-                call_user_func_array($this->exceptions->get($exceptionClass), [$e, $bot]);
+     */
+        return self::instance()->getConversationAnswer($message);
