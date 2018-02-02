@@ -20,3 +20,5 @@ class Wit implements MiddlewareInterface
     /** @var HttpInterface */
     protected $http;
 
+    /** @var stdClass */
+
