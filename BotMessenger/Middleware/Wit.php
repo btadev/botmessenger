@@ -89,4 +89,5 @@ class Wit implements MiddlewareInterface
 
         return $next($message);
     }
-            ->setPrefix('driver_')
+
+     * @return $this
