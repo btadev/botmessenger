@@ -76,4 +76,4 @@ class Wit implements MiddlewareInterface
      *
      * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
      * @param BotMessenger $bot
-
+     * @param $next
