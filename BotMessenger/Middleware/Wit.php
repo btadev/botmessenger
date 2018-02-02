@@ -134,4 +134,5 @@ class Wit implements MiddlewareInterface
      * hits the message service.
      *
      * @param mixed $payload
-        $message->addExtras('apiActionIncomplete', $actionIncomplete);
+     * @param BotMessenger $bot
+class MatchingMessage
