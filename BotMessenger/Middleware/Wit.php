@@ -141,3 +141,4 @@ class Wit implements MiddlewareInterface
      */
     public function sending($payload, $next, BotMessenger $bot)
     {
+        return $next($payload);
