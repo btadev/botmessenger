@@ -115,3 +115,5 @@ class MiddlewareManager
             return $payload;
         }
         : $destination;
+
+    public function register(string $exception, callable $closure);
