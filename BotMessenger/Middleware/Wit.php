@@ -24,4 +24,5 @@ class Wit implements MiddlewareInterface
     protected $response;
 
     /**
-    /**
+     * Wit constructor.
+use ChienIT\BotMessenger\Interfaces\Middleware\Matching;
