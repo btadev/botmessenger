@@ -116,4 +116,5 @@ class Wit implements MiddlewareInterface
     }
 
     /**
-        if ($this->auth !== null) {
+     * Handle a message that was successfully heard, but not processed yet.
+interface ShouldQueue
