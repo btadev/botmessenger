@@ -111,3 +111,5 @@ class MiddlewareManager
      */
     public function applyMiddleware($method, $payload, array $additionalMiddleware = [], Closure $destination = null)
     {
+        $destination = is_null($destination) ? function ($payload) {
+
