@@ -119,4 +119,5 @@ class MiddlewareManager
         $middleware = $this->$method + $additionalMiddleware;
 
         return (new Pipeline())
-     * @var DriverInterface
+            ->via($method)
+<?php
