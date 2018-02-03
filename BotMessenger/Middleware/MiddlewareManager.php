@@ -98,4 +98,5 @@ class MiddlewareManager
             return $this->sending;
         }
         $this->sending = array_merge($this->sending, $middleware);
-    {
+
+
