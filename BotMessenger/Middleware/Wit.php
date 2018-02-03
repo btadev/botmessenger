@@ -69,3 +69,5 @@ class Wit implements MiddlewareInterface
     public function captured(IncomingMessage $message, $next, BotMessenger $bot)
     {
         return $next($message);
+    }
+     */
