@@ -25,4 +25,4 @@ class FileStorage implements StorageInterface
     }
 
     /**
-    {
+     * Save an item in the storage with a specific key and data.
