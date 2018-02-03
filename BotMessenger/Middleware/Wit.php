@@ -111,4 +111,4 @@ class Wit implements MiddlewareInterface
                 }
             }
         }
-    /** @var \ChienIT\BotMessenger\Messages\Attachments\Attachment */
+
