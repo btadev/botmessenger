@@ -65,4 +65,5 @@ class FileStorage implements StorageInterface
      * @param  string $key
      */
     public function delete($key)
-        return [
+    {
+
