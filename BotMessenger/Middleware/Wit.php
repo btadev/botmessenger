@@ -45,3 +45,5 @@ class Wit implements MiddlewareInterface
     {
         return new static($token, $minimumConfidence, new Curl());
     }
+
+    /**
