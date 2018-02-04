@@ -33,3 +33,4 @@ class FileStorage implements StorageInterface
     public function save(array $data, $key)
     {
         $file = $this->getFilename($key);
+
