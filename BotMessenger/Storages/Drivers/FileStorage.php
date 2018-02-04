@@ -39,4 +39,4 @@ class FileStorage implements StorageInterface
         if (! is_dir(dirname($file))) {
             mkdir(dirname($file), 0777, true);
         }
-
+        file_put_contents($file, json_encode($saved->all()));
