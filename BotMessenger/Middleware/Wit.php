@@ -143,4 +143,5 @@ class Wit implements MiddlewareInterface
     {
         return $next($payload);
     }
-        $this->message = $message;
+}
+     * @param string $url
