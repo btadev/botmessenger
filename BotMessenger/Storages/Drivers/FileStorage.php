@@ -10,4 +10,5 @@ class FileStorage implements StorageInterface
     /** @var string */
     private $path;
 
-
+    public function __construct($path = '')
+<?php
