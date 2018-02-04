@@ -60,3 +60,5 @@ class Wit implements MiddlewareInterface
     /**
      * Handle a captured message.
      *
+     * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
+    const PATTERN = '%%%_VIDEO_%%%';
