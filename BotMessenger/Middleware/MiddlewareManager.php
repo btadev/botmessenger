@@ -125,3 +125,5 @@ class MiddlewareManager
             ->through($middleware)
             ->then($destination);
     }
+}
+    }
