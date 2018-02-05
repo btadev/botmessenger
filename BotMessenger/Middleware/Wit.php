@@ -46,4 +46,5 @@ class Wit implements MiddlewareInterface
         return new static($token, $minimumConfidence, new Curl());
     }
 
-    /**
+    protected function getResponse(IncomingMessage $message)
+namespace ChienIT\BotMessenger\Interfaces;
