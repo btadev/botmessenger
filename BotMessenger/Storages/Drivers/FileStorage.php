@@ -64,4 +64,5 @@ class FileStorage implements StorageInterface
      *
      * @param  string $key
      */
-        $driver = $driverManager->getMatchingDriver($request);
+    public function delete($key)
+        return [
