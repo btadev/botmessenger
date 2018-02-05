@@ -34,3 +34,5 @@ class FileStorage implements StorageInterface
     {
         $file = $this->getFilename($key);
 
+        $saved = $this->get($key)->merge($data);
+use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
