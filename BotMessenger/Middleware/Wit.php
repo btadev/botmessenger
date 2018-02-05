@@ -15,3 +15,5 @@ class Wit implements MiddlewareInterface
     protected $token;
 
     /** @var float */
+    protected $minimumConfidence = 0.5;
+
