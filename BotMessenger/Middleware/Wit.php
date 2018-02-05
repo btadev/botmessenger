@@ -132,4 +132,5 @@ class Wit implements MiddlewareInterface
     /**
      * Handle an outgoing message payload before/after it
      * hits the message service.
-     * @param string $url
+     *
+     * @return array
