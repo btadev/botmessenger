@@ -138,4 +138,5 @@ class Wit implements MiddlewareInterface
      * @param $next
      *
      * @return mixed
-    public function put($key, $value, $minutes);
+     */
+    }
