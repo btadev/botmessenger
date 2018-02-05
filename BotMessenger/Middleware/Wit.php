@@ -129,4 +129,5 @@ class Wit implements MiddlewareInterface
         return $next($message);
     }
 
-    public function pull($key, $default = null)
+    /**
+     * Does the driver match to an incoming messaging service event.
