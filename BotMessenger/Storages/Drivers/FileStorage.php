@@ -6,4 +6,5 @@ use Illuminate\Support\Collection;
 use ChienIT\BotMessenger\Interfaces\StorageInterface;
 
 class FileStorage implements StorageInterface
-        $url,
+{
+    /**
