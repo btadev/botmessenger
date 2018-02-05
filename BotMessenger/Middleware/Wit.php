@@ -97,4 +97,5 @@ class Wit implements MiddlewareInterface
      * @return bool
      */
     public function matching(IncomingMessage $message, $pattern, $regexMatched)
-        return $this->stopsConversation;
+    {
+use ChienIT\BotMessenger\Interfaces\Middleware\Matching;
