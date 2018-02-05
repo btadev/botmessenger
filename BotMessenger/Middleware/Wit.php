@@ -128,4 +128,5 @@ class Wit implements MiddlewareInterface
     {
         return $next($message);
     }
-    public function middleware($middleware)
+
+    public function pull($key, $default = null)
