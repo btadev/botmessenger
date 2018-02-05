@@ -7,4 +7,5 @@ use ChienIT\BotMessenger\Http\Curl;
 use Illuminate\Support\Collection;
 use ChienIT\BotMessenger\Interfaces\HttpInterface;
 use ChienIT\BotMessenger\Interfaces\MiddlewareInterface;
-<?php
+use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+
