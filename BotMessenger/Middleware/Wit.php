@@ -32,4 +32,4 @@ class Wit implements MiddlewareInterface
     public function __construct($token, $minimumConfidence, HttpInterface $http)
     {
         $this->token = $token;
-{
+        $this->http = $http;
