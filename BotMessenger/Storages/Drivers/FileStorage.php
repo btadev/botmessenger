@@ -18,3 +18,5 @@ class FileStorage implements StorageInterface
     /**
      * @param $key
      * @return string
+     */
+    {
