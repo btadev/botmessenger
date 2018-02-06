@@ -16,4 +16,5 @@ class FileStorage implements StorageInterface
     }
 
     /**
-     * @param $next
+     * @param $key
+{
