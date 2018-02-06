@@ -121,4 +121,5 @@ class MiddlewareManager
         return (new Pipeline())
             ->via($method)
             ->send($payload)
-
+            ->with($this->chienit_botmessenger)
+    public function matching(IncomingMessage $message, $pattern, $regexMatched);
