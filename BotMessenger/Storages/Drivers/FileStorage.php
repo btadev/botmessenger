@@ -60,4 +60,5 @@ class FileStorage implements StorageInterface
     }
 
     /**
-    "keywords": [
+     * Delete a stored item by its key.
+        });
