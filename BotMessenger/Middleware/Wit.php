@@ -59,4 +59,4 @@ class Wit implements MiddlewareInterface
 
     /**
      * Handle a captured message.
-        return $this->ask($question, $next, $additionalParameters);
+     *
