@@ -130,4 +130,5 @@ class Wit implements MiddlewareInterface
     }
 
     /**
-     * Does the driver match to an incoming messaging service event.
+     * Handle an outgoing message payload before/after it
+
