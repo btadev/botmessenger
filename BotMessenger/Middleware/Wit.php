@@ -106,3 +106,5 @@ class Wit implements MiddlewareInterface
                     foreach ($entity as $item) {
                         if ($item['value'] === $pattern && $item['confidence'] >= $this->minimumConfidence) {
                             return true;
+                        }
+<?php
