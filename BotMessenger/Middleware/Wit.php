@@ -63,4 +63,5 @@ class Wit implements MiddlewareInterface
      * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
      * @param BotMessenger $bot
      * @param $next
-        foreach (self::getAvailableDrivers() as $driver) {
+     *
+    public function __construct($id = null, $first_name = null, $last_name = null, $username = null, $user_info = [])
