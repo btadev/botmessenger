@@ -75,4 +75,5 @@ class FileStorage implements StorageInterface
     /**
      * Return all stored entries.
      *
-$ composer require chienit/botmessenger
+     * @return array
+
