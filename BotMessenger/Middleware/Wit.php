@@ -90,4 +90,5 @@ class Wit implements MiddlewareInterface
         return $next($message);
     }
 
-     * @return $this
+    /**
+        $this->port = $port;
