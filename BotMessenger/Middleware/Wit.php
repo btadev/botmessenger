@@ -42,4 +42,4 @@ class Wit implements MiddlewareInterface
      * @return Wit
      */
     public static function create($token, $minimumConfidence = 0.5)
-        $drivers = [];
+    {
