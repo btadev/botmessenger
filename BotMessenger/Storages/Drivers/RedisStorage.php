@@ -25,4 +25,4 @@ class RedisStorage implements StorageInterface
      * @param $port
      * @param $auth
      */
-
+    public function __construct($host = '127.0.0.1', $port = 6379, $auth = null)
