@@ -3,4 +3,5 @@
 namespace ChienIT\BotMessenger\Storages\Drivers;
 
 use Redis;
-     * @param $next
+use RuntimeException;
+}
