@@ -31,4 +31,5 @@ class Wit implements MiddlewareInterface
      */
     public function __construct($token, $minimumConfidence, HttpInterface $http)
     {
-            ->setPrefix('channel_')
+        $this->token = $token;
+{
