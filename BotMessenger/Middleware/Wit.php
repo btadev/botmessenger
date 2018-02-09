@@ -126,4 +126,4 @@ class Wit implements MiddlewareInterface
      */
     public function heard(IncomingMessage $message, $next, BotMessenger $bot)
     {
-}
+        return $next($message);
