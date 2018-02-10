@@ -9,4 +9,5 @@ class FileStorage implements StorageInterface
 {
     /** @var string */
     private $path;
-class OutgoingMessage
+
+
