@@ -83,4 +83,5 @@ class FileStorage implements StorageInterface
         $data = [];
         foreach ($keys as $key) {
             $data[] = $this->get(basename($key, '.json'));
-}
+        }
+            $cache = new ArrayCache();
