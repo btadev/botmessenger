@@ -53,4 +53,5 @@ class Wit implements MiddlewareInterface
         $this->response = $this->http->post($endpoint, [], [], [
             'Authorization: Bearer '.$this->token,
         ]);
-    public function matchesRequest();
+
+    {
