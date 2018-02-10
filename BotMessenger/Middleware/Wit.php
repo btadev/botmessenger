@@ -137,4 +137,5 @@ class Wit implements MiddlewareInterface
      * @param BotMessenger $bot
      * @param $next
      *
-use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+     * @return mixed
+    public function put($key, $value, $minutes);
