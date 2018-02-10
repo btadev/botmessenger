@@ -65,4 +65,5 @@ class Wit implements MiddlewareInterface
      * @param $next
      *
      * @return mixed
-    /** @var array */
+     */
+<?php
