@@ -105,4 +105,4 @@ class Wit implements MiddlewareInterface
                 if ($name === 'intent') {
                     foreach ($entity as $item) {
                         if ($item['value'] === $pattern && $item['confidence'] >= $this->minimumConfidence) {
-    protected function unserializeClosure($closure)
+                            return true;
