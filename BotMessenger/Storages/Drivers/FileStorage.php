@@ -43,4 +43,4 @@ class FileStorage implements StorageInterface
     }
 
     /**
-
+     * Retrieve an item from the storage by key.
