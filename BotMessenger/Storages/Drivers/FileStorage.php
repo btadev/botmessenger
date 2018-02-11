@@ -56,4 +56,4 @@ class FileStorage implements StorageInterface
             $data = json_decode(file_get_contents($file), true);
         }
 
-        $this->user_info = (array) $user_info;
+        return Collection::make($data);
