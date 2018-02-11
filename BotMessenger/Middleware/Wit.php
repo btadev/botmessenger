@@ -66,4 +66,4 @@ class Wit implements MiddlewareInterface
      *
      * @return mixed
      */
-<?php
+    public function captured(IncomingMessage $message, $next, BotMessenger $bot)
