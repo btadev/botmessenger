@@ -84,4 +84,5 @@ class Wit implements MiddlewareInterface
     {
         $response = $this->getResponse($message);
 
-  - <a href="https://www.twilio.com"><img src="https://www.twilio.com/marketing/bundles/marketing/img/favicons/favicon.ico" width="32px"/></a> **Twilio**
+        $responseData = Collection::make(json_decode($response->getContent(), true));
+namespace ChienIT\BotMessenger\Interfaces;
