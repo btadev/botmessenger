@@ -64,4 +64,5 @@ class Wit implements MiddlewareInterface
      * @param BotMessenger $bot
      * @param $next
      *
-    public function __construct($id = null, $first_name = null, $last_name = null, $username = null, $user_info = [])
+     * @return mixed
+    /** @var array */
