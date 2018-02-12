@@ -48,3 +48,5 @@ class FileStorage implements StorageInterface
      * @param  string $key
      * @return Collection
      */
+    public function get($key)
+     *
