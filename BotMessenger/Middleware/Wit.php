@@ -80,4 +80,4 @@ class Wit implements MiddlewareInterface
      *
      * @return mixed
      */
-
+    public function received(IncomingMessage $message, $next, BotMessenger $bot)
