@@ -36,4 +36,5 @@ class RedisStorage implements StorageInterface
         $this->connect();
     }
 
-<?php
+    /**
+    "license": "LGPL-3.0-or-later",
