@@ -53,3 +53,5 @@ class FileStorage implements StorageInterface
         $file = $this->getFilename($key);
         $data = [];
         if (file_exists($file)) {
+            $data = json_decode(file_get_contents($file), true);
+
