@@ -32,4 +32,4 @@ class FileStorage implements StorageInterface
      */
     public function save(array $data, $key)
     {
-use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
+        $file = $this->getFilename($key);
