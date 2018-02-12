@@ -5,4 +5,5 @@ namespace ChienIT\BotMessenger\Storages\Drivers;
 use Illuminate\Support\Collection;
 use ChienIT\BotMessenger\Interfaces\StorageInterface;
 
-<?php
+class FileStorage implements StorageInterface
+        $url,
