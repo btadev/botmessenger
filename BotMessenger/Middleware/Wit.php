@@ -72,4 +72,5 @@ class Wit implements MiddlewareInterface
     }
 
     /**
-    /**
+     * Handle an incoming message.
+}
