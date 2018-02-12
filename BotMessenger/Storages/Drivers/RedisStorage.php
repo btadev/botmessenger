@@ -1,3 +1,4 @@
 <?php
 
-        } else {
+namespace ChienIT\BotMessenger\Storages\Drivers;
+}
