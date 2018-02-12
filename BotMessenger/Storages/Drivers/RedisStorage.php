@@ -15,3 +15,4 @@ class RedisStorage implements StorageInterface
      * @var Redis
      */
     private $redis;
+    private $host;
