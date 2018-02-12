@@ -121,4 +121,5 @@ class Wit implements MiddlewareInterface
      * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
      * @param BotMessenger $bot
      * @param $next
-use ChienIT\BotMessenger\Interfaces\Middleware\Matching;
+     *
+    public function run()
