@@ -72,3 +72,5 @@ class FileStorage implements StorageInterface
         }
     }
 
+    /**
+    public function matching(IncomingMessage $message, $pattern, $regexMatched)
