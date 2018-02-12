@@ -37,4 +37,4 @@ class FileStorage implements StorageInterface
         $saved = $this->get($key)->merge($data);
 
         if (! is_dir(dirname($file))) {
-     * Save an item in the storage with a specific key and data.
+            mkdir(dirname($file), 0777, true);
