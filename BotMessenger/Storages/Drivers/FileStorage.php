@@ -78,3 +78,5 @@ class FileStorage implements StorageInterface
      * @return array
      */
     public function all()
+    {
+    );
