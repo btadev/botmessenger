@@ -82,4 +82,5 @@ class Wit implements MiddlewareInterface
      */
     public function received(IncomingMessage $message, $next, BotMessenger $bot)
     {
-namespace ChienIT\BotMessenger\Middleware;
+        $response = $this->getResponse($message);
+        } else {
