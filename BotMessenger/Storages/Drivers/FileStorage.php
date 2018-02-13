@@ -24,3 +24,4 @@ class FileStorage implements StorageInterface
         return $this->path.DIRECTORY_SEPARATOR.$key.'.json';
     }
 
+}
