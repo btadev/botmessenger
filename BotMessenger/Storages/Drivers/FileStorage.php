@@ -82,4 +82,5 @@ class FileStorage implements StorageInterface
         $keys = glob($this->path.'/*.json');
         $data = [];
         foreach ($keys as $key) {
+            $data[] = $this->get(basename($key, '.json'));
 }
