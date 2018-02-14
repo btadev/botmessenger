@@ -76,4 +76,4 @@ class FileStorage implements StorageInterface
      * Return all stored entries.
      *
      * @return array
-
+     */
