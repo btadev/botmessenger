@@ -104,4 +104,5 @@ class Wit implements MiddlewareInterface
             foreach ($entities as $name => $entity) {
                 if ($name === 'intent') {
                     foreach ($entity as $item) {
-namespace ChienIT\BotMessenger\Exceptions\Core;
+                        if ($item['value'] === $pattern && $item['confidence'] >= $this->minimumConfidence) {
+    protected function unserializeClosure($closure)
