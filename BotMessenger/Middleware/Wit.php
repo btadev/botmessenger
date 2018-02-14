@@ -115,3 +115,5 @@ class Wit implements MiddlewareInterface
         return false;
     }
 
+    /**
+        if ($this->auth !== null) {
