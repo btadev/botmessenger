@@ -45,4 +45,4 @@ class RedisStorage implements StorageInterface
     public function save(array $data, $key)
     {
         $this->redis->set($this->decorateKey($key), $data);
-<?php
+    }
