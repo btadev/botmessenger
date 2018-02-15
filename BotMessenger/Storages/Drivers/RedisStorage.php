@@ -29,3 +29,5 @@ class RedisStorage implements StorageInterface
     {
         if (! class_exists(Redis::class)) {
             throw new RuntimeException('phpredis extension is required for RedisStorage');
+        }
+    }
