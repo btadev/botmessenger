@@ -43,4 +43,5 @@ class RedisStorage implements StorageInterface
      * @param  string $key
      */
     public function save(array $data, $key)
-     * Handle a message that was successfully heard, but not processed yet.
+    {
+<?php
