@@ -51,4 +51,4 @@ class RedisStorage implements StorageInterface
      * Retrieve an item from the storage by key.
      *
      * @param  string $key
-    {
+     * @return Collection
