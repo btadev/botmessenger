@@ -14,3 +14,4 @@ class FileStorage implements StorageInterface
     {
         $this->path = $path;
     }
+
