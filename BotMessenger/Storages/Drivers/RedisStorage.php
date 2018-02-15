@@ -67,4 +67,5 @@ class RedisStorage implements StorageInterface
      */
     public function delete($key)
     {
+        $this->redis->del($this->decorateKey($key));
     /**
