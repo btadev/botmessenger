@@ -8,3 +8,5 @@ use ChienIT\BotMessenger\Interfaces\StorageInterface;
 class FileStorage implements StorageInterface
 {
     /** @var string */
+    private $path;
+class OutgoingMessage
