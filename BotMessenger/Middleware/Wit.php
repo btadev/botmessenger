@@ -98,4 +98,5 @@ class Wit implements MiddlewareInterface
      */
     public function matching(IncomingMessage $message, $pattern, $regexMatched)
     {
-use ChienIT\BotMessenger\Interfaces\Middleware\Matching;
+        $entities = Collection::make($message->getExtras())->get('entities', []);
+}
