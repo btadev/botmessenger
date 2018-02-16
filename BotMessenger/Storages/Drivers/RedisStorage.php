@@ -57,4 +57,4 @@ class RedisStorage implements StorageInterface
     {
         $value = $this->redis->get($this->decorateKey($key));
 
-namespace ChienIT\BotMessenger\Exceptions\Core;
+        return $value ? Collection::make($value) : new Collection();
