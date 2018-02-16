@@ -62,4 +62,5 @@ class FileStorage implements StorageInterface
     /**
      * Delete a stored item by its key.
      *
-     * @param $payload
+     * @param  string $key
+    }
