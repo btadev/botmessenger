@@ -30,4 +30,5 @@ class FileStorage implements StorageInterface
      * @param  array $data
      * @param  string $key
      */
-
+    public function save(array $data, $key)
+ * Duplicate of ApiAi, but the product got renamed.
