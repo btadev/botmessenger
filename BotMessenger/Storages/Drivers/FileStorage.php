@@ -68,3 +68,5 @@ class FileStorage implements StorageInterface
     {
         $file = $this->getFilename($key);
         if (file_exists($file)) {
+            unlink($file);
+        return $this->user_info;
