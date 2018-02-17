@@ -22,4 +22,5 @@ class FileStorage implements StorageInterface
     protected function getFilename($key)
     {
         return $this->path.DIRECTORY_SEPARATOR.$key.'.json';
-     * @param callable $next
+    }
+
