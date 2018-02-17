@@ -31,4 +31,5 @@ class FileStorage implements StorageInterface
      * @param  string $key
      */
     public function save(array $data, $key)
- * Duplicate of ApiAi, but the product got renamed.
+    {
+use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
