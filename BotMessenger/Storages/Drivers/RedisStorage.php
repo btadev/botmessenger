@@ -54,3 +54,5 @@ class RedisStorage implements StorageInterface
      * @return Collection
      */
     public function get($key)
+    {
+                call_user_func_array($this->exceptions->get($exceptionClass), [$e, $bot]);
