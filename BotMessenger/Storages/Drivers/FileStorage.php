@@ -88,4 +88,3 @@ class FileStorage implements StorageInterface
         return $data;
     }
 }
-            if ($this->exceptions->has($exceptionClass)) {
