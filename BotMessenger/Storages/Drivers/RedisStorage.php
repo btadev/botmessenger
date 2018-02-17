@@ -97,4 +97,4 @@ class RedisStorage implements StorageInterface
     {
         return self::KEY_PREFIX.$key;
     }
-}
+
