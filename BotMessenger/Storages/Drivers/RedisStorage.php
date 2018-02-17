@@ -10,4 +10,5 @@ use ChienIT\BotMessenger\Interfaces\StorageInterface;
 class RedisStorage implements StorageInterface
 {
     const KEY_PREFIX = 'chienit_botmessenger:storage:';
-     */
+
+
