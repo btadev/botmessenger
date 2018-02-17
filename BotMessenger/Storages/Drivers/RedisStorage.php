@@ -41,4 +41,5 @@ class RedisStorage implements StorageInterface
      *
      * @param  array $data
      * @param  string $key
-{
+     */
+<?php
