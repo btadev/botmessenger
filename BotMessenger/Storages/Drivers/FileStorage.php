@@ -20,3 +20,5 @@ class FileStorage implements StorageInterface
      * @return string
      */
     protected function getFilename($key)
+    {
+
