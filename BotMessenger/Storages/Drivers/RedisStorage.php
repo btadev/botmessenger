@@ -8,4 +8,5 @@ use Illuminate\Support\Collection;
 use ChienIT\BotMessenger\Interfaces\StorageInterface;
 
 class RedisStorage implements StorageInterface
-    /**
+{
+use ChienIT\BotMessenger\Commands\Command;
