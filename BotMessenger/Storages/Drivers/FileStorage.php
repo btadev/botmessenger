@@ -59,4 +59,5 @@ class FileStorage implements StorageInterface
         return Collection::make($data);
     }
 
-    /** @var CacheInterface */
+    /**
+    "keywords": [
