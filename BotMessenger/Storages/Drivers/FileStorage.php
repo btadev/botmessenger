@@ -28,4 +28,5 @@ class FileStorage implements StorageInterface
      * Save an item in the storage with a specific key and data.
      *
      * @param  array $data
-        ], true);
+     * @param  string $key
+class BotMessenger extends Facade
