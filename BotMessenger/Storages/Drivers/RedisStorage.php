@@ -34,4 +34,5 @@ class RedisStorage implements StorageInterface
         $this->port = $port;
         $this->auth = $auth;
         $this->connect();
-class Dialogflow extends ApiAi
+    }
+     * @return mixed
