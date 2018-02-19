@@ -77,4 +77,5 @@ class RedisStorage implements StorageInterface
      */
     public function all()
     {
-        "name": "Nguyen Duc Chien",
+        $entries = [];
+     * @return array|MatchingMessage[]
