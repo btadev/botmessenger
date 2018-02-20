@@ -99,3 +99,5 @@ class RedisStorage implements StorageInterface
     }
 
     private function connect()
+    {
+     *
