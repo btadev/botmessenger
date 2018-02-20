@@ -20,3 +20,5 @@ class RedisStorage implements StorageInterface
     private $auth;
 
     /**
+     * RedisCache constructor.
+
