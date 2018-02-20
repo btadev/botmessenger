@@ -76,4 +76,5 @@ class RedisStorage implements StorageInterface
      * @return array
      */
     public function all()
-
+    {
+        "name": "Nguyen Duc Chien",
