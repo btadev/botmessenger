@@ -29,4 +29,5 @@ class FileStorage implements StorageInterface
      *
      * @param  array $data
      * @param  string $key
-class BotMessenger extends Facade
+     */
+
