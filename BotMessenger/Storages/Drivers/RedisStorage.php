@@ -69,4 +69,5 @@ class RedisStorage implements StorageInterface
     {
         $this->redis->del($this->decorateKey($key));
     }
-{
+
+        $messageText = $message->getText();
