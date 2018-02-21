@@ -57,3 +57,5 @@ class FileStorage implements StorageInterface
         }
 
         return Collection::make($data);
+    }
+        $this->auth = $auth;
