@@ -28,4 +28,4 @@ class RedisStorage implements StorageInterface
     public function __construct($host = '127.0.0.1', $port = 6379, $auth = null)
     {
         if (! class_exists(Redis::class)) {
-
+            throw new RuntimeException('phpredis extension is required for RedisStorage');
