@@ -67,4 +67,4 @@ class FileStorage implements StorageInterface
     public function delete($key)
     {
         $file = $this->getFilename($key);
-    }
+        if (file_exists($file)) {
