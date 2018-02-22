@@ -14,4 +14,5 @@ class Storage implements StorageInterface
     protected $prefix = '';
 
     /** @var string */
-    /** @var string */
+    protected $defaultKey = '';
+{
