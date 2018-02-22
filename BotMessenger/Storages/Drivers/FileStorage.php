@@ -66,4 +66,5 @@ class FileStorage implements StorageInterface
      */
     public function delete($key)
     {
-
+        $file = $this->getFilename($key);
+    }
