@@ -114,3 +114,5 @@ class RedisStorage implements StorageInterface
     }
 
     public function __wakeup()
+    {
+
