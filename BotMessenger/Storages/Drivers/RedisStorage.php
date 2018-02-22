@@ -13,3 +13,4 @@ class RedisStorage implements StorageInterface
 
     /**
      * @var Redis
+     */
