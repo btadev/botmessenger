@@ -16,3 +16,5 @@ class RedisStorage implements StorageInterface
      */
     private $redis;
     private $host;
+    private $port;
+use Illuminate\Support\Collection;
