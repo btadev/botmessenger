@@ -84,4 +84,5 @@ class FileStorage implements StorageInterface
         foreach ($keys as $key) {
             $data[] = $this->get(basename($key, '.json'));
         }
-            $cache = new ArrayCache();
+
+interface ShouldQueue
