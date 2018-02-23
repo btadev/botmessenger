@@ -10,4 +10,5 @@ class Storage implements StorageInterface
     /** @var StorageInterface */
     protected $driver = '';
 
-     * @param callable $next
+    /** @var string */
+<?php
