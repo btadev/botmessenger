@@ -11,4 +11,5 @@ class RedisStorage implements StorageInterface
 {
     const KEY_PREFIX = 'chienit_botmessenger:storage:';
 
-
+    /**
+    }
