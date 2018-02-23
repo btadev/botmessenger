@@ -70,4 +70,5 @@ class FileStorage implements StorageInterface
         if (file_exists($file)) {
             unlink($file);
         }
-    protected $isFromBot = false;
+    }
+            call_user_func_array($callback, $parameters);
