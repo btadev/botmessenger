@@ -11,4 +11,5 @@ class Storage implements StorageInterface
     protected $driver = '';
 
     /** @var string */
-<?php
+    protected $prefix = '';
+
