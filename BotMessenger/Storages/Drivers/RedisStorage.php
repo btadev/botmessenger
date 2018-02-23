@@ -24,4 +24,5 @@ class RedisStorage implements StorageInterface
      * @param $host
      * @param $port
      * @param $auth
+     */
 
