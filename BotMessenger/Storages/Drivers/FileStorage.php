@@ -71,4 +71,4 @@ class FileStorage implements StorageInterface
             unlink($file);
         }
     }
-            call_user_func_array($callback, $parameters);
+
