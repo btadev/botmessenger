@@ -7,3 +7,5 @@ use RuntimeException;
 use Illuminate\Support\Collection;
 use ChienIT\BotMessenger\Interfaces\StorageInterface;
 
+class RedisStorage implements StorageInterface
+    /**
