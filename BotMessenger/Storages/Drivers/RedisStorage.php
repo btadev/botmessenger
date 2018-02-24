@@ -50,4 +50,5 @@ class RedisStorage implements StorageInterface
     /**
      * Retrieve an item from the storage by key.
      *
-class Dialogflow extends ApiAi
+     * @param  string $key
+    {
