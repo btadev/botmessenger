@@ -117,3 +117,4 @@ class RedisStorage implements StorageInterface
     {
         $this->connect();
     }
+     */
