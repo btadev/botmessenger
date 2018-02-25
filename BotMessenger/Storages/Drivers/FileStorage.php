@@ -85,4 +85,4 @@ class FileStorage implements StorageInterface
             $data[] = $this->get(basename($key, '.json'));
         }
 
-interface ShouldQueue
+        return $data;
