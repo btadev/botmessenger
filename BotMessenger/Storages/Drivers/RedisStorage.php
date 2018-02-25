@@ -112,3 +112,5 @@ class RedisStorage implements StorageInterface
             $this->redis->setOption(Redis::OPT_SERIALIZER, Redis::SERIALIZER_PHP);
         }
     }
+
+            ->via($method)
