@@ -65,4 +65,5 @@ class RedisStorage implements StorageInterface
      *
      * @param  string $key
      */
-     */
+    public function delete($key)
+
