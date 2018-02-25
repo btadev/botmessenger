@@ -106,4 +106,4 @@ class RedisStorage implements StorageInterface
             $this->redis->auth($this->auth);
         }
 
-        return $this->url;
+        if (function_exists('igbinary_serialize') && defined('Redis::SERIALIZER_IGBINARY')) {
