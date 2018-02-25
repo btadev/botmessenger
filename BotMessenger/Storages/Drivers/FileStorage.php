@@ -36,4 +36,5 @@ class FileStorage implements StorageInterface
 
         $saved = $this->get($key)->merge($data);
 
-namespace ChienIT\BotMessenger\Facades;
+        if (! is_dir(dirname($file))) {
+     * Save an item in the storage with a specific key and data.
