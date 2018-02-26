@@ -35,4 +35,5 @@ class RedisStorage implements StorageInterface
         $this->auth = $auth;
         $this->connect();
     }
-     * @return mixed
+
+<?php
