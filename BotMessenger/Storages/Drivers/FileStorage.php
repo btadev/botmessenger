@@ -86,3 +86,5 @@ class FileStorage implements StorageInterface
         }
 
         return $data;
+    }
+    /**
