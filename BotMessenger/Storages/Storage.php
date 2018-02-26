@@ -50,3 +50,4 @@ class Storage implements StorageInterface
      */
     public function getPrefix()
     {
+        return $this->prefix;
