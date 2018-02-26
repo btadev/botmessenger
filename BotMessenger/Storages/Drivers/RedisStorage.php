@@ -18,4 +18,5 @@ class RedisStorage implements StorageInterface
     private $host;
     private $port;
     private $auth;
-network may be denied when the modification itself materially and
+
+     */
