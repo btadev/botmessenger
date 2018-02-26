@@ -52,4 +52,4 @@ class FileStorage implements StorageInterface
     {
         $file = $this->getFilename($key);
         $data = [];
-    private $path;
+        if (file_exists($file)) {
