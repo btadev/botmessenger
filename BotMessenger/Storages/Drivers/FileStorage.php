@@ -51,3 +51,5 @@ class FileStorage implements StorageInterface
     public function get($key)
     {
         $file = $this->getFilename($key);
+        $data = [];
+    private $path;
