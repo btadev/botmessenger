@@ -19,4 +19,4 @@ class RedisStorage implements StorageInterface
     private $port;
     private $auth;
 
-     */
+    /**
