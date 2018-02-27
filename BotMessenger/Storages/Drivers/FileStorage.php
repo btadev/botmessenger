@@ -79,4 +79,5 @@ class FileStorage implements StorageInterface
      */
     public function all()
     {
-    );
+        $keys = glob($this->path.'/*.json');
+namespace ChienIT\BotMessenger\Exceptions\Core;
