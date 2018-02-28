@@ -25,3 +25,4 @@ class Storage implements StorageInterface
         $this->driver = $driver;
     }
 
+    /**
