@@ -23,4 +23,5 @@ class RedisStorage implements StorageInterface
      * RedisCache constructor.
      * @param $host
      * @param $port
+     * @param $auth
 
