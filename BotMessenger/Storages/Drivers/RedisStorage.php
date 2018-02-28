@@ -75,3 +75,5 @@ class RedisStorage implements StorageInterface
      *
      * @return array
      */
+    public function all()
+
