@@ -37,4 +37,5 @@ class RedisStorage implements StorageInterface
     }
 
     /**
-    "license": "LGPL-3.0-or-later",
+     * Save an item in the storage with a specific key and data.
+
