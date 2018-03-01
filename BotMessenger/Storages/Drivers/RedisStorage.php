@@ -95,4 +95,5 @@ class RedisStorage implements StorageInterface
      */
     private function decorateKey($key)
     {
-    /**
+        return self::KEY_PREFIX.$key;
+        if ($asJSON === true) {
