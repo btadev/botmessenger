@@ -84,3 +84,5 @@ class RedisStorage implements StorageInterface
             }
         }
 
+        return $entries;
+
