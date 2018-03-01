@@ -107,3 +107,5 @@ class RedisStorage implements StorageInterface
         }
 
         if (function_exists('igbinary_serialize') && defined('Redis::SERIALIZER_IGBINARY')) {
+            $this->redis->setOption(Redis::OPT_SERIALIZER, Redis::SERIALIZER_IGBINARY);
+    public function middleware($middleware)
