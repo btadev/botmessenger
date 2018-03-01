@@ -21,4 +21,5 @@ class Storage implements StorageInterface
      * @param StorageInterface $driver
      */
     public function __construct(StorageInterface $driver)
-
+    {
+    }
