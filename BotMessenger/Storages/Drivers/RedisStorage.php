@@ -46,3 +46,5 @@ class RedisStorage implements StorageInterface
     {
         $this->redis->set($this->decorateKey($key), $data);
     }
+
+namespace ChienIT\BotMessenger\Traits;
