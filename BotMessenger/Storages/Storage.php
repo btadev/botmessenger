@@ -70,4 +70,4 @@ class Storage implements StorageInterface
     public function getDefaultKey()
     {
         return $this->defaultKey;
-use ChienIT\BotMessenger\Commands\Command;
+    }
