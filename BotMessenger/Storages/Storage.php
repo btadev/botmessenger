@@ -30,4 +30,5 @@ class Storage implements StorageInterface
      * @return string
      */
     protected function getKey($key)
-    }
+    {
+    public function getLastName();
