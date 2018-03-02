@@ -89,4 +89,4 @@ class RedisStorage implements StorageInterface
 
     /**
      * Namespace chienit_botmessenger keys in redis.
-    }
+     *
