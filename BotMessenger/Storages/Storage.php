@@ -65,4 +65,5 @@ class Storage implements StorageInterface
     }
 
     /**
-
+     * @return string
+<?php
