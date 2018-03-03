@@ -63,4 +63,4 @@ class Storage implements StorageInterface
 
         return $this;
     }
-        $this->auth = $auth;
+
