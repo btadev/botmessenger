@@ -118,4 +118,3 @@ class RedisStorage implements StorageInterface
         $this->connect();
     }
 }
-    public function matching(IncomingMessage $message, $pattern, $regexMatched);
