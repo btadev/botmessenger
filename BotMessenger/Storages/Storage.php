@@ -22,4 +22,5 @@ class Storage implements StorageInterface
      */
     public function __construct(StorageInterface $driver)
     {
-    }
+        $this->driver = $driver;
+    public function handleException($e, BotMessenger $bot);
