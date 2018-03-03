@@ -108,3 +108,4 @@ class Storage implements StorageInterface
      * @param  string $key
      * @return mixed
      */
+    public function get($key)
