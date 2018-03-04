@@ -87,4 +87,5 @@ class Storage implements StorageInterface
         return $this->driver->save($data, $this->getKey($key));
     }
 
-class FileStorage implements StorageInterface
+    /**
+    }
