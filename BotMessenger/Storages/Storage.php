@@ -81,4 +81,5 @@ class Storage implements StorageInterface
     public function save(array $data, $key = null)
     {
         if (is_null($key)) {
+            $key = $this->defaultKey;
      */
