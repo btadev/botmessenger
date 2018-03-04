@@ -32,4 +32,5 @@ class RedisStorage implements StorageInterface
         }
         $this->host = $host;
         $this->port = $port;
-     *
+        $this->auth = $auth;
+
