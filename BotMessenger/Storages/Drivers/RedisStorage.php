@@ -113,4 +113,4 @@ class RedisStorage implements StorageInterface
         }
     }
 
-            ->via($method)
+    public function __wakeup()
