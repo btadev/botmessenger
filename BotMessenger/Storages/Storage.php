@@ -95,4 +95,4 @@ class Storage implements StorageInterface
      */
     public function find($key = null)
     {
-
+        if (is_null($key)) {
