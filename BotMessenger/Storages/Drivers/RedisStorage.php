@@ -60,4 +60,5 @@ class RedisStorage implements StorageInterface
         return $value ? Collection::make($value) : new Collection();
     }
 
-    }
+    /**
+    public function get($key)
