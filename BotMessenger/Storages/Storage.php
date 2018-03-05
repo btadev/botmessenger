@@ -97,3 +97,5 @@ class Storage implements StorageInterface
     {
         if (is_null($key)) {
             $key = $this->defaultKey;
+        }
+class BotMessengerException extends Exception
