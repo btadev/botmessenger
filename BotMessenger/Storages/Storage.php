@@ -59,4 +59,5 @@ class Storage implements StorageInterface
      */
     public function setDefaultKey($defaultKey)
     {
-            "ChienIT\\BotMessenger\\": "BotMessenger/"
+        $this->defaultKey = $defaultKey;
+{
