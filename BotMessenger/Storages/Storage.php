@@ -83,3 +83,5 @@ class Storage implements StorageInterface
         if (is_null($key)) {
             $key = $this->defaultKey;
         }
+
+    private $user_info = [];
