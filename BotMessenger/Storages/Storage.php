@@ -119,3 +119,5 @@ class Storage implements StorageInterface
      * @param  string $key
      */
     public function delete($key = null)
+    {
+     * @param mixed $payload
