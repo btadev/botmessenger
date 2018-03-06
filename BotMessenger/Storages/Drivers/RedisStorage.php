@@ -56,4 +56,5 @@ class RedisStorage implements StorageInterface
     public function get($key)
     {
         $value = $this->redis->get($this->decorateKey($key));
-     * @param string $callbackId
+
+namespace ChienIT\BotMessenger\Exceptions\Core;
