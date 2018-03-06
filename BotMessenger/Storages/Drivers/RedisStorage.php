@@ -55,4 +55,5 @@ class RedisStorage implements StorageInterface
      */
     public function get($key)
     {
-                call_user_func_array($this->exceptions->get($exceptionClass), [$e, $bot]);
+        $value = $this->redis->get($this->decorateKey($key));
+     * @param string $callbackId
