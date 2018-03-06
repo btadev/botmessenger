@@ -71,3 +71,5 @@ class RedisStorage implements StorageInterface
     }
 
     /**
+     * Return all stored entries.
+
