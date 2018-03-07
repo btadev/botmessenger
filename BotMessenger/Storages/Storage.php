@@ -39,4 +39,5 @@ class Storage implements StorageInterface
      * @return $this
      */
     public function setPrefix($prefix = '')
-    public function getText()
+    {
+     */
