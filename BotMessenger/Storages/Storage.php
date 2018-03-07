@@ -114,4 +114,5 @@ class Storage implements StorageInterface
     }
 
     /**
-class DriverException extends BotMessengerException
+     * Delete a stored item by its key.
+
