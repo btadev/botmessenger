@@ -78,4 +78,4 @@ class RedisStorage implements StorageInterface
     public function all()
     {
         $entries = [];
-     * @return array|MatchingMessage[]
+        while ($keys = $this->redis->scan($it, self::KEY_PREFIX.'*')) {
