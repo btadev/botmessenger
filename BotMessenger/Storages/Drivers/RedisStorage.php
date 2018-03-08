@@ -94,3 +94,5 @@ class RedisStorage implements StorageInterface
      * @return string
      */
     private function decorateKey($key)
+    {
+    /**
