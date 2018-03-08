@@ -105,4 +105,5 @@ class RedisStorage implements StorageInterface
         if ($this->auth !== null) {
             $this->redis->auth($this->auth);
         }
-}
+
+        return $this->url;
