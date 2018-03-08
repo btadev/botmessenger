@@ -82,4 +82,4 @@ class RedisStorage implements StorageInterface
             foreach ($keys as $key) {
                 $entries[substr($key, strlen(self::KEY_PREFIX))] = Collection::make($this->redis->get($key));
             }
-namespace ChienIT\BotMessenger\Exceptions\Base;
+        }
