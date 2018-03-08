@@ -46,4 +46,4 @@ class Storage implements StorageInterface
     }
 
     /**
-     * @param string $name The Driver name or class
+     * @return string
