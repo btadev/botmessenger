@@ -64,4 +64,5 @@ class RedisStorage implements StorageInterface
      * Delete a stored item by its key.
      *
      * @param  string $key
-     * @return Response
+     */
+     */
