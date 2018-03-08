@@ -100,4 +100,4 @@ class RedisStorage implements StorageInterface
 
     private function connect()
     {
-     *
+        $this->redis = new Redis();
