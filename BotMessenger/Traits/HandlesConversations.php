@@ -13,4 +13,5 @@ use ChienIT\BotMessenger\Messages\Conversations\Conversation;
 
 trait HandlesConversations
 {
-class File extends Attachment
+    /**
+
