@@ -83,3 +83,4 @@ class RedisStorage implements StorageInterface
                 $entries[substr($key, strlen(self::KEY_PREFIX))] = Collection::make($this->redis->get($key));
             }
         }
+
