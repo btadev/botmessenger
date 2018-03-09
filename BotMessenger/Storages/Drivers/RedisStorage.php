@@ -103,4 +103,5 @@ class RedisStorage implements StorageInterface
         $this->redis = new Redis();
         $this->redis->connect($this->host, $this->port);
         if ($this->auth !== null) {
-use ChienIT\BotMessenger\Interfaces\Middleware\Heard;
+            $this->redis->auth($this->auth);
+}
