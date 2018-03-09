@@ -79,4 +79,5 @@ class Storage implements StorageInterface
      * @param  string $key
      */
     public function save(array $data, $key = null)
-        parent::__construct($payload);
+    {
+<?php
