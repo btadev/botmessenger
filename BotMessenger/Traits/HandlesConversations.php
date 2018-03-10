@@ -49,4 +49,5 @@ trait HandlesConversations
 
     /**
      * Get a stored conversation array from the cache for a given message.
-        }
+     *
+            return Collection::make($this->extras)->get($key);
