@@ -34,3 +34,5 @@ class Storage implements StorageInterface
         return sha1($this->prefix.$key);
     }
 
+    /**
+}
