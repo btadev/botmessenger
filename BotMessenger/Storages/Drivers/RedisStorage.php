@@ -93,3 +93,4 @@ class RedisStorage implements StorageInterface
      * @param $key
      * @return string
      */
+     * @param  array $headers
