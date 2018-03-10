@@ -48,4 +48,5 @@ class Storage implements StorageInterface
     /**
      * @return string
      */
-namespace ChienIT\BotMessenger\Exceptions\Base;
+    public function getPrefix()
+    {
