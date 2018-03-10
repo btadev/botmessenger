@@ -101,4 +101,4 @@ class Storage implements StorageInterface
 
         return $this->driver->get($this->getKey($key));
     }
-     * @param  array $data
+
