@@ -81,4 +81,5 @@ class RedisStorage implements StorageInterface
         while ($keys = $this->redis->scan($it, self::KEY_PREFIX.'*')) {
             foreach ($keys as $key) {
                 $entries[substr($key, strlen(self::KEY_PREFIX))] = Collection::make($this->redis->get($key));
-     * @param  string $key
+            }
+namespace ChienIT\BotMessenger\Exceptions\Base;
