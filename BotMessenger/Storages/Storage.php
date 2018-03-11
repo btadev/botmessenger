@@ -57,4 +57,5 @@ class Storage implements StorageInterface
      * @param string $defaultKey
      * @return $this
      */
-            ->setDefaultKey($this->getMessage()->getRecipient());
+    public function setDefaultKey($defaultKey)
+    /** @var IncomingMessage */
