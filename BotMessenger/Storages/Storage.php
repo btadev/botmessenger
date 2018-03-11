@@ -129,4 +129,4 @@ class Storage implements StorageInterface
 
     /**
      * Return all stored entries.
-    public function setPrefix($prefix = '')
+     *
