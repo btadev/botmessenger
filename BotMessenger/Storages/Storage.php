@@ -53,4 +53,4 @@ class Storage implements StorageInterface
         return $this->prefix;
     }
 
-namespace ChienIT\BotMessenger\Cache;
+    /**
