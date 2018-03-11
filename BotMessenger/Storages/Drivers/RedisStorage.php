@@ -87,4 +87,5 @@ class RedisStorage implements StorageInterface
         return $entries;
     }
 
-     * Retrieve an item from the cache by key.
+    /**
+namespace ChienIT\BotMessenger\Traits;
