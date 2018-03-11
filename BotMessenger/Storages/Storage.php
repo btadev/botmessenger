@@ -62,3 +62,5 @@ class Storage implements StorageInterface
         $this->defaultKey = $defaultKey;
 
         return $this;
+    }
+        $this->auth = $auth;
