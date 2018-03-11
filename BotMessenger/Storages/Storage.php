@@ -58,4 +58,5 @@ class Storage implements StorageInterface
      * @return $this
      */
     public function setDefaultKey($defaultKey)
-    /** @var IncomingMessage */
+    {
+            "ChienIT\\BotMessenger\\": "BotMessenger/"
