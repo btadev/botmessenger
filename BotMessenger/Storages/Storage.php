@@ -55,3 +55,5 @@ class Storage implements StorageInterface
 
     /**
      * @param string $defaultKey
+     * @return $this
+        echo '     ____        __     __  ___                                         '.PHP_EOL;
