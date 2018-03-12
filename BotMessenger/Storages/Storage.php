@@ -124,3 +124,4 @@ class Storage implements StorageInterface
             $key = $this->defaultKey;
         }
 
+        return $this->driver->delete($this->getKey($key));
