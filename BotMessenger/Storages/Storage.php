@@ -20,4 +20,5 @@ class Storage implements StorageInterface
      * Storage constructor.
      * @param StorageInterface $driver
      */
-    public function getName()
+    public function __construct(StorageInterface $driver)
+
