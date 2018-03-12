@@ -43,4 +43,4 @@ trait HandlesConversations
             'question' => serialize($question),
             'additionalParameters' => serialize($additionalParameters),
             'next' => $this->prepareCallbacks($next),
-    /**
+            'time' => microtime(),
