@@ -43,4 +43,5 @@ class Storage implements StorageInterface
         $this->prefix = $prefix;
 
         return $this;
-
+    }
+}
