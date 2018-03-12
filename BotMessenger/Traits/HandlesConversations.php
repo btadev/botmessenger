@@ -23,4 +23,5 @@ trait HandlesConversations
         if (! is_null($recipient) && ! is_null($driver)) {
             $this->message = new IncomingMessage('', $recipient, '');
             $this->driver = DriverManager::loadFromName($driver, $this->config);
-    {
+        }
+     */
