@@ -85,3 +85,5 @@ class Storage implements StorageInterface
         }
 
         return $this->driver->save($data, $this->getKey($key));
+    }
+     * @param string $endpoint
