@@ -33,3 +33,4 @@ trait HandlesConversations
      * @param array|Closure $next
      * @param string|Question $question
      * @param array $additionalParameters
+     */
