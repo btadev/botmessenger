@@ -45,4 +45,5 @@ trait HandlesConversations
             'next' => $this->prepareCallbacks($next),
             'time' => microtime(),
         ], $conversation_cache_time ?? $this->config['config']['conversation_cache_time'] ?? 30);
-        return $r[0] ?: $default;
+    }
+        $this->path = $path;
