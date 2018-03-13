@@ -131,4 +131,5 @@ class Storage implements StorageInterface
      * Return all stored entries.
      *
      * @return array
-        } else {
+     */
+    public static function extend($methodName, $callable)
