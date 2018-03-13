@@ -30,4 +30,5 @@ trait HandlesConversations
 
     /**
      * @param \ChienIT\BotMessenger\Messages\Conversations\Conversation $instance
-        $instance->setBot($this);
+     * @param array|Closure $next
+     *
