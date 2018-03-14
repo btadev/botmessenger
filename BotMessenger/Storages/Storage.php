@@ -90,4 +90,5 @@ class Storage implements StorageInterface
     /**
      * Retrieve an item from the storage by key.
      *
-     * @param  mixed $default
+     * @param  string $key
+
