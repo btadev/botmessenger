@@ -8,3 +8,5 @@ use Opis\Closure\SerializableClosure;
 use ChienIT\BotMessenger\Drivers\DriverManager;
 use ChienIT\BotMessenger\Interfaces\ShouldQueue;
 use ChienIT\BotMessenger\Messages\Outgoing\Question;
+use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+namespace ChienIT\BotMessenger\Facades;
