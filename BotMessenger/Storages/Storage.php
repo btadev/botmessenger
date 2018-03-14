@@ -111,4 +111,5 @@ class Storage implements StorageInterface
     public function get($key)
     {
         return $this->find()->get($key);
-        $actionIncomplete = isset($response->result->actionIncomplete) ? (bool) $response->result->actionIncomplete : false;
+    }
+        return $this->find()->get($key);
