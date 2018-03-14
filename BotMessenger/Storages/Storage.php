@@ -120,4 +120,5 @@ class Storage implements StorageInterface
      */
     public function delete($key = null)
     {
-     * @param mixed $payload
+        if (is_null($key)) {
+class DriverException extends BotMessengerException
