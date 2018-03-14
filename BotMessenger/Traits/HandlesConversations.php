@@ -41,4 +41,4 @@ trait HandlesConversations
         $this->cache->put($this->message->getConversationIdentifier(), [
             'conversation' => $instance,
             'question' => serialize($question),
-     */
+            'additionalParameters' => serialize($additionalParameters),
