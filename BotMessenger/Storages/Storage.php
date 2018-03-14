@@ -16,4 +16,5 @@ class Storage implements StorageInterface
     /** @var string */
     protected $defaultKey = '';
 
-
+    /**
+        $res = @file_get_contents('https://packagist.org/packages/list.json?vendor=chiendevit');
