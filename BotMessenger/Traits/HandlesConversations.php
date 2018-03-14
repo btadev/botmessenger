@@ -68,4 +68,4 @@ trait HandlesConversations
     }
 
     /**
-    public function getImages()
+     * Touch and update the current conversation.
