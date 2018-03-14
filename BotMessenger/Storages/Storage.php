@@ -45,4 +45,5 @@ class Storage implements StorageInterface
         return $this;
     }
 
-    }
+    /**
+     * @param string $name The Driver name or class
