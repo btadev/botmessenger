@@ -8,4 +8,5 @@ use ChienIT\BotMessenger\Interfaces\StorageInterface;
 class Storage implements StorageInterface
 {
     /** @var StorageInterface */
-namespace ChienIT\BotMessenger\Interfaces;
+    protected $driver = '';
+     *
