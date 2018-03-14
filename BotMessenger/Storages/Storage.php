@@ -27,3 +27,5 @@ class Storage implements StorageInterface
 
     /**
      * @param $key
+     * @return string
+     */
