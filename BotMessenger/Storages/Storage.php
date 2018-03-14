@@ -80,4 +80,5 @@ class Storage implements StorageInterface
      */
     public function save(array $data, $key = null)
     {
-<?php
+        if (is_null($key)) {
+     */
