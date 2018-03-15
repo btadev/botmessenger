@@ -27,4 +27,5 @@ trait HandlesConversations
         $instance->setBot($this);
         $instance->run();
     }
-        $this->port = $port;
+
+
