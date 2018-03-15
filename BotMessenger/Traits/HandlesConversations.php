@@ -89,4 +89,4 @@ trait HandlesConversations
      * @param null|IncomingMessage $message
      * @return string|Question
      */
-            ->then($destination);
+    public function getStoredConversationQuestion($message = null)
