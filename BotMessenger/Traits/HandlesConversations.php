@@ -82,4 +82,5 @@ trait HandlesConversations
         }
     }
 
-     * @param  array $headers
+    /**
+{
