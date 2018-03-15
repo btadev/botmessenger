@@ -29,4 +29,5 @@ trait HandlesConversations
     }
 
     /**
-namespace ChienIT\BotMessenger\Interfaces;
+     * @param \ChienIT\BotMessenger\Messages\Conversations\Conversation $instance
+        $instance->setBot($this);
