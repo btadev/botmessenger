@@ -83,4 +83,5 @@ trait HandlesConversations
     }
 
     /**
-{
+     * Get the question that was asked in the currently stored conversation
+
