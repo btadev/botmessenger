@@ -54,3 +54,4 @@ class Storage implements StorageInterface
     }
 
     /**
+     * @param string $defaultKey
