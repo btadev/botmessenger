@@ -77,3 +77,5 @@ class Storage implements StorageInterface
      *
      * @param  array $data
      * @param  string $key
+     */
+     * @return bool
