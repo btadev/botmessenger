@@ -55,3 +55,5 @@ trait HandlesConversations
      */
     public function getStoredConversation($message = null)
     {
+        if (is_null($message)) {
+    public function captured(IncomingMessage $message, $next, BotMessenger $bot)
