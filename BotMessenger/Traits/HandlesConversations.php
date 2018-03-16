@@ -67,4 +67,5 @@ trait HandlesConversations
         return $conversation;
     }
 
-     * @return string
+    /**
+    public function getImages()
