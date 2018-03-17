@@ -110,4 +110,5 @@ class Storage implements StorageInterface
      */
     public function get($key)
     {
-     * Handle a message that was successfully heard, but not processed yet.
+        return $this->find()->get($key);
+        $actionIncomplete = isset($response->result->actionIncomplete) ? (bool) $response->result->actionIncomplete : false;
