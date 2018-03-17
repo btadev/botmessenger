@@ -102,4 +102,5 @@ trait HandlesConversations
      * @param null|IncomingMessage $message
      */
     public function removeStoredConversation($message = null)
-    public function register(string $exception, callable $closure);
+    {
+     * @param BotMessenger $bot
