@@ -37,4 +37,5 @@ class Storage implements StorageInterface
     /**
      * @param string $prefix
      * @return $this
-     * @return string
+     */
+        }
