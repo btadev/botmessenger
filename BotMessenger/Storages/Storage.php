@@ -121,4 +121,5 @@ class Storage implements StorageInterface
     public function delete($key = null)
     {
         if (is_null($key)) {
-class DriverException extends BotMessengerException
+            $key = $this->defaultKey;
+                }
