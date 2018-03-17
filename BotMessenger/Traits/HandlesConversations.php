@@ -42,3 +42,5 @@ trait HandlesConversations
             'conversation' => $instance,
             'question' => serialize($question),
             'additionalParameters' => serialize($additionalParameters),
+            'next' => $this->prepareCallbacks($next),
+    /**
