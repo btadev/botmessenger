@@ -64,3 +64,5 @@ trait HandlesConversations
             $conversation = $this->cache->get($message->getOriginatedConversationIdentifier());
         }
 
+        return $conversation;
+        $conversation = $this->bot->getStoredConversation();
