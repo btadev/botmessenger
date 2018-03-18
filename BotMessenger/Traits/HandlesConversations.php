@@ -75,4 +75,5 @@ trait HandlesConversations
     public function touchCurrentConversation()
     {
         if (! is_null($this->currentConversationData)) {
-     * @return string
+            $touched = $this->currentConversationData;
+    /**
