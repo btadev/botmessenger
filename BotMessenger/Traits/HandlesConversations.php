@@ -125,3 +125,4 @@ trait HandlesConversations
 
         return $closure;
     }
+
