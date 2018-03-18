@@ -41,4 +41,4 @@ class Storage implements StorageInterface
     public function setPrefix($prefix = '')
     {
         $this->prefix = $prefix;
-    private $user_id = null;
+
