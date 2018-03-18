@@ -128,4 +128,5 @@ class Storage implements StorageInterface
     }
 
     /**
-     * BotMessenger constructor.
+     * Return all stored entries.
+    public function setPrefix($prefix = '')
