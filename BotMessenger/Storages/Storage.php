@@ -112,4 +112,5 @@ class Storage implements StorageInterface
     {
         return $this->find()->get($key);
     }
-        return $this->find()->get($key);
+
+    {
