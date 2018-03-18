@@ -84,4 +84,4 @@ class Storage implements StorageInterface
             $key = $this->defaultKey;
         }
 
-    private $user_info = [];
+        return $this->driver->save($data, $this->getKey($key));
