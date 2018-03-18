@@ -66,3 +66,5 @@ trait HandlesConversations
 
         return $conversation;
     }
+
+     * @return string
