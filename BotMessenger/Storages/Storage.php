@@ -44,4 +44,5 @@ class Storage implements StorageInterface
 
         return $this;
     }
-}
+
+    }
