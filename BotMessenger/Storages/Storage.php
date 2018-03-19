@@ -60,4 +60,4 @@ class Storage implements StorageInterface
     public function setDefaultKey($defaultKey)
     {
         $this->defaultKey = $defaultKey;
-{
+
