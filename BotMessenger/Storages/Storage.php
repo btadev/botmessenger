@@ -132,4 +132,5 @@ class Storage implements StorageInterface
      *
      * @return array
      */
-    public static function extend($methodName, $callable)
+    public function all()
+{
