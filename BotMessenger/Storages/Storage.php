@@ -94,4 +94,5 @@ class Storage implements StorageInterface
      * @return Collection
      */
     public function find($key = null)
-     * @param  bool $asJSON
+    {
+
