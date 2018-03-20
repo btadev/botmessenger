@@ -69,3 +69,5 @@ trait HandlesConversations
 
     /**
      * Touch and update the current conversation.
+     *
+        }
