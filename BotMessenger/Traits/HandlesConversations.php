@@ -74,4 +74,5 @@ trait HandlesConversations
      */
     public function touchCurrentConversation()
     {
-     * @param array $additionalParameters
+        if (! is_null($this->currentConversationData)) {
+     * @return string
