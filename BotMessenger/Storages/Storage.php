@@ -67,4 +67,5 @@ class Storage implements StorageInterface
     /**
      * @return string
      */
-    //
+    public function getDefaultKey()
+
