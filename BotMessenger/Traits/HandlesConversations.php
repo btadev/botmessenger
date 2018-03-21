@@ -59,4 +59,5 @@ trait HandlesConversations
             $message = $this->getMessage();
         }
 
-        return $this->isDriverValid($driver->getName(), $command->getDriver()) &&
+        $conversation = $this->cache->get($message->getConversationIdentifier());
+    /**
