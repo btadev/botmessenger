@@ -57,4 +57,4 @@ trait HandlesConversations
     {
         if (is_null($message)) {
             $message = $this->getMessage();
-     * @param string $name
+        }
