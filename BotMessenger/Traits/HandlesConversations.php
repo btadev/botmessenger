@@ -148,4 +148,5 @@ trait HandlesConversations
      */
     protected function prepareCallbacks($callbacks)
     {
-     * Storage constructor.
+        if (is_array($callbacks)) {
+
