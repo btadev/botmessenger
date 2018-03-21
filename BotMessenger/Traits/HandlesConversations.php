@@ -96,3 +96,4 @@ trait HandlesConversations
         return unserialize($conversation['question']);
     }
 
+
