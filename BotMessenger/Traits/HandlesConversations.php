@@ -17,4 +17,4 @@ trait HandlesConversations
      * @param \ChienIT\BotMessenger\Messages\Conversations\Conversation $instance
      * @param null|string $recipient
      * @param null|string $driver
-     * Tells if a current conversation should be stopped through this command.
+     */
