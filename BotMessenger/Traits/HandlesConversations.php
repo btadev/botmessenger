@@ -2,4 +2,5 @@
 
 namespace ChienIT\BotMessenger\Traits;
 
-    /** @var string */
+use Closure;
+     * @param  mixed $default
