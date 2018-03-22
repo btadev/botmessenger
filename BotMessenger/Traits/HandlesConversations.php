@@ -90,3 +90,5 @@ trait HandlesConversations
      * @return string|Question
      */
     public function getStoredConversationQuestion($message = null)
+    {
+    /**
