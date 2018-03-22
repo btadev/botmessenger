@@ -158,4 +158,5 @@ trait HandlesConversations
 
         return $callbacks;
     }
-     * @return string
+
+
