@@ -51,3 +51,4 @@ trait HandlesConversations
      * Get a stored conversation array from the cache for a given message.
      *
      * @param null|IncomingMessage $message
+     * @return array
