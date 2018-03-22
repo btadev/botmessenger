@@ -141,4 +141,5 @@ trait HandlesConversations
 
     /**
      * Prepare an array of pattern / callbacks before
-<?php
+     * caching them.
+        return false;
