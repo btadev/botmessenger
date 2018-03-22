@@ -48,4 +48,5 @@ trait HandlesConversations
     }
 
     /**
-    public function middleware($middleware)
+     * Get a stored conversation array from the cache for a given message.
+        }
