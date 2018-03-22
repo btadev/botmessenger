@@ -109,3 +109,5 @@ class Storage implements StorageInterface
      * @return mixed
      */
     public function get($key)
+    {
+     * Handle a message that was successfully heard, but not processed yet.
