@@ -11,4 +11,5 @@ use ChienIT\BotMessenger\Messages\Outgoing\Question;
 use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
 use ChienIT\BotMessenger\Messages\Conversations\Conversation;
 
-    }
+trait HandlesConversations
+
