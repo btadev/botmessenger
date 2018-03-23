@@ -127,3 +127,5 @@ trait HandlesConversations
     }
 
     /**
+     * @param mixed $closure
+    /**
