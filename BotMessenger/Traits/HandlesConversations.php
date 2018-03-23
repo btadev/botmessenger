@@ -14,4 +14,5 @@ use ChienIT\BotMessenger\Messages\Conversations\Conversation;
 trait HandlesConversations
 {
     /**
-
+     * @param \ChienIT\BotMessenger\Messages\Conversations\Conversation $instance
+    public function getInfo()
