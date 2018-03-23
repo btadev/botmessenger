@@ -120,4 +120,4 @@ trait HandlesConversations
     public function serializeClosure(Closure $closure)
     {
         if ($this->getDriver()->serializesCallbacks() && ! $this->runsOnSocket) {
-    public function has($key)
+            return serialize(new SerializableClosure($closure, true));
