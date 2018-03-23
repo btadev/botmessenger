@@ -101,4 +101,5 @@ trait HandlesConversations
      *
      * @param null|IncomingMessage $message
      */
-class Dialogflow extends ApiAi
+    public function removeStoredConversation($message = null)
+    public function register(string $exception, callable $closure);
