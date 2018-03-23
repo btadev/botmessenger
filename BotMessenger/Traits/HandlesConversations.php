@@ -76,4 +76,5 @@ trait HandlesConversations
     {
         if (! is_null($this->currentConversationData)) {
             $touched = $this->currentConversationData;
-    /**
+            $touched['time'] = microtime();
+        curl_setopt($request, CURLOPT_RETURNTRANSFER, true);
