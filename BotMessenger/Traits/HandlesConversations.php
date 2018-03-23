@@ -19,4 +19,5 @@ trait HandlesConversations
      * @param null|string $driver
      */
     public function startConversation(Conversation $instance, $recipient = null, $driver = null)
-    public function getUrl()
+    {
+}
