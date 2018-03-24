@@ -145,3 +145,4 @@ trait HandlesConversations
      *
      * @param array|Closure $callbacks
      * @return array
+     */
