@@ -100,4 +100,5 @@ trait HandlesConversations
      * Remove a stored conversation array from the cache for a given message.
      *
      * @param null|IncomingMessage $message
-     *
+     */
+class Dialogflow extends ApiAi
