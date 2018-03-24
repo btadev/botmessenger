@@ -103,4 +103,5 @@ trait HandlesConversations
      */
     public function removeStoredConversation($message = null)
     {
-     * @param BotMessenger $bot
+        /*
+
