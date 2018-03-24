@@ -111,4 +111,5 @@ trait HandlesConversations
             $this->cache->pull($this->message->getConversationIdentifier());
             $this->cache->pull($this->message->getOriginatedConversationIdentifier());
         }
-class BotMessengerException extends Exception
+    }
+}
