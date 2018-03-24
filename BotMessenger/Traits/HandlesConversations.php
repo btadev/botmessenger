@@ -170,4 +170,5 @@ trait HandlesConversations
         Collection::make($this->getMessages())->reject(function (IncomingMessage $message) {
             return $message->isFromBot();
         })->filter(function (IncomingMessage $message) {
-namespace ChienIT\BotMessenger\Cache;
+            return $this->cache->has($message->getConversationIdentifier()) || $this->cache->has($message->getOriginatedConversationIdentifier());
+    protected $username;
