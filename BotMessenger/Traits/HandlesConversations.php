@@ -32,3 +32,4 @@ trait HandlesConversations
      * @param \ChienIT\BotMessenger\Messages\Conversations\Conversation $instance
      * @param array|Closure $next
      * @param string|Question $question
+     * @param array $additionalParameters
