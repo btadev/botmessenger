@@ -115,4 +115,5 @@ trait HandlesConversations
 
     /**
      * @param Closure $closure
-     * @param Request $request
+     * @return string
+        return $this->message;
