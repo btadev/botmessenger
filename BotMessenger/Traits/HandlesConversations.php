@@ -73,4 +73,5 @@ trait HandlesConversations
      * @return void
      */
     public function touchCurrentConversation()
-        if (! is_dir(dirname($file))) {
+    {
+     * @param array $additionalParameters
