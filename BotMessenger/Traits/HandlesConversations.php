@@ -79,4 +79,5 @@ trait HandlesConversations
             $touched['time'] = microtime();
 
             $this->cache->put($this->message->getConversationIdentifier(), $touched, $this->config['conversation_cache_time'] ?? 30);
-    public $isBot = false;
+        }
+namespace ChienIT\BotMessenger\Facades;
