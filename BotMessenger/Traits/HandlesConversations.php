@@ -36,4 +36,5 @@ trait HandlesConversations
      */
     public function storeConversation(Conversation $instance, $next, $question = null, $additionalParameters = [])
     {
-     *
+        $conversation_cache_time = $instance->getConversationCacheTime();
+     * Register a new exception type.
