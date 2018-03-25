@@ -54,4 +54,4 @@ trait HandlesConversations
      * @return array
      */
     public function getStoredConversation($message = null)
-     */
+    {
