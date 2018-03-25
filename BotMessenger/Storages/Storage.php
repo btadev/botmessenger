@@ -113,4 +113,5 @@ class Storage implements StorageInterface
         return $this->find()->get($key);
     }
 
-    {
+    /**
+class DriverException extends BotMessengerException
