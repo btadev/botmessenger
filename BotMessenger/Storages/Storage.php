@@ -126,4 +126,5 @@ class Storage implements StorageInterface
 
         return $this->driver->delete($this->getKey($key));
     }
-        // Try middleware first
+
+     */
