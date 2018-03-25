@@ -174,3 +174,5 @@ trait HandlesConversations
         })->each(function ($message) {
             $message = $this->middleware->applyMiddleware('received', $message);
             $message = $this->middleware->applyMiddleware('captured', $message);
+
+        return $this;
