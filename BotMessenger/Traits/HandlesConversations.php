@@ -34,3 +34,5 @@ trait HandlesConversations
      * @param string|Question $question
      * @param array $additionalParameters
      */
+    public function storeConversation(Conversation $instance, $next, $question = null, $additionalParameters = [])
+        return false;
