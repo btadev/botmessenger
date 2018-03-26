@@ -206,3 +206,5 @@ trait HandlesConversations
             // Ongoing conversation - let's find the callback.
             $next = false;
             $parameters = [];
+            if (is_array($convo['next'])) {
+    /** @var bool */
