@@ -88,4 +88,5 @@ trait HandlesConversations
      *
      * @param null|IncomingMessage $message
      * @return string|Question
-interface MiddlewareInterface extends Captured, Received, Matching, Heard, Sending
+     */
+            ->then($destination);
