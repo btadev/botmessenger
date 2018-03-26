@@ -142,4 +142,5 @@ trait HandlesConversations
     /**
      * Prepare an array of pattern / callbacks before
      * caching them.
-        return false;
+     *
+     */
