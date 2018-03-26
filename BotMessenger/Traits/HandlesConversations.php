@@ -132,3 +132,4 @@ trait HandlesConversations
      */
     protected function unserializeClosure($closure)
     {
+        if ($this->getDriver()->serializesCallbacks() && ! $this->runsOnSocket) {
