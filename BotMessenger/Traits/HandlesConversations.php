@@ -122,4 +122,4 @@ trait HandlesConversations
         if ($this->getDriver()->serializesCallbacks() && ! $this->runsOnSocket) {
             return serialize(new SerializableClosure($closure, true));
         }
-}
+
