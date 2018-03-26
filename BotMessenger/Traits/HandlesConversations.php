@@ -53,4 +53,5 @@ trait HandlesConversations
      * @param null|IncomingMessage $message
      * @return array
      */
-    public function __construct(AdapterInterface $adapter)
+    public function getStoredConversation($message = null)
+     */
