@@ -130,3 +130,5 @@ class Storage implements StorageInterface
     /**
      * Return all stored entries.
      *
+     * @return array
+        } else {
