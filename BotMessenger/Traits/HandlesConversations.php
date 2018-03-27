@@ -108,4 +108,5 @@ trait HandlesConversations
          * after we loaded the data from the cache.
          */
         if ($this->getStoredConversation($message)['time'] == $this->currentConversationData['time']) {
-*Manager*
+            $this->cache->pull($this->message->getConversationIdentifier());
+    /**
