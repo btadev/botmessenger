@@ -192,4 +192,5 @@ trait HandlesConversations
 
             $matchingMessages = $this->conversationManager->getMatchingMessages([$message], $this->middleware, $this->getConversationAnswer(), $this->getDriver(), false);
             foreach ($matchingMessages as $matchingMessage) {
-        $client = stream_socket_client('tcp://127.0.0.1:'.$port);
+                $command = $matchingMessage->getCommand();
+}
