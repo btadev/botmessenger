@@ -70,4 +70,5 @@ trait HandlesConversations
     /**
      * Touch and update the current conversation.
      *
-        }
+     * @return void
+namespace ChienIT\BotMessenger\Traits;
