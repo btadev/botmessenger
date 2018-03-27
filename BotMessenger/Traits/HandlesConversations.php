@@ -15,4 +15,4 @@ trait HandlesConversations
 {
     /**
      * @param \ChienIT\BotMessenger\Messages\Conversations\Conversation $instance
-    public function getInfo()
+     * @param null|string $recipient
