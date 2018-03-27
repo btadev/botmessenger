@@ -200,3 +200,4 @@ trait HandlesConversations
                     return;
                 } elseif ($command->shouldSkipConversation()) {
                     return;
+                }
