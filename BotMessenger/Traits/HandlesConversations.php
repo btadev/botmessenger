@@ -179,4 +179,5 @@ trait HandlesConversations
 
             // Should we skip the conversation?
             if ($convo['conversation']->skipsConversation($message) === true) {
-    public function middleware($middleware)
+                return;
+    /**
