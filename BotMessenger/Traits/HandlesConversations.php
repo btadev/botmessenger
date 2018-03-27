@@ -161,4 +161,4 @@ trait HandlesConversations
 
     /**
      * Look for active conversations and clear the payload
-     * Get the instance as a web accessible array.
+     * if a conversation is found.
