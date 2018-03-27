@@ -61,4 +61,4 @@ trait HandlesConversations
 
         $conversation = $this->cache->get($message->getConversationIdentifier());
         if (is_null($conversation)) {
-use ChienIT\BotMessenger\Messages\Incoming\Answer;
+            $conversation = $this->cache->get($message->getOriginatedConversationIdentifier());
