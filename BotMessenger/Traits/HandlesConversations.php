@@ -46,4 +46,4 @@ trait HandlesConversations
             'time' => microtime(),
         ], $conversation_cache_time ?? $this->config['config']['conversation_cache_time'] ?? 30);
     }
-        $this->path = $path;
+
