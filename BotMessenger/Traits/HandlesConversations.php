@@ -112,4 +112,5 @@ trait HandlesConversations
             $this->cache->pull($this->message->getOriginatedConversationIdentifier());
         }
     }
-}
+
+     */
