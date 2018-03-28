@@ -25,3 +25,5 @@ trait HandlesConversations
             $this->driver = DriverManager::loadFromName($driver, $this->config);
         }
         $instance->setBot($this);
+        $instance->run();
+{
