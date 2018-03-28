@@ -135,3 +135,5 @@ class Storage implements StorageInterface
     public function all()
     {
         return $this->driver->all();
+    }
+
