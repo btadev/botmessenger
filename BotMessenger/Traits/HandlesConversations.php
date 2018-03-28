@@ -93,3 +93,4 @@ trait HandlesConversations
     {
         $conversation = $this->getStoredConversation($message);
 
+        return unserialize($conversation['question']);
