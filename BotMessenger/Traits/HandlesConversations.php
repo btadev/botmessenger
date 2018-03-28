@@ -177,4 +177,5 @@ trait HandlesConversations
 
             $convo = $this->getStoredConversation($message);
 
-     */
+            // Should we skip the conversation?
+
