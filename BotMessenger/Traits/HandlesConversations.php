@@ -183,3 +183,5 @@ trait HandlesConversations
             }
 
             // Or stop it entirely?
+            if ($convo['conversation']->stopsConversation($message) === true) {
+
