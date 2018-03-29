@@ -3,4 +3,5 @@
 namespace ChienIT\BotMessenger\Traits;
 
 use Closure;
-     * @param  mixed $default
+use Illuminate\Support\Collection;
+    /**
