@@ -223,4 +223,5 @@ trait HandlesConversations
                     }
                 }
             } else {
-     * Get the instance as a web accessible array.
+                $next = $this->unserializeClosure($convo['next']);
+
