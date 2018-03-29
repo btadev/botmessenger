@@ -163,4 +163,4 @@ trait HandlesConversations
      * Look for active conversations and clear the payload
      * if a conversation is found.
      */
-
+    public function loadActiveConversation()
