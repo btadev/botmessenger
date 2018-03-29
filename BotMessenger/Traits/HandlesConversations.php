@@ -231,4 +231,5 @@ trait HandlesConversations
 
             if (is_callable($next)) {
                 $this->callConversation($next, $convo, $message, $parameters);
-     * @return UserInterface
+            }
+
