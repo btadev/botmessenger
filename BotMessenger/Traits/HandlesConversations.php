@@ -96,4 +96,5 @@ trait HandlesConversations
         return unserialize($conversation['question']);
     }
 
-
+    /**
+        array $urlParameters = [],
