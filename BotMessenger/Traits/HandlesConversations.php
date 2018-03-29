@@ -182,4 +182,4 @@ trait HandlesConversations
                 return;
             }
 
-            $url .= '?'.$query;
+            // Or stop it entirely?
