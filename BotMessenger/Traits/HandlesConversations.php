@@ -124,4 +124,4 @@ trait HandlesConversations
         }
 
         return $closure;
-    public function verifyRequest(Request $request);
+    }
