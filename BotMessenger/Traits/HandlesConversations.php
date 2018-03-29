@@ -173,4 +173,4 @@ trait HandlesConversations
             return $this->cache->has($message->getConversationIdentifier()) || $this->cache->has($message->getOriginatedConversationIdentifier());
         })->each(function ($message) {
             $message = $this->middleware->applyMiddleware('received', $message);
-<?php
+            $message = $this->middleware->applyMiddleware('captured', $message);
