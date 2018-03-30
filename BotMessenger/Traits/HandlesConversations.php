@@ -207,4 +207,5 @@ trait HandlesConversations
             $next = false;
             $parameters = [];
             if (is_array($convo['next'])) {
-    /** @var bool */
+                foreach ($convo['next'] as $callback) {
+    /** @var string */
