@@ -62,3 +62,5 @@ trait HandlesConversations
         $conversation = $this->cache->get($message->getConversationIdentifier());
         if (is_null($conversation)) {
             $conversation = $this->cache->get($message->getOriginatedConversationIdentifier());
+        }
+
