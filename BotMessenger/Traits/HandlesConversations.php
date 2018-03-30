@@ -203,4 +203,5 @@ trait HandlesConversations
                 }
             }
 
-    protected $message;
+            // Ongoing conversation - let's find the callback.
+     */
