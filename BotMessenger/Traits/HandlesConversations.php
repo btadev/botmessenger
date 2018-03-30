@@ -168,4 +168,4 @@ trait HandlesConversations
         $this->loadedConversation = false;
 
         Collection::make($this->getMessages())->reject(function (IncomingMessage $message) {
-    public function heard(IncomingMessage $message, $next, BotMessenger $bot)
+            return $message->isFromBot();
