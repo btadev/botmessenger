@@ -150,4 +150,5 @@ trait HandlesConversations
     {
         if (is_array($callbacks)) {
             foreach ($callbacks as &$callback) {
-
+                $callback['callback'] = $this->serializeClosure($callback['callback']);
+     * @return string
