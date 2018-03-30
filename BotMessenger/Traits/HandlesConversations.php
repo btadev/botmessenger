@@ -28,4 +28,5 @@ trait HandlesConversations
         $instance->run();
     }
 
-
+    /**
+namespace ChienIT\BotMessenger\Interfaces;
