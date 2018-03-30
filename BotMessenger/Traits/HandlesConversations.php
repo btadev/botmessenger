@@ -65,4 +65,4 @@ trait HandlesConversations
         }
 
         return $conversation;
-        $conversation = $this->bot->getStoredConversation();
+    }
