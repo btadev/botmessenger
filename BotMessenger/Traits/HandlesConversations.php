@@ -129,3 +129,5 @@ trait HandlesConversations
     /**
      * @param mixed $closure
      * @return string
+     */
+Program, unless a warranty or assumption of liability accompanies a
