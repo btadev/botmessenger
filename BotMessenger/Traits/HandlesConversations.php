@@ -86,4 +86,4 @@ trait HandlesConversations
      * Get the question that was asked in the currently stored conversation
      * for a given message.
      *
-<?php
+     * @param null|IncomingMessage $message
