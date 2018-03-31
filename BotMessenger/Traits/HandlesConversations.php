@@ -118,4 +118,4 @@ trait HandlesConversations
      * @return string
      */
     public function serializeClosure(Closure $closure)
-        return $this->last_name;
+    {
