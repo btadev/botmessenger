@@ -234,4 +234,5 @@ trait HandlesConversations
             }
         });
     }
-    /**
+
+    public function getPayload()
