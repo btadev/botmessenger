@@ -176,4 +176,5 @@ trait HandlesConversations
             $message = $this->middleware->applyMiddleware('captured', $message);
 
             $convo = $this->getStoredConversation($message);
-<?php
+
+     */
