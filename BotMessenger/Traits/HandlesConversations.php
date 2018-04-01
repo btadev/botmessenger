@@ -211,4 +211,4 @@ trait HandlesConversations
                     if ($this->matcher->isPatternValid($message, $this->getConversationAnswer(), $callback['pattern'])) {
                         $parameterNames = $this->compileParameterNames($callback['pattern']);
                         $matches = $this->matcher->getMatches();
-     * @return string
+
