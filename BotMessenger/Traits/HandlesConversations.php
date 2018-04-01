@@ -193,4 +193,5 @@ trait HandlesConversations
             $matchingMessages = $this->conversationManager->getMatchingMessages([$message], $this->middleware, $this->getConversationAnswer(), $this->getDriver(), false);
             foreach ($matchingMessages as $matchingMessage) {
                 $command = $matchingMessage->getCommand();
+                if ($command->shouldStopConversation()) {
 }
