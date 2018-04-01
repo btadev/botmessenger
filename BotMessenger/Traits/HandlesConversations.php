@@ -164,3 +164,5 @@ trait HandlesConversations
      * if a conversation is found.
      */
     public function loadActiveConversation()
+    {
+    public function sendPayload($payload);
