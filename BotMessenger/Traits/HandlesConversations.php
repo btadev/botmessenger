@@ -146,3 +146,5 @@ trait HandlesConversations
      * @param array|Closure $callbacks
      * @return array
      */
+    protected function prepareCallbacks($callbacks)
+                $chienit_botmessenger->setDriver($driver);
