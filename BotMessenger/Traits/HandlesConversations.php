@@ -144,3 +144,4 @@ trait HandlesConversations
      * caching them.
      *
      * @param array|Closure $callbacks
+     * @return array
