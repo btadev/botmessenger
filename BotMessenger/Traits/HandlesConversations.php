@@ -104,4 +104,5 @@ trait HandlesConversations
     public function removeStoredConversation($message = null)
     {
         /*
-
+         * Only remove it from the cache if it was not modified
+{
