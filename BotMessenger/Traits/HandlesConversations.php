@@ -38,4 +38,5 @@ trait HandlesConversations
     {
         $conversation_cache_time = $instance->getConversationCacheTime();
 
-
+        $this->cache->put($this->message->getConversationIdentifier(), [
+class DriverAttachmentException extends DriverException
