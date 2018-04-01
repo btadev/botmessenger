@@ -239,4 +239,5 @@ trait HandlesConversations
      * @param callable $next
      * @param array $convo
      * @param IncomingMessage $message
-     * Retrieve an item from the storage by key.
+     * @param array $parameters
+namespace ChienIT\BotMessenger\Traits;
