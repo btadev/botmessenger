@@ -247,3 +247,5 @@ trait HandlesConversations
         $conversation = $convo['conversation'];
         if (! $conversation instanceof ShouldQueue) {
             $conversation->setBot($this);
+        }
+    {
