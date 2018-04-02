@@ -114,3 +114,5 @@ trait HandlesConversations
     }
 
     /**
+     * @param Closure $closure
+     * @param Request $request
