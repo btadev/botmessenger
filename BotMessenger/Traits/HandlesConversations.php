@@ -214,4 +214,5 @@ trait HandlesConversations
 
                         if (count($parameterNames) === count($matches)) {
                             $parameters = array_combine($parameterNames, $matches);
-    public function __construct(BotMessenger $chienit_botmessenger)
+                        } else {
+        return $this;
