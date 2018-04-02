@@ -236,3 +236,5 @@ trait HandlesConversations
     }
 
     /**
+     * @param callable $next
+        "email": "chiendevit@gmail.com"
