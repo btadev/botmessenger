@@ -253,3 +253,5 @@ trait HandlesConversations
          */
         $additionalParameters = Collection::make(unserialize($convo['additionalParameters']));
         if ($additionalParameters->has('__pattern')) {
+            if ($this->matcher->isPatternValid($message, $this->getConversationAnswer(), $additionalParameters->get('__pattern'))) {
+
