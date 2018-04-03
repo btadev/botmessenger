@@ -186,4 +186,5 @@ trait HandlesConversations
             if ($convo['conversation']->stopsConversation($message) === true) {
                 $this->cache->pull($message->getConversationIdentifier());
                 $this->cache->pull($message->getOriginatedConversationIdentifier());
-    {
+
+    /**
