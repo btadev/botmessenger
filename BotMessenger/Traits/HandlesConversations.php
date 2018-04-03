@@ -133,3 +133,5 @@ trait HandlesConversations
     protected function unserializeClosure($closure)
     {
         if ($this->getDriver()->serializesCallbacks() && ! $this->runsOnSocket) {
+            return unserialize($closure);
+     * @param bool $regexMatched Indicator if the regular expression was matched too
