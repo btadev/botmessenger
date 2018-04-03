@@ -241,3 +241,4 @@ trait HandlesConversations
      * @param IncomingMessage $message
      * @param array $parameters
      */
+    protected function callConversation($next, $convo, IncomingMessage $message, array $parameters)
