@@ -229,4 +229,5 @@ trait HandlesConversations
             $this->message = $message;
             $this->currentConversationData = $convo;
 
-     * @return array
+            if (is_callable($next)) {
+
