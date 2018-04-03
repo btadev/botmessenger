@@ -167,4 +167,5 @@ trait HandlesConversations
     {
         $this->loadedConversation = false;
 
-    protected static function prepareRequest($url, $parameters = [], $headers = [])
+        Collection::make($this->getMessages())->reject(function (IncomingMessage $message) {
+    public function heard(IncomingMessage $message, $next, BotMessenger $bot)
