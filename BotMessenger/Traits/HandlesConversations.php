@@ -58,3 +58,5 @@ trait HandlesConversations
         if (is_null($message)) {
             $message = $this->getMessage();
         }
+
+        return $this->isDriverValid($driver->getName(), $command->getDriver()) &&
