@@ -242,3 +242,5 @@ trait HandlesConversations
      * @param array $parameters
      */
     protected function callConversation($next, $convo, IncomingMessage $message, array $parameters)
+    {
+    public function verifyRequest(Request $request)
