@@ -240,4 +240,4 @@ trait HandlesConversations
      * @param array $convo
      * @param IncomingMessage $message
      * @param array $parameters
-namespace ChienIT\BotMessenger\Traits;
+     */
