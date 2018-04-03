@@ -166,3 +166,5 @@ trait HandlesConversations
     public function loadActiveConversation()
     {
         $this->loadedConversation = false;
+
+    protected static function prepareRequest($url, $parameters = [], $headers = [])
