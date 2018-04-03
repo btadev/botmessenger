@@ -267,4 +267,5 @@ trait HandlesConversations
                 }
             }
         } else {
-    /**
+            array_unshift($parameters, $this->getConversationAnswer());
+use Exception;
