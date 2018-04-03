@@ -154,4 +154,5 @@ trait HandlesConversations
             }
         } else {
             $callbacks = $this->serializeClosure($callbacks);
-     */
+        }
+}
