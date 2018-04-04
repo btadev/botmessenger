@@ -259,4 +259,5 @@ trait HandlesConversations
                 $this->prepareConversationClosure($next, $conversation, $parameters);
             } else {
                 if (is_null($additionalParameters->get('__repeat'))) {
-    {
+                    $conversation->repeat();
+    /**
