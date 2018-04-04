@@ -260,4 +260,5 @@ trait HandlesConversations
             } else {
                 if (is_null($additionalParameters->get('__repeat'))) {
                     $conversation->repeat();
-    /**
+                } else {
+     * @param DriverInterface $driver
