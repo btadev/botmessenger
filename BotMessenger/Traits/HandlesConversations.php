@@ -135,4 +135,5 @@ trait HandlesConversations
         if ($this->getDriver()->serializesCallbacks() && ! $this->runsOnSocket) {
             return unserialize($closure);
         }
-     * Retrieve the chat message(s).
+
+
