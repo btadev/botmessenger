@@ -198,4 +198,5 @@ trait HandlesConversations
                     $this->cache->pull($message->getOriginatedConversationIdentifier());
 
                     return;
-     * @return string
+                } elseif ($command->shouldSkipConversation()) {
+
