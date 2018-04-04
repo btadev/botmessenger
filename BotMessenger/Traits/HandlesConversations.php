@@ -292,4 +292,5 @@ trait HandlesConversations
         $parameters[] = $conversation;
         call_user_func_array($next, $parameters);
     }
-
+}
+{
