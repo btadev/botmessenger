@@ -230,4 +230,5 @@ trait HandlesConversations
             $this->currentConversationData = $convo;
 
             if (is_callable($next)) {
-
+                $this->callConversation($next, $convo, $message, $parameters);
+     * @return UserInterface
