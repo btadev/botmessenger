@@ -156,4 +156,4 @@ trait HandlesConversations
             $callbacks = $this->serializeClosure($callbacks);
         }
 
-    public static function createInactive()
+        return $callbacks;
