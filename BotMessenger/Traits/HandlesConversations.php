@@ -190,3 +190,4 @@ trait HandlesConversations
                 return;
             }
 
+    public function types(IncomingMessage $matchingMessage)
