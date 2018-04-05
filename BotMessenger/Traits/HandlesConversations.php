@@ -195,4 +195,5 @@ trait HandlesConversations
                 $command = $matchingMessage->getCommand();
                 if ($command->shouldStopConversation()) {
                     $this->cache->pull($message->getConversationIdentifier());
-{
+                    $this->cache->pull($message->getOriginatedConversationIdentifier());
+
