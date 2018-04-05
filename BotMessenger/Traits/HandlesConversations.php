@@ -123,3 +123,5 @@ trait HandlesConversations
             return serialize(new SerializableClosure($closure, true));
         }
 
+        return $closure;
+    public function verifyRequest(Request $request);
