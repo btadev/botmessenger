@@ -257,4 +257,5 @@ trait HandlesConversations
                 $getter = $additionalParameters->get('__getter');
                 array_unshift($parameters, $this->getConversationAnswer()->getMessage()->$getter());
                 $this->prepareConversationClosure($next, $conversation, $parameters);
-}
+            } else {
+
