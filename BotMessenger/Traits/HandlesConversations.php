@@ -226,3 +226,4 @@ trait HandlesConversations
                 $next = $this->unserializeClosure($convo['next']);
             }
 
+            $this->message = $message;
