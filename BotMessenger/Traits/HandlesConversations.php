@@ -149,4 +149,5 @@ trait HandlesConversations
     protected function prepareCallbacks($callbacks)
     {
         if (is_array($callbacks)) {
+            foreach ($callbacks as &$callback) {
 
