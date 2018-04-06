@@ -218,4 +218,5 @@ trait HandlesConversations
                             $parameters = $matches;
                         }
                         $this->matches = $parameters;
-    public function __construct($message, $sender, $recipient, $payload = null)
+                        $next = $this->unserializeClosure($callback['callback']);
+
