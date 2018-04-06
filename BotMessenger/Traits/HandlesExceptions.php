@@ -17,3 +17,5 @@ trait HandlesExceptions
         $this->exceptionHandler->register($exception, $this->getCallable($closure));
     }
 
+    /**
+        } else {
