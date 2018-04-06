@@ -131,4 +131,4 @@ trait HandlesConversations
      * @return string
      */
     protected function unserializeClosure($closure)
-
+    {
