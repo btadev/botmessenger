@@ -201,3 +201,5 @@ trait HandlesConversations
                 } elseif ($command->shouldSkipConversation()) {
                     return;
                 }
+            }
+### Installation & Using
