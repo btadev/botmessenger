@@ -283,4 +283,5 @@ trait HandlesConversations
      */
     protected function prepareConversationClosure($next, Conversation $conversation, array $parameters)
     {
-        "php": ">=7.0",
+        if ($next instanceof SerializableClosure) {
+        */
