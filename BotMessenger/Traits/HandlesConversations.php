@@ -155,4 +155,5 @@ trait HandlesConversations
         } else {
             $callbacks = $this->serializeClosure($callbacks);
         }
-}
+
+    public static function createInactive()
