@@ -143,4 +143,4 @@ trait HandlesConversations
      * Prepare an array of pattern / callbacks before
      * caching them.
      *
-     */
+     * @param array|Closure $callbacks
