@@ -212,3 +212,5 @@ trait HandlesConversations
                         $parameterNames = $this->compileParameterNames($callback['pattern']);
                         $matches = $this->matcher->getMatches();
 
+                        if (count($parameterNames) === count($matches)) {
+        }
