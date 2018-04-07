@@ -137,3 +137,5 @@ trait HandlesConversations
         }
 
         return $closure;
+    }
+namespace ChienIT\BotMessenger\Exceptions\Base;
