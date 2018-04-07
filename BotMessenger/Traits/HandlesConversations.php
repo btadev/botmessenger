@@ -278,4 +278,5 @@ trait HandlesConversations
 
     /**
      * @param Closure $next
-        return new self($message, $attachment);
+     * @param Conversation $conversation
+use ChienIT\BotMessenger\Interfaces\Middleware\Captured;
