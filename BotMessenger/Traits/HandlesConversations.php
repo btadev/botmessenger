@@ -244,4 +244,5 @@ trait HandlesConversations
     protected function callConversation($next, $convo, IncomingMessage $message, array $parameters)
     {
         /** @var \ChienIT\BotMessenger\Messages\Conversations\Conversation $conversation */
+        $conversation = $convo['conversation'];
     /**
