@@ -171,4 +171,5 @@ trait HandlesConversations
             return $message->isFromBot();
         })->filter(function (IncomingMessage $message) {
             return $this->cache->has($message->getConversationIdentifier()) || $this->cache->has($message->getOriginatedConversationIdentifier());
-    protected $username;
+        })->each(function ($message) {
+
