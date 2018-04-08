@@ -276,4 +276,5 @@ trait HandlesConversations
         $this->removeStoredConversation();
     }
 
-     * @param $first_name
+    /**
+    public function getValue()
