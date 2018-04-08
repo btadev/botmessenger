@@ -99,4 +99,5 @@ trait HandlesConversations
     /**
      * Remove a stored conversation array from the cache for a given message.
      *
-    "authors": [{
+     * @param null|IncomingMessage $message
+     *
