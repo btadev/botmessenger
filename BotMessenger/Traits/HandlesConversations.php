@@ -128,4 +128,4 @@ trait HandlesConversations
 
     /**
      * @param mixed $closure
-    /**
+     * @return string
