@@ -136,4 +136,4 @@ trait HandlesConversations
             return unserialize($closure);
         }
 
-
+        return $closure;
