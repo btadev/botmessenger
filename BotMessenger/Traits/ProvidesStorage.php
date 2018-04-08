@@ -12,4 +12,5 @@ trait ProvidesStorage
     public function userStorage()
     {
         return (new Storage($this->storage))
-<?php
+            ->setPrefix('user_')
+    public function register(string $exception, callable $closure);
