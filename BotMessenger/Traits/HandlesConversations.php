@@ -97,4 +97,4 @@ trait HandlesConversations
     }
 
     /**
-        array $urlParameters = [],
+     * Remove a stored conversation array from the cache for a given message.
