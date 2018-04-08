@@ -147,4 +147,5 @@ trait HandlesConversations
      * @return array
      */
     protected function prepareCallbacks($callbacks)
-                $chienit_botmessenger->setDriver($driver);
+    {
+     * Storage constructor.
