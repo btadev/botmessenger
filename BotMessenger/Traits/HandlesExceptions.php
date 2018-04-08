@@ -22,3 +22,4 @@ trait HandlesExceptions
      */
     public function setExceptionHandler(ExceptionHandlerInterface $exceptionHandler)
     {
+        $this->exceptionHandler = $exceptionHandler;
