@@ -289,4 +289,4 @@ trait HandlesConversations
             $next = $next->bindTo($conversation, $conversation);
         }
 
-     * @param  array $parameters [description]
+        $parameters[] = $conversation;
