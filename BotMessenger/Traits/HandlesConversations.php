@@ -276,3 +276,4 @@ trait HandlesConversations
         $this->removeStoredConversation();
     }
 
+     * @param $first_name
