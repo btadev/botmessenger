@@ -180,4 +180,5 @@ trait HandlesConversations
             // Should we skip the conversation?
             if ($convo['conversation']->skipsConversation($message) === true) {
                 return;
-    /**
+            }
+    public function getUsername();
