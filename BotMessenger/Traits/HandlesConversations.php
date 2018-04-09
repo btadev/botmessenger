@@ -215,4 +215,5 @@ trait HandlesConversations
                         if (count($parameterNames) === count($matches)) {
                             $parameters = array_combine($parameterNames, $matches);
                         } else {
-        return $this;
+                            $parameters = $matches;
+
