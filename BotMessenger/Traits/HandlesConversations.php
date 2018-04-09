@@ -194,4 +194,5 @@ trait HandlesConversations
             foreach ($matchingMessages as $matchingMessage) {
                 $command = $matchingMessage->getCommand();
                 if ($command->shouldStopConversation()) {
-}
+                    $this->cache->pull($message->getConversationIdentifier());
+{
