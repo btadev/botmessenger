@@ -221,3 +221,5 @@ trait HandlesConversations
                         $next = $this->unserializeClosure($callback['callback']);
                         break;
                     }
+                }
+}
