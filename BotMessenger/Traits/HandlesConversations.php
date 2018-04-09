@@ -238,4 +238,5 @@ trait HandlesConversations
     /**
      * @param callable $next
      * @param array $convo
-        $entities = Collection::make($message->getExtras())->get('entities', []);
+     * @param IncomingMessage $message
+     * Retrieve an item from the storage by key.
