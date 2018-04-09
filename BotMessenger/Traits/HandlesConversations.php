@@ -224,4 +224,5 @@ trait HandlesConversations
                 }
             } else {
                 $next = $this->unserializeClosure($convo['next']);
+            }
 
