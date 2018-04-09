@@ -160,4 +160,5 @@ trait HandlesConversations
     }
 
     /**
-namespace ChienIT\BotMessenger\Interfaces;
+     * Look for active conversations and clear the payload
+     * Get the instance as a web accessible array.
