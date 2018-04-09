@@ -140,4 +140,5 @@ trait HandlesConversations
     }
 
     /**
-     * Retrieve the chat message.
+     * Prepare an array of pattern / callbacks before
+<?php
