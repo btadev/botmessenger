@@ -152,3 +152,5 @@ trait HandlesConversations
             foreach ($callbacks as &$callback) {
                 $callback['callback'] = $this->serializeClosure($callback['callback']);
             }
+        } else {
+        if (is_string($next)) {
