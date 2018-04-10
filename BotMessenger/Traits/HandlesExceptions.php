@@ -19,3 +19,4 @@ trait HandlesExceptions
 
     /**
      * @param ExceptionHandlerInterface $exceptionHandler
+     */
