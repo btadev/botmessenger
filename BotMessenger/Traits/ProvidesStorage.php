@@ -6,3 +6,5 @@ use ChienIT\BotMessenger\Storages\Storage;
 
 trait ProvidesStorage
 {
+    /**
+    /**
