@@ -9,4 +9,5 @@ trait HandlesExceptions
     /**
      * Register a custom exception handler.
      *
-    public function get($key, $default = null);
+     * @param string $exception
+    protected static function getFacadeAccessor()
