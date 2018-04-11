@@ -216,4 +216,5 @@ trait HandlesConversations
                             $parameters = array_combine($parameterNames, $matches);
                         } else {
                             $parameters = $matches;
-
+                        }
+    public function channelStorage()
