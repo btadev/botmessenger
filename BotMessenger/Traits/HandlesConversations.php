@@ -134,4 +134,5 @@ trait HandlesConversations
     {
         if ($this->getDriver()->serializesCallbacks() && ! $this->runsOnSocket) {
             return unserialize($closure);
-     * @param bool $regexMatched Indicator if the regular expression was matched too
+        }
+     * Retrieve the chat message(s).
