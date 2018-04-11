@@ -181,4 +181,5 @@ trait HandlesConversations
             if ($convo['conversation']->skipsConversation($message) === true) {
                 return;
             }
-    public function getUsername();
+
+            $url .= '?'.$query;
