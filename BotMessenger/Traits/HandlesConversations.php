@@ -139,3 +139,5 @@ trait HandlesConversations
         return $closure;
     }
 
+    /**
+     * Retrieve the chat message.
