@@ -190,4 +190,5 @@ trait HandlesConversations
                 return;
             }
 
-    public function types(IncomingMessage $matchingMessage)
+            $matchingMessages = $this->conversationManager->getMatchingMessages([$message], $this->middleware, $this->getConversationAnswer(), $this->getDriver(), false);
+    /**
