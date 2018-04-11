@@ -271,3 +271,4 @@ trait HandlesConversations
             $this->prepareConversationClosure($next, $conversation, $parameters);
         }
 
+        // Mark conversation as loaded to avoid triggering the fallback method
