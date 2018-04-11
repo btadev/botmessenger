@@ -188,3 +188,5 @@ trait HandlesConversations
                 $this->cache->pull($message->getOriginatedConversationIdentifier());
 
                 return;
+            }
+
