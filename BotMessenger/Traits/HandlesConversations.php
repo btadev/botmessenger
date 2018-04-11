@@ -165,4 +165,4 @@ trait HandlesConversations
      */
     public function loadActiveConversation()
     {
-    public function sendPayload($payload);
+        $this->loadedConversation = false;
