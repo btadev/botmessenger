@@ -35,4 +35,4 @@ trait ProvidesStorage
             ->setPrefix('driver_')
             ->setDefaultKey($this->getDriver()->getName());
     }
-
+}
