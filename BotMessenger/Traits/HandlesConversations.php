@@ -208,4 +208,5 @@ trait HandlesConversations
             $parameters = [];
             if (is_array($convo['next'])) {
                 foreach ($convo['next'] as $callback) {
-    /** @var string */
+                    if ($this->matcher->isPatternValid($message, $this->getConversationAnswer(), $callback['pattern'])) {
+    /**
