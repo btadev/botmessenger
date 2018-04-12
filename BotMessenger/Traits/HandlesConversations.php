@@ -264,3 +264,5 @@ trait HandlesConversations
                     $next = unserialize($additionalParameters->get('__repeat'));
                     array_unshift($parameters, $this->getConversationAnswer());
                     $this->prepareConversationClosure($next, $conversation, $parameters);
+                }
+     */
