@@ -220,3 +220,4 @@ trait HandlesConversations
                         $this->matches = $parameters;
                         $next = $this->unserializeClosure($callback['callback']);
                         break;
+                    }
