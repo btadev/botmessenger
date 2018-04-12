@@ -249,3 +249,4 @@ trait HandlesConversations
             $conversation->setBot($this);
         }
         /*
+         * Validate askForImages, askForAudio, etc. calls
