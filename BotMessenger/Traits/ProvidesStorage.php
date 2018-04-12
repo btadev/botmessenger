@@ -11,4 +11,5 @@ trait ProvidesStorage
      */
     public function userStorage()
     {
-use ChienIT\BotMessenger\BotMessenger;
+        return (new Storage($this->storage))
+<?php
