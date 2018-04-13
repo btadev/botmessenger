@@ -202,4 +202,5 @@ trait HandlesConversations
                     return;
                 }
             }
-### Installation & Using
+
+    protected $message;
