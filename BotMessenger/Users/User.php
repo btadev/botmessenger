@@ -22,4 +22,5 @@ class User implements UserInterface
     protected $user_info;
 
     /**
-{
+     * User constructor.
+
