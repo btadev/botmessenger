@@ -293,4 +293,3 @@ trait HandlesConversations
         call_user_func_array($next, $parameters);
     }
 }
-{
