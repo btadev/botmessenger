@@ -266,3 +266,5 @@ trait HandlesConversations
                     $this->prepareConversationClosure($next, $conversation, $parameters);
                 }
             }
+        } else {
+    /**
