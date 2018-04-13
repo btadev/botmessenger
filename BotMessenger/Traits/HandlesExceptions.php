@@ -24,4 +24,5 @@ trait HandlesExceptions
     {
         $this->exceptionHandler = $exceptionHandler;
     }
-    public function setDefaultKey($defaultKey)
+}
+{
