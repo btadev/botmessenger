@@ -287,4 +287,5 @@ trait HandlesConversations
             $next = $next->getClosure()->bindTo($conversation, $conversation);
         } elseif ($next instanceof Closure) {
             $next = $next->bindTo($conversation, $conversation);
-
+        }
+     *
