@@ -159,4 +159,5 @@ trait HandlesConversations
         return $callbacks;
     }
 
-
+    /**
+namespace ChienIT\BotMessenger\Interfaces;
