@@ -277,4 +277,5 @@ trait HandlesConversations
     }
 
     /**
-    public function getValue()
+     * @param Closure $next
+        return new self($message, $attachment);
