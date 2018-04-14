@@ -8,4 +8,5 @@ trait HandlesExceptions
 {
     /**
      * Register a custom exception handler.
-     * @param  resource $request
+     *
+    public function get($key, $default = null);
