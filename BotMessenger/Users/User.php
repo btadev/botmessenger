@@ -36,4 +36,5 @@ class User implements UserInterface
         $this->last_name = $last_name;
         $this->username = $username;
         $this->user_info = (array) $user_info;
-    /**
+    }
+        }
