@@ -243,4 +243,5 @@ trait HandlesConversations
      */
     protected function callConversation($next, $convo, IncomingMessage $message, array $parameters)
     {
-    public function verifyRequest(Request $request)
+        /** @var \ChienIT\BotMessenger\Messages\Conversations\Conversation $conversation */
+    /**
