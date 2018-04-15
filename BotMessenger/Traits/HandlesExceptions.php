@@ -15,4 +15,5 @@ trait HandlesExceptions
     public function exception(string $exception, $closure)
     {
         $this->exceptionHandler->register($exception, $this->getCallable($closure));
-}
+    }
+<?php
