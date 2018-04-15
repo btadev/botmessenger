@@ -285,4 +285,5 @@ trait HandlesConversations
     {
         if ($next instanceof SerializableClosure) {
             $next = $next->getClosure()->bindTo($conversation, $conversation);
-    }
+        } elseif ($next instanceof Closure) {
+
