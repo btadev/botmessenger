@@ -282,4 +282,5 @@ trait HandlesConversations
      * @param array $parameters
      */
     protected function prepareConversationClosure($next, Conversation $conversation, array $parameters)
-  - <a href="https://www.hipchat.com/"><img src="https://pagerduty.digitalstacks.net/wp/wp-content/uploads/2018/01/hipchat-icon-e1517278540356.png" width="32px"/></a> **HipChat**
+    {
+        "php": ">=7.0",
