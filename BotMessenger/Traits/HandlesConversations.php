@@ -256,4 +256,5 @@ trait HandlesConversations
             if ($this->matcher->isPatternValid($message, $this->getConversationAnswer(), $additionalParameters->get('__pattern'))) {
                 $getter = $additionalParameters->get('__getter');
                 array_unshift($parameters, $this->getConversationAnswer()->getMessage()->$getter());
-use ChienIT\BotMessenger\Interfaces\ExceptionHandlerInterface;
+                $this->prepareConversationClosure($next, $conversation, $parameters);
+}
