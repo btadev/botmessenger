@@ -228,3 +228,5 @@ trait HandlesConversations
 
             $this->message = $message;
             $this->currentConversationData = $convo;
+
+     * @return array
