@@ -251,4 +251,5 @@ trait HandlesConversations
         /*
          * Validate askForImages, askForAudio, etc. calls
          */
+        $additionalParameters = Collection::make(unserialize($convo['additionalParameters']));
 
