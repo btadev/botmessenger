@@ -33,3 +33,5 @@ trait ProvidesStorage
     {
         return (new Storage($this->storage))
             ->setPrefix('driver_')
+            ->setDefaultKey($this->getDriver()->getName());
+    public function getUrl()
