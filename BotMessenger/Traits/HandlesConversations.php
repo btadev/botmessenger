@@ -265,4 +265,4 @@ trait HandlesConversations
                     array_unshift($parameters, $this->getConversationAnswer());
                     $this->prepareConversationClosure($next, $conversation, $parameters);
                 }
-     */
+            }
