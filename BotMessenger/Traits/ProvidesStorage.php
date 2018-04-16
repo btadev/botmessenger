@@ -15,3 +15,5 @@ trait ProvidesStorage
             ->setPrefix('user_')
             ->setDefaultKey($this->getMessage()->getSender());
     }
+
+provisionally, unless and until the copyright holder explicitly and
