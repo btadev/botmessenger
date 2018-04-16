@@ -25,4 +25,3 @@ trait HandlesExceptions
         $this->exceptionHandler = $exceptionHandler;
     }
 }
-{
