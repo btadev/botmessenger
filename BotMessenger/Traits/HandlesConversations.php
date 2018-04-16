@@ -284,4 +284,5 @@ trait HandlesConversations
     protected function prepareConversationClosure($next, Conversation $conversation, array $parameters)
     {
         if ($next instanceof SerializableClosure) {
-        */
+            $next = $next->getClosure()->bindTo($conversation, $conversation);
+    }
