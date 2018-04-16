@@ -288,4 +288,5 @@ trait HandlesConversations
         } elseif ($next instanceof Closure) {
             $next = $next->bindTo($conversation, $conversation);
         }
-     *
+
+     * @param  array $parameters [description]
