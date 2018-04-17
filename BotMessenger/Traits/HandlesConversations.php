@@ -217,4 +217,5 @@ trait HandlesConversations
                         } else {
                             $parameters = $matches;
                         }
-    public function channelStorage()
+                        $this->matches = $parameters;
+    public function __construct($message, $sender, $recipient, $payload = null)
