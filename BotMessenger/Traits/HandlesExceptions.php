@@ -12,3 +12,4 @@ trait HandlesExceptions
      * @param string $exception
      * @param callable $closure
      */
+    public function exception(string $exception, $closure)
