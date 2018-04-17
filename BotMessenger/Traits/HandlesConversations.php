@@ -197,3 +197,4 @@ trait HandlesConversations
                     $this->cache->pull($message->getConversationIdentifier());
                     $this->cache->pull($message->getOriginatedConversationIdentifier());
 
+}
