@@ -9,4 +9,4 @@ class User implements UserInterface
     /** @var string */
     protected $id;
 
-            $parameters[] = $message->getAudio();
+    /** @var string */
