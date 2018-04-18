@@ -72,3 +72,5 @@ class User implements UserInterface
 
     /**
      * {@inheritdoc}
+     */
+     * @param  string $key
