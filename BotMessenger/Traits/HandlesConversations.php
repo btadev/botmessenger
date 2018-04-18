@@ -210,4 +210,5 @@ trait HandlesConversations
                 foreach ($convo['next'] as $callback) {
                     if ($this->matcher->isPatternValid($message, $this->getConversationAnswer(), $callback['pattern'])) {
                         $parameterNames = $this->compileParameterNames($callback['pattern']);
-     * @param $port
+                        $matches = $this->matcher->getMatches();
+     * @return string
