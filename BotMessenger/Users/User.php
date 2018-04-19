@@ -24,3 +24,4 @@ class User implements UserInterface
     /**
      * User constructor.
      * @param $id
+     * @param $first_name
