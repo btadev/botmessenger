@@ -233,4 +233,5 @@ trait HandlesConversations
                 $this->callConversation($next, $convo, $message, $parameters);
             }
         });
-     *
+    }
+    /**
