@@ -246,4 +246,4 @@ trait HandlesConversations
         /** @var \ChienIT\BotMessenger\Messages\Conversations\Conversation $conversation */
         $conversation = $convo['conversation'];
         if (! $conversation instanceof ShouldQueue) {
-
+            $conversation->setBot($this);
