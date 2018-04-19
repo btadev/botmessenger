@@ -61,4 +61,5 @@ class User implements UserInterface
     {
         return $this->first_name;
     }
-        "psr-4": {
+
+    /**
