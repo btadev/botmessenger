@@ -4,4 +4,5 @@ namespace ChienIT\BotMessenger\Users;
 
 use ChienIT\BotMessenger\Interfaces\UserInterface;
 
-        return $regexMatched;
+class User implements UserInterface
+interface Matching
