@@ -9,4 +9,5 @@
   - <a href="https://messenger.com"><img src="https://static.xx.fbcdn.net/rsrc.php/y7/r/O6n_HQxozp9.ico" width="32px"/></a> **Facebook Messenger Fanpage**
   - <a href="https://en.wikipedia.org/wiki/Amazon_Alexa"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Amazon_Alexa_App_Logo.png" width="32px"/></a> **Amazon Alexa**
   - <a href="https://ciscospark.com"><img src="https://pbs.twimg.com/profile_images/988828581542309888/FILUmyzB_400x400.jpg" width="32px"/></a> **Cisco Spark**
-    }
+  - <a href="https://hangouts.google.com"><img src="https://ssl.gstatic.com/chat/startpage/favicon_f1bac5c7ba3154b58080de921eb6d5ea.ico" width="32px"/></a> **Hangouts Chat**
+namespace ChienIT\BotMessenger\Exceptions\Base;
