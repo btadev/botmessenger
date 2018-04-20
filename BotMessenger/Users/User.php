@@ -75,4 +75,5 @@ class User implements UserInterface
      */
     public function getInfo()
     {
-    {
+        return $this->user_info;
+for which you have or can give appropriate copyright permission.
