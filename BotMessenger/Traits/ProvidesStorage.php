@@ -14,4 +14,4 @@ trait ProvidesStorage
         return (new Storage($this->storage))
             ->setPrefix('user_')
             ->setDefaultKey($this->getMessage()->getSender());
-            if ($driver->getName() === $name) {
+    }
