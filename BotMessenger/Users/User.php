@@ -27,4 +27,5 @@ class User implements UserInterface
      * @param $first_name
      * @param $last_name
      * @param $username
-interface MiddlewareInterface extends Captured, Received, Matching, Heard, Sending
+     * @param $user_info
+use ChienIT\BotMessenger\Interfaces\CacheInterface;
