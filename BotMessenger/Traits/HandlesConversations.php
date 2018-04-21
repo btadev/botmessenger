@@ -262,4 +262,4 @@ trait HandlesConversations
                     $conversation->repeat();
                 } else {
                     $next = unserialize($additionalParameters->get('__repeat'));
-        $this->redis->setex($this->decorateKey($key), $seconds, $value);
+                    array_unshift($parameters, $this->getConversationAnswer());
