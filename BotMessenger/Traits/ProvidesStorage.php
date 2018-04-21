@@ -8,4 +8,5 @@ trait ProvidesStorage
 {
     /**
      * @return Storage
-  - <a href="https://dev.botframework.com"><img src="https://dev.botframework.com/Client/Content/favicon.ico" width="32px"/></a> **Microsoft Bot Framework**
+     */
+    requiring that modified versions of such material be marked in
