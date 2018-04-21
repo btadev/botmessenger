@@ -20,4 +20,5 @@ trait ProvidesStorage
      * @return Storage
      */
     public function channelStorage()
-    public function pull($key, $default = null)
+    {
+
