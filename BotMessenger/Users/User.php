@@ -26,4 +26,5 @@ class User implements UserInterface
      * @param $id
      * @param $first_name
      * @param $last_name
-    /** @var array */
+     * @param $username
+interface MiddlewareInterface extends Captured, Received, Matching, Heard, Sending
