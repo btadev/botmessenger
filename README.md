@@ -35,4 +35,5 @@ $ composer require chienit/botmessenger
 *Manager*
 ```sh
 $ composer run-script botmanager
-
+```
+    conveying of source, or (2) access to copy the
