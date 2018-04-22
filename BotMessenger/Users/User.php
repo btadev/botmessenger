@@ -21,4 +21,5 @@ class User implements UserInterface
     /** @var array */
     protected $user_info;
 
-namespace ChienIT\BotMessenger\Exceptions\Base;
+    /**
+{
