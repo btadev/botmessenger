@@ -21,4 +21,5 @@ trait ProvidesStorage
      */
     public function channelStorage()
     {
+        return (new Storage($this->storage))
 
