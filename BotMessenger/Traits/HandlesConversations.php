@@ -248,4 +248,4 @@ trait HandlesConversations
         if (! $conversation instanceof ShouldQueue) {
             $conversation->setBot($this);
         }
-    {
+        /*
