@@ -13,3 +13,5 @@ trait HandlesExceptions
      * @param callable $closure
      */
     public function exception(string $exception, $closure)
+    {
+        if (isset($attributes['skip_conversation']) && $attributes['skip_conversation'] === true) {
