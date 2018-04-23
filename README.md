@@ -12,3 +12,5 @@
   - <a href="https://hangouts.google.com"><img src="https://ssl.gstatic.com/chat/startpage/favicon_f1bac5c7ba3154b58080de921eb6d5ea.ico" width="32px"/></a> **Hangouts Chat**
   - <a href="https://www.hipchat.com/"><img src="https://pagerduty.digitalstacks.net/wp/wp-content/uploads/2018/01/hipchat-icon-e1517278540356.png" width="32px"/></a> **HipChat**
   - <a href="https://dev.botframework.com"><img src="https://dev.botframework.com/Client/Content/favicon.ico" width="32px"/></a> **Microsoft Bot Framework**
+  - <a href="https://www.nexmo.com"><img src="https://www.nexmo.com/favicon.ico" width="32px"/></a> **Nexmo**
+
