@@ -30,3 +30,5 @@ $ composer require chienit/botmessenger
     "scripts": {
         "botmanager" : "ChienIT\\BotMessenger\\BotManager::menu"
     }
+```
+            'type' => 'audio',
