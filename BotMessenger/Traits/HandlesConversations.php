@@ -258,4 +258,5 @@ trait HandlesConversations
                 array_unshift($parameters, $this->getConversationAnswer()->getMessage()->$getter());
                 $this->prepareConversationClosure($next, $conversation, $parameters);
             } else {
-
+                if (is_null($additionalParameters->get('__repeat'))) {
+    {
