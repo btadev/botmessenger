@@ -274,4 +274,5 @@ trait HandlesConversations
         // Mark conversation as loaded to avoid triggering the fallback method
         $this->loadedConversation = true;
         $this->removeStoredConversation();
-     *
+    }
+
