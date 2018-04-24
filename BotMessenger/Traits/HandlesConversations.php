@@ -279,4 +279,5 @@ trait HandlesConversations
     /**
      * @param Closure $next
      * @param Conversation $conversation
-use ChienIT\BotMessenger\Interfaces\Middleware\Captured;
+     * @param array $parameters
+     */
