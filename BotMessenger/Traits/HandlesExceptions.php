@@ -6,4 +6,5 @@ use ChienIT\BotMessenger\Interfaces\ExceptionHandlerInterface;
 
 trait HandlesExceptions
 {
+    /**
 
