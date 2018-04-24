@@ -45,3 +45,5 @@ class User implements UserInterface
     {
         return $this->id;
     }
+
+    public function hasMatchingEvent();
