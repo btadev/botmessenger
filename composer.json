@@ -9,4 +9,5 @@
     ],
     "authors": [{
         "name": "Nguyen Duc Chien",
-<?php
+        "email": "chiendevit@gmail.com"
+     * This will be used within the WebDriver.
