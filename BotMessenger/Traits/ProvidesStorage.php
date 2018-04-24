@@ -10,4 +10,5 @@ trait ProvidesStorage
      * @return Storage
      */
     public function userStorage()
-        }
+    {
+use ChienIT\BotMessenger\BotMessenger;
