@@ -30,4 +30,5 @@ class User implements UserInterface
      * @param $user_info
      */
     public function __construct($id = null, $first_name = null, $last_name = null, $username = null, $user_info = [])
-        $this->command = $command;
+    {
+     */
