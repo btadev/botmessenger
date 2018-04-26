@@ -71,4 +71,4 @@ class User implements UserInterface
     }
 
     /**
-    public function verifyRequest(Request $request);
+     * {@inheritdoc}
