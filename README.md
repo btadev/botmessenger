@@ -21,3 +21,4 @@
 
 ### Installation & Using
 
+*Download the **ChienIT Bot Messenger** using **Composer**:*
