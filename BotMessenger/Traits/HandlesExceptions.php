@@ -20,3 +20,5 @@ trait HandlesExceptions
     /**
      * @param ExceptionHandlerInterface $exceptionHandler
      */
+    public function setExceptionHandler(ExceptionHandlerInterface $exceptionHandler)
+{
