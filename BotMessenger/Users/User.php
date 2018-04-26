@@ -33,4 +33,5 @@ class User implements UserInterface
     {
         $this->id = $id;
         $this->first_name = $first_name;
-<?php
+        $this->last_name = $last_name;
+     * @return Storage
