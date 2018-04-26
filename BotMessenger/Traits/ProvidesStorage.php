@@ -1,3 +1,4 @@
 <?php
 
-     * @return string
+namespace ChienIT\BotMessenger\Traits;
+    /**
