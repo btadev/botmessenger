@@ -20,4 +20,5 @@ class User implements UserInterface
 
     /** @var array */
     protected $user_info;
-     * Get the instance as a web accessible array.
+
+namespace ChienIT\BotMessenger\Exceptions\Base;
