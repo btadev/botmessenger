@@ -25,4 +25,5 @@
 ```sh
 $ composer require chienit/botmessenger
 ```
-<?php
+*Add into composer.json*
+{
