@@ -39,4 +39,3 @@ $ composer run-script botmanager
 
 ### Using
 *Take a look at the example at https://github.com/chiendevit/BotMessengerExample*
-    public function toWebDriver();
