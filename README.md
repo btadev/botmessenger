@@ -11,4 +11,4 @@
   - <a href="https://ciscospark.com"><img src="https://pbs.twimg.com/profile_images/988828581542309888/FILUmyzB_400x400.jpg" width="32px"/></a> **Cisco Spark**
   - <a href="https://hangouts.google.com"><img src="https://ssl.gstatic.com/chat/startpage/favicon_f1bac5c7ba3154b58080de921eb6d5ea.ico" width="32px"/></a> **Hangouts Chat**
   - <a href="https://www.hipchat.com/"><img src="https://pagerduty.digitalstacks.net/wp/wp-content/uploads/2018/01/hipchat-icon-e1517278540356.png" width="32px"/></a> **HipChat**
-        $this->message = $message;
+  - <a href="https://dev.botframework.com"><img src="https://dev.botframework.com/Client/Content/favicon.ico" width="32px"/></a> **Microsoft Bot Framework**
