@@ -70,4 +70,5 @@ class User implements UserInterface
         return $this->last_name;
     }
 
-
+    /**
+    public function verifyRequest(Request $request);
