@@ -17,3 +17,5 @@
   - <a href="https://telegram.org/"><img src="https://telegram.org/favicon.ico" width="32px"/></a> **Telegram**
   - <a href="https://www.twilio.com"><img src="https://www.twilio.com/marketing/bundles/marketing/img/favicons/favicon.ico" width="32px"/></a> **Twilio**
   - <a href="https://en.wikipedia.org/wiki/Web"><img src="http://giantstepsmn.com/wp-content/uploads/2016/10/website-icon.png" width="32px"/></a> **Web**
+  - <a href="https://www.wechat.com"><img src="https://res.wx.qq.com/a/wx_fed/wechat_portal/res/static/img/3wOU-7F.ico" width="32px"/></a> **WeChat**
+    }
