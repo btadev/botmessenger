@@ -40,4 +40,5 @@ class User implements UserInterface
 
     /**
      * @return string
-            ->setDefaultKey($this->getMessage()->getSender());
+     */
+trait ProvidesStorage
