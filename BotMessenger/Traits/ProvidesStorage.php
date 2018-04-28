@@ -19,4 +19,5 @@ trait ProvidesStorage
     /**
      * @return Storage
      */
-     * @return mixed
+    public function channelStorage()
+    public function pull($key, $default = null)
