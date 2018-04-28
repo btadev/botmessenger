@@ -56,3 +56,5 @@ class User implements UserInterface
 
     /**
      * @return string
+     */
+{
