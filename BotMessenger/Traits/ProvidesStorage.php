@@ -31,4 +31,5 @@ trait ProvidesStorage
      */
     public function driverStorage()
     {
-        return false;
+        return (new Storage($this->storage))
+    /**
