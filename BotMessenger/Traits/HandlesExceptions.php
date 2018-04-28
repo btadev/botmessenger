@@ -14,4 +14,5 @@ trait HandlesExceptions
      */
     public function exception(string $exception, $closure)
     {
-        if (isset($attributes['skip_conversation']) && $attributes['skip_conversation'] === true) {
+        $this->exceptionHandler->register($exception, $this->getCallable($closure));
+}
