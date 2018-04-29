@@ -14,4 +14,5 @@
   - <a href="https://dev.botframework.com"><img src="https://dev.botframework.com/Client/Content/favicon.ico" width="32px"/></a> **Microsoft Bot Framework**
   - <a href="https://www.nexmo.com"><img src="https://www.nexmo.com/favicon.ico" width="32px"/></a> **Nexmo**
   - <a href="https://slack.com"><img src="https://a.slack-edge.com/436da/marketing/img/meta/favicon-32.png" width="32px"/></a> **Slack**
-    const KEY_PREFIX = 'chienit_botmessenger:cache:';
+  - <a href="https://telegram.org/"><img src="https://telegram.org/favicon.ico" width="32px"/></a> **Telegram**
+    {
