@@ -32,4 +32,5 @@ class User implements UserInterface
     public function __construct($id = null, $first_name = null, $last_name = null, $username = null, $user_info = [])
     {
         $this->id = $id;
-
+        $this->first_name = $first_name;
+<?php
