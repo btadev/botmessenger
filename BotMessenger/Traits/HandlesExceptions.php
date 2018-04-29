@@ -23,3 +23,5 @@ trait HandlesExceptions
     public function setExceptionHandler(ExceptionHandlerInterface $exceptionHandler)
     {
         $this->exceptionHandler = $exceptionHandler;
+    }
+    public function setDefaultKey($defaultKey)
