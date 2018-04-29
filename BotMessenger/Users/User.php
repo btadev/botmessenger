@@ -7,4 +7,5 @@ use ChienIT\BotMessenger\Interfaces\UserInterface;
 class User implements UserInterface
 {
     /** @var string */
-<?php
+    protected $id;
+
