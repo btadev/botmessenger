@@ -19,4 +19,5 @@ class User implements UserInterface
     protected $username;
 
     /** @var array */
-    /**
+    protected $user_info;
+     * Get the instance as a web accessible array.
