@@ -18,4 +18,5 @@ class User implements UserInterface
     /** @var string */
     protected $username;
 
-use ChienIT\BotMessenger\Exceptions\Base\BotMessengerException;
+    /** @var array */
+    /**
