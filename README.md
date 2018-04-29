@@ -16,4 +16,4 @@
   - <a href="https://slack.com"><img src="https://a.slack-edge.com/436da/marketing/img/meta/favicon-32.png" width="32px"/></a> **Slack**
   - <a href="https://telegram.org/"><img src="https://telegram.org/favicon.ico" width="32px"/></a> **Telegram**
   - <a href="https://www.twilio.com"><img src="https://www.twilio.com/marketing/bundles/marketing/img/favicons/favicon.ico" width="32px"/></a> **Twilio**
-    public function getText()
+  - <a href="https://en.wikipedia.org/wiki/Web"><img src="http://giantstepsmn.com/wp-content/uploads/2016/10/website-icon.png" width="32px"/></a> **Web**
