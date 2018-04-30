@@ -55,4 +55,4 @@ class User implements UserInterface
     }
 
     /**
-class Image extends Attachment
+     * @return string
