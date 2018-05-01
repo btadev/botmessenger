@@ -18,4 +18,5 @@ trait ProvidesStorage
 
     /**
      * @return Storage
-     * @param array $additional
+     */
+     * @return mixed
