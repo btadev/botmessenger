@@ -41,4 +41,5 @@ class User implements UserInterface
     /**
      * @return string
      */
-trait ProvidesStorage
+    public function getId()
+
