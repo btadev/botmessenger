@@ -29,4 +29,5 @@ trait ProvidesStorage
     /**
      * @return Storage
      */
-    /**
+    public function driverStorage()
+use ChienIT\BotMessenger\Messages\Matching\MatchingMessage;
