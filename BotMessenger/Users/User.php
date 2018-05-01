@@ -15,3 +15,5 @@ class User implements UserInterface
     /** @var string */
     protected $last_name;
 
+    /** @var string */
+    protected $id;
