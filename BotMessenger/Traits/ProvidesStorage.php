@@ -26,3 +26,5 @@ trait ProvidesStorage
             ->setDefaultKey($this->getMessage()->getRecipient());
     }
 
+    /**
+
