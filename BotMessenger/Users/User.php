@@ -77,3 +77,4 @@ class User implements UserInterface
     {
         return $this->user_info;
     }
+}
