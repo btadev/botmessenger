@@ -37,4 +37,5 @@ class User implements UserInterface
         $this->username = $username;
         $this->user_info = (array) $user_info;
     }
-        }
+
+        $additionalParameters = unserialize($conversation['additionalParameters']);
