@@ -30,4 +30,5 @@
             "ChienIT\\BotMessenger\\": "BotMessenger/"
         }
     }
-    /** @var string */
+}
+         * Validate askForImages, askForAudio, etc. calls
