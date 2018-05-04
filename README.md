@@ -32,4 +32,5 @@ $ composer require chienit/botmessenger
     }
 ```
 
-    /** @var string */
+*Manager*
+    public function verifyRequest(Request $request);
