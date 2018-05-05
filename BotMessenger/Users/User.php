@@ -74,4 +74,5 @@ class User implements UserInterface
      * {@inheritdoc}
      */
     public function getInfo()
-
+    {
+    {
