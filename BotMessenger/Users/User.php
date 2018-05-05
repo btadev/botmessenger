@@ -28,4 +28,4 @@ class User implements UserInterface
      * @param $last_name
      * @param $username
      * @param $user_info
-use ChienIT\BotMessenger\Interfaces\CacheInterface;
+     */
