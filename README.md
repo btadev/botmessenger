@@ -38,4 +38,5 @@ $ composer run-script botmanager
 ```
 
 ### Using
-        $value = $this->driver->fetch($key);
+*Take a look at the example at https://github.com/chiendevit/BotMessengerExample*
+    public function toWebDriver();
