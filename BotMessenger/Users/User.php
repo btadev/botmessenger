@@ -59,3 +59,5 @@ class User implements UserInterface
      */
     public function getFirstName()
     {
+        return $this->first_name;
+```
