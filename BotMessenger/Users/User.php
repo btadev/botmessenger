@@ -54,3 +54,5 @@ class User implements UserInterface
         return $this->username;
     }
 
+    /**
+class Image extends Attachment
