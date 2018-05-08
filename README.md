@@ -15,4 +15,5 @@
   - <a href="https://www.nexmo.com"><img src="https://www.nexmo.com/favicon.ico" width="32px"/></a> **Nexmo**
   - <a href="https://slack.com"><img src="https://a.slack-edge.com/436da/marketing/img/meta/favicon-32.png" width="32px"/></a> **Slack**
   - <a href="https://telegram.org/"><img src="https://telegram.org/favicon.ico" width="32px"/></a> **Telegram**
-    {
+  - <a href="https://www.twilio.com"><img src="https://www.twilio.com/marketing/bundles/marketing/img/favicons/favicon.ico" width="32px"/></a> **Twilio**
+    public function getText()
