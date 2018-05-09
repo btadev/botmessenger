@@ -17,4 +17,5 @@
         "tightenco/collect": "~5.0",
         "opis/closure": "^2.3",
         "mpociot/pipeline": "^1.0",
-namespace ChienIT\BotMessenger\Exceptions\Base;
+        "react/socket": "~0.4",
+
