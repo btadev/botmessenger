@@ -58,4 +58,4 @@ class User implements UserInterface
      * @return string
      */
     public function getFirstName()
-    /**
+    {
