@@ -66,4 +66,5 @@ class User implements UserInterface
      * @return string
      */
     public function getLastName()
-     */
+    {
+use ChienIT\BotMessenger\Messages\Outgoing\Question;
