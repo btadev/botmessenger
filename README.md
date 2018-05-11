@@ -27,4 +27,5 @@ $ composer require chienit/botmessenger
 ```
 *Add into composer.json*
 ```json
-}
+    "scripts": {
+     *
