@@ -24,3 +24,5 @@
 *Download the **ChienIT Bot Messenger** using **Composer**:*
 ```sh
 $ composer require chienit/botmessenger
+```
+<?php
