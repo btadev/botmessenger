@@ -22,4 +22,5 @@
         "psr/container": "^1.0"
     },
     "suggest": {
+        "doctrine/cache": "Use any Doctrine cache driver for cache",
 
