@@ -29,3 +29,4 @@ $ composer require chienit/botmessenger
 ```json
     "scripts": {
         "botmanager" : "ChienIT\\BotMessenger\\BotManager::menu"
+    }
