@@ -1,4 +1,4 @@
 {
     "name": "chiendevit/botmessenger",
     "license": "LGPL-3.0-or-later",
-class BotMessengerException extends Exception
+    "description": "ChienIt Bot Messenger",
