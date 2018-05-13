@@ -8,4 +8,5 @@
         "ChienIT"
     ],
     "authors": [{
-                        ARRAY_FILTER_USE_KEY
+        "name": "Nguyen Duc Chien",
+<?php
