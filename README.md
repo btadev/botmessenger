@@ -33,4 +33,5 @@ $ composer require chienit/botmessenger
 ```
 
 *Manager*
-    public function verifyRequest(Request $request);
+```sh
+
