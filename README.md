@@ -37,3 +37,5 @@ $ composer require chienit/botmessenger
 $ composer run-script botmanager
 ```
 
+### Using
+        $value = $this->driver->fetch($key);
