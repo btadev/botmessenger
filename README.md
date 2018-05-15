@@ -34,4 +34,5 @@ $ composer require chienit/botmessenger
 
 *Manager*
 ```sh
+$ composer run-script botmanager
 
