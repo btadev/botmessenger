@@ -25,3 +25,5 @@
         "doctrine/cache": "Use any Doctrine cache driver for cache",
         "symfony/cache": "Use any Symfony cache driver for cache"
     },
+    "autoload": {
+{
