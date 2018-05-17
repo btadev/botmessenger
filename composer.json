@@ -27,3 +27,5 @@
     },
     "autoload": {
         "psr-4": {
+            "ChienIT\\BotMessenger\\": "BotMessenger/"
+     */
