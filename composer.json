@@ -26,4 +26,4 @@
         "symfony/cache": "Use any Symfony cache driver for cache"
     },
     "autoload": {
-{
+        "psr-4": {
