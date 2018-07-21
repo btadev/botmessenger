@@ -12,71 +12,11 @@
 namespace ChienIT\BotMessenger\Middleware;
 
 use ChienIT\BotMessenger\BotMessenger;
-use ChienIT\BotMessenger\Interfaces\HttpInterface;
-use ChienIT\BotMessenger\Interfaces\MiddlewareInterface;
-use ChienIT\BotMessenger\Messages\Incoming\IncomingMessage;
+use ChienIT\BotMessenger\Interfaces\Middleware\Sending;
 
-class MsgSmart implements MiddlewareInterface
+class MsgSmart implements Sending
 {
-    /**
-     * MsgSmart constructor.
-     */
-    public function __construct()
-    {
-    }
-
-    /**
-     * Handle a captured message.
-     *
-     * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
-     * @param BotMessenger $bot
-     * @param $next
-     *
-     * @return mixed
-     */
-    public function captured(IncomingMessage $message, $next, BotMessenger $bot)
-    {
-        return $next($message);
-    }
-
-    /**
-     * Handle an incoming message.
-     *
-     * @param IncomingMessage $message
-     * @param BotMessenger $bot
-     * @param $next
-     *
-     * @return mixed
-     */
-    public function received(IncomingMessage $message, $next, BotMessenger $bot)
-    {
-        return $next($message);
-    }
-
-    /**
-     * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
-     * @param string $pattern
-     * @param bool $regexMatched Indicator if the regular expression was matched too
-     * @return bool
-     */
-    public function matching(IncomingMessage $message, $pattern, $regexMatched)
-    {
-        return true;
-    }
-
-    /**
-     * Handle a message that was successfully heard, but not processed yet.
-     *
-     * @param \ChienIT\BotMessenger\Messages\Incoming\IncomingMessage $message
-     * @param BotMessenger $bot
-     * @param $next
-     *
-     * @return mixed
-     */
-    public function heard(IncomingMessage $message, $next, BotMessenger $bot)
-    {
-        return $next($message);
-    }
+    protected $vars = [];
 
     /**
      * Handle an outgoing message payload before/after it
@@ -90,6 +30,28 @@ class MsgSmart implements MiddlewareInterface
      */
     public function sending($payload, $next, BotMessenger $bot)
     {
+        $this->vars = $bot->getUser()->getInfo();
+        $this->loop($payload['message']);
         return $next($payload);
+    }
+
+    protected function loop(&$msg) {
+        if(is_string($msg)) {
+            return $this->fix($msg);
+        } elseif(is_array($msg)) {
+            foreach($msg as &$m) {
+                $this->loop($m);
+            }
+        }
+    }
+
+    protected function fix(&$msg) {
+        preg_match_all('/\{\{([A-Za-z\_]*)\}\}/', $msg, $match);
+        if(!empty($match[1]))
+            foreach(array_unique($match[1]) as $var) {
+                $value = '{'.$var.'_UNDEFINED}';
+                if(!empty($this->vars[$var])) $value = $this->vars[$var];
+                $msg = str_replace('{{'.$var.'}}', $value, $msg);
+            }
     }
 }
