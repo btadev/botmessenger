@@ -80,6 +80,19 @@ class User implements UserInterface
     }
 
     /**
+     * @return string
+     */
+    public function getName()
+    {
+        if($this->user_info['name']) {
+            $name = $this->user_info['name'];
+        } else {
+            $name = $this->first_name . ' ' . $this->last_name;
+        }
+        return $name;
+    }
+
+    /**
      * {@inheritdoc}
      */
     public function getInfo()
